@@ -30,7 +30,7 @@ In this example, the integrated JSON output will appear as Y344.json and its CSV
 
 Argument | Short Arg | Type | Description | Example
 ---- | --- | --- | --- | ---
-`--json_files` | `-j` | `String` | **Optional**. List of paths to JSON files containing evidence of engineering to integrate and summarize as CSV. | Y344_JHUARDIAN_v4.json Y344_NGRAM.json Y344_TARGETED_SEARCH.json
+`--json_files` | `-j` | `String` | **Optional**. List of paths to JSON files containing evidence of engineering to integrate and summarize as CSV. | examples\Y344\Y344_JHUARDIAN_v4.json examples\Y344\Y344_NGRAM.json examples\Y344\Y344_TARGETED_SEARCH.json
 `--json_dirs` | `-d` | `String` | **Optional**. List of paths to directories for JSON files containing evidence of engineering to integrate. | examples\Y344
 `--out_dir` | `-o` | `String` | **Optional**. Path to output directory to populate with JSON file containing integrated evidence and CSV summary. | examples_output\Y344
 `--integration_log` | `-l` | `String` | **Optional**. Path to log file. | examples_output\Y344\integration_log.txt
