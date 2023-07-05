@@ -1,0 +1,640 @@
+{
+  "definitions": {
+    "agent": {
+      "$id": "#/definitions/agent",
+      "type": "string",
+      "description": "URI reference to the agent that detected this evidence.",
+      "examples": [
+        "FAST_NA",
+        "http://guardian.bbn.technology#FAST_NA"
+      ]
+    },
+    "engineered": {
+      "$id": "#/definitions/engineered",
+      "type": "string",
+      "enum": [
+        "http://guardian.bbn.technology#natural",
+        "http://guardian.bbn.technology#engineered",
+        "http://guardian.bbn.technology#indeterminate_origin"
+      ],
+      "description": "URI identifying whether this evidence is natural, engineered, or of indeterminate origin."
+    },
+    "confidence": {
+      "$id": "#/definitions/confidence",
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Estimated probability that the value of this evidence's engineered property is correct (range is 0 to 1, inclusive).",
+      "examples": [
+        0.5
+      ]
+    },
+    "role": {
+      "$id": "#/definitions/role",
+      "type": "string",
+      "description": "Role describing the function of this region or sequence feature. It is recommended to use a term from the sequence_feature branch of the Sequence Ontology.",
+      "examples": [
+        "promoter",
+        "CDS",
+        "ribosome_entry_site"
+      ]
+    },
+    "hostTaxa": {
+      "$id": "#/definitions/hostTaxa",
+      "type": "array",
+      "description": "List of URI references for the taxonomic classification of the host for this evidence. It is recommended to use URIs for terms from the NCBI organismal classification ontology.",
+      "items": {
+        "$id": "#/definitions/hostTaxa/items",
+        "type": "string",
+        "examples": [
+          "http://purl.obolibrary.org/obo/NCBITaxon_4932",
+          "https://funyes.bbn.com/user/guardian/strains_of_interest/FEY_50/1"
+        ]
+      }
+    },
+    "scores": {
+      "$id": "#/definitions/scores",
+      "type": "array",
+      "description": "List of scores associated with this evidence of engineering.",
+      "items": {
+        "$id": "#/definitions/scores/items",
+        "type": "object",
+        "required": [
+          "value"
+        ],
+        "properties": {
+          "value": {
+            "$id": "#/definitions/scores/items/properties/value",
+            "type": "number",
+            "description": "The value of this score is expected to have some bearing on whether itis engineered or not.",
+            "examples": [
+              0.5,
+              200
+            ]
+          },
+          "minValue": {
+            "$id": "#/definitions/scores/items/properties/minValue",
+            "type": "number",
+            "description": "The minimum possible value of this score.",
+            "examples": [
+              0,
+              1
+            ]
+          },
+          "maxValue": {
+            "$id": "#/definitions/scores/items/properties/maxValue",
+            "type": "number",
+            "description": "The maximum possible value of this score.",
+            "examples": [
+              1,
+              300
+            ]
+          },
+          "lowerThreshold": {
+            "$id": "#/definitions/scores/items/properties/lowerThreshold",
+            "type": "number",
+            "description": "If the value of this score is less than the value of this threshold, then the evidence associated with this score must be classified as engineered.",
+            "examples": [
+              0.6,
+              250
+            ]
+          },
+          "upperThreshold": {
+            "$id": "#/definitions/scores/items/properties/upperThreshold",
+            "type": "number",
+            "description": "If the value of this score is greater than the value of this threshold, then the evidence associated with this score must be classified as engineered.",
+            "examples": [
+              0.3,
+              150
+            ]
+          }
+        }
+      }
+    },
+    "description": {
+      "$id": "#/definitions/description",
+      "type": "string",
+      "description": "Free text description of this evidence.",
+      "examples": [
+        "Recomplemented URA3 gene in novel context."
+      ]
+    },
+    "taxa": {
+      "$id": "#/definitions/taxa",
+      "type": "array",
+      "description": "List of URI references for the taxonomic classification of this evidence. It is recommended to use URIs for terms from the NCBI organismal classification ontology.",
+      "items": {
+        "$id": "#/definitions/taxa/items",
+        "type": "string",
+        "examples": [
+          "http://purl.obolibrary.org/obo/NCBITaxon_4932",
+          "https://funyes.bbn.com/user/guardian/strains_of_interest/FEY_50/1"
+        ]
+      }
+    },
+    "feature": {
+      "$id": "#/definitions/feature",
+      "type": "string",
+      "description": "ID identifying a sequence feature. This ID must identify a feature in the list of features for this investigation.",
+      "examples": [
+        "BIO1",
+        "spacer_2",
+        "Psktdh3",
+        "MK495752.1"
+      ]
+    },
+    "region": {
+      "$id": "#/definitions/region",
+      "type": "object",
+      "description": "A region of interest within a sequencing read, assembly contig, or other sequence record. To specify a region of length zero immediately above an index, set both its start and end properties to this index and its orientation property to inline. To specify such a region immediately below an index, set its orientation property to reverseComplement.",
+      "required": [
+        "start",
+        "end"
+      ],
+      "properties": {
+        "start": {
+          "$id": "#/definitions/region/properties/start",
+          "type": "integer",
+          "minimum": 1,
+          "examples": [
+            1
+          ]
+        },
+        "end": {
+          "$id": "#/definitions/region/properties/end",
+          "type": "integer",
+          "minimum": 1,
+          "examples": [
+            100
+          ]
+        },
+        "source": {
+          "$id": "#/definitions/region/properties/source",
+          "type": "string",
+          "description": "URI reference to this region's source. If this region is annotated in its detection's GFF file, then it is recommended to use that annotation's ID attribute.",
+          "examples": [
+            "gene-YAL061W",
+            "Pgal10_1",
+            "Pgal10_2"
+          ]
+        },
+        "orientation": {
+          "$id": "#/definitions/region/properties/orientation",
+          "type": "string",
+          "description": "URI identifying the orientation of this region.",
+          "enum": [
+            "http://sbols.org/v2#inline",
+            "http://sbols.org/v2#reverseComplement"
+          ]
+        },
+        "featureStart": {
+          "$id": "#/definitions/region/properties/featureStart",
+          "type": "integer",
+          "description": "Start coordinate for feature associated with this region. This start coordinate should be in the same coordinate system as the region's start coordinate.",
+          "minimum": 1,
+          "examples": [
+            1,
+            540
+          ]
+        },
+        "featureEnd": {
+          "$id": "#/definitions/region/properties/featureEnd",
+          "type": "integer",
+          "description": "End coordinate for feature associated with this region. This end coordinate should be in the same coordinate system as the region's end coordinate.",
+          "minimum": 1,
+          "examples": [
+            100,
+            1355
+          ]
+        },
+        "featureOrientation": {
+          "$id": "#/definitions/region/properties/featureOrientation",
+          "type": "string",
+          "description": "URI identifying the orientation for the feature associated with this region.",
+          "enum": [
+            "http://sbols.org/v2#inline",
+            "http://sbols.org/v2#reverseComplement"
+          ]
+        },
+        "roles": {
+          "$ref": "#/definitions/roles"
+        },
+        "engineered": {
+          "$ref": "#/definitions/engineered"
+        },
+        "confidence": {
+          "$ref": "#/definitions/confidence"
+        },
+        "hostTaxa": {
+          "$ref": "#/definitions/hostTaxa"
+        },
+        "taxa": {
+          "$ref": "#/definitions/taxa"
+        },
+        "scores": {
+          "$ref": "#/definitions/scores"
+        },
+        "feature": {
+          "description": "ID identifying a sequence feature that aligns to the sequence delineated by this region. If this region has a sourceAlteration, then the derivedFeature property of the sourceAlteration must match this ID. The feature with this ID must be contained by the features property of the root investigation.",
+          "$ref": "#/definitions/feature"
+        },
+        "sourceAlteration": {
+          "description": "A sequence alteration that resulted in this region (or this region's feature if provided).",
+          "$ref": "#/definitions/alteration"
+        },
+        "agent": {
+          "$ref": "#/definitions/agent"
+        }
+      }
+    },
+    "alteration": {
+      "$id": "#/definitions/alteration",
+      "type": "object",
+      "description": "A sequence alteration.",
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "$id": "#/definitions/alteration/properties/type",
+          "type": "string",
+          "description": "Type summarizing this sequence alteration. It is recommended to use terms from the sequence_alteration branch of the Sequence Ontology.",
+          "examples": [
+            "insertion",
+            "deletion",
+            "substitution",
+            "SNV"
+          ]
+        },
+        "derivedFeature": {
+          "description": "ID identifying a sequence feature resulting from this sequence alteration. This ID must identify a feature in the list of features for the root investigation.",
+          "$ref": "#/definitions/feature"
+        },
+        "targetAssembly": {
+          "$id": "#/definitions/alteration/properties/targetAssembly",
+          "type": "string",
+          "description": "URI reference to the target genome assembly that contains the subject of this sequence alteration. It is recommended to use an NCBI SeqID.",
+          "examples": [
+            "GCF_000009045.1"
+          ]
+        },
+        "targetSeq": {
+          "$id": "#/definitions/alteration/properties/targetSeq",
+          "type": "string",
+          "description": "URI reference to the target sequence record or assembly component (such as a contig, scaffold, or chromosome) that is the subject of this sequence alteration. It is recommended to use an NCBI SeqID.",
+          "examples": [
+            "MK495752.1"
+          ]
+        },
+        "targetFeature": {
+          "description": "ID identifying a sequence feature in the target sequence record that is the subject of this sequence alteration (e.g. a gene to be partially or completely deleted from the target sequence record). This ID must identify a feature in the list of features for the root investigation.",
+          "$ref": "#/definitions/feature"
+        },
+        "targetRegion": {
+          "description": "Exact region in the target sequence record that is the subject of this sequence alteration (e.g. an exact region to be deleted from the target sequence record).",
+          "$ref": "#/definitions/region"
+        },
+        "agent": {
+          "$ref": "#/definitions/agent"
+        }
+      }
+    },
+    "regions": {
+      "$id": "#/definitions/regions",
+      "type": "array",
+      "description": "List of regions of interest in a sequencing read, assembly contig, or other sequence record.",
+      "items": {
+        "$ref": "#/definitions/region"
+      }
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "properties": {
+    "detections": {
+      "$id": "#/properties/detections",
+      "type": "array",
+      "description": "List of potential detections of organism engineering.",
+      "items": {
+        "$id": "#/properties/detections/items",
+        "type": "object",
+        "required": [
+          "agent"
+        ],
+        "properties": {
+          "agent": {
+            "$ref": "#/definitions/agent"
+          },
+          "fasta": {
+            "$id": "#/properties/detections/items/properties/fasta",
+            "type": "string",
+            "description": "URI reference to analyzed FASTA file (if applicable).",
+            "examples": [
+              "A1B1A0R1184.fasta",
+              "A1C0A0Y1254.fa"
+            ]
+          },
+          "gff": {
+            "$id": "#/properties/detections/items/properties/gff",
+            "type": "string",
+            "description": "URI reference to GFF file paired with the analyzed FASTA file (if applicable).",
+            "examples": [
+              "A1B1A0R1184.gff"
+            ]
+          },
+          "fastq": {
+            "$id": "#/properties/detections/items/properties/fastq",
+            "type": "array",
+            "description": "List of URI references to FASTQ files that were analyzed or used to assemble the analyzed FASTA file (if applicable).",
+            "items": {
+              "$id": "#/properties/detections/items/properties/fastq/items",
+              "type": "string",
+              "examples": [
+                "A1B1A0R1184-1_S1_L001_R1_001.fastq",
+                "A1B1A0R1184-1_S1_L001_R2_001.fastq",
+                "A1C0A0Y1254-1_S1_L001_R1_001.fq",
+                "A1C0A0Y1254-1_S1_L001_R2_001.fq"
+              ]
+            }
+          },
+          "sample": {
+            "$id": "#/properties/detections/items/properties/sample",
+            "type": "string",
+            "description": "Optional URI reference to the sample from which the data in the analyzed FASTQ files were collected.",
+            "examples": [
+              "A1B1A0R1184",
+              "A1C0A0Y1254"
+            ]
+          },
+          "runtime": {
+            "$id": "#/properties/detections/items/properties/runtime",
+            "type": "number",
+            "description": "Number of minutes taken by agent to make this detection.",
+            "examples": [
+              124
+            ]
+          },
+          "date": {
+            "$id": "#/properties/detections/items/properties/date",
+            "type": "string",
+            "description": "Date that agent made this detection.",
+            "pattern": "^[0-9][0-9]/[0-9][0-9]/[0-9][0-9][0-9][0-9]+$",
+            "examples": [
+              "08/11/2019"
+            ]
+          },
+          "engineered": {
+            "$ref": "#/definitions/engineered"
+          },
+          "confidence": {
+            "$ref": "#/definitions/confidence"
+          },
+          "hostTaxa": {
+            "$ref": "#/definitions/hostTaxa"
+          },
+          "taxa": {
+            "$ref": "#/definitions/taxa"
+          },
+          "scores": {
+            "$ref": "#/definitions/scores"
+          },
+          "contigs": {
+            "$id": "#/properties/detections/items/properties/contigs",
+            "type": "array",
+            "description": "List of references to assembly contigs that are potentially evidence of engineering.",
+            "items": {
+              "$id": "#/properties/detections/items/properties/contigs/items",
+              "type": "object",
+              "required": [
+                "source"
+              ],
+              "properties": {
+                "source": {
+                  "$id": "#/properties/detections/items/properties/contigs/items/properties/source",
+                  "type": "string",
+                  "description": "URI reference to a contig. It is recommended to use an NCBI SeqID, typically a sequence identifier following a > symbol in the FASTA file linked to this contig reference's detection.",
+                  "examples": [
+                    "4991",
+                    "CP017558.1",
+                    "https://www.ncbi.nlm.nih.gov/nuccore/CP017558.1",
+                    "chr01"
+                  ]
+                },
+                "reads": {
+                  "$id": "#/properties/detections/items/properties/contigs/items/properties/reads",
+                  "type": "array",
+                  "description": "List of URI references to the reads from which the referenced contig was assembled.",
+                  "items": {
+                    "$id": "#/properties/detections/items/properties/contigs/items/properties/reads/items",
+                    "type": "string",
+                    "examples": [
+                      "FS10000350:2:BNT40310-2206:1:1101:1270:1000",
+                      "HWUSI-EAS100R:6:73:941:1973#0/1"
+                    ]
+                  }
+                },
+                "engineered": {
+                  "$ref": "#/definitions/engineered"
+                },
+                "confidence": {
+                  "$ref": "#/definitions/confidence"
+                },
+                "hostTaxa": {
+                  "$ref": "#/definitions/hostTaxa"
+                },
+                "taxa": {
+                  "$ref": "#/definitions/taxa"
+                },
+                "scores": {
+                  "$ref": "#/definitions/scores"
+                },
+                "regions": {
+                  "$ref": "#/definitions/regions"
+                }
+              }
+            }
+          },
+          "reads": {
+            "$id": "#/properties/detections/items/properties/reads",
+            "type": "array",
+            "description": "List of references to sequencing reads that are potentially evidence of engineering.",
+            "items": {
+              "$id": "#/properties/detections/items/properties/reads/items",
+              "type": "object",
+              "required": [
+                "source"
+              ],
+              "properties": {
+                "source": {
+                  "$id": "#/properties/detections/items/properties/reads/items/properties/source",
+                  "type": "string",
+                  "description": "URI reference to a read. It is recommended to use the sequence identifier following the @ symbol in one of the FASTQ files linked to this read reference's detection.",
+                  "examples": [
+                    "FS10000350:2:BNT40310-2206:1:1101:1270:1000",
+                    "HWUSI-EAS100R:6:73:941:1973#0/1"
+                  ]
+                },
+                "engineered": {
+                  "$ref": "#/definitions/engineered"
+                },
+                "confidence": {
+                  "$ref": "#/definitions/confidence"
+                },
+                "hostTaxa": {
+                  "$ref": "#/definitions/hostTaxa"
+                },
+                "taxa": {
+                  "$ref": "#/definitions/taxa"
+                },
+                "scores": {
+                  "$ref": "#/definitions/scores"
+                },
+                "regions": {
+                  "$ref": "#/definitions/regions"
+                }
+              }
+            }
+          },
+          "features": {
+            "$id": "#/properties/detections/items/properties/features",
+            "type": "array",
+            "description": "List of IDs identifying detected sequence features that are potential evidence of engineering.",
+            "items": {
+              "$id": "#/properties/detections/items/properties/features/items",
+              "type": "string",
+              "examples": [
+                "BIO1"
+              ]
+            }
+          },
+          "alterations": {
+            "$id": "#/properties/detections/items/properties/alterations",
+            "type": "array",
+            "description": "List of detected sequence alterations that are potential evidence of engineering. Note that these alterations are not linked to any regions resulting from them.",
+            "items": {
+              "$ref": "#/definitions/alteration"
+            }
+          },
+          "singular": {
+            "$id": "#/properties/detections/items/properties/singular",
+            "type": "boolean",
+            "description": "If true, indicates that this detection is for a single signature."
+          }
+        }
+      }
+    },
+    "features": {
+      "$id": "#/properties/features",
+      "type": "array",
+      "description": "List of sequence features that are potential evidence of engineering.",
+      "items": {
+        "$id": "#/properties/features/items",
+        "type": "object",
+        "required": [
+          "id"
+        ],
+        "properties": {
+          "id": {
+            "$id": "#/properties/features/items/properties/id",
+            "type": "string",
+            "description": "ID for sequence feature. This ID must be unique among IDs for features in this list.",
+            "pattern": "^[a-zA-Z0-9_.-]+$",
+            "examples": [
+              "BIO1",
+              "BLAST_match_1"
+            ]
+          },
+          "name": {
+            "$id": "#/properties/features/items/properties/name",
+            "type": "string",
+            "description": "Name for sequence feature. This name does not have to be unique among features in this list.",
+            "examples": [
+              "BIO1",
+              "Cloning vector pDG1729 for ectopic integration into the Bacillus subtilis"
+            ]
+          },
+          "source": {
+            "$id": "#/properties/features/items/properties/source",
+            "type": "string",
+            "description": " URI reference to this sequence feature's source. It is recommended to use an NCBI SeqID or the identity of an SBOL ComponentDefinition.",
+            "examples": [
+              "MK495752.1",
+              "https://www.ncbi.nlm.nih.gov/nuccore/MK495752.1",
+              "https://funyes.bbn.com/user/guardian/sequences_of_interest/LacZ_cassette/1"
+            ]
+          },
+          "sourceStart": {
+            "$id": "#/definitions/region/properties/sourceStart",
+            "type": "integer",
+            "description": "Start coordinate for this sequence feature with respect to its source. This start coordinate should be in the same coordinate system as its source.",
+            "examples": [
+              1,
+              540
+            ]
+          },
+          "sourceEnd": {
+            "$id": "#/definitions/region/properties/sourceEnd",
+            "type": "integer",
+            "description": "End coordinate for this sequence feature with respect to its source. This end coordinate should be in the same coordinate system as its source.",
+            "examples": [
+              100,
+              1355
+            ]
+          },
+          "sourceOrientation": {
+            "$id": "#/definitions/region/properties/sourceOrientation",
+            "type": "string",
+            "description": "URI identifying the orientation of this sequence feature with respect to its source.",
+            "enum": [
+              "http://sbols.org/v2#inline",
+              "http://sbols.org/v2#reverseComplement"
+            ]
+          },
+          "sequence": {
+            "$id": "#/properties/features/items/properties/sequence",
+            "type": "string",
+            "description": "Nucleotide sequence for this sequence feature. Use non-degenerate IUPAC notation with N as the sole degenerate code.",
+            "pattern": "^[atcgnATCGN]+$",
+            "examples": [
+              "GATTACA"
+            ]
+          },
+          "subFeatures": {
+            "$id": "#/properties/features/items/properties/subFeatures",
+            "type": "array",
+            "description": "List of IDs identifying sub-features of this sequence feature. These sub-features should be listed in the order in which they occur in this sequence feature.",
+            "items": {
+              "$id": "#/properties/features/items/properties/subFeatures/items",
+              "type": "string",
+              "examples": [
+                "BIO1"
+              ]
+            }
+          },
+          "role": {
+            "$ref": "#/definitions/role"
+          },
+          "engineered": {
+            "$ref": "#/definitions/engineered"
+          },
+          "confidence": {
+            "$ref": "#/definitions/confidence"
+          },
+          "hostTaxa": {
+            "$ref": "#/definitions/hostTaxa"
+          },
+          "taxa": {
+            "$ref": "#/definitions/taxa"
+          },
+          "scores": {
+            "$ref": "#/definitions/scores"
+          },
+          "agent": {
+            "$ref": "#/definitions/agent"
+          }
+        }
+      }
+    }
+  }
+}

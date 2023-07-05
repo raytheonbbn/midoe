@@ -1,0 +1,43 @@
+{
+  "detections": [
+    {
+      "agent": "Targeted_Search",
+      "fasta": "X1C0A0Y1254.fa",
+      "fastq": [
+        "X1C0A0Y1254-1_S1_L001_R1_001.fastq",
+        "X1C0A0Y1254-1_S1_L001_R2_001.fastq"
+      ],
+      "date": "09/12/2019",
+      "runtime": 600,
+      "sample": "X1C0A0Y1254",
+      "engineered": "http://guardian.bbn.technology#engineered",
+      "confidence": 1,
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_160488"
+      ],
+      "features": [
+        "yEGFP"
+      ],
+      "alterations": [
+        {
+          "type": "insertion",
+          "derivedFeature": "yEGFP",
+          "targetSeq": "NC_002947.4",
+          "targetAssembly": "GCF_000007565.2",
+          "targetRegion": {
+            "start": 10383,
+            "end": 10383,
+            "orientation": "http://sbols.org/v2#inline"
+          }
+        }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "id": "yEGFP",
+      "role": "CDS",
+      "sequence": "ATGTCTAAAGGTGAAGAATTATTCACTGGTGTTGTCCCAATTTTGGTTGAATTAGATGGTGATGTTAATGGTCACAAATTTTCTGTCTCCGGTGAAGGTGAAGGTGATGCTACTTACGGTAAATTGACCTTAAAATTTATTTGTACTACTGGTAAATTGCCAGTTCCATGGCCAACCTTAGTCACTACTTTAACTTATGGTGTTCAATGTTTTTCTAGATACCCAGATCATATGAAACAACATGACTTTTTCAAGTCTGCCATGCCAGAAGGTTATGTTCAAGAAAGAACTATTTTTTTCAAAGATGACGGTAACTACAAGACCAGAGCTGAAGTCAAGTTTGAAGGTGATACCTTAGTTAATAGAATCGAATTAAAAGGTATTGATTTTAAAGAAGATGGTAACATTTTAGGTCACAAATTGGAATACAACTATAACTCTCACAATGTTTACATCATGGCTGACAAACAAAAGAATGGTATCAAAGTTAACTTCAAAATTAGACACAACATTGAAGATGGTTCTGTTCAATTAGCTGACCATTATCAACAAAATACTCCAATTGGTGATGGTCCAGTCTTGTTACCAGACAACCATTACTTATCCACTCAATCTGCCTTATCCAAAGATCCAAACGAAAAGAGGGATCACATGGTCTTGTTAGAATTTGTTACTGCTGCTGGTATTACCCATGGTATGGATGAATTGTACAAAtaa"
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+    "detections": [
+        {
+            "agent": "GUARDIAN",
+            "alterations": [
+                {
+                    "agent": "TARGETED_SEARCH",
+                    "derivedFeature": "lambda_cI_match_5",
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ],
+                    "readCount": 30,
+                    "targetAssembly": "GCF_000005845.2",
+                    "targetFeature": null,
+                    "type": "insertion"
+                },
+                {
+                    "agent": "TARGETED_SEARCH",
+                    "derivedFeature": "E1010m_RFP_match_14",
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ],
+                    "readCount": 39,
+                    "targetAssembly": "GCF_000005845.2",
+                    "targetFeature": null,
+                    "type": "insertion"
+                }
+            ],
+            "batch": "NOBATCH",
+            "confidence": 1.0,
+            "contigs": [
+                {
+                    "regions": [
+                        {
+                            "agent": "jhuardian_v4",
+                            "end": 3127,
+                            "feature": "Y344.012.07.01",
+                            "orientation": "http://sbols.org/v2#inline",
+                            "source": "Y344.012.07.01",
+                            "start": 2413
+                        }
+                    ],
+                    "source": "Y344_012_18.0_4161_1"
+                },
+                {
+                    "regions": [
+                        {
+                            "agent": "jhuardian_v4",
+                            "end": 3859,
+                            "feature": "Y344.012.04.01",
+                            "orientation": "http://sbols.org/v2#inline",
+                            "source": "Y344.012.04.01",
+                            "start": 3139
+                        }
+                    ],
+                    "source": "Y344_012_18.0_4161_1"
+                },
+                {
+                    "regions": [
+                        {
+                            "agent": "ngram_high_entropy_seq_detector",
+                            "end": 4023,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y344_illumina_1-contigs.384_roi3284_4023",
+                            "start": 3284
+                        }
+                    ],
+                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y344_illumina_1-contigs.384"
+                }
+            ],
+            "fasta": "",
+            "fastq": "",
+            "gff": "v4_gff.txt",
+            "reads": [],
+            "sample": "Y344",
+            "singular": true
+        },
+        {
+            "agent": "GUARDIAN_FEATURE_GROUP",
+            "alterations": [],
+            "batch": "NOBATCH",
+            "contigs": [],
+            "date": "2023-07-05",
+            "features": [
+                {
+                    "agent": "TARGETED_SEARCH",
+                    "id": "E1010m_RFP_match_14",
+                    "name": "E1010m_RFP",
+                    "role": "CDS",
+                    "sequence": "CGTCCGACGGTCCGGTTATGCAGAAAAAAACCATGGGTTGGGAAGCTTCCACCGAACGTATGTACCCGGAAGACGGTGCTCTGAAAGGTGAAATCAAAATGCGTCTGAAACTGAAAGACGGTGGTCACTACGACGCTGAAGTTAAAACCACCTACATGGCTAAAAAACCGGTTCAGCTGCCGGGTGCTTACAAAACCGACATCAAACTGGACATCACCTCCCACAACGAAGACTACACCATCGTTGAACAGTACGAACGTGCTGAAGGTCGTCACTCCACCGGTGCTTAATAA",
+                    "source": "E1010m_RFP",
+                    "sourceEnd": 682,
+                    "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+                    "sourceStart": 389,
+                    "subFeatures": null
+                },
+                {
+                    "agent": "jhuardian_v4",
+                    "id": "Y344.012.07.01",
+                    "name": "Cloning vector pING1001, complete sequence",
+                    "role": null,
+                    "sequence": "TGGCTTCCTCCGAAGACGTTATCAAAGAGTTCATGCGTTTCAAAGTTCGTATGGAAGGTTCCGTTAACGGTCACGAGTTCGAAATCGAAGGTGAAGGTGAAGGTCGTCCGTACGAAGGTACCCAGACCGCTAAACTGAAAGTTACCAAAGGTGGTCCGCTGCCGTTCGCTTGGGACATCCTGTCCCCGCAGTTCCAGTACGGTTCCAAAGCTTACGTTAAACACCCGGCTGACATCCCGGACTACCTGAAACTGTCCTTCCCGGAAGGTTTCAAATGGGAACGTGTTATGAACTTCGAAGACGGTGGTGTTGTTACCGTTACCCAGGACTCCTCCCTGCAAGACGGTGAGTTCATCTACAAAGTTAAACTGCGTGGTACCAACTTCCCGTCCGACGGTCCGGTTATGCAGAAAAAAACCATGGGTTGGGAAGCTTCCACCGAACGTATGTACCCGGAAGACGGTGCTCTGAAAGGTGAAATCAAAATGCGTCTGAAACTGAAAGACGGTGGTCACTACGACGCTGAAGTTAAAACCACCTACATGGCTAAAAAACCGGTTCAGCTGCCGGGTGCTTACAAAACCGACATCAAACTGGACATCACCTCCCACAACGAAGACTACACCATCGTTGAACAGTACGAACGTGCTGAAGGTCGTCACTCCACCGGTGCTTAATAACGCTGATAGTGCTAGTGTAGATCGCTACTAGTAGC",
+                    "source": "KX573874",
+                    "sourceEnd": 2105,
+                    "sourceOrientation": "http://sbols.org/v2#inline",
+                    "sourceStart": 1392,
+                    "subFeatures": null
+                },
+                {
+                    "agent": "ngram_high_entropy_seq_detector",
+                    "id": "Y344_illumina_1-contigs.384_roi3284_4023",
+                    "name": "gnl|uv|JQ394804.1:1-1051:mrfp1_match",
+                    "role": null,
+                    "sequence": "CAGGACTCCTCCCTGCAAGACGGTGAGTTCATCTACAAAGTTAAACTGCGTGGTACCAACTTCCCGTCCGACGGTCCGGTTATGCAGAAAAAAACCATGGGTTGGGAAGCTTCCACCGAACGTATGTACCCGGAAGACGGTGCTCTGAAAGGTGAAATCAAAATGCGTCTGAAACTGAAAGACGGTGGTCACTACGACGCTGAAGTTAAAACCACCTACATGGCTAAAAAACCGGTTCAGCTGCCGGGTGCTTACAAAACCGACATCAAACTGGACATCACCTCCCACAACGAAGACTACACCATCGTTGAACAGTACGAACGTGCTGAAGGTCGTCACTCCACCGGTGCTTAATAACGCTGATAGTGCTAGTGTAGATCGCTACTAGTAGCGGCCGCTGCAGATGAGCACAAAAAAGAAACCATTAACACAAGAGCAGCTTGAGGACGCACGTCGCCTTAAAGCAATTTATGAAAAAAAGAAAAATGAACTTGGCTTATCCCAGGAATCTGTCGCAGACAAGATGGGGATGGGGCAGTCAGGCGTTGGTGCTTTATTTAATGGCATCAATGCATTAAATGCTTATAACGCCGCATTGCTTACAAAAATTCTCAAAGTTAGCGTTGAAGAATTTAGCCCTTCAATCGCCAGAGAAATCTACGAGATGTATGAAGCGGTTAGTATGCAGCCGTCACTTAGAAGTGAGTATGAGTACCCTGTTTTTTCTCATGTTCAGGCA",
+                    "source": "gnl|uv|JQ394804.1:1-1051",
+                    "sourceEnd": 844,
+                    "sourceOrientation": "http://sbols.org/v2#inline",
+                    "sourceStart": 454,
+                    "subFeatures": null
+                },
+                {
+                    "agent": "TARGETED_SEARCH",
+                    "id": "lambda_cI_match_5",
+                    "name": "lambda-cI",
+                    "role": "CDS",
+                    "sequence": "ATGAGCACAAAAAAGAAACCATTAACACAAGAGCAGCTTGAGGACGCACGTCGCCTTAAAGCAATTTATGAAAAAAAGAAAAATGAACTTGGCTTATCCCAGGAATCTGTCGCAGACAAGATGGGGATGGGGCAGTCAGGCGTTGGTGCTTTATTTAATGGCATCAATGCATTAAATGCTTATAACGCCGCATTGCTTACAAAAATTCTCAAAGTTAGCGTTGAAGAATTTAGCCCTTCAATCGCCAGAGAAATCTACGAGATGTATGAAGCGGTTAGTATGCAGCCG",
+                    "source": "lambda_cI",
+                    "sourceEnd": 293,
+                    "sourceOrientation": "http://sbols.org/v2#inline",
+                    "sourceStart": 5,
+                    "subFeatures": null
+                },
+                {
+                    "agent": "jhuardian_v4",
+                    "id": "Y344.012.04.01",
+                    "name": "Cloning vector beta-lactamase gene",
+                    "role": null,
+                    "sequence": "ATGAGCACAAAAAAGAAACCATTAACACAAGAGCAGCTTGAGGACGCACGTCGCCTTAAAGCAATTTATGAAAAAAAGAAAAATGAACTTGGCTTATCCCAGGAATCTGTCGCAGACAAGATGGGGATGGGGCAGTCAGGCGTTGGTGCTTTATTTAATGGCATCAATGCATTAAATGCTTATAACGCCGCATTGCTTACAAAAATTCTCAAAGTTAGCGTTGAAGAATTTAGCCCTTCAATCGCCAGAGAAATCTACGAGATGTATGAAGCGGTTAGTATGCAGCCGTCACTTAGAAGTGAGTATGAGTACCCTGTTTTTTCTCATGTTCAGGCAGGGATGTTCTCACCTAAGCTTAGAACCTTTACCAAAGGTGATGCGGAGAGATGGGTAAGCACAACCAAAAAAGCCAGTGATTCTGCATTCTGGCTTGAGGTTGAAGGTAATTCCATGACCGCACCAACAGGCTCCAAGCCAAGCTTTCCTGACGGAATGTTAATTCTCGTTGACCCTGAGCAGGCTGTTGAGCCAGGTGATTTCTGCATAGCCAGACTTGGGGGTGATGAGTTTACCTTCAAGAAACTGATCAGGGATAGCGGTCAGGTGTTTTTACAACCACTAAACCCACAGTACCCAATGATCCCATGCAATGAGAGTTGTTCCGTTGTGGGGAAAGTTATCGCTAGTCAGTGGCCTGAAGAGACGTTTGGCTGATCGGCAA",
+                    "source": "X94336",
+                    "sourceEnd": 6117,
+                    "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+                    "sourceStart": 5397,
+                    "subFeatures": null
+                }
+            ],
+            "reads": [],
+            "singular": true
+        }
+    ],
+    "features": [
+        {
+            "agent": "TARGETED_SEARCH",
+            "id": "E1010m_RFP_match_14",
+            "name": "E1010m_RFP",
+            "role": "CDS",
+            "sequence": "CGTCCGACGGTCCGGTTATGCAGAAAAAAACCATGGGTTGGGAAGCTTCCACCGAACGTATGTACCCGGAAGACGGTGCTCTGAAAGGTGAAATCAAAATGCGTCTGAAACTGAAAGACGGTGGTCACTACGACGCTGAAGTTAAAACCACCTACATGGCTAAAAAACCGGTTCAGCTGCCGGGTGCTTACAAAACCGACATCAAACTGGACATCACCTCCCACAACGAAGACTACACCATCGTTGAACAGTACGAACGTGCTGAAGGTCGTCACTCCACCGGTGCTTAATAA",
+            "source": "E1010m_RFP",
+            "sourceEnd": 682,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sourceStart": 389,
+            "subFeatures": null
+        },
+        {
+            "agent": "jhuardian_v4",
+            "id": "Y344.012.07.01",
+            "name": "Cloning vector pING1001, complete sequence",
+            "role": null,
+            "sequence": "TGGCTTCCTCCGAAGACGTTATCAAAGAGTTCATGCGTTTCAAAGTTCGTATGGAAGGTTCCGTTAACGGTCACGAGTTCGAAATCGAAGGTGAAGGTGAAGGTCGTCCGTACGAAGGTACCCAGACCGCTAAACTGAAAGTTACCAAAGGTGGTCCGCTGCCGTTCGCTTGGGACATCCTGTCCCCGCAGTTCCAGTACGGTTCCAAAGCTTACGTTAAACACCCGGCTGACATCCCGGACTACCTGAAACTGTCCTTCCCGGAAGGTTTCAAATGGGAACGTGTTATGAACTTCGAAGACGGTGGTGTTGTTACCGTTACCCAGGACTCCTCCCTGCAAGACGGTGAGTTCATCTACAAAGTTAAACTGCGTGGTACCAACTTCCCGTCCGACGGTCCGGTTATGCAGAAAAAAACCATGGGTTGGGAAGCTTCCACCGAACGTATGTACCCGGAAGACGGTGCTCTGAAAGGTGAAATCAAAATGCGTCTGAAACTGAAAGACGGTGGTCACTACGACGCTGAAGTTAAAACCACCTACATGGCTAAAAAACCGGTTCAGCTGCCGGGTGCTTACAAAACCGACATCAAACTGGACATCACCTCCCACAACGAAGACTACACCATCGTTGAACAGTACGAACGTGCTGAAGGTCGTCACTCCACCGGTGCTTAATAACGCTGATAGTGCTAGTGTAGATCGCTACTAGTAGC",
+            "source": "KX573874",
+            "sourceEnd": 2105,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sourceStart": 1392,
+            "subFeatures": null
+        },
+        {
+            "agent": "ngram_high_entropy_seq_detector",
+            "id": "Y344_illumina_1-contigs.384_roi3284_4023",
+            "name": "gnl|uv|JQ394804.1:1-1051:mrfp1_match",
+            "role": null,
+            "sequence": "CAGGACTCCTCCCTGCAAGACGGTGAGTTCATCTACAAAGTTAAACTGCGTGGTACCAACTTCCCGTCCGACGGTCCGGTTATGCAGAAAAAAACCATGGGTTGGGAAGCTTCCACCGAACGTATGTACCCGGAAGACGGTGCTCTGAAAGGTGAAATCAAAATGCGTCTGAAACTGAAAGACGGTGGTCACTACGACGCTGAAGTTAAAACCACCTACATGGCTAAAAAACCGGTTCAGCTGCCGGGTGCTTACAAAACCGACATCAAACTGGACATCACCTCCCACAACGAAGACTACACCATCGTTGAACAGTACGAACGTGCTGAAGGTCGTCACTCCACCGGTGCTTAATAACGCTGATAGTGCTAGTGTAGATCGCTACTAGTAGCGGCCGCTGCAGATGAGCACAAAAAAGAAACCATTAACACAAGAGCAGCTTGAGGACGCACGTCGCCTTAAAGCAATTTATGAAAAAAAGAAAAATGAACTTGGCTTATCCCAGGAATCTGTCGCAGACAAGATGGGGATGGGGCAGTCAGGCGTTGGTGCTTTATTTAATGGCATCAATGCATTAAATGCTTATAACGCCGCATTGCTTACAAAAATTCTCAAAGTTAGCGTTGAAGAATTTAGCCCTTCAATCGCCAGAGAAATCTACGAGATGTATGAAGCGGTTAGTATGCAGCCGTCACTTAGAAGTGAGTATGAGTACCCTGTTTTTTCTCATGTTCAGGCA",
+            "source": "gnl|uv|JQ394804.1:1-1051",
+            "sourceEnd": 844,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sourceStart": 454,
+            "subFeatures": null
+        },
+        {
+            "agent": "jhuardian_v4",
+            "id": "Y344.012.04.01",
+            "name": "Cloning vector beta-lactamase gene",
+            "role": null,
+            "sequence": "ATGAGCACAAAAAAGAAACCATTAACACAAGAGCAGCTTGAGGACGCACGTCGCCTTAAAGCAATTTATGAAAAAAAGAAAAATGAACTTGGCTTATCCCAGGAATCTGTCGCAGACAAGATGGGGATGGGGCAGTCAGGCGTTGGTGCTTTATTTAATGGCATCAATGCATTAAATGCTTATAACGCCGCATTGCTTACAAAAATTCTCAAAGTTAGCGTTGAAGAATTTAGCCCTTCAATCGCCAGAGAAATCTACGAGATGTATGAAGCGGTTAGTATGCAGCCGTCACTTAGAAGTGAGTATGAGTACCCTGTTTTTTCTCATGTTCAGGCAGGGATGTTCTCACCTAAGCTTAGAACCTTTACCAAAGGTGATGCGGAGAGATGGGTAAGCACAACCAAAAAAGCCAGTGATTCTGCATTCTGGCTTGAGGTTGAAGGTAATTCCATGACCGCACCAACAGGCTCCAAGCCAAGCTTTCCTGACGGAATGTTAATTCTCGTTGACCCTGAGCAGGCTGTTGAGCCAGGTGATTTCTGCATAGCCAGACTTGGGGGTGATGAGTTTACCTTCAAGAAACTGATCAGGGATAGCGGTCAGGTGTTTTTACAACCACTAAACCCACAGTACCCAATGATCCCATGCAATGAGAGTTGTTCCGTTGTGGGGAAAGTTATCGCTAGTCAGTGGCCTGAAGAGACGTTTGGCTGATCGGCAA",
+            "source": "X94336",
+            "sourceEnd": 6117,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sourceStart": 5397,
+            "subFeatures": null
+        },
+        {
+            "agent": "TARGETED_SEARCH",
+            "id": "lambda_cI_match_5",
+            "name": "lambda-cI",
+            "role": "CDS",
+            "sequence": "ATGAGCACAAAAAAGAAACCATTAACACAAGAGCAGCTTGAGGACGCACGTCGCCTTAAAGCAATTTATGAAAAAAAGAAAAATGAACTTGGCTTATCCCAGGAATCTGTCGCAGACAAGATGGGGATGGGGCAGTCAGGCGTTGGTGCTTTATTTAATGGCATCAATGCATTAAATGCTTATAACGCCGCATTGCTTACAAAAATTCTCAAAGTTAGCGTTGAAGAATTTAGCCCTTCAATCGCCAGAGAAATCTACGAGATGTATGAAGCGGTTAGTATGCAGCCG",
+            "source": "lambda_cI",
+            "sourceEnd": 293,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sourceStart": 5,
+            "subFeatures": null
+        }
+    ]
+}

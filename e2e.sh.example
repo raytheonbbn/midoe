@@ -1,0 +1,6 @@
+export FA2_VIS_ROOT="/path/to/fa2-visualization-framework/"
+export JSON_IN_DIR="/path/to/jsonofinterest/"
+export OUT_DIR=${JSON_IN_DIR}/out/
+cd ${FA2_VIS_ROOT}/docker-webserver/docker/detection-schema/
+python3 setup.py install && python3 evidenceintegration/DetectionsToCSV.py -i -d ${JSON_IN_DIR} -o ${OUT_DIR}
+

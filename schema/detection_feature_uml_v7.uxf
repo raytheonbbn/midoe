@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>500</x>
+      <y>410</y>
+      <w>180</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*ContigReference*
+--
+-source [1]: URI
+-reads [0..*]: URI
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>360</y>
+      <w>270</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-&gt;
+m1=0..*
+m2=0..1
+contigs</panel_attributes>
+    <additional_attributes>10.0;10.0;210.0;10.0;210.0;60.0;150.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>500</y>
+      <w>210</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>*Region*
+--
+-start [1]: Integer
+-end [1]: Integer
+-source [0..1]: URI
+-orientation [0..1]: URI
+-role [0..1]: String
+-featureStart [0..1]: Integer
+-featureEnd [0..1]: Integer
+-featureOrientation[0..1]: URI</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>450</y>
+      <w>270</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-&gt;
+m1=0..*
+m2=0..1
+regions</panel_attributes>
+    <additional_attributes>150.0;10.0;210.0;10.0;210.0;60.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>680</y>
+      <w>210</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>*Feature*
+--
+-id [1]: String
+-name [0..1]: String
+-source [0..1]: URI
+-sourceStart [0..1]: Integer
+-sourceEnd [0..1]: Integer
+-sequence [0..1]: String
+-role [0..1]: String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>620</y>
+      <w>180</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+m1=0..1
+m2=0..*
+feature: String</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0;70.0;70.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>410</y>
+      <w>180</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*ReadReference*
+--
+-source [1]: URI
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>310</y>
+      <w>240</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-&gt;
+m1=0..*
+m2=0..1
+reads</panel_attributes>
+    <additional_attributes>220.0;10.0;10.0;10.0;10.0;110.0;80.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>450</y>
+      <w>230</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-&gt;
+m1=0..*
+m2=0..1
+regions</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0;10.0;60.0;210.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>80</y>
+      <w>210</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>/*Evidence*/
+--
+-engineered [0..1]: URI
+-confidence [0..1]: Number
+-taxa [0..*]: URI
+-hostTaxa [0..*]: URI
+-description [0..1]: String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>180</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+fg=orange</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>180</y>
+      <w>170</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+fg=orange</panel_attributes>
+    <additional_attributes>150.0;10.0;150.0;40.0;10.0;40.0;10.0;230.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>180</y>
+      <w>190</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+fg=orange</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0;170.0;40.0;170.0;230.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>100</x>
+      <y>180</y>
+      <w>350</w>
+      <h>410</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+fg=orange</panel_attributes>
+    <additional_attributes>330.0;10.0;330.0;40.0;10.0;40.0;10.0;390.0;230.0;390.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>240</y>
+      <w>200</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>*Detection*
+--
+-agent [1]: URI
+-fasta [0..1]: URI
+-gff [0..1]: URI
+-fastq [0..*]: URI
+-sample [0..1]: URI
+-runtime [0..1]: Number
+-date [0..1]: String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>0</y>
+      <w>210</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>*Investigation*
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>30</y>
+      <w>290</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-&gt;
+m1=0..*
+m2=0..1
+detections</panel_attributes>
+    <additional_attributes>10.0;10.0;210.0;10.0;210.0;220.0;10.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>40</x>
+      <y>30</y>
+      <w>310</w>
+      <h>720</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-&gt;
+m1=0..*
+m2=0..1
+features</panel_attributes>
+    <additional_attributes>290.0;10.0;10.0;10.0;10.0;690.0;290.0;690.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>760</x>
+      <y>540</y>
+      <w>180</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>*Alteration*
+--
+-type [1]: URI
+-targetSeq [0..1]: URI
+-targetAssembly [0..1]: URI</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>180</y>
+      <w>450</w>
+      <h>380</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+fg=orange</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0;430.0;40.0;430.0;360.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>610</y>
+      <w>550</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+m1=0..1
+m2=0..*
+targetFeature: String</panel_attributes>
+    <additional_attributes>400.0;10.0;400.0;170.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>100</x>
+      <y>180</y>
+      <w>350</w>
+      <h>530</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+fg=orange</panel_attributes>
+    <additional_attributes>330.0;10.0;330.0;40.0;10.0;40.0;10.0;510.0;230.0;510.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>280</y>
+      <w>650</w>
+      <h>570</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+m1=0..*
+m2=0..*
+features: String</panel_attributes>
+    <additional_attributes>10.0;10.0;540.0;10.0;540.0;540.0;10.0;540.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>310</y>
+      <w>310</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-&gt;
+m1=0..*
+m2=0..1
+alterations</panel_attributes>
+    <additional_attributes>10.0;20.0;270.0;20.0;270.0;230.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>530</y>
+      <w>250</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-&gt;
+m1=0..1
+m2=0..1
+sourceAlteration</panel_attributes>
+    <additional_attributes>10.0;20.0;230.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>570</y>
+      <w>250</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-&gt;
+m1=0..1
+m2=0..1
+targetRegion</panel_attributes>
+    <additional_attributes>230.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>610</y>
+      <w>400</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+m1=0..1
+m2=0..*
+derivedFeature: String</panel_attributes>
+    <additional_attributes>240.0;10.0;240.0;120.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>190</x>
+      <y>740</y>
+      <w>160</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;
+m1=0..*
+m2=0..*
+subFeatures: String</panel_attributes>
+    <additional_attributes>140.0;10.0;10.0;10.0;10.0;80.0;140.0;80.0</additional_attributes>
+  </element>
+</diagram>

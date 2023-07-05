@@ -1,0 +1,58 @@
+{
+    "detections": [
+        {
+            "agent": "ngram_high_entropy_seq_detector",
+            "confidence": 1.0,
+            "contigs": [
+                {
+                    "regions": [
+                        {
+                            "end": 4023,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y344_illumina_1-contigs.384_roi3284_4023",
+                            "ngram_ent": 1878.1699999999987,
+                            "pos_match": "Poor match cover",
+                            "start": 3284
+                        }
+                    ],
+                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y344_illumina_1-contigs.384"
+                }
+            ],
+            "date": "01/20/2022",
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "fasta": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y344_illumina_1-contigs.fa",
+            "hostTaxa": [
+                "http://purl.obolibrary.org/obo/NCBITaxon_562"
+            ],
+            "ngramDate": "2022-01-20 04:37:33.643798",
+            "runtime": 0.31666666666666665,
+            "sample": "Y344"
+        }
+    ],
+    "features": [
+        {
+            "confidence": 1.0,
+            "cover": 0.37107516650808753,
+            "hostMatchCover": [
+                "Escherichia_coli",
+                0.459
+            ],
+            "id": "Y344_illumina_1-contigs.384_roi3284_4023",
+            "name": "gnl|uv|JQ394804.1:1-1051:mrfp1_match",
+            "ngram_eng_classn": [
+                "Univec_FUNYES",
+                1200.6999999999987
+            ],
+            "ngram_ent": 1878.1699999999987,
+            "pident": 0.98469,
+            "roiEnd": 4023,
+            "roiStart": 3284,
+            "sequence": "CAGGACTCCTCCCTGCAAGACGGTGAGTTCATCTACAAAGTTAAACTGCGTGGTACCAACTTCCCGTCCGACGGTCCGGTTATGCAGAAAAAAACCATGGGTTGGGAAGCTTCCACCGAACGTATGTACCCGGAAGACGGTGCTCTGAAAGGTGAAATCAAAATGCGTCTGAAACTGAAAGACGGTGGTCACTACGACGCTGAAGTTAAAACCACCTACATGGCTAAAAAACCGGTTCAGCTGCCGGGTGCTTACAAAACCGACATCAAACTGGACATCACCTCCCACAACGAAGACTACACCATCGTTGAACAGTACGAACGTGCTGAAGGTCGTCACTCCACCGGTGCTTAATAACGCTGATAGTGCTAGTGTAGATCGCTACTAGTAGCGGCCGCTGCAGATGAGCACAAAAAAGAAACCATTAACACAAGAGCAGCTTGAGGACGCACGTCGCCTTAAAGCAATTTATGAAAAAAAGAAAAATGAACTTGGCTTATCCCAGGAATCTGTCGCAGACAAGATGGGGATGGGGCAGTCAGGCGTTGGTGCTTTATTTAATGGCATCAATGCATTAAATGCTTATAACGCCGCATTGCTTACAAAAATTCTCAAAGTTAGCGTTGAAGAATTTAGCCCTTCAATCGCCAGAGAAATCTACGAGATGTATGAAGCGGTTAGTATGCAGCCGTCACTTAGAAGTGAGTATGAGTACCCTGTTTTTTCTCATGTTCAGGCA",
+            "source": "gnl|uv|JQ394804.1:1-1051",
+            "sourceEnd": 844,
+            "sourceLen": 1051,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sourceStart": 454
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+  "detections": [
+    {
+      "agent": "FAST-NA",
+      "fasta": "X1C0A0Y1254.fa",
+      "fastq": [
+        "X1C0A0Y1254-1_S1_L001_R1_001.fastq",
+        "X1C0A0Y1254-1_S1_L001_R2_001.fastq"
+      ],
+      "date": "09/12/2019",
+      "runtime": 600,
+      "sample": "X1C0A0Y1254",
+      "engineered": "http://guardian.bbn.technology#engineered",
+      "confidence": 1,
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_160488"
+      ],
+      "contigs": [
+        {
+          "source": "649",
+          "engineered": "http://guardian.bbn.technology#engineered",
+          "confidence": 1,
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_160488"
+          ],
+          "regions": [
+            {
+              "feature": "yEGFP",
+              "start": 7253,
+              "end": 7495,
+              "featureStart": 7261,
+              "featureEnd": 7486,
+              "engineered": "http://guardian.bbn.technology#engineered",
+              "confidence": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "id": "yEGFP",
+      "role": "CDS",
+      "sequence": "ATGTCTAAAGGTGAAGAATTATTCACTGGTGTTGTCCCAATTTTGGTTGAATTAGATGGTGATGTTAATGGTCACAAATTTTCTGTCTCCGGTGAAGGTGAAGGTGATGCTACTTACGGTAAATTGACCTTAAAATTTATTTGTACTACTGGTAAATTGCCAGTTCCATGGCCAACCTTAGTCACTACTTTAACTTATGGTGTTCAATGTTTTTCTAGATACCCAGATCATATGAAACAACATGACTTTTTCAAGTCTGCCATGCCAGAAGGTTATGTTCAAGAAAGAACTATTTTTTTCAAAGATGACGGTAACTACAAGACCAGAGCTGAAGTCAAGTTTGAAGGTGATACCTTAGTTAATAGAATCGAATTAAAAGGTATTGATTTTAAAGAAGATGGTAACATTTTAGGTCACAAATTGGAATACAACTATAACTCTCACAATGTTTACATCATGGCTGACAAACAAAAGAATGGTATCAAAGTTAACTTCAAAATTAGACACAACATTGAAGATGGTTCTGTTCAATTAGCTGACCATTATCAACAAAATACTCCAATTGGTGATGGTCCAGTCTTGTTACCAGACAACCATTACTTATCCACTCAATCTGCCTTATCCAAAGATCCAAACGAAAAGAGGGATCACATGGTCTTGTTAGAATTTGTTACTGCTGCTGGTATTACCCATGGTATGGATGAATTGTACAAAtaa"
+    }
+  ]
+}
