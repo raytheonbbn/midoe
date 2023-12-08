@@ -1,0 +1,1178 @@
+{
+    "detections": [
+        {
+            "agent": "jhuardian_v51",
+            "sample": "Y302",
+            "fasta": "v51_fa.txt",
+            "gff": "v51_gff.txt",
+            "contigs": [
+                {
+                    "source": "Y302_001_124.7_10483_0",
+                    "regions": [
+                        {
+                            "start": 1,
+                            "end": 10483,
+                            "source": "Y302.001.01.01",
+                            "feature": "Y302.001.01.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y302_002_121.0_1265_1",
+                    "regions": [
+                        {
+                            "start": 1,
+                            "end": 1265,
+                            "source": "Y302.002.01.01",
+                            "feature": "Y302.002.01.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y302_003_116.2_12806_0",
+                    "regions": [
+                        {
+                            "start": 1,
+                            "end": 12666,
+                            "source": "Y302.003.01.01",
+                            "feature": "Y302.003.01.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        },
+                        {
+                            "start": 12668,
+                            "end": 12806,
+                            "source": "Y302.003.01.02",
+                            "feature": "Y302.003.01.02",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y302_006_103.0_509_0",
+                    "regions": [
+                        {
+                            "start": 1,
+                            "end": 431,
+                            "source": "Y302.006.01.01",
+                            "feature": "Y302.006.01.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        },
+                        {
+                            "start": 432,
+                            "end": 509,
+                            "source": "Y302.006.03.01",
+                            "feature": "Y302.006.03.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y302_007_95.0_2748_1",
+                    "regions": [
+                        {
+                            "start": 62,
+                            "end": 2001,
+                            "source": "Y302.007.01.01",
+                            "feature": "Y302.007.01.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        },
+                        {
+                            "start": 2008,
+                            "end": 2107,
+                            "source": "Y302.007.08.02",
+                            "feature": "Y302.007.08.02",
+                            "orientation": "http://sbols.org/v2#inline"
+                        },
+                        {
+                            "start": 2163,
+                            "end": 2263,
+                            "source": "Y302.007.07.01",
+                            "feature": "Y302.007.07.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        },
+                        {
+                            "start": 2264,
+                            "end": 2748,
+                            "source": "Y302.007.04.01",
+                            "feature": "Y302.007.04.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y302_008_88.5_4273_0",
+                    "regions": [
+                        {
+                            "start": 1,
+                            "end": 144,
+                            "source": "Y302.008.01.02",
+                            "feature": "Y302.008.01.02",
+                            "orientation": "http://sbols.org/v2#inline"
+                        },
+                        {
+                            "start": 142,
+                            "end": 4269,
+                            "source": "Y302.008.01.01",
+                            "feature": "Y302.008.01.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y302_009_25.4_568_0",
+                    "regions": [
+                        {
+                            "start": 1,
+                            "end": 123,
+                            "source": "Y302.009.04.01",
+                            "feature": "Y302.009.04.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        },
+                        {
+                            "start": 125,
+                            "end": 568,
+                            "source": "Y302.009.01.01",
+                            "feature": "Y302.009.01.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "agent": "jhuardian_v51",
+            "sample": "Y390",
+            "fasta": "v51_fa.txt",
+            "gff": "v51_gff.txt",
+            "contigs": [
+                {
+                    "source": "Y390_007_462.1_4324_0",
+                    "regions": [
+                        {
+                            "start": 1,
+                            "end": 4324,
+                            "source": "Y390.007.01.01",
+                            "feature": "Y390.007.01.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y390_008_461.6_4768_0",
+                    "regions": [
+                        {
+                            "start": 1,
+                            "end": 4382,
+                            "source": "Y390.008.01.01",
+                            "feature": "Y390.008.01.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        },
+                        {
+                            "start": 4392,
+                            "end": 4768,
+                            "source": "Y390.008.01.02",
+                            "feature": "Y390.008.01.02",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y390_028_95.5_669_1",
+                    "regions": [
+                        {
+                            "start": 2,
+                            "end": 41,
+                            "source": "Y390.028.07.01",
+                            "feature": "Y390.028.07.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        },
+                        {
+                            "start": 2,
+                            "end": 44,
+                            "source": "Y390.028.08.01",
+                            "feature": "Y390.028.08.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y390_035_70.0_964_1",
+                    "regions": [
+                        {
+                            "start": 1,
+                            "end": 38,
+                            "source": "Y390.035.04.01",
+                            "feature": "Y390.035.04.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y390_104_35.0_444_1",
+                    "regions": [
+                        {
+                            "start": 1,
+                            "end": 41,
+                            "source": "Y390.104.04.01",
+                            "feature": "Y390.104.04.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y390_305_25.0_631_1",
+                    "regions": [
+                        {
+                            "start": 1,
+                            "end": 51,
+                            "source": "Y390.305.09.01",
+                            "feature": "Y390.305.09.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y390_541_20.9_398_1",
+                    "regions": [
+                        {
+                            "start": 234,
+                            "end": 398,
+                            "source": "Y390.541.04.01",
+                            "feature": "Y390.541.04.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y390_813_17.0_610_1",
+                    "regions": [
+                        {
+                            "start": 1,
+                            "end": 36,
+                            "source": "Y390.813.04.01",
+                            "feature": "Y390.813.04.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y390_831_17.0_481_1",
+                    "regions": [
+                        {
+                            "start": 3,
+                            "end": 55,
+                            "source": "Y390.831.04.01",
+                            "feature": "Y390.831.04.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y390_936_16.0_340_1",
+                    "regions": [
+                        {
+                            "start": 297,
+                            "end": 336,
+                            "source": "Y390.936.04.01",
+                            "feature": "Y390.936.04.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y390_1028_14.5_469_1",
+                    "regions": [
+                        {
+                            "start": 407,
+                            "end": 453,
+                            "source": "Y390.1028.04.01",
+                            "feature": "Y390.1028.04.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y390_1078_14.0_588_1",
+                    "regions": [
+                        {
+                            "start": 3,
+                            "end": 40,
+                            "source": "Y390.1078.04.01",
+                            "feature": "Y390.1078.04.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y390_1426_11.0_743_1",
+                    "regions": [
+                        {
+                            "start": 2,
+                            "end": 42,
+                            "source": "Y390.1426.04.01",
+                            "feature": "Y390.1426.04.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y390_1487_11.0_382_1",
+                    "regions": [
+                        {
+                            "start": 315,
+                            "end": 368,
+                            "source": "Y390.1487.04.01",
+                            "feature": "Y390.1487.04.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y390_1550_10.0_732_1",
+                    "regions": [
+                        {
+                            "start": 3,
+                            "end": 44,
+                            "source": "Y390.1550.04.01",
+                            "feature": "Y390.1550.04.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y390_1661_10.0_327_1",
+                    "regions": [
+                        {
+                            "start": 291,
+                            "end": 327,
+                            "source": "Y390.1661.04.01",
+                            "feature": "Y390.1661.04.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "agent": "jhuardian_v51",
+            "sample": "Y401",
+            "fasta": "v51_fa.txt",
+            "gff": "v51_gff.txt",
+            "contigs": [
+                {
+                    "source": "Y401_010_752.0_381_1",
+                    "regions": [
+                        {
+                            "start": 232,
+                            "end": 381,
+                            "source": "Y401.010.02.01",
+                            "feature": "Y401.010.02.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y401_087_99.0_5527_3",
+                    "regions": [
+                        {
+                            "start": 5478,
+                            "end": 5525,
+                            "source": "Y401.087.08.01",
+                            "feature": "Y401.087.08.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y401_094_90.0_551_1",
+                    "regions": [
+                        {
+                            "start": 1,
+                            "end": 551,
+                            "source": "Y401.094.01.01",
+                            "feature": "Y401.094.01.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y401_136_57.0_743_1",
+                    "regions": [
+                        {
+                            "start": 306,
+                            "end": 743,
+                            "source": "Y401.136.01.01",
+                            "feature": "Y401.136.01.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y401_150_52.0_421_1",
+                    "regions": [
+                        {
+                            "start": 17,
+                            "end": 260,
+                            "source": "Y401.150.01.01",
+                            "feature": "Y401.150.01.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y401_259_28.0_399_1",
+                    "regions": [
+                        {
+                            "start": 226,
+                            "end": 399,
+                            "source": "Y401.259.04.01",
+                            "feature": "Y401.259.04.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y401_892_10.0_4467_1",
+                    "regions": [
+                        {
+                            "start": 3204,
+                            "end": 4449,
+                            "source": "Y401.892.04.01",
+                            "feature": "Y401.892.04.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y401_917_10.0_950_1",
+                    "regions": [
+                        {
+                            "start": 1,
+                            "end": 950,
+                            "source": "Y401.917.01.01",
+                            "feature": "Y401.917.01.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "agent": "jhuardian_v51",
+            "sample": "Y407",
+            "fasta": "v51_fa.txt",
+            "gff": "v51_gff.txt",
+            "contigs": [
+                {
+                    "source": "Y407_014_752.0_381_1",
+                    "regions": [
+                        {
+                            "start": 232,
+                            "end": 381,
+                            "source": "Y407.014.02.01",
+                            "feature": "Y407.014.02.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y407_097_90.0_551_1",
+                    "regions": [
+                        {
+                            "start": 1,
+                            "end": 551,
+                            "source": "Y407.097.01.01",
+                            "feature": "Y407.097.01.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y407_156_52.0_421_1",
+                    "regions": [
+                        {
+                            "start": 17,
+                            "end": 260,
+                            "source": "Y407.156.01.01",
+                            "feature": "Y407.156.01.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y407_257_28.0_770_1",
+                    "regions": [
+                        {
+                            "start": 335,
+                            "end": 770,
+                            "source": "Y407.257.01.01",
+                            "feature": "Y407.257.01.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y407_615_10.0_950_1",
+                    "regions": [
+                        {
+                            "start": 1,
+                            "end": 950,
+                            "source": "Y407.615.01.01",
+                            "feature": "Y407.615.01.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "agent": "jhuardian_v51",
+            "sample": "Y426",
+            "fasta": "v51_fa.txt",
+            "gff": "v51_gff.txt",
+            "contigs": [
+                {
+                    "source": "Y426_001_2425.0_5583_3",
+                    "regions": [
+                        {
+                            "start": 1,
+                            "end": 2861,
+                            "source": "Y426.001.01.01",
+                            "feature": "Y426.001.01.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        },
+                        {
+                            "start": 2862,
+                            "end": 2958,
+                            "source": "Y426.001.07.01",
+                            "feature": "Y426.001.07.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        },
+                        {
+                            "start": 2968,
+                            "end": 3038,
+                            "source": "Y426.001.10.01",
+                            "feature": "Y426.001.10.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        },
+                        {
+                            "start": 3040,
+                            "end": 5583,
+                            "source": "Y426.001.04.01",
+                            "feature": "Y426.001.04.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y426_164_28.8_27874_1",
+                    "regions": [
+                        {
+                            "start": 1,
+                            "end": 57,
+                            "source": "Y426.164.08.01",
+                            "feature": "Y426.164.08.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "agent": "jhuardian_v51",
+            "sample": "Y439",
+            "fasta": "v51_fa.txt",
+            "gff": "v51_gff.txt",
+            "contigs": [
+                {
+                    "source": "Y439_106_71.4_2660_0",
+                    "regions": [
+                        {
+                            "start": 2436,
+                            "end": 2660,
+                            "source": "Y439.106.05.01",
+                            "feature": "Y439.106.05.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y439_160_37.4_1535_0",
+                    "regions": [
+                        {
+                            "start": 1311,
+                            "end": 1535,
+                            "source": "Y439.160.04.01",
+                            "feature": "Y439.160.04.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "agent": "jhuardian_v51",
+            "sample": "Y494",
+            "fasta": "v51_fa.txt",
+            "gff": "v51_gff.txt",
+            "contigs": [
+                {
+                    "source": "Y494_010_752.0_381_1",
+                    "regions": [
+                        {
+                            "start": 232,
+                            "end": 381,
+                            "source": "Y494.010.02.01",
+                            "feature": "Y494.010.02.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y494_092_90.0_551_1",
+                    "regions": [
+                        {
+                            "start": 1,
+                            "end": 551,
+                            "source": "Y494.092.01.01",
+                            "feature": "Y494.092.01.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y494_146_52.0_421_1",
+                    "regions": [
+                        {
+                            "start": 17,
+                            "end": 260,
+                            "source": "Y494.146.01.01",
+                            "feature": "Y494.146.01.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                },
+                {
+                    "source": "Y494_610_10.0_950_1",
+                    "regions": [
+                        {
+                            "start": 1,
+                            "end": 950,
+                            "source": "Y494.610.01.01",
+                            "feature": "Y494.610.01.01",
+                            "orientation": "http://sbols.org/v2#inline"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "features": [
+        {
+            "id": "Y302.001.01.01",
+            "name": "Escherichia phage P1 mod749::IS5 c1.100 mutant, complete genome",
+            "source": "AF234172",
+            "sourceStart": 36344,
+            "sourceEnd": 46826,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sequence": "AATATGAGGGAGAATTTAAAAACTACATAGAATTAAAATAGTGTTTGAAAGGATAGTCAATTTAAGTTTTAACACAACGCCCATTAAAGGGCGTTTTATTGTTTTACTCAAAACAACCTGATTATGTGATAACCATATCATATCCCTCATTCCACCTACACTGATTACCCCCCAGACAACAATATTCCTACTCAATGAACAAATGACTACTCGTAGAATCGGTTAACACACCAGATTCTACGAGGTTTCAATGACACCACGACAATTACTCGAAGACGTCAAAACCCGCTTCACACCTTTGATTGCGGATGAACCGGCCTTACTGGAATCCCTGCTAAGAAAAGCATTGGGAACCTACCAGGATAGGGCGGGGCACATCAAGCGGATACGCTTCACCGATCAGGCCAGTAATTCACTTGCTTGCCCAGCTGATTTTCTTGCGCTCGTATCGGTTACAGATCACACCGGCGATCTTGTCTACTCCGATGTTTACGATGGGAATATTGAGCTTGAAGATACTCATCGAGCGGTATACCCGCTGAATGTGTCATATCTGGCTAATTTACGTGATATGGATCTGGATAATGGGGAAGTGCCACCTGAAATCATTGGGTTACTTTCTGACTATCTGGAAGTGCTAATCGCGATACCTAACACTGATCGCCTGCGAAGAATATCTATCGCGGGGAAACTCGATGCCAGCAATTTATCCGACGAGAACACGCTGTATCAGCGAAAGCTGGATCTGGAAGAGAAAATGAGCGCAACAAGGGCAATTATCCCGGGGATTGTTCTTTTCTCATCCATGTTGAAGTGAGGGGGCTGATATGGGGCTTAATGTTGCTTCAGTAAAGTCTTATGTATCTTCGGCATTAACGACGACATTATTTGGCTCCGGCGTTGGTGAGCGGGAAGTTGGTAAGCTGACGTCAATCATCATGAACAAAATGCTGTTCGCGCAAGGATGGCAGTTCTCTGTCGAAGTTGATGGACTGGAGGGGGCAGACTTCTTTGCCAAAGACATTACCTACCACGATTACAGCATCGAATATGAAACGATTAAAATCGGCGGAGGGAATATCCTTCAACCAACGGAGCGTTCGCCTGGGCAGATAACAATGATGGTCAGGGATACCGTTGATGGCCTCGTTTTGGACTGGTTTAAGACGGCAAAAAGTCGGGTGATCAATCCGGACGGTACCGGGAATATACCGTCTCAATATTTGCTCAATGTGCGTATTTATCGGTTGCTGTCTTCCGGCTTAACCAAACTGGAAAATGAGATGACGGTATTCCCGGTCACTACCGGCGATGTCACCTATGCGCGGGATCAGGTTACGGAATTTAAGTCATTCCCAATGACCTTCGCATTGCACAGCACGTTTAACCAATCCTCAAGTTCTTTGGCTTCCCTTCTGGGCTTTAGTTTTTCTCTTTGAATTAAGGAGCAAGGATGCTTTTACCCCTTTTCCCGCTACCATCGCGGCCAACTGAATTGATCCAGTTCCGTCAGCCAAATATTGCTGATGCGATGCGTTTCAACTCGATAACACCGGAGGAACAAGAACAACAGACAACGGCGTATTTAAAAGCCTTGCTGGCTGAACCCGCGAAATATGATCCCCTGACATGGACGGCGCAGGACCGGATTACCGCGTTATGGTGGATATTTACTGGCTCCCGTGAAACACCGGTCGAGACATTCACCTACACCTGTAAACATTGCGGTAAAGAGCATTATTACGATTGCGATATGAATGCTCTGGCTGAAGATATCCAGGTCCTGGAAGTGGAACCGTTCATTGACGATATTGAGGTGTCTGTAGAGGGCGTGCCTTATCAATGGCGTATCGTGCCGCTTGATGGTTGGGCAATGGAAATGCTGGAGATGCGCCGTGCAGCATTGCCACCTGAAGACGACGCGGAATTCAAAGAAGCGATCGTTGATTTGCGTTTTTGGGAATTCGCTTATCAGTGTGAACTTTATAACGATGTTAGCGGTACTCGTGAAGAGCAGGCTGAGCGTCGTTATGAAACGATCAAACGGATGGCCATTGATACTGAATTTATGAAGCTGGCGGCACACATCCGGCTGGCTCATGAAAAGCTCGAACATGGTTTACCGTGCTACATCGATAAAGGCGAAATGCGTCTTCGTCTCCCGCCGCACAAATGCCCAAACCAGGATACAAAGGAGTCCACAGAGGGTGCGTATACCCGTCTGTGGGTGCCCTTTCGGGCTACCGATTTCATTCCACAGGTGGGGATTGAAAAGCTATCAGACCTTAGTGTCCAACCTGGTTTTGTATGGGGGTATACCGATTCAGGACGCTGAAAGGCTCACTGAATCCTATGCGTTTTTCCTGTTGGAGAAACTGGAAGAAAAACTTAAACCGAAGCGGTAGGCGATAAGATCATGGAAAGAAAAAACGCCAACATTGACGATGTGATAAGGACGGTTGAAACCGCCAGCGCAAAAGAGCTGGAAGAGCTTGCAGGTATTCGGGAAGCCGTTGAAGATTTGAAAGGGGGGCGAGTTGCTACAGTTTATCCTGTCTCTCGCAGTGTGTCGGCATTAAATCGCACAATCGAAAATTCCCGGCCAGACTTTGTGGCCAATGCGCCATCAGTGGACCCTATTGTTGAGGCAATGAAACGGCTTAATTTAGGGGACGTTTCTCGTGTAGTTCAGGAAGATGTTGCTCAACAGGAACAGCGGGCCAAATCAACCACACCAAAGGGTAAAAAACGACGCAGGAAGGCTATACCAGAGGATGTAAAGGCACAACGGACCGAAGCAGCCGAACACGCTCGCGAAATGTTCGGTCAAAAAGGCGGTGCGCAAAAAAGCCAAAACCAACGCGATGCGCGTGGTCGTTTTATTGGAAAGTCAGGGAGTAAGGCCGCAGCGGAAGATGCCCGTGCTGAACGAGCAGAAAAGGCCAGGCGAAAAGAGGATGATGAGCGTCTAAATGCTGAATCAGGTTTATTAAAAAAACTGTCAAAAGTAGCTGAAGGCATAGGTAACCCTTCAGAGACTCGTGCCGTCGATGCGTTAGGTTATGCCGTTGCTGGTCCATTGTGGGCAGCAGGGAAGGAGCTTGGCGGGATATCAAAAGAAGTTGGTGGATCGCTTAATGGTGCCAGAAAGTCTATTGCCGATGTGATTCGTGGCAATGACGATAACAGCCGTAGAAAAGGTTTTTTTAGGCGTAAATCACAAAATAGTGCCGATGTCGTTCAGGTTAACACCCAAAAACGGACGGTTCAGGAACTTCAGGAGCAGACCAGCGAAATTAAAGAGGGCAATGACAAGATTCTCAGCGCCCTTGATCAGATAGCCAAAAACACTGGGAAAAAGAAGGGCGGCTTGCTGTCCAAACTATTTAGCCTGTTAGGGAAGGGGGCCGGTGGCGTCGCGTCGTTGTTAATGGGGCGTGGCATGCTGAAAAAAGCTGGAGCACTCGCTTTTGGCGCACTGGGGGCAAAGAAACTTGTAGGAATGCTACGCGGTGGTGGTAAGAAGACTCTCGCCCATGAAGGCGGAGATTTGGTTGCCCGGGCAGCAGGTAAACTTGGATTAAAGGCAGTTGGTAAAGGGGCGTTACGCGCAATTCCCCTAGTCGGCACAGTGGCTGGAGGTATTTATGATGCGGTAACCGGTTGGAATGATACAGAAGCGCAACGTCGAGCGTTTGGGCTTAAATCAGGACAAGATCCATCATTCCAGCAAAAATCCGCTTATACGTTAGCTAATATTCTTGATATGGGGGGACTGGTATCTGGTATTAGCAGCGCCATTGGTGAGGTTCTCAAATCACTTGGATTTGAGGATATCGGCAATATGTTGCAATCATTTTCGACGGAAAGTATTGCCCAGGCCATTGATAGTGGGATTACCAACTTAGAAACATATATTTCTAACCTTGGCGACACCATTTCTACCAAGTTCGATGATTACACAGCAAAGATTGGTGATGCTGTTTCAGCATGGTTTAGCGATACATCTAATAAGCTGCTTGAAAAGCTGGATGCCATCAAGGACTTCTTTACTGTCGATAACCTGAAACAGGTTTTCAGTGATGCAATTGATAGTGCAATTGATTTCATTCAGAACCCAGGGAAACACATTAAAGAGGCGGCTGGTAATATTTGGGATGGGGTTAAAAATTTACCAGGTAAAGCATTAGATGCAGCGGTTGATGCCGTTAAAAATACCCCTGCGGCAATGATTGTATCAAAAATACCCAATCCGATCGGCGAGGCTAATGCGAAAGAAATCACTCCAGAGTTAAAAGCTCCGGTTAATAGCCACCAGGAGACGTCTGATTCTAAAACTGAATCCGATGCCAAACAGAGTAATATTGCTACCCGCGTGATAAATGCGGCACTGGACACGGCGAAAGATAGCAATAAAACAGTTAAACAAACTGCCAATCAGATTATCAATGCAAATGCCGTAGAAACGGGCAATAGCGCGTTGCAGAAAATTGATAAAGCTATTGGTCAAAATAGCTTGTCATCATCGTCGCTTAATACCACTGGCACCAGGAATGACATTCAGAAAGCTGCGGATACCTACAATAATGGCAACTTGGATGTAAAAGTCGGAAGTCTTGGCGCTGAAGGTAAGGCAAATCTCGATAAGTTGGCTCCGTATTTTGCTGAACTAGAGAATAAATATGGCCTTCCTGAAGGTACTCTTTACGCGATCGCTGCAACTGAATCTGGTGGTAATCCTAACGCAAAATCTACACTTACAAGATCACCAAATGGAAAGCTAAGTGGTGGCGCTCTCGGAATGTTCCAGTTTACGAGCGTTGCTCGTGAGGAAACTGGATTATCCCGGGAAGATTCTTTTAATCCGGAAAAATCGGCAGAAGCTGCGGCTCTTCTCATGAGCAAGTATCTGAAGCAAGCCAATGGAGACTTAAACGAGGCCATCACTGCATATAACGCAGGGTTTGGCACTATCAATAAGTGGAAAAAAGGCACAGGTGACTTATCGAAAGAAAACCGTGAGTACGCGATCAAGGTCAATACTCATCGTGCTCGCTATTTAGGTGGTGAAATCTATACACCTGGGGCAGGAGCACAGGGGGGGGCGCAATATGGAGTGAGGGGACCACTGCCTGATAACGCTGTTATCGATCAGTCTACTGGTCTGGCGTTTACCCCTGGTGATAGCCCGTTTGAGAAAGGCGGTCTGGTAGACAAAATCGGCAATGCTGTTGGCGTTAACGATCTGGTCAACAAATTCATGAATGGCCGGGGGATGCGTCGGGAAGTCGTTCAGGGAACCCTCGAAGAACGCGCACGAGGAAAGGGGACAGCAACGGCAGCTGGCAATGTGTATGTTGATACACCTATGCCAGCTGAAGAGGCACGTCCGGTAGCAAACAACTCAAGTTACTTTGACCAACTCGGTGCACAAATGGGGATTGATGGGCTGTATGACAAACTCATTAATGCCCGGGGAATGCGCTCAAATAATTCTCCTCAACCAGCCTCCACGTCCCAGGTGACGACTGCCGCCAACGATTTGCAGCAACCAACCGGTCGTATGCAGATAGACGGGCAGGTTATTAGTGACCTTGGCGGCTCCGGTGCCAAGCCGACAATGCAGTTGGCTGATAATACCGTTTCACTTGATGGTGAAACGAAGCGGCTGTTTGCGCAGATGACCTCATTGCTTGCCAGGATTGAAGAGCACACCAAAGACTCGGCGAAAGGCCAGGGAACTGTCGTAAAGGTCAGCACGCCTCAGCCGGGCGTTATGCGCACGGTACCACTGTCAATTGATGATCCGTTGATGAATGACTACGCGAGAGTTGATTGATGGCCAATAATAACGAAATTGATCCTTTGCTGACGCTGGAGTTATCCGGCGTAAAAACGTATGAGTCCCAGGAGGAGGCCTGGGGCGCTCGTTTATATGAGTGGCTAAACACTTATCAGGGTGAGGTATACGGGGATCCGTCATGGGGCAATGTTTTACCGCAGTTTAAACATGAACCGACCAACTTGTCGCATGTTCAAATTGCGGTTGAGGCAATGCTGTTGCAAAAACTGACGGTAGATTTACCTGACATACCGATTTCTGGCTTGTCAGTAGCCGAGGGAGATGCTTTTGATAAGTTGAAAATATCCATTCGTATCAGGGATATAACTATCACACAGGACGTGGTGCTATGAGTAAAACAACACCGACTAAAGACAGTATTCGTGCAGAGTTTGAAGAGCTTGTCGAGAAAGATTCATTCTGGTCGAAGTTTGTCGGCTCTCAATTTGTCTCGATGCTGACATTGTTTATTACCCAGATTGTCTACAGGTGCTTTCAGTATGCCGATGCGGCGCTGGCTGAAGGCTTTATATCGACCGCGACGCGGCGTTCCTCTATCCTGGCAGCGGCAGAAACGAATAGTTACGTTGGTACCAAGCCAACACCGTCATCGGGGATGATTGAGATCACCGCCACAAGTGAAGATGCCCCAGCGGTAATCCCCAAAAACATGCCTTTAATATCTGACGACCAGTACCCTTACATGACTATGGATGTATGCAGGTTGGTTGACGGCACCGGTACGGTAGAAGTGGCACAGTTGGAAATCCAGGAGGTGACATATACCGTTACGGCAGCCAAAGAATTTCTGGAAGTCGTGTTATCAAAGGCTCTCACTGCTGTCTGCTATAAGCTGGAAGTATTCGTGACGACCGATGGTAAGACCACGCAGTGGTCTTCCAGCACTATGTTCCGGTTAGCCGGTAGTAAAAGCCAGGTCTACGTTGAGTTTTATAAACCATCCGAGCAGTTGGGGGTTCGATTCGGCGATGGGCTAATTGGGCAAATACCGCCAGAAGGCTCGACAATTACGCTTAAGGTATGGTGCACCAACGGCGATATAACCCTGGTTGCTGGCCAAAACCTGACGCCTGTCGATTCTGCGGCTAATTTAGCTAATTTGATTTCAGTTAAGACAACGACACCTATAACCGCAGGTACCGATGCCGAAACAACGGAGATCACACGTAACCGTGCACAATATTACCTTGCCTATGATGATCAGGTCGTATGGGGCGGGGACTATACGTATTTTCTGGTGCGTAACATCCCGGGACTGTCCTGGGTAAAGGCATGGGGCGAGGGTCAGCAAGAAAAATTAGATGGTGCTTATAATGTTCAGAATATCAATAAGATATTTATTTCAGGATGGCATCCAAACAAAAGCCAGTCAGAGCTTGAAGAAATGATCCTGGCTGCCTTTAAGAAGGTGCCGAATGAGTTGAACAAGAAATTCTCGTATAAAGAGGTCAGAAAACTACCCTTTAAGATCACCATCACCGGGCGGATATCGGCAAGCCTGACCATTGAGAACGTGACTGATGAGCTGAAGTCGGCACTGGAAACAAAATTTGGGCGTGACTCAACTTTCTTTGATCCGAACCGTGTCGGCAAGTACATCCTAATCAAGAAAAAAGACGTTTGGGCATTTATCGAAACGCTGGGTTATTTCCGCGACTTTTATCTGGAATTTGTCGAGTGGAATGAGTCCAACGGCTTTTACGATTTCGTTTATCTGGATACAGAAAACTCCACCTTTAATATTTCGTATGAGGAGGAGTGATGCAGCGTTCCTGGTTTAATCACCGGCTTACATCAGCTAAGCAAAAGTCATTGCTCTATAAATCATTGGCTGATTTGGTTCAGTCAATGATGGATACCTTTGTTGACCCATGGTTGGAGCGAATTACCAACCGGAAGTCTATTTTTTCCATGAGCAAGGAGGATCTGGAGACCAGGACAAATGAACTTGGCCAGTTCTTTACTATCAGAACGTCGAACTCATCTTCCGTTCCGATGTTGTTACAACAGCGTCTTGATGAGATTCACTTTAAGGGGACTGAACGCCCTATAAACCAGACAATTTACCGCGAATTTAACGGTATTTCTGTTTTATGGGATCCGATATATGCACCGGTGGACCTTGAGCGTCATCCCTATGGCACGGTTCTAATACCAGAAAGCACACTGGAGACTACCGGCGGCACATTCGGCGAGATGTTTCTGACTTCCAGAGGGATGATCAGTATTCCCATAAACGACCTGGCCAGGGCAATGGGTATTACTGGCACGATAGTTCAGTCCGCAATTACAGAAGAAATTCTCAGAAAGTTTAATCAGTTCGTAAAGCCTCTACTGCCACTGCATATAGTGTTTGATGGGCTTACGCTCTATTTGTCGGTTGTTGTAAATGAACACGCCGACATGATCACTTTGAACGAGATTTCTGATACCGAAAAAGCGTACTGCTGGTTTGAAACTTCGGATACAACTTCGCTTACTGGAGTTACGTCGATTAGCGCTCCGATCACTGCAACGCCGGGCGGCACTATTGTGAAAGCAACGCCTACGTTTGATCGCACCCGCGCAGATGATTTGCTGCTGGATAGTGATGCCTGATAATCACCCCGTCCGCAGGGCGGGGTGACAAGTTACTTATCTTACAATGAGGCTTCACAACATTGATTAGGGAAAATCATGTCTGACGTCTCAACAAACCTCTATAAGAGTCAGTTGTTGGACTATTACTATCAGCGGCGCGCTGAATCGTCCATTAACAAAGGCTCTCGATTTTTAATCAGCAAGGCCGTTTTCGGTACCAGTTCGCTGGTTACTAAGAAAGGAGATGGCACTTATGAGATTGGAGAACTGCCAAAGGCTTTCGAACTGGCAGAACTGACCAGTCAATTTTGCACCATCAACCTCGTCCCAACCTACTCAGGCGGGATAATTACTGTCCGAATGGACCTTGATCAAAGCCAGTTGCAGGAAGGGAAAAACTACCCATTCAACACTCTGGTTGTTCTGGATAACGAGAACAAGCCAATCGCCATTATTTGTGTCCAGGAAGACTCGCTGTATGTGGGCAAAACATATACCGCAGTTATGGCCATAAACACGACTACAGCATAAGGATATGCTTGATGAATGACGTTACAGTTGTTACATCGGTTACTTACCCATCATCCGAGTCGTTGGCTCTGGTGGCCGATGTGCAATACCACGAACCATATCTGTCAGCCGCGCTAAACCGAAAATTCAGGGGGATTGTTGACCCGGGATTTTATGCCGGTTTCTTACCTAAGCCTGGCGGTGGGATGAACCTGTTAATTACCTCAGTGGATGGTGATAAAACCGCAGGCGCGGCGTCGGTGGATATTGGTGAATTTTACCAGGTAACTATTCAGCAACGTAAGGATATTTCTCTTGCACTTAGTGCAGGCAAGAAATATGCAATTGTGCTGAAGGGAAGATACCTCCTTGGAGAAGATACCTACCAGGTGAATACCGCGTCACATATTCATGCGGCTGAATTTGTTGCCAGAACCTATACCGATTCATATCAGTTAGGAGATGGGGAGCTGCTTGTTTGTACGGTGAATATCCCTGCTAGTGTATCTGCCATTACCCAGGAGATGATTGATACATCCGAGCGTATCAACCGCTCGATCGGCATTGATATTTCAGACTCTGTAACCAGTACCAGAAGTGATGTTGCTGCAAGTTCGCTGGCAGTTAAAAAAGCCTACGATCTGGCGAAAAGCAAGTATACGGCACAGGATGCAAGCACAACGCAAAAGGGATTAGTTCAGCTCAGTAGCGCAACTAACAGCGACAGCGAAACAATGGCGGCTACCCCTAAAGCTGTTAAGTCTATAAAAGATCTGGCTGATACCAAAGCGCCAATAGAAAGCCCGAGTCTGACAGGAACGCCAACCGCGCCGACGGCAGCGCAAGGTACAAACAGCACGCAGATCGCAAATACAGCCTTTGTTAAGGCAGCTATAACTGCACTTATCAACGGTGCGCCTGGCACACTGGATACGCTGAAAGAAATAGCGGCTGCGATCAATAACGACCCGAATTACAGCACAACTATCAACAATGCCTTGGCTCTCAAAGCGCCTTTGGCAAGCCCTGCATTAACGGGTGTCCCTACTGCGCCTACGGCTGCACAGGGCACAAACAATACGCAGATCGCTACGACTGCTTACGTACGGGCTGCTATCTCTGCATTGGTCGGCTCATCACCTGAAGCTCTTGATACCCTGTATGAGCTTGCAGCAGCACTGGGCAATGACCCGAACTTTGCGACAACAATGACAAATGCGCTGGCAGGGAAACAGCCACTTGATGCAACTTTAACCGCGCTTGCTGGTCTTGCGACAGGCGCAAATAAATTGCCGTACTTTACCGGTACAGACACTGTTTCTCAGACTGACTTAACGTCAGTTGGTCGCGATATTCTGGCCAAAACAAGCATTCTTGCTGTTATCCAATACCTTGGTTTAAGAGAACTCGGTACCAGCGGTGAAAAGATCCCCCTGTTGAGCACGGCTAACACATGGAGTGCACGCCAGACTTTCAACGGCGGGATCACCGGGGCGCTGACAGGGAACGCCGATACCGCAACGAAATTGA"
+        },
+        {
+            "id": "Y302.002.01.01",
+            "name": "Enterobacteria phage P1 mod1902::IS5 c1.100 rev dmt(del)MB mutant, complete genome",
+            "source": "AF234173",
+            "sourceStart": 22398,
+            "sourceEnd": 23662,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "AACTCGATCAGTACATTACCTGCACGATGACGGATGAAGTCAAAAGTGTGGCTATAGCCAATGCCAGGAACCTGTGTCGTACTGCATTGGCAGAGCTGCAAGAAAACACCACGGAAGAGGTGGAAAGTGATTAATTTTTACTAGAATAAAAAGGGGTGCCAGAGAGCACCCTGATAATACGAAATTAAAGGGAAATAAATTACATGAAGTGTAATTCTTTGCCCTCTGGGTAATGACTCAAACTTATTGATAGTGTTTTATGTTCAGATAATGCCCGATGACTTTGTCATGCAGCTCCACCGATTTTGAGAACGACAGCGACTTCCGTCCCAGCCGTGCCAGGTGCTGCCTCAGATTCAGGTTATGCCGCTCAATTCGCTGCGTATATCGCTTGCTGATTACGTGCAGCTTTCCCTTCAGGCGGGATTCATACAGCGGCCAGCCATCCGTCATCCATATCACCACGTCAAAGGGTGACAGCAGGCTCATAAGACGCCCCAGCGTCGCCATCGTGCGTTCACCGAATACGTGCGCAACAACCGTCTTCCGGAGACTGTCATACGCGTAAAACAGCCAGCGCTGGCGCGATTTAGCCCCGACATAGCCCCACTGTTCGTCCATTTCCGCGCAGACGATGACGTCACTGCCCGGCTGTATGCGCGAGGTTACCGACTGCGGCCTGAGTTTTTTAAGTGACGTAAAATCGTGTTGAGGCCAACGCCCATAATGCGGGCTGTTGCCCGGCATCCAACGCCATTCATGGCCATATCAATGATTTTCTGGTGCGTACCGGGTTGAGAAGCGGTGTAAGTGAACTGCAGTTGCCATGTTTTACGGCAGTGAGAGCAGAGATAGCGCTGATGTCCGGCGGTGCTTTTGCCGTTACGCACCACCCCGTCAGTAGCTGAACAGGAGGGACAGCTGATAGAAACAGAAGCCACTGGAGCACCTCAAAAACACCATCATACACTAAATCAGTAAGTTGGCAGCATCACCTGCCCTCTGAATATGCAATGATGGTTAGACAAGCAAGATAGGGCGAATTAAAATTAATCAAGAGTCACTTTGTTAAGATGCGTAACATCACTTTAACACTTTATGCTTGTCATGATATTTGCTTGGAAGCCTCATGAATACATATTCTGATAAAATACACAACCTTATAGATATAGCCAAATTAGCTGTGGCCATGAGGGAACATAGGTATTTTTTCGCACTTCGTCGAGGAATAGATGTTAATTTTTGTGCTGATTTAAACGGGAGTG"
+        },
+        {
+            "id": "Y302.003.01.01",
+            "name": "Enterobacteria phage P1 mod1902::IS5 c1.100 rev dmt(del)MB mutant, complete genome",
+            "source": "AF234173",
+            "sourceStart": 53115,
+            "sourceEnd": 65780,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sequence": "CAAGTTTTTCAATTTTTTCTTGAATAGCTCGCTGGATAACCGGCGGGGGAAGAATTTTTGTTTCGCGCTTTGCTTCAACAAGGATAAAACCATTTCCATGCATAGCGATAACTTCGGAATTATCACCAAATGGAGATACAAAACCGAACTTGGCCATATCCTGACTACCGCATGGCGTGAAAAGGATCATTTTCTTTTTATCTTCTAAGTCGGTCAGATCCGCCTCACGAGAAAGTTTATAAATAGTAATGTTTTTCCAGTGCTTAAACATGTTGTAACCCTTGAATATCAACCACAGAAAGCTCGTCTTTGTAGAAAAAGGCTAGGTTGTGGCACCCCCTCGTTTGAGCGTATGAGCTGGGACCAATTTCGTTCTTCCAGACAAATGGCTTCAAATCCGTACGGCGAAGCATAAAAACGCGATTTGTTCCGCTCTGATTCCCAATGAGGCAAAAGCCTTCTTTCACCTTGATAGCCTGCAAGTTGTCGAGTTCACCGCTGGTTACACGGCTATCGAACTCCTTGCGGCTTATTAGCTCCATCTGCATCTGACGACTCCAAACAAATGCCCATTGAAGGGCGATGGCTGAATGGTACCGAAAACACGACATAAAAAACAATATTTATTAGAGCAATTTTGCAATAAGTAAACGCCATACAGACCACAAATAATCTAAGTTAAAATAACGAAAATCAGAGCAAATCATTGGTGATGACGTGGCAAGTATTGCAACAAAAGACAGCATTTGTTCGGGGCACGGAGGATTCCCATCCAGGCCTCCCGTAGAGAGCGAACCACTACTTAAAGTCAACGGAGTCGAAGTGTTAGTTGATGGTAAGCAATATGCACAGCATACCGATGGGAACAGCACACACGGCGGGCAAGCTATATCAACCAGGGCATGGTTTACCGTCAACGGGAAAGGGATCGTATGCGTTGGTGATCCTGTTTCATGCGGCTCTACCGTTGCAGCCGGAGACGGCCTAGTTCAGGTAAGTTAGGAGATATCATGCTGGAAAAAGACTACCAGTTATCCGCATATAAAAAATTGGCCGCCGCCGGTGGGATGAAAACACCTGGTGCCATAACATCGGCACGAAACAGTGCTAACACAGCAAAACTGCTTGCAGAAGAATTGACCGGATTAATTCTGGATACAATTGTCTATCCCGACACTATTACCAGCTATGTTTCAACGATCAGAACAACCGCAACCGGTTTAACGAATATTGGAGGGCTGGCAACTCAGCACGCGGACCTGTTGGCTGGTTATGCTGATCTGTCAATGCTCCTTCAACTCGATATTGGTTGGGATGTTTACTGTCGTGCTAATGAGCGAGAAGTTTCAGAACTGCCGATCTCTATTGCCATTGGTGACGCGACTACAACGAAATCGCTTGAGGACGCTGTAAATGCGCTTAATACGTCGAGTTTAGTCGCTGCTATGGAGGACATTAACCAGACCCTTAACACAGGCTCAGGAAGCTCGTCAGGCTCTGATTCAGGTGGCGGCGCAGTCACTCCCCCACCAGCACTGACAGAACAACAAGTTGAAGCACTGAAGGAAGCTACTGAACAATTTGGTGCTTTTTTCGACCAGACAACAGTACCGGTAGCAGCATTGCAACAGCAGTATGAACGAGCGAAGGAAAGCGCCAGCGTAGCCATAACTGCTTATAACCATGCTATCGGTACCGCGCTTGCGGAAGCATCAGCAAATAAGGCCAGCACAGCCAGCGCAGTTGCCGCTTTGGTTCCTGATTCTGTTCTTGATGAATTAAACAAAGCGGCACAGTAACAAAGGACTTCATTGATAATTTTTCTTCAGGAGGAAGACATGTCATTCTTTTCTACGTTAAAAACAGCTTTGTCTTTGAAGGAGAAACTTGCTGCTACTGGTGTTCTTGTTCTGATTTGCGCACTTGTTGGTGCTGGGTTTGCATGGGAACGTCATCAGCTAAAGCAAGCCATAGAGAAAATTGGCAGTCTTGATCAGGCTGTTAAGGAACGTGATAAGTCAATAATGGATCTTAACCAGACCATTGAGACGATGAACAAAGCAGAGCAACATTTTCACAGCCAGGAAGTGAAAAATGAATCAGAACAAGCCAAGTATGCTGACAGGCAAATGGAACGAAAAGCTGAAGTTCAGAAACAACTGGTTGCGGCGGGTAATGTTCGCCAGCGTATTCCTGCTGACACTCAGCGGTTGCTCCGGGAGTCGATCAGCGAATTTAACGCCGACGCCGACAAAGGTTAACCACCCTGCCCCCAAAAGTGCATTTATGTGTAGGATGCCAGAGTTTAGCAGTGAATATTTTGATGATCTGCCAGCGTATATCCTCGATACAGAAACGATGCTGATGGGGATTAACAGGAAGAATCGCAACGTTAATGATTACAACCGAGCTATTAGCGGTAACTAAAAGGGATTTTTATGTCTGATAAAGTAACAGTAAAGCAAACTATCAACAAAGCGACTTCAATCTACAAAATTGAGCAAATCACTGTTGGCAAGCCAGGATCTGAACAATACCGTCGTGCTTTCGAGCTTGCCGATCAGCTTGGTTTAAAACACCCGGATTGCATTGAGCATGTATTTCCGACCTATGCTGATGAGCAATGTACTCATGTTCTTACCGAAGAGGATTTTTTCAGCACTGAAGAACGAGAAGGCGTTGATCGCTGCATTGGTGTGATTTGTTCTTCGGTAAGTGATGAGTTATTCCCTAATGTGCCTGAATATGGTGGTATTGGATACCAATTCCTGTACGAGGGCGATGAGCTTAAATGCTATGAACATGGTCTTCTCATCGAAAGCGTAGAATAATACGACTCCCTTCCAACCGGCTACGTTGGCCGGTTTTTCACTTATCCACATTATCCACTGGATAGATCCAATAATCAGGTCCATACAGATCCCAATTAGATCCATATAGATCCCTGATCGTTGCAGGCCGCGCCACGTCTGGCTTAGAAGTGTATCGCGATGTGTGCTGGAGGGAAAACGATGTGTGCTGGAGGGATAAAAATGTGTGCTGACGGGTTGCTAATGTGTGCTGGCGGGATATAGGATGTGTGTTGACGGGAAAGCTTGGGTAGTTATCACCACTTATAAAAACTATCCACACAATTCGGAAAAAGTAATATGAATCAATCATTTATCTCCGATATTCTTTACGCAGACATTGAAAGTAAGGCAAAAGAACTAACAGTTAATTCAAACAACACTGTGCAGCCTGTAGCGTTGATGCGCTTGGGGGTATTCGTGCCGAAGCCATCAAAGAGCAAAGGAGAAAGTAAAGAGATTGATGCCACCAAAGCGTTTTCCCAGCTGGAGATAGCTAAAGCCGAGGGTTACGATGATATTAAAATCACCGGTCCTCGACTCGATATGGATACTGATTTCAAAACGTGGATCGGTGTCATCTACGCGTTCAGCAAATACGGCTTGTCCTCAAACACCATCCAGTTATCGTTTCAGGAATTCGCTAAAGCCTGTGGTTTCCCCTCAAAACGTCTGGATGCGAAACTGCGTTTAACCATTCATGAATCACTTGGACGCTTGCGTAACAAGGGTATCGCTTTTAAGCGCGGAAAAGATGCTAAAGGCGGCTATCAGACTGGTCTGCTGAAGGTCGGGCGTTTTGATGCTGACCTTGATCTGATAGAGCTGGAGGCTGATTCGAAGTTGTGGGAGCTGTTCCAGCTTGATTATCGCGTTCTGTTGCAACACCACGCCTTGCGTGCCCTTCCGAAGAAAGAAGCTGCACAAGCCATTTACACTTTCATCGAAAGCCTTCCGCAGAACCCGTTGCCGCTATCGTTCGCGCGAATCCGTGAGCGCCTGGCTTTGCAGTCAGCTGTTGGCGAGCAAAACCGTATCATTAAGAAAGCGATAGAACAGCTTAAAACAATCGGCTATCTCGACTGTTCTATTGAGAAGAAAGGCCGGGAAAGTTTTGTAATCGTCCATTCTCGCAATCCAAAGCTGAAACTCCCCGAATAAGTGTGTGCTGGAGGGAAACCGCATTAAAAAGATGTGTGCTGCCGGGAAGGCTTGTCCAATTTCCTGTTTTTGATGTGCGCTGGAGGGGGACGCCCCTCAGTTTGCCCAGACTTTCCCTCCAGCACACATCTGTCCATCCGCTTTTCCCTCCAGTGCACATGTAATTCTCTGCCTTTCCCTCCAGCACACATATTTGATACCAGCGATCCCTCCACAGCACATAATTCAATGCGACTTCCCTCTATCGCACATCTTAGACTTTTATTCTCCCTCCAGCACACATCGAAGCTGCCGGGCAAGCCGTTCTCACCAGTTGATAGAGAGTGAAGCTTGGCTGCCCATTGAAGCAGGAAATCACCAAAATGATTCAGGCTACAACCTGAACGTAGAAGAAATCCGCGTCCTTTATGCGTGGAGGATGCCAAAGCATGTTGTGACACACTTGGCAAAGGAGTAAGCATGCAGAGAATGCTATGTACAAGCATCTACGCATACATTATTATTTTATGCAGCATTTTTAATTAAATTCAAAAATACAGCATAAAGGATGACTTTCGATGAGTGATTCCAGCCAGCTTCACAAGGTTGCTCAAAGAGCAAACAGAATGCTCAATGTTCTGACTGAACAAGTACAGTTGCAAAAGGATGAGCTACACGCGAACGAGTTTTACCAGGTCTATGCGAAAGCGGCACTGGCAAAATTGCCTCTACTGACTCGAGCGAACGTTGACTATGCCGTAAGTGAAATGGAAGAAAAGGGTTATGTTTTCGATAAACGCCCTGCTGGCTCTTCAATGAAATATGCGATGTCAATTCAGAACATCATTGACATATATGAACATCGCGGAGTGCCAAAATACCGGGATCGCTACAGCGAAGCGTATGTGATTTTCATCTCCAATCTTAAAGGCGGTGTGTCAAAAACTGTATCGACGGTTTCTCTGGCGCATGCAATGCGTGCTCACCCTCATCTTCTTATGGAGGATTTAAGGATTCTGGTTATTGACCTTGATCCGCAATCTTCAGCAACGATGTTTTTAAGCCATAAACACTCTATTGGTATCGTAAACGCAACATCTGCACAGGCTATGTTGCAGAATGTAAGCCGTGAAGAGCTGTTAGAGGAGTTTATTGTTCCTTCTGTTGTACCTGGGGTTGACGTTATGCCTGCGTCGATTGACGATGCCTTTATTGCATCCGATTGGAGAGAGCTGTGCAATGAGCATCTACCGGGTCAGAACATCCATGCTGTCCTGAAAGAAAATGTGATTGATAAGCTGAAGAGCGATTATGACTTTATCCTCGTTGATAGTGGTCCTCACCTTGACGCCTTCCTGAAAAATGCTTTGGCCTCGGCCAATATACTGTTTACACCTCTGCCGCCAGCAACTGTCGATTTCCACTCATCGCTTAAATACGTTGCCCGCCTTCCTGAGTTGGTGAAACTCATTTCGGATGAAGGCTGCGAGTGCCAGCTTGCGACTAACATTGGTTTTATGTCCAAGTTGAGTAACAAGGCAGACCATAAGTATTGCCATAGCCTGGCTAAAGAAGTGTTCGGTGGGGATATGCTTGATGTCTTCCTCCCTCGCCTTGACGGTTTTGAACGCTGCGGCGAGTCTTTTGACACTGTTATTTCAGCTAACCCGGCAACGTATGTTGGTAGTGCTGATGCATTGAAGAACGCGCGAATTGCCGCGGAAGATTTTGCTAAAGCAGTTTTTGACCGTATTGAATTTATCAGATCTAACTGAGGAGTAAGAAACCCCCATGTCAAAGAAAAACAGACCAACAATTGGGCGAACCCTTAATCCTTCAATATTAAGCGGATTTGATAGTTCTTCAGCCTCTGGCGATCGAGTCGAGCAGGTATTCAAGTTATCAACTGGTCGCCAGGCCACATTTATTGAAGAGGTAATACCTCCGAACCAGGTAGAAAGCGATACCTTTGTTGATCAGCATAACAACGGGCGTGACCAGGCATCTCTTACGCCAAAATCATTAAAAAGTATCCGAAGCACTATTAAGCATCAGCAATTTTACCCTGCAATAGGTGTTAGACGGGCTACAGGGAAAATTGAAATTTTGGATGGTTCCCGGCGTCGAGCTTCTGCCATCTTAGAGAACGTAGGGTTGCGGGTTTTAGTCACGGACCAGGAGATCAGCGTTCAGGAAGCGCAAAATTTAGCGAAAGACGTTCAGACAGCATTGCAGCACAGCATTCGAGAAATAGGTCTGCGTTTGATGCGAATGAAAAATGATGGGATGAGTCAGAAGGATATTGCAGCCAAAGAAGGGCTGTCTCAGGCGAAGGTCACGCGTGCTCTCCAGGCAGCGAGTGCTCCGGAAGAATTAGTCGCCCTTTTCCCTGTGCAGTCGGAATTAACCTTTTCGGACTACAAAACGCTTTGTGCTGTTGGCGACGAAATGGGGAACAAGAATTTAGAGTTTGATCAGCTTATTCAAAACATATCCCCGGAAATAAACGACATCTTATCCATTGAAGAAATGGCCGAAGATGAAGTTAAAAATAAAATCCTGCGCTTGATAACAAAGGAAGCCTCACTACTCACGGATAAAGGTTCTAAAGATAAGTCCGTAGTTACTGAATTATGGAAATTTGAGGACAAGGATCGCTTTGCAAGGAAGCGCGTGAAAGGCCGTGCATTTTCTTATGAGTTTAATCGACTCTCAAAAGAGTTACAGGAAGAACTCGACAGGATGATTGGGCATATCCTTAGAAAGAGCCTCGATAAAAAGCCGAAGCCTTAAACTTTCGCCATTCAAATTTCACTATTAACTGACTGTTTTTAAAGTAAATTACTCTAAAATTTCAAGGTGAAATCGCCACGATTTCACCTTGGATTTTACCTTCCTCCCCTCCTCCCGAAAAAAATAAAAAAATTGCTTGTCACGAGAAAGTCAACAAGTGACTTTCAATAAAATCTCTTCCGAAAAGGGATTCACACAAGTGCCTTGTGTTTAAGGAAGAGTAAATTGAGTAACTTACGCGAATACCAGAATCGTATTGCAGATATCGCAAAACGCTCTAAAGCTGTGCTTGGCTGGGCAAGCACTGCGCAGTTCGGTACTGATAACCAATTCATTAAAGATGATGCCGCGCGTGCCGCATCTATCCTTGAAGCTGCACGTAAAGACCCGGTTTTTGCGGGTATCTCTGATAATGCCACCGCTCAAATCGCTACAGCGTGGGCAAGTGCACTGGCTGACTACGCCGCAGCACATAAATCTATGCCGCGTCCGGAAATTCTGGCCTCCTGCCACCAGACGCTGGAAAACTGCCTGATAGAGTCCACCCGCAATAGCATGGATGCCACTAATAAAGCGATGCTGGAATCTGTCGCAGCAGAGATGATGAGCGTTTCTGACGGTGTTATGCGTCTGCCTTTATTCCTCGCGATGATCCTGCCTGTTCAGTTGGGGGCAGCTACCGCTGATGCGTGTACCTTCATTCCGGTTACGCGTGACCAGTCCGACATCTATGAAGTCTTTAACGTGGCAGGTTCATCTTTTGGTTCTTATGCTGCTGGTGATGTTCTGGACATGCAATCCGTCGGTGTGTACAGCCAGTTACGTCGCCGCTATGTGCTGGTGGCAAGCTCCGATGGCACCAGCAAAACCGCAACCTTCAAGATGGAAGACTTCGAAGGCCAGAATGTACCAATCCGAAAAGGTCGCACTAACATCTACGTTAACCGTATTAAGTCTGTTGTTGATAACGGTTCCGGCAGCCTACTTCACTCGTTTACTAATGCTGCTGGTGAGCAAATCACTGTTACCTGCTCTCTGAACTACAACATTGGTCAGATTGCCCTGTCGTTCTCCAAAGCGCCGGATAAAGGCACTGAGATCGCAATTGAGACGGAAATCAATATTGAAGCCGCTCCTGAGCTGATCCCGCTGATCAACCACGAAATGAAGAAATACACCCTGTTCCCAAGTCAGTTCGTTATCGCGGCTGAGCACACGGTACAGGCGGCGTATGAAGCACAGCGTGAATTTGGTCTGGACCTGGGTTCCCTACAGTTCCGCACCCTGAAGGAATACCTGTCTCATGAACAGGATATGCTGCGTCTTCGCATCATGATCTGGCGCACTCTTGCGACCGACACCTTTGACATCGCTCTGCCGGTTAACCAGTCCTTTGATGTATGGGCAACCATCATTCGTGGCAAATTCCAGACTGTATATCGCGACATTATTGAGCGCGTTAAATCTTCTGGTGCGATGGGGATGTTTGCTGGTGCTGATGCAGCATCTTTCTTCAAACAGTTGCCGAAGGATTTCTTCCAGCCAGCCGAAGACTATATCCAGACTCCGTATGTTCACTACATCGGTACCCTGTTCGGTAACGTGAAAGTGTACGAAGTACCTGCTGGTATTTGTAAGAACTTAACGACAGAGAACATTCAGTTCAGCTCGATGGATGTGCTGTGCTACGTCCGTGATGAAAATCCGGGTAAAGCAGGCTTCGTGACTGGTGATGCTGTCCCGGCCATCCCGTTCCAGCATCCGACCACTCCGGCGCTGGTCAACCGTACCACGCTGTGGGGTTCGGCTATCAACGATATGCACCCACGCAACGGCGCTGATTACTTCACTCGTGTAACGCTGACAATGGCCAAAAAAGGCGGGCTTAACTTCATTAGCGGCGACACGATTGATGCCGGTGACTCTGAGTAATCAGGGGAAGTTCTCCGTTTAACATAGCGCCCCCGTGCGGGGCGCATAACAGGGAAAGTTATGTCTCAATATTCAATTCAACAGTCATTAGATAATGCATCCGGCGTCGCGGTTAGCCCGATCAATGCCGATGCGACGTTATCTACCGGTGTTGCATTAAATAGCAGCTTGTGGGCTGGTATTGGCGTATTTGCGCGTGGCAAGCCGTTTACTGTTCTTGCGGTTACTGAGTCCAATTACGAAGATGTTCTCGGCGAACCGCTGAAGCCGTCTTCCGGCTCACAGTTCGAACCAATTCGCCATGTATACGAAGCTATTCAGCAAACGTCTGGTTACGTTGTTCGCGCTGTTCCGGATGATGCGAAGTTCCCGATTATTATGTTCGATGAATCAGGCGAACCGGCTTACAGTGCGTTGCCATACGGTTCTGAAATTGAACTTGATAGTGGCGAAGCCTTTGCTATCTACGTTGATGATGGTGATCCGTGTATTTCACCTACCCGTGAGTTAACCATCGAAACGGCAACAGCGGACAGCGCGGGTAATGAACGCTTCCTCTTAAAACTGACCCAGACGACTTCGCTCGGTGTGGTAACGACCCTGGAGACACACACTGTGTCTTTGGCGGAAGAAGCGAAAGATGACATGGGCCGCTTGTGTTATCTGCCTACGGCTCTGGAAGCCCGTTCTAAATATCTGCGCGCGGTTGTTAATGAAGAGCTGATTTCGACGGCGAAAGTAACAAATAAAAAATCGTTGGCGTTCACTGGTGGTACCAACGGTGATCAGTCGAAAATCTCAACCGCTGCGTACCTGCGTGCGGTGAAAGTGCTGAACAATGCGCCGTACATGTACACCGCTGTTCTTGGCCTGGGCTGCTATGACAATGCGGCTATCACCGCATTAGGTAAAATCTGTGCAGATCGCCTGATTGATGGCTTCTTTGATGTCAAACCGACATTAACGTACGCAGAAGCACTACCAGCTGTTGAGGATACCGGTTTACTTGGTACCGATTATGTAAGCTGTTCTGTCTATCACTACCCGTTCTCCTGCAAAGACAAATGGACCCAATCCCGTGTGGTCTTTGGTCTGTCTGGCGTGGCGTATGCGGCGAAAGCTCGTGGCGTCAAGAAAAACTCTGATGTCGGTGGTTGGCATTACTCACCGGCTGGTGAAGAACGTGCCGTCATTGCTCGTGCGTCAATTCAACCGCTGTATCCGGAAGATACCCCGGACGAAGAAGCAATGGTCAAGGGCCGTCTCAATAAAGTATCTGTTGGCACCTCTGGCCAGATGATCATCGACGATGCTTTAACTTGCTGCACGCAGGATAACTATCTGCACTTCCAGCACGTCCCATCCCTGATGAATGCAATCAGCCGTTTCTTTGTCCAGTTAGCCCGACAGATGAAGCATAGCCCGGACGGTATTACTGCGGCTGGCCTGACTAAAGGGATGACCAAACTTTTAGATCGCTTTGTCGCCTCCGGCGCTCTGGTGGCTCCTCGTGATCCTGATGCTGACGGTACAGAACCGTATGTGCTGAAAGTTACGCAGGCGGAATTCGATAAATGGGAAGTAGTCTGGGCCTGCTGCCCGACTGGCGTAGCCCGTCGTATCCAGGGCGTACCGCTGCTTATTAAGTAAGGGAATACAATGAGCAAAAACTTTTTTCAATCCGGGGCATTTTTGGGGAATGGACTGTCCCGTTTCGCTTTGAACTCTGATCCTGTGCAGCTGATGGAGTCTGCCCGAGCAAGCGCACAACCGCCAACAGATCCAGTTATTAATAATAATCCGGAACCGGCGGCACAGATTAACGAGAACGTTCCACCTGACCAGGCTCCTGAGCAAATCCTGGAAGGGAAAGAAGGTAAAGAATGGACCGTCGAACAGGCGCACCAGATGATTCTGGAAGCTGCAAATCGAAGTGCTATGCAGAATGCGTTGAGTGATGCGGCCGACGCCGTTTTCGCCTGGGCTGATAGCGGTGATCTGACTTTCGACTCCCTTGATGGTTTCGTTCAAGCTATCGCTGGTATCTCTGACGACGACGACTCCGAAGTTACAGAAGAACAGGACGATGCCTATAACGAAGCATGGGCAAATGTTGCTGACTTCCTCGCAGCATGCGGTGTAGATGATGACCTGATCGAAGCACTGGCTGACGATGAAGACGATGACGCTGCTGCTGATGTTGGTGCCTCTATCGCTAGTTTAGATAGCGACGACCGCGACGAACTGGAAGCGGCGTTTGTTGTTGCTGGCACTTCTGATGAAATGCTGACTGAAGCATTTAAGAAGGTTGTTCGTAACGGTGAGATCAAACTCATCCGTAAACGCCTGCGTAAAAAACGTCTGACTGCGGCTCAAAAATCGGCGCTAAAAAAAGCGCGTCGAAAAGCCCAGACTGGCGCGGCAAAACTTGCCCGCAAAAAGTCAATGAAACTGCGCCGTAAGCGCCTTGGCTAAAGGAGGAGGCCGGGGAACTCCGGCCTTTAACTTGAATGGCTCCTATAGCTTATGGGGTTTACAGCCAGGCTGACGGTGTATCGCCATATCTGAAAGTTACTTTAACGAACTCTCAGTACCAGGTTACCGGATATATCAGCCAGGGAGCGGCAATGAACATGGCCCAGAATTGGGAAGCGCCGTTTACCGGTATGTCCATGGGATCTGTTTCTGGTGCTCTGGGTGGTTTTGTGCAAGTAGGTACTGAAACAACGTCGGTTGCCCGTTGGAATAGCTTAATGGTTTGGGAAGGGGGGACTCCGCCGACGTTCACGCTGCCTGTAACTTTCATTGCTTTGAACAATCCATTCATTGAAGTTTCAGGCGCTATCGCCGCGTTGACAGCCATGATTAGCCCGGAACTAAAAGCGGCCAATGTTGGTGGTCGAATCCCGGAGCGCGTGACGCTAAACATTGGTCGCCGGATCAACATCACCGATGTCGCCATCCAGGACTTAAGTTTTGATCTCGATGCGCCAAGGGACAGTAATGGATATTTCCTGAAAAACACCGTCAACCTCCAGTTGACCGGTTCTTCGATATATAACAGCTCCGATATTGTTCGGGCGTTCCAGTAAAAGGATTTTATATGGGGCACAATAACACTAAGGGAAACCGTAAATTTATTAAGGGCCGCTATACTGCCAACGCGGCCAAAGGCGAACGACTGGTATCTTCTGAATTCCTGCTCACTTTTGCAGGCCATGAAGATATCAGCGTACTGGTTCGCACGTCGCAAATTCCTGAAATGACCCGCGAGGATGTGGAGGACTATGGTCCGAATGGTGTGAAGTTCAACCAGCACGGACCAATTCGAAACTCTGGGGAAATCCAGGTCCAGTGCGTGGAGACTATCGAAGGCGATATTCTTCAGTTCATCAAGGATCGCATTGCGGCGAAGGACTATGTTGATATCACGATGGCTGCTACCCCTGAATCCAAATCTTCCGGGGTTAACGCTGTGACAAAAGCTGCTACAACAATTGAAATGTTGGACTGCAAAATCTACAGTGATGCAATCGACTTTAGTACCGAAGATGTGACTGCTGCTGTGCGCCCGTCACTTCGTATCGTCTACAACTGGATTGAGTGGGATTAAGAGTCATCCCTTGTATTTTAAAGCTCCTTCGGGAGCTTTTTTGTGCTTAAATCATGTCAATATAGCGAAATTTTGAGCATATTATGGAAATTGATTTTTCATACTCTCCTGAAACGATAGAACGAAGATTCGAAATAATTGGATGCAAAACTATTTCCGAGGAGCATTATTGGATTCTCTATGATGCCAATACATGGTTATGTGCCTTAGCAGAATGTCAGCCATCGTTATGTGTAGGGGAGGGGGCTTTTCGACATAAGGTGCTGGCTACACTTGAAGTGAACACGTTACGATATTGGTGTGTAGAAATACTTAGTGATAACAAAGAATTGCACTTAT"
+        },
+        {
+            "id": "Y302.003.01.02",
+            "name": "Enterobacteria phage P1 mod1902::IS5 c1.100 rev dmt(del)MB mutant, complete genome",
+            "source": "AF234173",
+            "sourceStart": 56903,
+            "sourceEnd": 57041,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "CTATTTAATGCAACACCGGTAGATAACGTCGCATCGGCATTGATCGGGCTAACCGCGACGCCGGATGCATTATCTAATGACTGTTGAATTGAATATTGAGACATAACTTTCCCTGTTATGCGCCCCGCACGGGGGCGCT"
+        },
+        {
+            "id": "Y302.006.01.01",
+            "name": "Enterobacteria phage P1 mod1902::IS5 c1.100 rev dmt(del)MB mutant, complete genome",
+            "source": "AF234173",
+            "sourceStart": 32221,
+            "sourceEnd": 32651,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "ACCTTGGTTTAAGAGAACTCGGTACCAGCGGTGAAAAGATCCCCCTGTTGAGCACGGCTAACACATGGAGTGCACGCCAGACTTTCAACGGCGGGATCACCGGGGCGCTGACAGGGAACGCCGATACCGCAACGAAATTGAAAACAGCCAGAAACATTAATGGCGTCAGGTTCGATGGTTCTGGTGACATTAATATCAATACTCTGGTATCGCGCGGTCGCGTAACGGCCCTGGAGGCGAATGCACAGGGAACATCCGGGATTCAGCTGTATGAGGCATACAACAATGGCTACCCTTCCCCCTATGGCAATGTGCTTCACCTTAAAGGTGCCACCGCTGCTGGCGAAGGTGAGTTATTCATTGGCTGGAGTGGCACGAGCGGTGCCCATGCGCCCGTACATATCCGTTCGCGGCGGGATACTGATTCTGCC"
+        },
+        {
+            "id": "Y302.006.03.01",
+            "name": "Cloning vector pCYPAC6, complete sequence",
+            "source": "AF133437",
+            "sourceStart": 5696,
+            "sourceEnd": 5773,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sequence": "CCATCCAAAATTTCAATTTTCCCTGTAGCCCGTCTAACACCTATTGCAGGGTAAAATTGCTGATGCTTAATAGTGCTT"
+        },
+        {
+            "id": "Y302.007.01.01",
+            "name": "Cloning vector pMA7SacB, complete sequence",
+            "source": "KT285942",
+            "sourceStart": 3704,
+            "sourceEnd": 5645,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "GGAGCAAATAGCAAAACGAAAGCAACGCGGACTTTGTAAGGTTCCTGGACTTTTGCTAGAATTTTGATCACATGTTCCAACAAGAGTTAACCCATAATAATGAGAATAAACGTATTATCGAAGTAGAGTGAGCGGATAAAGCACGCAGAAGCCGAAAGAACGAGCGCAGAGAGTCAATGAGCGAGGAAGCGGAAGAGCGCCTGATGCGGTATTTTCTCCTTACGCATCTGTGCGGTATTTCACACCGCATAGGGTCATGGCTGCGCCCCGACACCCGCCAACACCCGCTGACGCGCCCTGACGGGCTTGTCTGCTCCCGGCATCCGCTTACAGACAAGCTGTGACCGTCTCCGGGAGCTGCATGTGTCAGAGGTTTTCACCGTCATCACCGAAACGCGCGAGGCAGAAGGAGATGGCGCCCAACAGTCCCCCGGCCACGGGGCCTGCCACCATACCCACGCCGAAACAAGCGCTCATGAGCCCGAAGTGGCGAGCCCGATCTTCCCCATCGGTGATGTCGGCGATATAGGCGCCAGCAACCGCACCTGTGGCGCCGGTGATGCCGGCCACGATGCGTCCGGCGTAGAGGATCTGCTCATGTTTGACAGCTTATCATCGATGCATAATGTGCCTGTCAAATGGACGAAGCAGGGATTCTGCAAACCCTATGCTACTCCGTCAAGCCGTCAATTGTCTGATTCGTTACCAATTATGACAACTTGACGGCTACATCATTCACTTTTTCTTCACAACCGGCACGGAACTCGCTCGGGCTGGCCCCGGTGCATTTTTTAAATACCCGCGAGAAATAGAGTTGATCGTCAAAACCAACATTGCGACCGACGGTGGCGATAGGCATCCGGGTGGTGCTCAAAAGCAGCTTCGCCTGGCTGATACGTTGGTCCTCGCGCCAGCTTAAGACGCTAATCCCTAACTGCTGGCGGAAAAGATGTGACAGACGCGACGGCGACAAGCAAACATGCTGTGCGACGCTGGCGATATCAAAATTGCTGTCTGCCAGGTGATCGCTGATGTACTGACAAGCCTCGCGTACCCGATTATCCATCGGTGGATGGAGCGACTCGTTAATCGCTTCCATGCGCCGCAGTAACAATTGCTCAAGCAGATTTATCGCCAGCAGCTCCGAATAGCGCCCTTCCCCTTGCCCGGCGTTAATGATTTGCCCAAACAGGTCGCTGAAATGCGGCTGGTGCGCTTCATCCGGGCGAAAGAACCCCGTATTGGCAAATATTGACGGCCAGTTAAGCCATTCATGCCAGTAGGCGCGCGGACGAAAGTAAACCCACTGGTGATACCATTCGCGAGCCTCCGGATGACGACCGTAGTGATGAATCTCTCCTGGCGGGAACAGCAAAATATCACCCGGTCGGCAAACAAATTCTCGTCCCTGATTTTTCACCACCCCCTGACCGCGAATGGTGAGATTGAGAATATAACCTTTCATTCCCAGCGGTCGGTCGATAAAAAAATCGAGATAACCGTTGGCCTCAATCGGCGTTAAACCCGCCACCAGATGGGCATTAAACGAGTATCCCGGCAGCAGGGGATCATTTTGCGCTTCAGCCATACTTTTCATACTCCCGCCATTCAGAGAAGAAACCAATTGTCCATATTGCATCAGACATTGCCGTCACTGCGTCTTTTACTGGCTCTTCTCGCTAACCAAACCGGTAACCCCGCTTATTAAAAGCATTCTGTAACAAAGCGGGACCAAAGCCATGACAAAAACGCGTAACAAAAGTGTCTATAATCACGGCAGAAAAGTCCACATTGATTATTTGCACGGCGTCACACTTTGCTATGCCATAGCATTTTTATCCATAAGATTAGCGGATCCTACCTGACGCTTTTTATCGCAACTCTCTACTGTTTCTCCATACCCGTTTTTTTGGGCTAGCAGGAGGAATTCACCATGGTAC"
+        },
+        {
+            "id": "Y302.007.08.02",
+            "name": "Escherichia phage P1 mod749::IS5 c1.100 mutant, complete genome",
+            "source": "AF234172",
+            "sourceStart": 207,
+            "sourceEnd": 306,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "ATGGGATATTCAACTGCTAAAGTGTCCACTCATCTTGAGCTTGAGAAAAACCGTGGTTACTGGCGGGCAAAAGGGTTTGATCGTGATAGTTGCCAACTGT"
+        },
+        {
+            "id": "Y302.007.07.01",
+            "name": "Enterobacteria phage P1 mod1902::IS5 c1.100 rev dmt(del)MB mutant, complete genome",
+            "source": "AF234173",
+            "sourceStart": 17136,
+            "sourceEnd": 17236,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "CCGTATTTAATCGGCGCTCGGTGAGATGTTATTGCCCTAATGTATTTCAATATTTCGCTGACACTTGAACAGCGAAACACCCCCATAGATAGCTTGTTCAT"
+        },
+        {
+            "id": "Y302.007.04.01",
+            "name": "Cloning vector pBAD24hyg, complete sequence",
+            "source": "DQ266354",
+            "sourceStart": 1333,
+            "sourceEnd": 1817,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "ATCCTCTAGAGTCGACCTGCAGGCATGCAAGCTTGGCTGTTTTGGCGGATGAGAGAAGATTTTCAGCCTGATACAGATTAAATCAGAACGCAGAAGCGGTCTGATAAAACAGAATTTGCCTGGCGGCAGTAGCGCGGTGGTCCCACCTGACCCCATGCCGAACTCAGAAGTGAAACGCCGTAGCGCCGATGGTAGTGTGGGGTCTCCCCATGCGAGAGTAGGGAACTGCCAGGCATCAAATAAAACGAAAGGCTCAGTCGAAAGACTGGGCCTTTCGTTTTATCTGTTGTTTGTCGGTGAACGCTCTCCTGAGTAGGACAAATCCGCCGGGAGCGGATTTGAACGTTGCGAAGCAACGGCCCGGAGGGTGGCGGGCAGGACGCCCGCCATAAACTGCCAGGCATCAAATTAAGCAGAAGGCCATCCTGACGGATGGCCTTTTTGCGTTTCTACAAACTCTTTTGTTTATTTTTCTAAATACATTC"
+        },
+        {
+            "id": "Y302.008.01.02",
+            "name": "Enterobacteria phage P1 mod1902::IS5 c1.100 rev dmt(del)MB mutant, complete genome",
+            "source": "AF234173",
+            "sourceStart": 65640,
+            "sourceEnd": 65784,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "TTGTATCTCCATTTGGTGATAATTCCGAAGTTATCGCTATGCATGGAAATGGTTTTATCCTTGTTGAAGCAAAGCGCGAAACAAAAATTCTTCCCCCGCCGGTTATCCAGCGAGCTATTCAAGAAAAAATTGAAAAACTTGGCA"
+        },
+        {
+            "id": "Y302.008.01.01",
+            "name": "Enterobacteria phage P1 mod1902::IS5 c1.100 rev dmt(del)MB mutant, complete genome",
+            "source": "AF234173",
+            "sourceStart": 47866,
+            "sourceEnd": 51993,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "GCACTAAAAACAAACGAATCAGCATAAATCCACTCCTACGCATGGATTAATAGTCATTGATCGCAAAGGCGTAAACGTGCCCAAGGTATTTCGTATAATCGGTACAAATCTCCTTTACGCTTGATGCTGCATTAACAGTCCCAGCCATAAATAATAACGGTAGTAATAGTTTTCTCATTATAACCTCACCTGCCTTATAACTCATTTAGGGTACATATTTTCGCCTTTAAAAAAAAGAGGTTATTAGATCCAACTGTGTATTTATTAAACAAATAATGCTCTAATAAATTTGTATTTTTAAGTCGCGAATGCGATCTTTTCGCATCATATTGACCTTTTAATCGTTCAGGCTTATAGTTCCACCGTCGTAGCAAATTCTGCGACCGGGTTTGACAGCCTGAATGTTAGTGCGGACAACCGCAGATTTCCGATATTGCGGTATTTTTGTGTCCGTAAACCGCGTTACGCCCGAATTATGGTGGGGCGTGATGGGGAGGCTTCGGCCTGCTGGTTTCACTAACGCCAGTCTGTCAACCCTGTCACGTCCTGCCACCTGTTTGACAGCGGGTAGCAGGTTGTTAAACCTGTTAGTGAGGCCGTAACTATGGTTAATGCCAATCCTTGCACACGCCCAGAATTCATCTGGCGTTTCTATTCCTGTAAAAAACACCACTATCACTTCGTTATCGCAGCAACTGAAGACGAAGCACGCTCTCAATTGCCTGATGGCCCCTGCATTTTTACTGCCCGTTTTTCTACTAACTCGCGCAATTCACTTAGTTACTGGAACCTCCCCTTCTCTGCCGACGTTCAGGGGGGTTTATGAAAAAACCTCTCGTCACCCGTAATGAAATAGCCGAAGCGATCGCTTTGCATACTGCCTGTATGCCGACACGGGAGATCCCCGGCGCAATTGCTAACTATTTCATGATAACCAGGCGTTTTTATACCCGAACAGATAAGGCTGTGATCAACAGGCTACTGATAGCCGAGATCAGGGATTATTTGATTGAACAAGGACGTCTACGTTACGCAACAGTGGCAGCAGAAATAAGAAAGGAGGCACATAGAATGACCGGTAATAATTTGAATGTTGAAAAAACAGCACCTGTTACGTCAGCTACGCCAGCACCAGCCGTGAATATCATCCCCAACACCGGAGACACAATCGACAGCCAAACATTGTTGAAGATGGTCAATGAGGCACGCAAGTTATGTGGAGAACCAGAGGTTAGAAACAATAAATTCATCGAAAAAATACTCGATGAACTTGAAGGTGAATTTTACACAAAAAGTGCAAAATCCCATGGCACAAGGGCTGGGCGCTCTTTTGAGGTCATCACCATGACCTACAAACAAGCCCTGCGAGTCGCCGCGCGCGAGTCAAAAGCGGTCCGCCGTTCGCTGATCGACAAACTGGAAGAATTGCAGCAGGCAAACTCCCCTGCCCCATCGATCCCCCAAACATTACCAGAAGCTCTACGCCTGGCTGCCGAGTTGGCAGAACAGAAAATGCAGCTGGAACAACAGCTGGTGGCCGCAGCCCCTAAAGTAGATTTTGCCGACCGGGTATCAGTGGCTAATGGAATCCTGATCGGGAACTTTGCAAAGGTCGTTGGACTTAAGCAAAACGCCCTTTTCTCATGGTTGCGCCAGAACGGCATTCTCATGGCTTTTGGTGCGCGCAAAAACGTACCGCGCCAACAGTACATCAACGCCGGGTATTTCACGGTGAAAGAAGTGGTGCTGGATGATGAAAATGGCTACCAGATACGGCTGACGCCCCAATTAACGGGTAAAGGCCAGCAGTGGTTAACTCGCAAGCTACTTGATGCTGGTTTGTTAAAACCAGTAGCAATAGGTTAACAAAAGAAAAAAACCTGCCAGCAAACTGGCAGGTTTCTGAGCAGATCGTCCAACCCGATCTGGATCGGGTCAGAAAAATTTGCTCTAATAAATTTCGTTTTCTAAGTGCAAAGAATCACCATTTCGAGCTGGTGATTGAAGGTTGATGCAAATTTGGAGAAAAAATGCAACAAACATTCAATGCGGATATGAATATATCAAACCTTCATCAAAATGTCGATCCTTCAACCACTCTGCCCGTTATTTGTGGTGTTGAAATTACGACCGACCGCGCTGGCCGTTACAACCTTAATGCTCTACACAGAGCGAGCGGACTCGGTGCCCATAAAGCGCCAGCTCAATGGCTAAGAACGCTGTCAGCTAAACAGCTCATCGAAGAGCTTGAAAAAGAAACTATGCAGAATTGCATAGTTTCGTTCGAAGGCCGTGGCGGCGGCACTTTTGCCCATGAATTGCTCGCTGTGGAGTACGCAGGCTGGATTTCTCCCGCGTTTCGGCTGAAGGTAAACCAGACATTTATCGACTATCGAACCGGAAGATTACAACCTGCTATTCCGCAGAGTCTCCCTGAAGCTCTCCGTTTGGCTGCCGACCTGGCAGAGCAAAAGCAACGGCTGGAGCAAAAAATGCTTATGGATGCACCTAAAGTCGAATTCGCTGAACGCGTTGCTACCGCCAGCGGGGTTCTAATCGGCAACTATGCCAAAGTGCTCGGCCTGGGCCAAAACTATCTCTTCACCTGGTTGCGTGATAACGGAATTCTGATCGCAACCGGTGAACGCAGGAACGTCCCCAAACAAGAATACATATCTCGTGGGTATTTCACCCTTAAAGAAACCGTGATCGATACAAGCAATGGAAGCAGGATTTCTTTCACGACTCGTATAACCGGCAAAGGTCAGCAGTGGCTGATGAAGCGATTGCTTGATGCTGGTGTGCTGGTACCTGTCGCGGCAACGCGCTAACAGACGTAGTAAGAACCACCAGCATTGTAATGCTGGCTAAAGTCACTTTCCTGAGCTGTATAACGATGAGCGATTTTACTTTTTCTGGCTATGAATTGGCCTGCTTTGTAACACACTCCGGTCTATCCCGTAGCGCCGGGCATATCCTGTCGCAATGTGCAAATCTCGCGGCAACAACCAGTGAATACTTCATTCACAAGCCTCACCGCCTGATCGCGGCAGAAACTGGTTATAGCCAATCAACCGTCGTTCGTGCATTCCGTGAAGCTGTAAACAAAGGAATTCTGTCTGTAGAGATTGTTATCGGCGATCACCGTGAACGTCGCGCTAACCTGTACCGGTTTACACCATCCTTTTTGGCCTTCGCACAACAAGCCAAAAATGCGCTGATAGAAAGCAAATTAAAGATCTCTTCAGCGGCAACCAAGGTTAAAGCTGTTCTCGCTAAGACATTGGCTTTATTTAATTTTTTATCCACACCCCCATGTCAAAATGATACCCCCTCCCCCTGTCAGGATGACGTGGCAATAAAGAATAAGAAGTCACAAGTTAAAAAAACAAAAAGATCAGTTTCCGGCGGTGCCGGAACAACCAGCCTCAAAAAATTGACTTCATGGATCGCTAAGGCAAAAGCAAAGGCTGACAATCTGCGGTTATCCAAAAAACGCACTCAAAAACATGAGTTCAAGCAGAAAGTAGAGGCGGCTGCGCGGAAATATGCTTACCTGAAGAACAAGCGTTCGCCTGATATTGGCGGGATATCAAACTTCGATAACCTACCGCATTGCATGACGGTAAACGAAGCTCTTAATGCGGTTTTAGCCAAAAATAAAGATAACGAACAATGGGGTATACCGGCAGGATTCAGAGGGTAATGAATTGCTCTAATTATAACCATGCATACTTTCAACACCTCTAGTTTGCCATGAGGCAAACTCATAGGTGTCCTGGTAAGAGGACACTGTTGCCAAAACTGGACGCCCCATTATTGCAATTAATAAACAACTAACGGACAATTCTACCTAACAATAAGTGGAGTTAACATGTTGAACCGAAGAACATTTAATGTATTCTGCGATGAATCCTGTCACCTACTAAATGATCATAATAAAGTCATGGTATTGGGTGCGCTTTGGTGTCCCGGCACTATCACAAAAAAAATTGCTAGAGACATCAAGGAATTAAAATTAAAACACAATCTAAAACCTGATTTCGAAATCAAGTGGACTAAAGTATCTGCGTCCAAAGTTGAATTTTACTTAGATGTCGTAGATTACTTCTTCAGCAACCCTGCATT"
+        },
+        {
+            "id": "Y302.009.04.01",
+            "name": "Cloning vector pCYPAC6, complete sequence",
+            "source": "AF133437",
+            "sourceStart": 4320,
+            "sourceEnd": 4442,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "GCAAAAGGATGAGCTACACGCGAACGAGTTTTACCAGGTCTATGCGAAAGCGGCACTGGCAAAATTGCCTCTACTGACTCGAGCGAACGTTGACTATGCCGTAAGTGAAATGGAAGAAAAGGG"
+        },
+        {
+            "id": "Y302.009.01.01",
+            "name": "Enterobacteria phage P1 mod1902::IS5 c1.100 rev dmt(del)MB mutant, complete genome",
+            "source": "AF234173",
+            "sourceStart": 31918,
+            "sourceEnd": 32361,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "TTCCGGAGTCTCACTGACTCCATCGACACCAGTACACCAATGGGGCGCTTTTTCTTTCACGTAATGGGGGCGCTGGCAGAAATGGAACGTGAGCTTATCGTTGAACGTACACGCGCTGGACTTGATGCAGCTCGCGCAGAAGGTCGTATAGGTGGGCGTCGGCCTAAATACCAAGAAGAAACATGGCAGCAAATGCGGCGATTGCTGGAGAAGGGCATCCCCCGTAAGCAGGTTGCAATCATCTATGATGTGGCTGTTTCCACGCTTTATAAGAAGTTTCCGGCGTCATCATTTCAATCCTAAACCTTGGTTTAAGAGAACTCGGTACCAGCGGTGAAAAGATCCCCCTGTTGAGCACGGCTAACACATGGAGTGCACGCCAGACTTTCAACGGCGGGATCACCGGGGCGCTGACAGGGAACGCCGATACCGCAACGAAATTGA"
+        },
+        {
+            "id": "Y390.007.01.01",
+            "name": "T-DNA vector pDs-Lox, complete sequence",
+            "source": "AY836546",
+            "sourceStart": 4565,
+            "sourceEnd": 8888,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sequence": "CGCGCTATATTTTGTTTTCTATCGCGTATTAAATGTATAATTGCGGGACTCTAATCATAAAAACCCATCTCATAAATAACGTCATGCATTACATGTTAATTATTACATGCTTAACGTAATTCAACAGAAATTATATGATAATCATCGCAAGACCGGCAACAGGATTCAATCTTAAGAAACTTTATTGCCAAATGTTTGAACGATCTGCAGGTCGACGGATCTGCACCCAATCGGCAGGCACGGGCGGCGATCTCCAATCTGCGGGATCAGTCAGATCACCCGAGTGCGTGGGCATGACAATCGTGCCCTGGGGACCAACACAATCCAGAAGGGCCTGAATCACTGCGACCGGCCCTCCCGCGACCCAGCCGAGCGAGCTTAGCGAACTGTGGACGAGAACTGTGCCACCAAGCGTAAGGCCGTTCTCTCGCATTTGCCTTGCTAGGCTCGCGCGAGTTGCTGGCTGAGGCGTTCTCGAAATCAGCTCTTGTTCGGTCGGCATCTACTCTATTCCTTTGCCCTCGGACGAGTGCTGGGGCGTCGGTTTCCACTATCGGCGAGTACTTCTACACAGCCATCGGTCCAGACGGCCGCGCTTCTGCGGGCGATTTGTGTACGCCCGACAGTCCCGGCTCCGGATCGGACGATTGCGTCGCATCGACCCTGCGCCCAAGCTGCATCATCGAAATTGCCGTCAACCAAGCTCTGATAGAGTTGGTCAAGACCAATGCGGAGCATATACGCCCGGAGCCGCGGCGATCCTGCAAGCTCCGGATGCCTCCGCTCGAAGTAGCGCGTCTGCTGCTCCATACAAGCCAACCACGGCCTCCAGAAGAAGATGTTGGCGACCTCGTATTGGGAATCCCCGAACATCGCCTCGCTCCAGTCAATGACCGCTGTTATGCGGCCATTGTCCGTCAGGACATTGTTGGAGCCGAAATCCGCGTGCACGAGGTGCCGGACTTCGGGGCAGTCCTCGGCCCAAAGCATCAGCTCATCGAGAGCCTGCGCGACGGACGCACTGACGGTGTCGTCCATCACAGTTTGCCAGTGATACACATGGGGATCAGCAATCGCGCATATGAAATCACGCCATGTAGTGTATTGACCGATTCCTTGCGGTCCGAATGGGCCGAACCCGCTCGTCTGGCTAAGATCGGCCGCAGCGATCGCATCCATGGCCTCCGCGACCGGCTGCAGAACAGCGGGCAGTTCGGTTTCAGGCAGGTCTTGCAACGTGACACCCTGTGCACGGCGGGAGATGCAATAGGTCAGGCTCTCGCTGAATTCCCCAATGTCAAGCACTTCCGGAATCGGGAGCGCGGCCGATGCAAAGTGCCGATAAACATAACGATCTTTGTAGAAACCATCGGCGCAGCTATTTACCCGCAGGACATATCCACGCCCTCCTACATCGAAGCTGAAAGCACGAGATTCTTCGCCCTCCGAGAGCTGCATCAGGTCGGAGACGCTGTCGAACTTTTCGATCAGAAACTTCTCGACAGACGTCGCGGTGAGTTCAGGCTTTTTCATATCTGATTGCCCCCGGACGAGCGCCAAGCTCCCGGGGATCGGCTAGCAATGGAGATAGGGATGAAAACGGTCGGTAACAGTCGGTAAAATACCTCTACCGTTTTCATTTTCATATTTAACTTGCGGGACGGAAACGAAAACGGGATATACCGGTAACGAAAACGAACGGGATAAATACGGTAATCGAAAACCGATACGATCCGGTCGGGTTAAAGTCGAAATCGGACGGGAACCGGTATTTTTGTTCGGTAAAATCACACATGAAAACATATATTCAAAACTTAAAAACAAATATAAAAAATTGTAAACACAAGTCTTAATTAAACATAGATAAAATCCATATAAATCTGGAGCACACATAGTTTAATGTAGCACATAAGTGATAAGTCTTGAGCTCGAATTCCTTTTTAGTTACCTATACCTGATTTTATTATTCGTTAAAATAGTACAGTGACCCACAATTACAAAATTACCATTCATCAATTTGCATATAATATTACAATAGCTAAGAATTTCGTCATCGCTGAATACAGTTACATTTTACAATTTGGACTTTCCGCCCTTCTTGGCCTTTATGAGGATCTCTCTGATTTTTCTTGCGTCGAGTTTTCCGGTAAGACCTTTCGGTACTTCGTCCACAAACACAACTCCTCCGCGCAACTTTTTCGCGGTTGTTACTTGACTGGCGACGTAATCCACGATCTCTTTTTCCGTCATCGTCTTTCCGTGCTCCAAAACAACAACGGCGGCGGGAAGTTCACCGGCGTCATCGTCGGGAAGACCTGCCACGCCCGCGTCGAAGATGTTGGGGTGTTGTAACAATATCGATTCCAATTCAGCGGGGGCCACCTGATATCCTTTGTATTTAATTAAAGACTTCAAGCGGTCAACTATGAAGAAGTGTTCGTCTTCGTCCCAGTAAGCTATGTCTCCAGAATGTAGCCATCCATCCTTGTCAATCAAGGCGTTGGTCGCTTCCGGATTGTTTACATAACCGGACATAATCATAGGTCCTCTGACACATAATTCGCCTCTCTGATTAACGCCCAGCGTTTTCCCGGTATCCAGATCCACAACCTTCGCTTCAAAAAATGGAACAACTTTACCGACCGCGCCCGGTTTATCATCCCCCTCGGGTGTAATCAGAATAGCTGATGTAGTCTCAGTGAGCCCATATCCTTGTCGTATCCCTGGAAGATGGAAGCGTTTTGCAACCGCTTCCCCGACTTCTTTCGAAAGAGGTGCGCCCCCAGAAGCAATTTCGTGTAAATTAGATAAATCGTATTTGTCAATCAGAGTGCTTTTGGCGAAGAATGAAAATAGGGTTGGTACTAGCAACGCACTTTGAATTTTGTAATCCTGAAGGGATCGTAAAAACAGCTCTTCTTCAAATCTATACATTAAGACGACTCGAAATCCACATATCAAATATCCGAGTGTAGTAAACATTCCAAAACCGTGATGGAATGGAACAACACTTAAAATCGCAGTATCCGGAATGATTTGATTGCCAAAAATAGGATCTCTGGCATGCGAGAATCTGACGCAGGCAGTTCTATGCGGAAGGGCCACACCCTTAGGTAACCCAGTAGATCCAGAGGAATTCATTATCAGTGCAATTGTTTTGTCACGATCAAAGGACTCTGGTACAAAATCGTATTCATTAAAACCGGGAGGTAGATGAGATGTGACGAACGTGTACATCGACTGAAATCCCTGGTAATCCGTTTTAGAATCCATGATAATAATTTTCTGGATTATTGGTAATTTTTTTTGCACGTTCAAAATTTTTTGCAACCCCTTTTTGGAAACAAACACTACGGTAGGCTGCGAAATGTTCATACTGTTGAGCAATTCACGTTCATTATAAATGTCGTTCGCGGGCGCAACTGCAACTCCGATAAATAACGCGCCCAACACCGGCATAAAGAATTGAAGAGAGTTTTCACTGCATACGACGATTCTGTGATTTGTATTCAGCCCATATCGTTTCATAGCTTCTGCCAACCGAACGGACATTTCGAAGTATTCCGCGTACGTGATGTTCACCTCGATATGTGCATCTGTAAAAGCAATTGTTCCAGGAACCAGGGCGTATCTCTTCATAGCCTTATGCAGTTGCTCTCCAGCGGTTCCATCCTCTAGAGGATAGAATGGCGCCGGGCCTTTCTTTATGTTTTTGGCGTCTTCCATTTTACCAACAGTACCGGAATGCTAATGTCACTGCGAGCGACATTCAAGAATGTAACACAAAGGAATTCCAAGCTCGGATCCATATAACTTCGTATAATGTATGCTATACGAAGTTATTAGGTACCCTATTTCTCAGGCACATGTATCAAGTGTTCGGACGTGGGTTTTCGATGGTGTATCAGCCGCCGCCAACTGGGAGATGAGGAGGCTTTCTTGGGGGGCAGTCAGCAGTTCATTTCACAAGACAGAGGAACTTGTAAGGAGATGCACTGATTTATCTTGGCGCAAACCAGCAGGACGAATTAGTGGGAATAGCCCGCGAATATCTAAGTTATGCCTGTCGGCATGAGCAGAAACTTCCAATTCGAAACAGTTTGGAGAGGTTGTTTTTGGGCATACCTTTTGTTAGTCAGCCTCTCGATTGCTCATCGTCATTACACAGTGCCGAAGTTTGATCGATCTAGTAACATAGATGACACCGCGCGCGATAATTTATCCTAGTTTGCGCGCTATATTTTGTTTTCTATCGCGTATTAAATGTATAATTGCGGGACTCTAATCATAAAAACCCATCTCATAAATAACGTCATGCATTACA"
+        },
+        {
+            "id": "Y390.008.01.01",
+            "name": "T-DNA vector pDs-Lox, complete sequence",
+            "source": "AY836546",
+            "sourceStart": 276,
+            "sourceEnd": 4657,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sequence": "CGCGCTATATTTTGTTTTCTATCGCGTATTAAATGTATAATTGCGGGACTCTAATCATAAAAACCCATCTCATAAATAACGTCATGCATTACATGTTAATTATTACATGCTTAACGTAATTCAACAGAAATTATATGATAAGATCTAGATATCGATAAGCTTGCATGCCTGCAGGTCCTGCTGAGCCTCGACATGTTGTCGCAAAATTCGCCCTGGACCCGCCCAACGATTTGTCGTCACTGTCAAGGTTTGACCTGCACTTCATTTGGGGCCCACATACACCAAAAAAATGCTGCATAATTCTCGGGGCAGCAAGTCGGTTACCCGGCCGCCGTGCTGGACCGGGTTGAATGGTGCCCGTAACTTTCGGTAGAGCGGACGGCCAATACTCAACTTCAAGGAATCTCACCCATGCGCGCCGGCGGGGAACCGGAGTTCCCTTCAGTGAGCGTTATTAGTTCGCCGCTCGGTGTGTCGTAGATACTAGCCCCTGGGGCACTTTTGAAATTTGAATAAGATTTATGTAATCAGTCTTTTAGGTTTGACCGGTTCTGCCGCTTTTTTTAAAATTGGATTTGTAATAATAAAACGCAATTGTTTGTTATTGTGGCGCTCTATCATAGATGTCGCTATAAACCTATTCAGCACAATATATTGTTTTCATTTTAATATTGTACATATAAGTAGTAGGGTACAATCAGTAAATTGAACGGAGAATATTATTCATAAAAATACGATAGTAACGGGTGATATATTCATTAGAATGAACCGAAACCGGCGGTAAGGATCTGAGCTACACATGCTCAGGTTTTTTACAACGTGCACAACAGAATTGAAAGCAAATATCATGCGATCATAGGCGTCTCGCATATCTCATTAAAGCAGGACTCTAGGATCGATCCCCCGGGTCATCAAATCTCGGTGACGGGCAGGACCGGACGGGGCGGTACCGGCAGGCTGAAGTCCAGCTGCCAGAAACCCACGTCATGCCAGTTCCCGTGCTTGAAGCCGGCCGCCCGCAGCATGCCGCGGGGGGCATATCCGAGCGCCTCGTGCATGCGCACGCTCGGGTCGTTGGGCAGCCCGATGACAGCGACCACGCTCTTGAAGCCCTGTGCCTCCAGGGACTTCAGCAGGTGGGTGTAGAGCGTGGAGCCCAGTCCCGTCCGCTGGTGGCGGGGGGAGACGTACACGGTTGACTCGGCCGTCCAGTCGTAGGCGTTGCGTGCCTTCCAGGGGCCCGCGTAGGCGATGCCGGCGACCTCGCCGTCCACCTCGGCGACGAGCCAGGGATAGCGCTCCCGCAGACGGACGAGGTCGTCCGTCCACTCCTGCGGTTCCTGCGGCTCGGTACGGAAGTTGACCGTGCTTGTCTCGATGTAGTGGTTGACGATGGTGCAGACCGCCGGCATGTCCGCCTCGGTGGCACGGCGGATGTCGGCCGGGCGTCGTTCTGGGCTCATGGTAATTGTAAATAGTAATTGTAATGTTGTTTGTTGTTTGTTGTTGTTGGTAATTGTTGTAAAAATAGAGCTCTTATACTCGAGGAATTCGCTAGAGTCGATTTGGTGTATCGAGATTGGTTATGAAATTCAGATGCTAGTGTAATGTATTGGTAATTTGGGAAGATATAATAGGAAGCAAGGCTATTTATCCATTTCTGAAAAGGCGAAATGGCGTCACCGCGAGCGTCACGCGCATTCCGTTCTTGCTGTAAAGCGTTGTTTGGTACACTTTTGACTAGCGAGGCTTGGCGTGTCAGCGTATCTATTCAAAAGTCGTTAATGGCTGCGGATCAAGAAAAAGTTGGAATAGAAACAGAATACCCGCGAAATTCAGGCCCGGTTGCCATGTCCTACACGCCGAAATAAACGACCAAATTAGTAGAAAAATAAAAACTGACTCGGATACTTACGTCACGTCTTGCGCACTGATTTGAAAAATCTCAATATAAACAAAGACGGCCACAAGAAAAAACCAAAACACCGATATTCATTAATCTTATCTAGTTTCTCAAAAAAATTCATATCTTCCACACGTGAAAATGCCAATTTCTCAGACCTACCTCGGCTCTGCGAAGGCCCCCGCTGGTATCAAAAGTTTTTATTTCATCCGACATGGCGCGACCGACCTCAACGAGAAGGAAATTGTCGTGAACGGTGAGAAGCTCTGGGGCGTGCAAGGTTCCGGAACGAACATCGGTCTCAATGCCCATATTGCAGTCATCCCGAATTAGAAAATACGGTAACGAAACGGGATCATCCCGATTAAAAACGGGATCCCGGTGTAACGGTCGGGAAACTAGCTCTACCGTTTCCGTTTCCGTTTACCGTTTTGTATATCCCGTTTCCGTTCCGTTTTCGTTTTTTACCTCGGGTTCGAAATCGATCGGGATAAAACTAACAAAATCGGTTATACGATAACGGTCGGTACGGGATTTTCCCATCCTACTTTCATCCCTGAATGGAGAGCTAATAACTTCGTATAATGTATGCTATACGAAGTTATGGATCCTCTCCAAATGAAATGAACTTCCTTATATAGAGGAAGGGTCTTGCGAAGGATAGTGGGATTGTGCGTCATCCCTTACGTCAGTGGAGATATCACATCAATCCACTTGCTTTGAAGACGTGGTTGGAACGTCTTCTTTTTCCACGATGCTCCTCGTGGGTGGGGGTCCATCTTTGGGACCACTGTCGGCAGAGGCATCTTGAACGATAGCCTTTCCTTTATCGCAATGATGGCATTTGTAGGTGCCACCTTCCTTTTCTACTGTCCTTTTGATGAAGTGACAGATAGCTGGGCAATGGAATCCGAGGAGGTTTCCCGATATTACCCTTTGTTGAAAAGTCTCAATAGCCCTTTGGTCTTCTGAGACTGTATCTTTGATATTCTTGGAGTAGACGAGAGTGTCGTGCTCCACCATGTTGACGAAGATTTTCTTCTTGTCATTGAGTCGTAAAAGACTCTGTATGAACTGTTCGCCAGTCTTCACGGCGAGTTCTGTTAGATCCTCGATCTGAATTTTTGACTCCATGGCCTTTGATTCAGTAGGAACTACTTTCTTAGAGACTCCAATCTCTATTACTTGCCTTGGTTTATGAAGCAAGCCTTGAATCGTCCATACTGGAATAGTACTTCTGATCTTGAGAAATATATCTTTCTCTGTGTTCTTGATGCAGTTAGTCCTGAATCTTTTGACTGCATCTTTAACCTTCTTGGGAAGGTATTTGATCTCCTGGAGATTATTACTCGGGTAGATCGTCTTGATGAGACCTGCCGCGTAGGCCTCTCTAACCATCTGTGGGTCAGCATTCTTTCTGAAATTGAAGAGGCTAATCTTCTCATTATCGGTGGTGAACATGGTATCGTCACCTTCTCCGTCGAACTTTCTTCCTAGATCGTAGAGATAGAGAAAGTCGTCCATGGTGATCTCCGGGGCAAAGGAGATCTCTTTTGGGGCTGGATCACTGCTGGGCCTTTTGGTTCCTAGCGTGAGCCAGTGGGCTTTTTGCTTTGGTGGGCTGGTTAAGGCCTTCGCAAAGCTCTTGGGCTTGAGTTGAGCTTCTCCTTTGGGGATGAAGTTCAACCTGTCTGTTTGCTGACTTGTTGTGTACGCGCCGGATCCTTAATTAAGTCTAGAGTCGACTGTTTGCGTCAGCTGCTGCTCTTGCCTCTGTAATAGTGGCAAACTTCTTGTGTGCAACTCCGGGAACGCCGTTTGTTGCCGCCTTTGTACAACCCCAGTCATCGTATATACCGGCGTGTGGACCGTTATACACAACGTAGTAGTTGATATGAGGGTGTTGAATACCCGATTCTGCTCTGAGAGGAGCAACTATGCTGCTAAGCTCAGATTTTTGTGGGATTGGAATTCCCTGATGAGGACGTAAAAAGTCCCCTGGCACTGCAAGCCTTATCCCAGTTTGAACTGGGTTCATATCTTTTGGCAAGATACTAGCCATCAACGGATTTGTTGATTCTTTACCAGGAGCCGTTTGCTCTGGAATAGCCTTTACTTGAGTTGGCGTAAAAGTGGCCAGTGCAGAATGAACTGCTTCTTCTTTTACCGGTGTTTCACGGTGGAGAGGGAGGTCTCCTTGTTGCGAAGAGCCGTTAGCTCTTGCTAAGCTCCTCGAGTTTCTCCATAATAATGTGTGAGTAGTTCCCAGATAAGGGAATTAGGGTTCCTATAGGGTTTCGCTCATGTGTTGAGCATATAAGAAACCCTTAGTATGTATTTGTATTTGTAAAATACTTCTATCAATAAAATTTCTAATTCCTAAAACCAAAATCCAGTACTAAAATCCAGATCCCCCGAATTAATTCGGCGTTAATTCAGTACATTAAAAACGTCCGCAATGTGTTATTAAGTTGTCTAA"
+        },
+        {
+            "id": "Y390.008.01.02",
+            "name": "T-DNA vector pDs-Lox, complete sequence",
+            "source": "AY836546",
+            "sourceStart": 8796,
+            "sourceEnd": 9172,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sequence": "TCAAACACTGATAGTTTAAACTGAAGGCGGGAAACGACAATCTGATCCAAGCTCAAGCTGCTCTAGCATTCGCCATTCAGGCTGCGCAACTGTTGGGAAGGGCGATCGGTGCGGGCCTCTTCGCTATTACGCCAGCTGGCGAAAGGGGGATGTGCTGCAAGGCGATTAAGTTGGGTAACGCCAGGGTTTTCCCAGTCACGACGTTGTAAAACGACGGCCAGTGCCAAGCTTCTAGAGATCTAGTAACATAGATGACACCGCGCGCGATAATTTATCCTAGTTTGCGCGCTATATTTTGTTTTCTATCGCGTATTAAATGTATAATTGCGGGACTCTAATCATAAAAACCCATCTCATAAATAACGTCATGCATTACA"
+        },
+        {
+            "id": "Y390.028.07.01",
+            "name": "Synthetic construct LB296 DNA, synthetic long-barcode fragment",
+            "source": "LC597807",
+            "sourceStart": 7,
+            "sourceEnd": 46,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "ACACTCTTTCCCTACACGACGCTCTTCCGATCTATTTTTT"
+        },
+        {
+            "id": "Y390.028.08.01",
+            "name": "Synthetic construct LB201 DNA, synthetic long-barcode fragment",
+            "source": "LC597761",
+            "sourceStart": 7,
+            "sourceEnd": 49,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "ACACTCTTTCCCTACACGACGCTCTTCCGATCTATTTTTTTTG"
+        },
+        {
+            "id": "Y390.035.04.01",
+            "name": "Synthetic construct LB193 DNA, synthetic long-barcode fragment",
+            "source": "LC597758",
+            "sourceStart": 9,
+            "sourceEnd": 46,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "ACTCTTTCCCTACACGACGCTCTTCCGATCTTTGTTTT"
+        },
+        {
+            "id": "Y390.104.04.01",
+            "name": "Synthetic construct LB082 DNA, synthetic long-barcode fragment",
+            "source": "LC597707",
+            "sourceStart": 8,
+            "sourceEnd": 48,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "CACTCTTTCCCTACACGACGCTCTTCCGATCTGGTTTTTGT"
+        },
+        {
+            "id": "Y390.305.09.01",
+            "name": "Vector pPTK-BC-IPR, complete sequence",
+            "source": "MW408732",
+            "sourceStart": 992,
+            "sourceEnd": 1042,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "GCGAGAGTGACTGGAGTTCAGACGTGTGCTCTTCCGATCTGTTTCATACTT"
+        },
+        {
+            "id": "Y390.541.04.01",
+            "name": "Binary vector pCAMBIA-1281Z, complete sequence",
+            "source": "AF234294",
+            "sourceStart": 8797,
+            "sourceEnd": 8961,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "TATTGTGGTGTAAACAAATTGACGCTTAGACAACTTAATAACACATTGCGGACGTTTTTAATGTACTGAATTAACGCCGAATTAATTCGGGGGATCTGGATTTTAGTACTGGATTTTGGTTTTAGGAATTAGAAATTTTATTGATAGAAGTATTTTACAAATACA"
+        },
+        {
+            "id": "Y390.813.04.01",
+            "name": "Synthetic construct LB263 DNA, synthetic long-barcode fragment",
+            "source": "LC597791",
+            "sourceStart": 10,
+            "sourceEnd": 46,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "CTCTTTCCCTACACGACGCTCTTCCGATCTGAGGTT"
+        },
+        {
+            "id": "Y390.831.04.01",
+            "name": "Synthetic construct LB079 DNA, synthetic long-barcode fragment",
+            "source": "LC597704",
+            "sourceStart": 7,
+            "sourceEnd": 60,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "ACACTCTTTCCCTACACGACGCTCTTCCGATCTGGACTTTCTTGTGTGGACTT"
+        },
+        {
+            "id": "Y390.936.04.01",
+            "name": "Synthetic construct LB246 DNA, synthetic long-barcode fragment",
+            "source": "LC597784",
+            "sourceStart": 7,
+            "sourceEnd": 46,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sequence": "AAGTGAGAGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT"
+        },
+        {
+            "id": "Y390.1028.04.01",
+            "name": "Synthetic construct LB038 DNA, synthetic long-barcode fragment",
+            "source": "LC597683",
+            "sourceStart": 7,
+            "sourceEnd": 53,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sequence": "CTCAAACAAATGTCAGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT"
+        },
+        {
+            "id": "Y390.1078.04.01",
+            "name": "Synthetic construct LB255 DNA, synthetic long-barcode fragment",
+            "source": "LC597787",
+            "sourceStart": 7,
+            "sourceEnd": 44,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "ACACTCTTTCCCTACACGACGCTCTTCCGATCTTCTGC"
+        },
+        {
+            "id": "Y390.1426.04.01",
+            "name": "Synthetic construct LB119 DNA, synthetic long-barcode fragment",
+            "source": "LC597722",
+            "sourceStart": 7,
+            "sourceEnd": 46,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "ACACTCTTTCCCTACACGACGCTCTTCCGATCTACCCTATT"
+        },
+        {
+            "id": "Y390.1487.04.01",
+            "name": "Synthetic construct LB071 DNA, synthetic long-barcode fragment",
+            "source": "LC597698",
+            "sourceStart": 7,
+            "sourceEnd": 56,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sequence": "ACATGATCTCGGAAAATGATAAGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT"
+        },
+        {
+            "id": "Y390.1550.04.01",
+            "name": "Synthetic construct LB140 DNA, synthetic long-barcode fragment",
+            "source": "LC597731",
+            "sourceStart": 7,
+            "sourceEnd": 48,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "ACACTCTTTCCCTACACGACGCTCTTCCGATCTCGCCGAACA"
+        },
+        {
+            "id": "Y390.1661.04.01",
+            "name": "Synthetic construct LB109 DNA, synthetic long-barcode fragment",
+            "source": "LC597716",
+            "sourceStart": 9,
+            "sourceEnd": 45,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sequence": "ATCCCAAGATCGGAAGAGCGTCGTGTAGGGAAAGAGT"
+        },
+        {
+            "id": "Y401.010.02.01",
+            "name": "Mus musculus targeted non-conditional, lacZ-tagged mutant allele 1110051M20Rik:tm1e(EUCOMM)Wtsi_ transgenic",
+            "source": "JN949774",
+            "sourceStart": 23409,
+            "sourceEnd": 23558,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sequence": "GAGAGAGAGAGAGAGAGAAAGAGAGAGAGAGAGAGAGAGAAGAACATGCCCCCACACACCGTTGAAGAAATGGTGCCAATACCCATGACAGGGACCTGCTACAAAGCTTGAAACCATAAAGAACACCACAAAACTGCAAAGTGCAGTCAA"
+        },
+        {
+            "id": "Y401.087.08.01",
+            "name": "Expression vector pmET32c, complete sequence",
+            "source": "MN049497",
+            "sourceStart": 7366,
+            "sourceEnd": 7413,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sequence": "TCACTCCTTCTGCACGTAATTTTTGACGCACGTTTTCTTCTGCGTCAG"
+        },
+        {
+            "id": "Y401.094.01.01",
+            "name": "Mus musculus targeted KO-first, conditional ready, lacZ-tagged mutant allele Oas3:tm1a(KOMP)Wtsi_ transgenic",
+            "source": "JN946684",
+            "sourceStart": 3048,
+            "sourceEnd": 3575,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sequence": "CCCACTCTGACAGCCACTGCCCTCATCCCAAATCAACCCTCAGGGTTCCTTCAAATGGCTCATCTTCATGGCCAACTTCACTAGCCTCAGATGTACGTGGACACACACCTCTGGGTGTGTGTGTGTGTGTGTGAGAGAGAGAGAGAGAGAGAGAGCATACTTCCACAAATGTCTGCAGACTGCTTCCCTGCTCTGTGGCCATCTGTCAGCTCACCTCCTCATCTGTGCTGATTTGACTGCATTCACAGGGGTTATAAGACATTTGGGAAGATCAAAGCTCAGGATGGTTAACTGACTTTTGAGCAGGTTACAAGCACACATAGTGGGGGAAAAAAGGGATCTTGTGCTTGACTCGGGAAGCTGGTGACTCTCTGGCAGGAATGAAAGCCCACCCTCACCTCACACCACACACACACACACACACACACACACACACACACACACACACACACAGCGGCCAAATGCAAGCAGAAGGGTCCTGAGGGAAGAGAACTGCTTAGCCATGATGATCTTGGTGTTTTACTTGGCTCTGATGTCAAAGCCACAGGCAA"
+        },
+        {
+            "id": "Y401.136.01.01",
+            "name": "Mus musculus targeted deletion, lacZ-tagged mutant allele Prss42:tm1(KOMP)Wtsi_ transgenic",
+            "source": "JN962754",
+            "sourceStart": 8339,
+            "sourceEnd": 8785,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTGGTTTTTCGAGACAGGGTTTCTCTGTATAGCCCTGGCTGTCCTGGAACTCACTTTGTAGACCAGGCTGGCCTCGAACTCAGAAATCCACCTGCCTCTGCCTCCCGAGTGCTGGGATTAAAGGCGTGTGCCACCATGCCTGGCTCTTTGGATCTAGAGGTTGTCTGGATCTGGGGAGGTTTCAGCTATTATTTTATTAAATAAGTGTTCTGTTTCTATCCTCATCCGCTCAACTCCCATATTGTTCATACATCATACTCAGATGTTTTAACAATTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTATGCACAAGTGCATGTAGAGGCTGCAGGTTGACCTTGGTGTCATTCATTATGGGTTGGATTTGTTGAGACAGGCTAGGAGGTCTGACTGGTCAGTGAG"
+        },
+        {
+            "id": "Y401.150.01.01",
+            "name": "Mus musculus targeted KO-first, conditional ready, lacZ-tagged mutant allele Ttf1:tm1a(EUCOMM)Hmgu_ transgenic",
+            "source": "JN960829",
+            "sourceStart": 25088,
+            "sourceEnd": 25331,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "ACACACATGACCTGTGTTTTGTTTCAGAAACCATGTAACAAAGCTGGGCCTGGTGGCATTTGCCTTTAACCCTAACACTGGGGCTTGCTGGCCTGCCAGCCTGGCAAACTTGGTCAATAGGAGAGCCTGTCTCCAAAAGAGATTGATGATCCTGTAGTCTCCATACATACATGTTTATACACACACACACATACACTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTC"
+        },
+        {
+            "id": "Y401.259.04.01",
+            "name": "Mus musculus targeted KO-first, conditional ready, lacZ-tagged mutant allele Cdh22:tm1a(EUCOMM)Wtsi_ transgenic",
+            "source": "JN959564",
+            "sourceStart": 11921,
+            "sourceEnd": 12094,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "GAGGAGGAAGAGGAGGAGGAGGAGGAGGAGGAGAAGGAGGAAGAAAAGGAAGAGGAGGAAGAAGAGGAAGAGAAGGAAGAGGGGAAGAAGGAGAGAAGGAGAAGAAGGAGGAGGAGGAGAGAGAAGAGGAGGAGGAGGAGGAGAAGGGGAGGAGGAGGAAGAGGAGGAGAAAGA"
+        },
+        {
+            "id": "Y401.892.04.01",
+            "name": "Cloning vector pBEN66 DNA, complete sequence",
+            "source": "D85525",
+            "sourceStart": 134,
+            "sourceEnd": 1377,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sequence": "GGCCTGGGGGGGGGGGGCGCTGAGGTCTGCCTCGTGAAGAAGGTGTTGCTGACTCATACCAGGCCTGAATCGCCCCATCATCCAGCCAGAAAGTGAGGGAGCCACGGTTGATGAGAGCTTTGTTGTAGGTGGACCAGTTGGTGATTTTGAACTTTTGCTTTGCCACGGAACGGTCTGCGTTGTCGGGAAGATGCGTGATCTGATCCTTCAACTCAGCAAAAGTTCGATTTATTCAACAAAGCCGCCGTCCCGTCAAGTCAGCGTAATGCTCTGCCAGTGTTACAACCAATTAACCAATTCTGATTAGAAAAACTCATCGAGCATCAAATGAAACTGCAATTTATTCATATCAGGATTATCAATACCATATTTTTGAAAAAGCCGTTTCTGTAATGAAGGAGAAAACTCACCGAGGCAGTTCCATAGGATGGCAAGATCCTGGTATCGGTCTGCGATTCCGACTCGTCCAACATCAATACAACCTATTAATTTCCCCTCGTCAAAAATAAGGTTATCAAGTGAGAAATCACCATGAGTGACGACTGAATCCGGTGAGAATGGCAAAAGCTTATGCATTTCTTTCCAGACTTGTTCAACAGGCCAGCCATTACGCTCGTCATCAAAATCACTCGCATCAACCAAACCGTTATTCATTCGTGATTGCGCCTGAGCGAGACGAAATACGCGATCGCTGTTAAAAGGACAATTACAAACAGGAATCGAATGCAACCGGCGCAGGAACACTGCCAGCGCATCAACAATATTTTCACCTGAATCAGGATATTCTTCTAATACCTGGAATGCTGTTTTCCCGGGGATCGCAGTGGTGAGTAACCATGCATCATCAGGAGTACGGATAAAATGCTTGATGGTCGGAAGAGGCATAAATTCCGTCAGCCAGTTTAGTCTGACCATCTCATCTGTAACATCATTGGCAACGCTACCTTTGCCATGTTTCAGAAACAACTCTGGCGCATCGGGCTTCCCATACAATCGATAGATTGTCGCACCTGATTGCCCGACATTATCGCGAGCCCATTTATACCCATATAAATCAGCATCCATGTTGGAATTTAATCGCGGCCTCGAGCAAGACGTTTCCCGTTGAATATGGCTCATAACACCCCTTGTATTACTGTTTATGTAAGCAGACAGTTTTATTGTTCATGATGATATATTTTTATCTTGTGCAATGTAACATCAGAGATTTTGAGACACAACGTGGCTTTCCCCCCCCCCCCCGGCC"
+        },
+        {
+            "id": "Y401.917.01.01",
+            "name": "Mus musculus targeted deletion, lacZ-tagged mutant allele Mt2:tm1(KOMP)Wtsi_ transgenic",
+            "source": "JN963171",
+            "sourceStart": 27116,
+            "sourceEnd": 28065,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sequence": "CAAAGGACCCGTTCAACAATACTCGTAACTAATGAAGGCTTTTGCAAGAGCGGATTCTAGAAAGAACCGGAATGAATCGCCAACTAAAGGTGCCTATTCCCGCCAAGCCTCTACAACTCGGGGATTCCGCTCTGCGGTCCCAACTTGGTATTCTAAAGACCAAGGATCGGGAGTCTTACCGGTGGAGCAGGAGCAGTTGGGGTCCATTCCGAGATCTGGTGAAGCTGGAGCTACGGAGTAAGTGAGGAGAAGGTACTCAGGACGTTGAAGTCGTGGTGACGCTTAGAGGACAGCCTGCCCTCTTTATAGTCGTTGGACGAGTCCGGGCGCAAAGGGTTTGCACCCAGCAGGCGGTTGCTCCAGCCCGCGCATAGTCACGCGCCCCGCGTCCTTGGCAGAGCCGAGCGCACTTTTCGGGCGGAGTGCAGAGCTCCCTGGAGCGCCAGTGTGCACAGCGGGACCGCCCCTTTGGCACGACTGGCTCGGATAGGACGACCCATGTGACGTGTGGAACATCATGTCCCTATAGTGCTTTCCCCGATATTACGGCCTATCGCTGCTCTGGAGTTTACGAGAACTCACCCCGGAAAGCCAGCTATCTCCGTAAACCCATTCGCAGCGTGGTAACCTCAGCTTCTCCTTTCCTGGAGTTCCTGAGCAGCGACCAGCTCCGCCCAGGTCTCTCTCTGGATCGAAGCTAGGAGAAGAGGAGACAGTTTTATAAAGACTAGCCTTGATTATTTTAGCCAACAGAACTCATCTCAACATTATTCTCTACTCCTGAGGGGGCTCATCTAAGAATGTCCAGGGCTGAGGGGTCACTCACCTTAACCCATCTGCTCTACTCCAGGCTGGTTTTAAAAACCAAGGTACCCTCCCTCCAGAGAGATCATTTTAGGTGGGGACTGCATTAGATAAAAAAAATAAAGTCAGCTATTTCTTTCTTTCTT"
+        },
+        {
+            "id": "Y407.014.02.01",
+            "name": "Mus musculus targeted non-conditional, lacZ-tagged mutant allele 1110051M20Rik:tm1e(EUCOMM)Wtsi_ transgenic",
+            "source": "JN949774",
+            "sourceStart": 23409,
+            "sourceEnd": 23558,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sequence": "GAGAGAGAGAGAGAGAGAAAGAGAGAGAGAGAGAGAGAGAAGAACATGCCCCCACACACCGTTGAAGAAATGGTGCCAATACCCATGACAGGGACCTGCTACAAAGCTTGAAACCATAAAGAACACCACAAAACTGCAAAGTGCAGTCAA"
+        },
+        {
+            "id": "Y407.097.01.01",
+            "name": "Mus musculus targeted KO-first, conditional ready, lacZ-tagged mutant allele Oas3:tm1a(KOMP)Wtsi_ transgenic",
+            "source": "JN946684",
+            "sourceStart": 3048,
+            "sourceEnd": 3575,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sequence": "CCCACTCTGACAGCCACTGCCCTCATCCCAAATCAACCCTCAGGGTTCCTTCAAATGGCTCATCTTCATGGCCAACTTCACTAGCCTCAGATGTACGTGGACACACACCTCTGGGTGTGTGTGTGTGTGTGTGAGAGAGAGAGAGAGAGAGAGAGCATACTTCCACAAATGTCTGCAGACTGCTTCCCTGCTCTGTGGCCATCTGTCAGCTCACCTCCTCATCTGTGCTGATTTGACTGCATTCACAGGGGTTATAAGACATTTGGGAAGATCAAAGCTCAGGATGGTTAACTGACTTTTGAGCAGGTTACAAGCACACATAGTGGGGGAAAAAAGGGATCTTGTGCTTGACTCGGGAAGCTGGTGACTCTCTGGCAGGAATGAAAGCCCACCCTCACCTCACACCACACACACACACACACACACACACACACACACACACACACACACACAGCGGCCAAATGCAAGCAGAAGGGTCCTGAGGGAAGAGAACTGCTTAGCCATGATGATCTTGGTGTTTTACTTGGCTCTGATGTCAAAGCCACAGGCAA"
+        },
+        {
+            "id": "Y407.156.01.01",
+            "name": "Mus musculus targeted KO-first, conditional ready, lacZ-tagged mutant allele Ttf1:tm1a(EUCOMM)Hmgu_ transgenic",
+            "source": "JN960829",
+            "sourceStart": 25088,
+            "sourceEnd": 25331,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "ACACACATGACCTGTGTTTTGTTTCAGAAACCATGTAACAAAGCTGGGCCTGGTGGCATTTGCCTTTAACCCTAACACTGGGGCTTGCTGGCCTGCCAGCCTGGCAAACTTGGTCAATAGGAGAGCCTGTCTCCAAAAGAGATTGATGATCCTGTAGTCTCCATACATACATGTTTATACACACACACACATACACTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTC"
+        },
+        {
+            "id": "Y407.257.01.01",
+            "name": "Mus musculus targeted deletion, lacZ-tagged mutant allele Prss42:tm1(KOMP)Wtsi_ transgenic",
+            "source": "JN962754",
+            "sourceStart": 8342,
+            "sourceEnd": 8785,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "TTTTTTTTTGGTTTTGGTTTTGGTTTTGGTTTTTCGAGACAGGGTTTCTCTGTATAGCCCTGGCTGTCCTGGAACTCACTTTGTAGACCAGGCTGGCCTCGAACTCAGAAATCCACCTGCCTCTGCCTCCCGAGTGCTGGGATTAAAGGCGTGTGCCACCATGCCTGGCTCTTTGGATCTAGAGGTTGTCTGGATCTGGGGAGGTTTCAGCTATTATTTTATTAAATAAGTGTTCTGTTTCTATCCTCATCCGCTCAACTCCCATATTGTTCATACATCATACTCAGATGTTTTAACAATTCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTATGCACAAGTGCATGTAGAGGCTGCAGGTTGACCTTGGTGTCATTCATTATGGGTTGGATTTGTTGAGACAGGCTAGGAGGTCTGACTGGTCAGTGAG"
+        },
+        {
+            "id": "Y407.615.01.01",
+            "name": "Mus musculus targeted deletion, lacZ-tagged mutant allele Mt2:tm1(KOMP)Wtsi_ transgenic",
+            "source": "JN963171",
+            "sourceStart": 27116,
+            "sourceEnd": 28065,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sequence": "CAAAGGACCCGTTCAACAATACTCGTAACTAATGAAGGCTTTTGCAAGAGCGGATTCTAGAAAGAACCGGAATGAATCGCCAACTAAAGGTGCCTATTCCCGCCAAGCCTCTACAACTCGGGGATTCCGCTCTGCGGTCCCAACTTGGTATTCTAAAGACCAAGGATCGGGAGTCTTACCGGTGGAGCAGGAGCAGTTGGGGTCCATTCCGAGATCTGGTGAAGCTGGAGCTACGGAGTAAGTGAGGAGAAGGTACTCAGGACGTTGAAGTCGTGGTGACGCTTAGAGGACAGCCTGCCCTCTTTATAGTCGTTGGACGAGTCCGGGCGCAAAGGGTTTGCACCCAGCAGGCGGTTGCTCCAGCCCGCGCATAGTCACGCGCCCCGCGTCCTTGGCAGAGCCGAGCGCACTTTTCGGGCGGAGTGCAGAGCTCCCTGGAGCGCCAGTGTGCACAGCGGGACCGCCCCTTTGGCACGACTGGCTCGGATAGGACGACCCATGTGACGTGTGGAACATCATGTCCCTATAGTGCTTTCCCCGATATTACGGCCTATCGCTGCTCTGGAGTTTACGAGAACTCACCCCGGAAAGCCAGCTATCTCCGTAAACCCATTCGCAGCGTGGTAACCTCAGCTTCTCCTTTCCTGGAGTTCCTGAGCAGCGACCAGCTCCGCCCAGGTCTCTCTCTGGATCGAAGCTAGGAGAAGAGGAGACAGTTTTATAAAGACTAGCCTTGATTATTTTAGCCAACAGAACTCATCTCAACATTATTCTCTACTCCTGAGGGGGCTCATCTAAGAATGTCCAGGGCTGAGGGGTCACTCACCTTAACCCATCTGCTCTACTCCAGGCTGGTTTTAAAAACCAAGGTACCCTCCCTCCAGAGAGATCATTTTAGGTGGGGACTGCATTAGATAAAAAAAATAAAGTCAGCTATTTCTTTCTTTCTT"
+        },
+        {
+            "id": "Y426.001.01.01",
+            "name": "Expression vector pKK44, complete sequence",
+            "source": "MN811105",
+            "sourceStart": 2480,
+            "sourceEnd": 5337,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "TGGGCGCTCTTCCGCTTCCTCGCTCACTGACTCGCTGCGCTCGGTCGTTCGGCTGCGGCGAGCGGTATCAGCTCACTCAAAGGCGGTAATACGGTTATCCACAGAATCAGGGGATAACGCAGGAAAGAACATGTGAGCAAAAGGCCAGCAAAAGGCCAGGAACCGTAAAAAGGCCGCGTTGCTGGCGTTTTTCCATAGGCTCCGCCCCCCTGACGAGCATCACAAAAATCGACGCTCAAGTCAGAGGTGGCGAAACCCGACAGGACTATAAAGATACCAGGCGTTTCCCCCTGGAAGCTCCCTCGTGCGCTCTCCTGTTCCGACCCTGCCGCTTACCGGATACCTGTCCGCCTTTCTCCCTTCGGGAAGCGTGGCGCTTTCTCATAGCTCACGCTGTAGGTATCTCAGTTCGGTGTAGGTCGTTCGCTCCAAGCTGGGCTGTGTGCACGAACCCCCCGTTCAGCCCGACCGCTGCGCCTTATCCGGTAACTATCGTCTTGAGTCCAACCCGGTAAGACACGACTTATCGCCACTGGCAGCAGCCACTGGTAACAGGATTAGCAGAGCGAGGTATGTAGGCGGTGCTACAGAGTTCTTGAAGTGGTGGCCTAACTACGGCTACACTAGAAGAACAGTATTTGGTATCTGCGCTCTGCTGAAGCCAGTTACCTTCGGAAAAAGAGTTGGTAGCTCTTGATCCGGCAAACAAACCACCGCTGGTAGCGGTGGTTTTTTTGTTTGCAAGCAGCAGATTACGCGCAGAAAAAAAGGATCTCAAGAAGATCCTTTGATCTTTTCTACGGGGTCTGACGCTCAGTGGAACGAAAACTCACGTTAAGGGATTTTGGTCATGAGATTATCAAAAAGGATCTTCACCTAGATCCTTTTAAATTAAAAATGAAGTTTTAAATCAATCTAAAGTATATATGAGTAAACTTGGTCTGACAGTTACCAATGCTTAATCAGTGAGGCACCTATCTCAGCGATCTGTCTATTTCGTTCATCCATAGTTGCCTGACTCCCCGTCGTGTAGATAACTACGATACGGGAGGGCTTACCATCTGGCCCCAGTGCTGCAATGATACCGCGAGACCCACGCTCACCGGCTCCAGATTTATCAGCAATAAACCAGCCAGCCGGAAGGGCCGAGCGCAGAAGTGGTCCTGCAACTTTATCCGCCTCCATCCAGTCTATTAATTGTTGCCGGGAAGCTAGAGTAAGTAGTTCGCCAGTTAATAGTTTGCGCAACGTTGTTGCCATTGCTACAGGCATCGTGGTGTCACGCTCGTCGTTTGGTATGGCTTCATTCAGCTCCGGTTCCCAACGATCAAGGCGAGTTACATGATCCCCCATGTTGTGCAAAAAAGCGGTTAGCTCCTTCGGTCCTCCGATCGTTGTCAGAAGTAAGTTGGCCGCAGTGTTATCACTCATGGTTATGGCAGCACTGCATAATTCTCTTACTGTCATGCCATCCGTAAGATGCTTTTCTGTGACTGGTGAGTACTCAACCAAGTCATTCTGAGAATAGTGTATGCGGCGACCGAGTTGCTCTTGCCCGGCGTCAATACGGGATAATACCGCGCCACATAGCAGAACTTTAAAAGTGCTCATCATTGGAAAACGTTCTTCGGGGCGAAAACTCTCAAGGATCTTACCGCTGTTGAGATCCAGTTCGATGTAACCCACTCGTGCACCCAACTGATCTTCAGCATCTTTTACTTTCACCAGCGTTTCTGGGTGAGCAAAAACAGGAAGGCAAAATGCCGCAAAAAAGGGAATAAGGGCGACACGGAAATGTTGAATACTCATACTCTTCCTTTTTCAATATTATTGAAGCATTTATCAGGGTTATTGTCTCATGAGCGGATACATATTTGAATGTATTTAGAAAAATAAACAAATAGGGGTTCCGCGCACATTTCCCCGAAAAGTGCCACCTGACGTCGACGGATCGGGAGATCTCCCGATCCCCTATGGTGCACTCTCAGTACAATCTGCTCTGATGCCGCATAGTTAAGCCAGTATCTGCTCCCTGCTTGTGTGTTGGAGGTCGCTGAGTAGTGCGCGAGCAAAATTTAAGCTACAACAAGGCAAGGCTTGACCGACAATTGCATGAAGAATCTGCTTAGGGTTAGGCGTTTTGCGCTGCTTCGCGATGTACGGGCCAGATATACGCGTTGACATTGATTATTGACTAGTTATTAATAGTAATCAATTACGGGGTCATTAGTTCATAGCCCATATATGGAGTTCCGCGTTACATAACTTACGGTAAATGGCCCGCCTGGCTGACCGCCCAACGACCCCCGCCCATTGACGTCAATAATGACGTATGTTCCCATAGTAACGCCAATAGGGACTTTCCATTGACGTCAATGGGTGGAGTATTTACGGTAAACTGCCCACTTGGCAGTACATCAAGTGTATCATATGCCAAGTACGCCCCCTATTGACGTCAATGACGGTAAATGGCCCGCCTGGCATTATGCCCAGTACATGACCTTATGGGACTTTCCTACTTGGCAGTACATCTACGTATTAGTCATCGCTATTACCATGGTGATGCGGTTTTGGCAGTACATCAATGGGCGTGGATAGCGGTTTGACTCACGGGGATTTCCAAGTCTCCACCCCATTGACGTCAATGGGAGTTTGTTTTGGCACCAAAATCAACGGGACTTTCCAAAATGTCGTAACAACTCCGCCCCATTGACGCAAATGGGCGGTAGGCGTGTACGGTGGGAGGTCTATATAAGCAGAGCTCTCTGGCTAACTAGAGAACCCACTGCTTACTGGCTTATCGAAATTAATACGACTCACTATAGGGAGACCCAAGCTGGCTAGCGTTTAAACTTAAGCTT"
+        },
+        {
+            "id": "Y426.001.07.01",
+            "name": "Cloning vector pTrcHisA-(teF)MCP, complete sequence",
+            "source": "MK238518",
+            "sourceStart": 410,
+            "sourceEnd": 506,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "ACCATGGGGGGTTCTCATCATCATCATCATCATGGTATGGCTAGCATGACTGGTGGACAGCAAATGGGTCGGGATCTGTACGACGATGACGATAAGG"
+        },
+        {
+            "id": "Y426.001.10.01",
+            "name": "ShRNA expression vector pSiRPG, complete sequence",
+            "source": "DQ465352",
+            "sourceStart": 1116,
+            "sourceEnd": 1186,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sequence": "TCCAGTGTGGTGGAATTCTGCAGATATCCAGCACAGTGGCGGCCGCTCGAGTCTAGAGGGCCCGTTTAAAC"
+        },
+        {
+            "id": "Y426.001.04.01",
+            "name": "Mammalian vector pdcDNA-FLAGMyc, complete sequence",
+            "source": "LT727165",
+            "sourceStart": 2532,
+            "sourceEnd": 5075,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "CGCTGATCAGCCTCGACTGTGCCTTCTAGTTGCCAGCCATCTGTTGTTTGCCCCTCCCCCGTGCCTTCCTTGACCCTGGAAGGTGCCACTCCCACTGTCCTTTCCTAATAAAATGAGGAAATTGCATCGCATTGTCTGAGTAGGTGTCATTCTATTCTGGGGGGTGGGGTGGGGCAGGACAGCAAGGGGGAGGATTGGGAAGACAATAGCAGGCATGCTGGGGATGCGGTGGGCTCTATGGCTTCTGAGGCGGAAAGAACCAGCTGGGGCTCTAGGGGGTATCCCCACGCGCCCTGTAGCGGCGCATTAAGCGCGGCGGGTGTGGTGGTTACGCGCAGCGTGACCGCTACACTTGCCAGCGCCCTAGCGCCCGCTCCTTTCGCTTTCTTCCCTTCCTTTCTCGCCACGTTCGCCGGCTTTCCCCGTCAAGCTCTAAATCGGGGGCTCCCTTTAGGGTTCCGATTTAGTGCTTTACGGCACCTCGACCCCAAAAAACTTGATTAGGGTGATGGTTCACGTAGTGGGCCATCGCCCTGATAGACGGTTTTTCGCCCTTTGACGTTGGAGTCCACGTTCTTTAATAGTGGACTCTTGTTCCAAACTGGAACAACACTCAACCCTATCTCGGTCTATTCTTTTGATTTATAAGGGATTTTGCCGATTTCGGCCTATTGGTTAAAAAATGAGCTGATTTAACAAAAATTTAACGCGAATTAATTCTGTGGAATGTGTGTCAGTTAGGGTGTGGAAAGTCCCCAGGCTCCCCAGCAGGCAGAAGTATGCAAAGCATGCATCTCAATTAGTCAGCAACCATAGTCCCGCCCCTAACTCCGCCCATCCCGCCCCTAACTCCGCCCAGTTCCGCCCATTCTCCGCCCCATGGCTGACTAATTTTTTTTATTTATGCAGAGGCCGAGGCCGCCTCTGCCTCTGAGCTATTCCAGAAGTAGTGAGGAGGCTTTTTTGGAGGCCTAGGCTTTTGCAAAAAGCTCCCGGGAGCTTGTATATCCATTTTCGGATCTGATCAAGAGACAGGATGAGGATCGTTTCGCATGATTGAACAAGATGGATTGCACGCAGGTTCTCCGGCCGCTTGGGTGGAGAGGCTATTCGGCTATGACTGGGCACAACAGACAATCGGCTGCTCTGATGCCGCCGTGTTCCGGCTGTCAGCGCAGGGGCGCCCGGTTCTTTTTGTCAAGACCGACCTGTCCGGTGCCCTGAATGAACTGCAGGACGAGGCAGCGCGGCTATCGTGGCTGGCCACGACGGGCGTTCCTTGCGCAGCTGTGCTCGACGTTGTCACTGAAGCGGGAAGGGACTGGCTGCTATTGGGCGAAGTGCCGGGGCAGGATCTCCTGTCATCTCACCTTGCTCCTGCCGAGAAAGTATCCATCATGGCTGATGCAATGCGGCGGCTGCATACGCTTGATCCGGCTACCTGCCCATTCGACCACCAAGCGAAACATCGCATCGAGCGAGCACGTACTCGGATGGAAGCCGGTCTTGTCGATCAGGATGATCTGGACGAAGAGCATCAGGGGCTCGCGCCAGCCGAACTGTTCGCCAGGCTCAAGGCGCGCATGCCCGACGGCGAGGATCTCGTCGTGACCCATGGCGATGCCTGCTTGCCGAATATCATGGTGGAAAATGGCCGCTTTTCTGGATTCATCGACTGTGGCCGGCTGGGTGTGGCGGACCGCTATCAGGACATAGCGTTGGCTACCCGTGATATTGCTGAAGAGCTTGGCGGCGAATGGGCTGACCGCTTCCTCGTGCTTTACGGTATCGCCGCTCCCGATTCGCAGCGCATCGCCTTCTATCGCCTTCTTGACGAGTTCTTCTGAGCGGGACTCTGGGGTTCGAAATGACCGACCAAGCGACGCCCAACCTGCCATCACGAGATTTCGATTCCACCGCCGCCTTCTATGAAAGGTTGGGCTTCGGAATCGTTTTCCGGGACGCCGGCTGGATGATCCTCCAGCGCGGGGATCTCATGCTGGAGTTCTTCGCCCACCCCAACTTGTTTATTGCAGCTTATAATGGTTACAAATAAAGCAATAGCATCACAAATTTCACAAATAAAGCATTTTTTTCACTGCATTCTAGTTGTGGTTTGTCCAAACTCATCAATGTATCTTATCATGTCTGTATACCGTCGACCTCTAGCTAGAGCTTGGCGTAATCATGGTCATAGCTGTTTCCTGTGTGAAATTGTTATCCGCTCACAATTCCACACAACATACGAGCCGGAAGCATAAAGTGTAAAGCCTGGGGTGCCTAATGAGTGAGCTAACTCACATTAATTGCGTTGCGCTCACTGCCCGCTTTCCAGTCGGGAAACCTGTCGTGCCAGCTGCATTAATGAATCGGCCAACGCGCGGGGAGAGGCGGTTTGCGTATTGGGCGCTCTTCCGCTTCCTCGCTCACTGACTCGCTGCGCTCGGTCGTTCGGCTGCGGCGAGCGGTATCAGCTCACTCAAAGGCGGTAATACGGTTATCCACAGAATCAGGGGATAACGCAGGAAAGAACATGTGAGCAAA"
+        },
+        {
+            "id": "Y426.164.08.01",
+            "name": "Cloning vector TNN, complete sequence",
+            "source": "HQ683722",
+            "sourceStart": 3860,
+            "sourceEnd": 3916,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sequence": "TATCATGTCTGTATACCGTCGACCTCTAGCTAGAGCTTGGCGTAATCATGGTCATAG"
+        },
+        {
+            "id": "Y439.106.05.01",
+            "name": "Synthetic transposon Tn5lac, complete sequence",
+            "source": "U90436",
+            "sourceStart": 10842,
+            "sourceEnd": 11066,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "TGATCAGATCTTGATCCCCTGCGCCATCAGATCCTTGGCGGCAAGAAAGCCATCCAGTTTACTTTGCAGGGCTTCCCAACCTTCCCAGAGGGCGCCCCAGCTGGCAATTCCGGTTCGCTTGCTGTCCATAAAACCGCCCAGTCTAGCTATCGCCATGTAAGCCCACTGCAAGCTACCTGCTTTCTCTTTGCGCTTGCGTTTTCCCTTGTCCAGATAGCCCAGTAG"
+        },
+        {
+            "id": "Y439.160.04.01",
+            "name": "pWE15A cosmid vector DNA",
+            "source": "Z12112",
+            "sourceStart": 4294,
+            "sourceEnd": 4518,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "TGATCAGATCTTGATCCCCTGCGCCATCAGATCCTTGGCGGCAAGAAAGCCATCCAGTTTACTTTGCAGGGCTTCCCAACCTTACCAGAGGGCGCCCCAGCTGGCAATTCCGGTTCGCTTGCTGTCCATAAAACCGCCCAGTCTAGCTATCGCCATGTAAGCCCACTGCAAGCTACCTGCTTTCTCTTTGCGCTTGCGTTTTCCCTTGTCCAGATAGCCCAGTAG"
+        },
+        {
+            "id": "Y494.010.02.01",
+            "name": "Mus musculus targeted non-conditional, lacZ-tagged mutant allele 1110051M20Rik:tm1e(EUCOMM)Wtsi_ transgenic",
+            "source": "JN949774",
+            "sourceStart": 23409,
+            "sourceEnd": 23558,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sequence": "GAGAGAGAGAGAGAGAGAAAGAGAGAGAGAGAGAGAGAGAAGAACATGCCCCCACACACCGTTGAAGAAATGGTGCCAATACCCATGACAGGGACCTGCTACAAAGCTTGAAACCATAAAGAACACCACAAAACTGCAAAGTGCAGTCAA"
+        },
+        {
+            "id": "Y494.092.01.01",
+            "name": "Mus musculus targeted KO-first, conditional ready, lacZ-tagged mutant allele Oas3:tm1a(KOMP)Wtsi_ transgenic",
+            "source": "JN946684",
+            "sourceStart": 3048,
+            "sourceEnd": 3575,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sequence": "CCCACTCTGACAGCCACTGCCCTCATCCCAAATCAACCCTCAGGGTTCCTTCAAATGGCTCATCTTCATGGCCAACTTCACTAGCCTCAGATGTACGTGGACACACACCTCTGGGTGTGTGTGTGTGTGTGTGAGAGAGAGAGAGAGAGAGAGAGCATACTTCCACAAATGTCTGCAGACTGCTTCCCTGCTCTGTGGCCATCTGTCAGCTCACCTCCTCATCTGTGCTGATTTGACTGCATTCACAGGGGTTATAAGACATTTGGGAAGATCAAAGCTCAGGATGGTTAACTGACTTTTGAGCAGGTTACAAGCACACATAGTGGGGGAAAAAAGGGATCTTGTGCTTGACTCGGGAAGCTGGTGACTCTCTGGCAGGAATGAAAGCCCACCCTCACCTCACACCACACACACACACACACACACACACACACACACACACACACACACACAGCGGCCAAATGCAAGCAGAAGGGTCCTGAGGGAAGAGAACTGCTTAGCCATGATGATCTTGGTGTTTTACTTGGCTCTGATGTCAAAGCCACAGGCAA"
+        },
+        {
+            "id": "Y494.146.01.01",
+            "name": "Mus musculus targeted KO-first, conditional ready, lacZ-tagged mutant allele Ttf1:tm1a(EUCOMM)Hmgu_ transgenic",
+            "source": "JN960829",
+            "sourceStart": 25088,
+            "sourceEnd": 25331,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sequence": "ACACACATGACCTGTGTTTTGTTTCAGAAACCATGTAACAAAGCTGGGCCTGGTGGCATTTGCCTTTAACCCTAACACTGGGGCTTGCTGGCCTGCCAGCCTGGCAAACTTGGTCAATAGGAGAGCCTGTCTCCAAAAGAGATTGATGATCCTGTAGTCTCCATACATACATGTTTATACACACACACACATACACTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTC"
+        },
+        {
+            "id": "Y494.610.01.01",
+            "name": "Mus musculus targeted deletion, lacZ-tagged mutant allele Mt2:tm1(KOMP)Wtsi_ transgenic",
+            "source": "JN963171",
+            "sourceStart": 27116,
+            "sourceEnd": 28065,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sequence": "CAAAGGACCCGTTCAACAATACTCGTAACTAATGAAGGCTTTTGCAAGAGCGGATTCTAGAAAGAACCGGAATGAATCGCCAACTAAAGGTGCCTATTCCCGCCAAGCCTCTACAACTCGGGGATTCCGCTCTGCGGTCCCAACTTGGTATTCTAAAGACCAAGGATCGGGAGTCTTACCGGTGGAGCAGGAGCAGTTGGGGTCCATTCCGAGATCTGGTGAAGCTGGAGCTACGGAGTAAGTGAGGAGAAGGTACTCAGGACGTTGAAGTCGTGGTGACGCTTAGAGGACAGCCTGCCCTCTTTATAGTCGTTGGACGAGTCCGGGCGCAAAGGGTTTGCACCCAGCAGGCGGTTGCTCCAGCCCGCGCATAGTCACGCGCCCCGCGTCCTTGGCAGAGCCGAGCGCACTTTTCGGGCGGAGTGCAGAGCTCCCTGGAGCGCCAGTGTGCACAGCGGGACCGCCCCTTTGGCACGACTGGCTCGGATAGGACGACCCATGTGACGTGTGGAACATCATGTCCCTATAGTGCTTTCCCCGATATTACGGCCTATCGCTGCTCTGGAGTTTACGAGAACTCACCCCGGAAAGCCAGCTATCTCCGTAAACCCATTCGCAGCGTGGTAACCTCAGCTTCTCCTTTCCTGGAGTTCCTGAGCAGCGACCAGCTCCGCCCAGGTCTCTCTCTGGATCGAAGCTAGGAGAAGAGGAGACAGTTTTATAAAGACTAGCCTTGATTATTTTAGCCAACAGAACTCATCTCAACATTATTCTCTACTCCTGAGGGGGCTCATCTAAGAATGTCCAGGGCTGAGGGGTCACTCACCTTAACCCATCTGCTCTACTCCAGGCTGGTTTTAAAAACCAAGGTACCCTCCCTCCAGAGAGATCATTTTAGGTGGGGACTGCATTAGATAAAAAAAATAAAGTCAGCTATTTCTTTCTTTCTT"
+        }
+    ]
+}

@@ -1,0 +1,345 @@
+{
+    "detections": [
+        {
+            "agent": "FAST_NA",
+            "fastq": [
+                "Y419.nanopore.fq",
+                "Y419.illumina.1.fq",
+                "Y419.illumina.2.fq"
+            ],
+            "date": "02/03/2022",
+            "runtime": 858,
+            "sample": "Y419",
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "confidence": 1.0,
+            "contigs": [
+                {
+                    "source": "X.4485"
+                },
+                {
+                    "source": "X.5969"
+                },
+                {
+                    "source": "X.6440"
+                },
+                {
+                    "source": "X.4993"
+                },
+                {
+                    "source": "X.5567"
+                },
+                {
+                    "source": "X.5609"
+                },
+                {
+                    "source": "X.3367"
+                },
+                {
+                    "source": "X.7336"
+                },
+                {
+                    "source": "Y.16",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "confidence": 0.25,
+                    "regions": [
+                        {
+                            "start": 264782,
+                            "end": 265111,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "id": "BLAST_match_6",
+                            "feature": "BLAST_match_6",
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "BLAST_match_6"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "source": "Y.3",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "confidence": 0.25,
+                    "regions": [
+                        {
+                            "start": 2149,
+                            "end": 2486,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "id": "BLAST_match_7",
+                            "feature": "BLAST_match_7",
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "BLAST_match_7"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "source": "Y.9",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "confidence": 1.0,
+                    "regions": [
+                        {
+                            "start": 401462,
+                            "end": 402288,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "id": "BLAST_match_8",
+                            "feature": "BLAST_match_8",
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "BLAST_match_8"
+                            }
+                        },
+                        {
+                            "start": 401462,
+                            "end": 402288,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "id": "yESapphire",
+                            "feature": "yESapphire",
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "yESapphire"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "source": "X.6298"
+                },
+                {
+                    "source": "X.8018"
+                }
+            ]
+        },
+        {
+            "agent": "FAST_NA",
+            "fastq": [
+                "Y359.illumina.1.fq",
+                "Y359.illumina.2.fq",
+                "Y359.nanopore.fq"
+            ],
+            "date": "02/03/2022",
+            "runtime": 953,
+            "sample": "Y359",
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "confidence": 0.25,
+            "contigs": [
+                {
+                    "source": "Y.1",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "confidence": 0.25,
+                    "regions": [
+                        {
+                            "start": 1,
+                            "end": 511,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "id": "BLAST_match_9",
+                            "feature": "BLAST_match_9",
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "BLAST_match_9"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "source": "Y.15"
+                },
+                {
+                    "source": "Y.25"
+                },
+                {
+                    "source": "Y.5",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "confidence": 0.25,
+                    "regions": [
+                        {
+                            "start": 175,
+                            "end": 513,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "id": "BLAST_match_10",
+                            "feature": "BLAST_match_10",
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "BLAST_match_10"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "agent": "FAST_NA",
+            "fastq": [
+                "Y340.nanopore.fq",
+                "Y340.illumina.2.fq",
+                "Y340.illumina.1.fq"
+            ],
+            "date": "02/03/2022",
+            "runtime": 938,
+            "sample": "Y340",
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "confidence": 0.25,
+            "contigs": [
+                {
+                    "source": "X.649",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "confidence": 0.25,
+                    "regions": [
+                        {
+                            "start": 20909,
+                            "end": 21346,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "id": "BLAST_match_11",
+                            "feature": "BLAST_match_11",
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "BLAST_match_11"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "source": "Y.1",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "confidence": 0.25,
+                    "regions": [
+                        {
+                            "start": 3611311,
+                            "end": 3612308,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "id": "BLAST_match_12",
+                            "feature": "BLAST_match_12",
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "BLAST_match_12"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "agent": "FAST_NA",
+            "fastq": [
+                "Y451.illumina.2.fq",
+                "Y451.illumina.1.fq",
+                "Y451.nanopore.fq"
+            ],
+            "date": "02/03/2022",
+            "runtime": 1020,
+            "sample": "Y451",
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "confidence": 0.25,
+            "contigs": [
+                {
+                    "source": "Y.1",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "confidence": 0.25,
+                    "regions": [
+                        {
+                            "start": 3611627,
+                            "end": 3612624,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "id": "BLAST_match_13",
+                            "feature": "BLAST_match_13",
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "BLAST_match_13"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "features": [
+        {
+            "id": "BLAST_match_6",
+            "name": "LargeROI_5",
+            "sequence": "TGTGGGTGTGGTGGCCATGGAGTGGCGGGTGGCCGTCGTTTTTTTGACGCCCCCTCTGTGGTGGTGCTAACGGCTGTCCTCAGGAGGTGGGTTTCCCGCGGCATTTATCGTGACTTCTTTCGCGTTGCACCGCCTGTTGGCGACACCACGTTGTGTATCTACAGCGCACCAGCCTTACCACGTGAGGATCAGCAGGAAGCAGAGGTTGAAGCGAACTGAAACGCCGCGTTCCCGCTGGCATTCTGCCGAATCATTTCATCCAACGACCTGCTGTTGGCGCGCTGCACCTGGCTTGGTCGCCAACGACGTCTGTGAAACGCAATGAGCC",
+            "subFeatures": []
+        },
+        {
+            "id": "BLAST_match_7",
+            "name": "LargeROI_6",
+            "sequence": "AACGGATATGGATTGGTATTTCGTTTGTTGCTTTTTTCCCGACGTTGTTTATTGTTACCTTTAATGTGCCAGCGAATTAGGTATTTTTTAGATAACCAGTGATGAGTACCATGTTTGAATATGGGAGCTAGTACTTATCGACCGATTTTCAATAAAAAGTAGCGCCGGTACACGTAACCCGGCGTGATATTTTGTTACCAGCTTACACTCAAACTTGTGAGAATATACGCGGCTATGTTTGTGTGTGTAGTGCTATTGATGTTTTGGTGCCGTTCAAAAAGTGGATGTGAAGATTACCAATGGCATTAAAAGAATGTCTTGTTTTGTGCATCGACTATGTTTATTCAAAATTGGGTGTTGCATG",
+            "subFeatures": []
+        },
+        {
+            "name": "yESapphire",
+            "source": "yESapphire",
+            "subFeatures": [],
+            "sequence": "ATGTCTAAAGGTGAAGAATTATTCACTGGTGTTGTCCCAATTTTGGTTGAATTAGATGGTGATGTTAATGGTCACAAATTTTCTGTCTCCGGTGAAGGTGAAGGTGATGCTACTTACGGTAAATTGACCTTAAAATTTATTTGTACTACTGGTAAATTGCCAGTTCCATGGCCAACCTTAGTCACTACTTTTTCTTATGGTGTTCAATGTTTTGCTAGATACCCAGATCATATGAAACAACATGACTTTTTCAAGTCTGCCATGCCAGAAGGTTATGTTCAAGAAAGAACTATTTTTTTCAAAGATGACGGTAACTACAAGACCAGAGCTGAAGTCAAGTTTGAAGGTGATACCTTAGTTAATAGAATCGAATTAAAAGGTATTGATTTTAAAGAAGATGGTAACATTTTAGGTCACAAATTGGAATACAACTTTAACTCTCACAATGTTTACATCATGGCTGACAAACAAAAGAATGGTATCAAAGTTAACTTCAAAATTAGACACAACATTGAAGATGGTTCTGTTCAATTAGCTGACCATTATCAACAAAATACTCCAATTGGTGATGGTCCAGTCTTGTTACCAGACAACCATTACTTATCCATTCAATCTGCCTTATCCAAAGATCCAAACGAAAAGAGGGATCACATGGTCTTGTTAGAATTTGTTACTGCTGCTGGTATTACCCATGGTATgGATGAATTGTACAAAtaa",
+            "id": "yESapphire"
+        },
+        {
+            "id": "BLAST_match_8",
+            "name": "Expression vector pTL80, complete sequence",
+            "source": "FJ834451.1",
+            "subFeatures": []
+        },
+        {
+            "id": "BLAST_match_9",
+            "name": "LargeROI_7",
+            "sequence": "TCACTACCTTTGGCCTTAAATTGACCAATTTTACCCCAATTTTAATTTAAATTTAATTGTTGTAATATTAGACTTTTAGCAGTATTTTTAGGTTTTGTTGCTTATACTTTTGTATAATAAATTTTAATTTTACCTTTAATGCATAGACGTGCCGTGCCTACAAGGACGGCTGTCTTAGCAATTTTGGTGATGATGCAATTTAAAGTTTTTTGAAATTTTTTTTTTTTTTTAATGCATGGATCTTTTCTATTTCTAATGGATACTTAAATTACGCTTTTTTTAGAGTTTAAGTCAAAAAGCCCTAAAAAGGTGTGCAGGAGCTGTCATATATATATGCTGCAGCAATTAGAGACAATTGTCTGGAATTTCATGAAATTTTTCCTGGGGGGGGGTTGCCTGCAATGCATATGCAAATTGCCAAAATAGTATTAAATAAAATGGCATGCCTGATGGCGCGCGGCTGCAGCATGAAAGTGGCGGAAGTGTTGGAATGCGGGGGCCTCCTCCTTG",
+            "subFeatures": []
+        },
+        {
+            "id": "BLAST_match_10",
+            "name": "LargeROI_8",
+            "sequence": "TGCATCTGCCTCTTTCTTAAACTCCCAGAGAACTGCCATCTGCCTGTCATGGTCTCCTCCTGGGTTTCGCTTGCGCAGTTCTCGGGCGCTGGGGGGTTTGCTCTTTAAGTGGTTGGCGGCGAGGTAGTGTGCGCGGGGCGTGATACAGCCCATTCCCAGGCCCAAATCACAAAACAATGCATGCGCATTTGTTACAGCTGATGTCTGCTGCCCAGGCACATTTTTTGAAGAGAGATGGAGGCATGGAAGAATATCTGCCCATCGTTAACTGCTCCTCCAAGTCTGAAGAGAGCCTGCAGCCTGTTTTCCTTCAGTCCAGATCCCACGCAAACGCACTC",
+            "subFeatures": []
+        },
+        {
+            "id": "BLAST_match_11",
+            "name": "LargeROI_9",
+            "sequence": "GGTAAAGGATGGAGCAAAGTAGCGTTGTGAACCTTTAAGCATCTCAACGCCACATTGAATTTCTCACCGCACATGATAAAAACTAAAAAGTCCACTTTAAGCGAGCGGCGGACAGCCATATCAGTTACTGGTAAGACGTGAAATATCACAGAGAAGATCACCTAAAATCGATGAAAAGGACTCCCCATCTAGATTCACATTGATATTTTTGCCATGGAAAAGATATTGAAGCATCACTGTACATAGAGCTTCAATCAACTCTTCATTTCCGACAGGGTAGCATGAAATATTCGAATATATACGCTCATATGCAGCTGGGTGTGTATTTTGTAAACAGAAGTAATTTTCAACTTCTAAGCTTTGTATACAAAGCACTGCCGTAGCAATGCCAAGTGCACGTTTCTTTAATTCAGGAGCGGATTCATACAGGTTGCCTAATATCCATTTTGTAGCATGTGAATCTGCTTCACGCTCCTCTTGAGTGGAGAATGCTGTAGTGACCAATGGATGCTGTAAAACAACATGACTTATTTCATGATGAAGAATCCAAGCAATAGCACAAAGAAATATCTCGCTAGCAACTTGTGAGTCTTCGCTTCCTTGTAAATATGCTTCTGGCTTGGGACATTTTTTAGGCCATGATTCGCAACCTGTTGTTTGCAAGTTTTTCCTTGCCCATTTAAGAAGTTCATCAGACTTTTTAAGCCTATTTTTTCCTGTTAAATCAAAGTGCTCATCATTATTTTTCTGAGATTTGGAGTACTCTTGCGTAAAAACCCAAAAGAAATTGGAAAATGCCCAAATATATTCAAGTGAAGCTACTGTTAGAACTATTTCATGTGAATTATTACTCTCATTCTTCCTGACTCGGATATTAAAACCAGGTTCACTCACAACTGAAATTATAATTTTTTTGTCGTCAACTATCGTTTTAAGATCTTGCTCCTTCTCTGGTGCAATCTTAAATGGTGATGAATTAATTGCTGAGAAAAGATGACAAATTGGTGAGCGCATTTTTCGTTAACCTCTACATTGTTGGGCTAGGTAGTATATACAAAATAAGATGAATCTTCAGTTTTTTCTATGTTCGATACTATATGCGTAATGAATTATCGACATGTTTAGAATATCTGCTATAGGCACACTGGGAACGATTAAGGTAAGCATGTCGTAAGACACCATCCGTGCCCACTGGACACTCTGTCATCATTTCATCATTTCATCATT",
+            "subFeatures": [
+                "BLAST_match_11_hypothetical_protein"
+            ]
+        },
+        {
+            "id": "BLAST_match_12",
+            "name": "LargeROI_10",
+            "sequence": "ATTAACTTGTCCAGTCGTGGAGGCGAAAGTAAAAAAAGAGGCCAAGGCCCGACTTCGGCTGGACCATTGGCTAGTTTGCTCAACCTGCCGTTATCGGAGCTAACCCCAGATTACATAGCAGCGTGGCTGAGTACAGAAAGGCAAAATAGACCTACCGTCACTGCTCACGCTTATCGCCTACTACGTGCTTTCATCAAATGGAGTAATTATCAGAAAAAATATCAAGGGATCATTCCTGGCGATCTGGCACAAGATTACAACGTAAGAAAAATGGTTCCCGTGTCAGCGAGTAAAGCTGATGATTGCCTGCAAAAGGAACAACTAAAAAGCTGGTTTAGTGCCGTGCGTAGCCTCAATAATCCTATTGCATCGGCCTATCTCCAAGTACTTTTGCTCACTGGTGCTCGGCGTGAAGAAATTGCGTCGCTTCGCTGGTCAGACGTAGATTTCAAATGGTCAAGCATGCGAATTAAAGACAAGATCGAAGGTGAACGTATCATCCCTC",
+            "subFeatures": [
+                "BLAST_match_12_lspA",
+                "BLAST_match_12_ileS"
+            ]
+        },
+        {
+            "id": "BLAST_match_13",
+            "name": "LargeROI_11",
+            "sequence": "ATTAACTTGTCCAGTCGTGGAGGCGAAAGTAAAAAAAGAGGCCAAGGCCCGACTTCGGCTGGACCATTGGCTAGTTTGCTCAACCTGCCGTTATCGGAGCTAACCCCAGATTACATAGCAGCGTGGCTGAGTACAGAAAGGCAAAATAGACCTACCGTCACTGCTCACGCTTATCGCCTACTACGTGCTTTCATCAAATGGAGTAATTATCAGAAAAAATATCAAGGGATCATTCCTGGCGATCTGGCACAAGATTACAACGTAAGAAAAATGGTTCCCGTGTCAGCGAGTAAAGCTGATGATTGCCTGCAAAAGGAACAACTAAAAAGCTGGTTTAGTGCCGTGCGTAGCCTCAATAATCCTATTGCATCGGCCTATCTCCAAGTACTTTTGCTCACTGGTGCTCGGCGTGAAGAAATTGCGTCGCTTCGCTGGTCAGACGTAGATTTCAAATGGTCAAGCATGCGAATTAAAGACAAGATCGAAGGTGAACGTATCATCCCTC",
+            "subFeatures": [
+                "BLAST_match_13_lspA",
+                "BLAST_match_13_ileS"
+            ]
+        },
+        {
+            "id": "BLAST_match_11_hypothetical_protein",
+            "sequence": "ggtaatataccaaaagatagtgcccaattaataaagctctcatgatctttaataggtgggacatacttggttggtaatgttattaaagggatgtattcgtaaataactagaagtatgcaatatattagcgtatttaagaaagttgctttatgaagtttaggcaacatttcattataatttttggggggttcgaacatattattcac",
+            "name": "BLAST_match_11_hypothetical_protein"
+        },
+        {
+            "id": "BLAST_match_12_ileS",
+            "sequence": "cgagatcctgaaacgtgctgccgatagctatcgtcgtatccgtaacaccgcgcgcttcctgctggcaaacctgaacggttttgatccagcaaaagatatggtgaaaccggaagagatggtggtactggatcgctgggccgtaggttgtgcgaaagcggcacaggaagacatcctcaaggcgtacgaagcatacgatttccacgaagtggtacagcgtctgatgcgcttctgctccgttgagatgggttccttctacctcgacatcatcaaagaccgtcagtacaccgccaaagcggacagtgtggcgcgtcgtagctgccagactgcgctatatcacatcgcagaagcgctggtgcgctggatggcaccaatcctctccttcaccgctgatgaagtgtggggctacctgccgggcgaacgtgaaaaatacgtcttcaccggtgagtggtacgaaggcctgtttggcctggcagacagtgaagcgatgaacgatgcgttctgggacgagctgttgaaagtgcgtggcgaagtgaacaaagtcattgagcaagcgcgtgccgacaagaaagtgggtggctcgctggaagcggcagtaaccttgtatgcagaaccggaactgtcggcgaaactgaccgcgctgggcgatgaattacgatttgtcctgttgacctccggcgctaccgttgcagactataacgacgcacctgctgatgctcagcagagcgaagtactcaaagggctgaaagtcgcgttgagtaaagccgaaggtgagaagtgcccacgctgctggcactacacccaggatgtcggcaaggtggcggaacacgcagaaatctgcggccgctgtgtcagcaacgtcgccggtgacggtgaaaaacgtaagtttgcctga",
+            "name": "BLAST_match_12_ileS"
+        },
+        {
+            "id": "BLAST_match_12_lspA",
+            "sequence": "tgagtcaatcgatctgttcaacagggctacgctggctgtggctggtggtagtcgtgctgattatcgatctgggcagcaaatacctgatcctccagaactttgctc",
+            "name": "BLAST_match_12_lspA"
+        },
+        {
+            "id": "BLAST_match_13_ileS",
+            "sequence": "cgagatcctgaaacgtgctgccgatagctatcgtcgtatccgtaacaccgcgcgcttcctgctggcaaacctgaacggttttgatccagcaaaagatatggtgaaaccggaagagatggtggtactggatcgctgggccgtaggttgtgcgaaagcggcacaggaagacatcctcaaggcgtacgaagcatacgatttccacgaagtggtacagcgtctgatgcgcttctgctccgttgagatgggttccttctacctcgacatcatcaaagaccgtcagtacaccgccaaagcggacagtgtggcgcgtcgtagctgccagactgcgctatatcacatcgcagaagcgctggtgcgctggatggcaccaatcctctccttcaccgctgatgaagtgtggggctacctgccgggcgaacgtgaaaaatacgtcttcaccggtgagtggtacgaaggcctgtttggcctggcagacagtgaagcgatgaacgatgcgttctgggacgagctgttgaaagtgcgtggcgaagtgaacaaagtcattgagcaagcgcgtgccgacaagaaagtgggtggctcgctggaagcggcagtaaccttgtatgcagaaccggaactgtcggcgaaactgaccgcgctgggcgatgaattacgatttgtcctgttgacctccggcgctaccgttgcagactataacgacgcacctgctgatgctcagcagagcgaagtactcaaagggctgaaagtcgcgttgagtaaagccgaaggtgagaagtgcccacgctgctggcactacacccaggatgtcggcaaggtggcggaacacgcagaaatctgcggccgctgtgtcagcaacgtcgccggtgacggtgaaaaacgtaagtttgcctga",
+            "name": "BLAST_match_13_ileS"
+        },
+        {
+            "id": "BLAST_match_13_lspA",
+            "sequence": "tgagtcaatcgatctgttcaacagggctacgctggctgtggctggtggtagtcgtgctgattatcgatctgggcagcaaatacctgatcctccagaactttgctc",
+            "name": "BLAST_match_13_lspA"
+        }
+    ]
+}

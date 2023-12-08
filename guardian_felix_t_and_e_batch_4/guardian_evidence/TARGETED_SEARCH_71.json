@@ -1,0 +1,16 @@
+{
+    "detections": [
+        {
+            "agent": "TARGETED_SEARCH",
+            "fastq": [
+                "/export/u12/te_2022/outputs/Y496_raw/SWINE_INFLUENZA_H1N1.illumina.1.fq",
+                "/export/u12/te_2022/outputs/Y496_raw/SWINE_INFLUENZA_H1N1.illumina.2.fq"
+            ],
+            "engineered": "http://guardian.bbn.technology#natural",
+            "sample": "Y496",
+            "alterations": [],
+            "reads": []
+        }
+    ],
+    "features": []
+}

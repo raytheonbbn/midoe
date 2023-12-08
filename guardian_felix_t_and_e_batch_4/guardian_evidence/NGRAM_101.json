@@ -1,0 +1,97 @@
+{
+    "detections": [
+        {
+            "agent": "ngram_high_entropy_seq_detector",
+            "confidence": 1.0,
+            "contigs": [
+                {
+                    "regions": [
+                        {
+                            "end": 2388,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y460_illumina_1-contigs.4939_roi2088_2388",
+                            "ngram_ent": 844.47,
+                            "pos_match": "Poor match cover",
+                            "start": 2088
+                        }
+                    ],
+                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y460_illumina_1-contigs.4939"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 4259,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y460_illumina_1-contigs.5159_roi2536_4259",
+                            "ngram_ent": 5231.429999999999,
+                            "pos_match": "GGTGTTTTAAAACTAAAAAAAAGACTAACTATAAAAGTAGAATTTAAGAAGTTTAAGAAATAGATTTACAGAATTACAATCAATACCTACCGTCTTTATATACTTATTAGTCAAGTAGGGGAATAATTTCAGGGAACTGGTTTCAACCTTTTTTTTCAGCTTTTTCCAAATCAGAGAGAGCAGAAGGTAATAGAAGGTGTAAGAAAATGAGATAGATACATGCGTGGGTCAATTGCCTTGTGTCATCATTTACTCCAGGCAGGTTGCATCACTCCATTGAGGTTGTGCCCGTTTTTTGCCTGTTTGTGCCCCTGTTCTCTGTAGTTGCGCTAAGAGAATGGACCTATGAACTGATGGTTGGTGAAGAAAACAATATTTTGGTGCTGGGATTCTTTTTTTTTCTGGATGCCAGCTTAAAAAGCGGGCTCCATTATATTTAGTGGATGCCAGGAATAAACTGTTCACCCAGACACCTACGATGTTATATATTCTGTGTAACCCGCCCCCTATTTTGGGCATGTACGGGTTACAGCAGAATTAAAAGGCTAATTTTTTGACTAA",
+                            "start": 2536
+                        }
+                    ],
+                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y460_illumina_1-contigs.5159"
+                }
+            ],
+            "date": "01/23/2022",
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "fasta": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y460_illumina_1-contigs.fa",
+            "hostTaxa": [
+                "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+            ],
+            "ngramDate": "2022-01-23 12:55:52.485944",
+            "runtime": 0.8666666666666667,
+            "sample": "Y460"
+        }
+    ],
+    "features": [
+        {
+            "confidence": 0.9999999999996234,
+            "cover": 0.22241992882562278,
+            "hostMatchCover": [
+                "Saccharomyces_cerevisiae",
+                0.887
+            ],
+            "id": "Y460_illumina_1-contigs.4939_roi2088_2388",
+            "name": "Ptdh3_match",
+            "ngram_eng_classn": [
+                "Univec_FUNYES",
+                495.5
+            ],
+            "ngram_ent": 844.47,
+            "pident": 1.0,
+            "roiEnd": 2388,
+            "roiStart": 2088,
+            "role": "promoter",
+            "sequence": "GCGATTAAGTTGGGTAACGCCAGGGTTTTCCCAGTCACGACGTTGTAAAACGACGGCCAGTGAATTGTAATACGACTCACTATAGGGCGAATTGGAGCTCAGTTTATCATTATCAATACTCGCCATTTCAAAGAATACGTAAATAATTAATAGTAGTGATTTTCCTAACTTTATTTAGTCAAAAAATTAGCCTTTTAATTCTGCTGTAACCCGTACATGCCCAAAATAGGGGGCGGGTTACACAGAATATATAACATCGTAGGTGTCTGGGTGAACAGTTTATTCCTGGCATCCACTAAA",
+            "source": "Ptdh3",
+            "sourceEnd": 562,
+            "sourceLen": 562,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sourceStart": 437
+        },
+        {
+            "confidence": 1.0,
+            "cover": 0.998220640569395,
+            "hostMatchCover": [
+                "Saccharomyces_cerevisiae",
+                0.508
+            ],
+            "id": "Y460_illumina_1-contigs.5159_roi2536_4259",
+            "name": "Ptdh3_match",
+            "ngram_eng_classn": [
+                "Univec_FUNYES",
+                3265.3299999999995
+            ],
+            "ngram_ent": 5231.429999999999,
+            "pident": 1.0,
+            "roiEnd": 4259,
+            "roiStart": 2536,
+            "role": "promoter",
+            "sequence": "CCTCACTAAAGGGAACAAAAGCTGGTACCGGGCCCCCCCTCGAGGTCGACGGTATCGATAAGCTTGATATCGAATTCCTGCAGCCCGGGGGATCCACTAGTTCTAGAGCGGCCGCAAATTAAAGCCTTCGAGCGTCCCAAAACCTTCTCAAGCAAGGTTTTCAGTATAATGTTACATGCGTACACGCGTCTGTACAGAAAAAAAAGAAAAATTTGAAATATAAATAACGTTCTTAATACTAACATAACTATAAAAAAATAAATAGGGACCTAGACTTCAGGTTGTCTAACTCCTTCCTTTTCGGTTAGAGCGGATGTGGGGGGAGGGCGTGAATGTAAGCGTGACATAACTAATTACATGACTCGAGTTACTTGTACAATTCGTCCATACCGCCAGTGGAGTGTCTACCTTCAGCTCTTTCGTATTGCTCGACAATAGTATAATCTTCGTTATGAGAGGTGATATCAAGCTTAATATTAACGTTGTATGCACCTGGCAATTGGACAGGCTTTTTGGCCTTATATGTAGTTTTAACTTCAGCGTCGTAGTGACCACCATCCTTTAATTTCAAACGTTGCTTGATTTCTCCTTTCAGAGCACCATCTTCTGGATACATTCTTTCGCTAGAGGCCTCCCAACCCATGGTCTTTTTTTGCATAACTGGACCGTCGGAGGGGAAGTTCGTACCTCTCAACTTGACTTTGTATATGAATTCGCCATCCTGTAAAGATGAATCTTGAGTAACGGTTACGACACCACCGTCTTCAAAATTCATAACCCTTTCCCACTTGAAACCTTCTGGAAAAGACAATTTTAGATAATCTGGGATATCTGCAGGATGCTTCACGTAAGCTTTGGAACCATACATGAATTGTGGAGACAAAATGTCCCAGGCAAATGGTAAAGGCCCACCCTTTGTGACTTTCAACTTAGCAGTTTGGGTACCCTCGTATGGTCTACCTTCACCTTCTCCTTCGATTTCGAATTCGTGACCGTTAACACTACCCTCCATATGAACTTTAAATCTCATGAATTCCTTAATAATAGCCATATTGTCTTCTTCGCCCTTTGAAACCATACTAGTTCTAGAATCCGTCGAAACTAAGTTCTGGTGTTTTAAAACTAAAAAAAAGACTAACTATAAAAGTAGAATTTAAGAAGTTTAAGAAATAGATTTACAGAATTACAATCAATACCTACCGTCTTTATATACTTATTAGTCAAGTAGGGGAATAATTTCAGGGAACTGGTTTCAACCTTTTTTTTCAGCTTTTTCCAAATCAGAGAGAGCAGAAGGTAATAGAAGGTGTAAGAAAATGAGATAGATACATGCGTGGGTCAATTGCCTTGTGTCATCATTTACTCCAGGCAGGTTGCATCACTCCATTGAGGTTGTGCCCGTTTTTTGCCTGTTTGTGCCCCTGTTCTCTGTAGTTGCGCTAAGAGAATGGACCTATGAACTGATGGTTGGTGAAGAAAACAATATTTTGGTGCTGGGATTCTTTTTTTTTCTGGATGCCAGCTTAAAAAGCGGGCTCCATTATATTTAGTGGATGCCAGGAATAAACTGTTCACCCAGACACCTACGATGTTATATATTCTGTGTAACCCGCCCCCTATTTTGGGCATGTACGGGTTACAGCAGAATTAAAAGGCTAATTTTTTGACTAAATAAAGTTAGGAAAATCACTACTATTAATTATTTACGTATTCTTTGAAATGG",
+            "source": "Ptdh3",
+            "sourceEnd": 562,
+            "sourceLen": 562,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sourceStart": 1
+        }
+    ]
+}

@@ -1,0 +1,2019 @@
+{
+    "detections": [
+        {
+            "agent": "TARGETED_SEARCH",
+            "fastq": [
+                "/export/u12/phase2batch2/raytheon/illumina/Y473.illumina.1.fq.gz",
+                "/export/u12/phase2batch2/raytheon/illumina/Y473.illumina.2.fq.gz"
+            ],
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "sample": "Y473",
+            "reads": [],
+            "alterations": [
+                {
+                    "type": "insertion",
+                    "derivedFeature": "ccdb_match_7",
+                    "targetAssembly": "GCF_000005845.2",
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ],
+                    "length": 290,
+                    "readCount": 35
+                }
+            ]
+        },
+        {
+            "agent": "TARGETED_SEARCH",
+            "fastq": [
+                "/export/u12/phase2batch2/raytheon/illumina/Y473.illumina.1.fq.gz",
+                "/export/u12/phase2batch2/raytheon/illumina/Y473.illumina.2.fq.gz"
+            ],
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "sample": "Y473",
+            "reads": [
+                {
+                    "source": "Y473.1032460",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_0",
+                            "start": 160,
+                            "end": 302,
+                            "featureStart": 160,
+                            "featureEnd": 302,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_0",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.1716917",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_1",
+                            "start": 195,
+                            "end": 302,
+                            "featureStart": 195,
+                            "featureEnd": 302,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_1",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_2",
+                            "start": 31,
+                            "end": 205,
+                            "featureStart": 31,
+                            "featureEnd": 205,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_2",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.3468829",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_3",
+                            "start": 188,
+                            "end": 302,
+                            "featureStart": 188,
+                            "featureEnd": 302,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_3",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_4",
+                            "start": 151,
+                            "end": 301,
+                            "featureStart": 151,
+                            "featureEnd": 301,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_4",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.4601895",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_5",
+                            "start": 1,
+                            "end": 71,
+                            "featureStart": 1,
+                            "featureEnd": 71,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_5",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_6",
+                            "start": 1,
+                            "end": 122,
+                            "featureStart": 1,
+                            "featureEnd": 122,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_6",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.5102982",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_7",
+                            "start": 12,
+                            "end": 302,
+                            "featureStart": 12,
+                            "featureEnd": 302,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_7",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_8",
+                            "start": 176,
+                            "end": 276,
+                            "featureStart": 176,
+                            "featureEnd": 276,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_8",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.5780385",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_9",
+                            "start": 1,
+                            "end": 161,
+                            "featureStart": 1,
+                            "featureEnd": 161,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_9",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_10",
+                            "start": 4,
+                            "end": 266,
+                            "featureStart": 4,
+                            "featureEnd": 266,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_10",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.5858839",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_11",
+                            "start": 1,
+                            "end": 220,
+                            "featureStart": 1,
+                            "featureEnd": 220,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_11",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_12",
+                            "start": 1,
+                            "end": 220,
+                            "featureStart": 1,
+                            "featureEnd": 220,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_12",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.8535935",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_13",
+                            "start": 1,
+                            "end": 119,
+                            "featureStart": 1,
+                            "featureEnd": 119,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_13",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_18",
+                            "start": 1,
+                            "end": 119,
+                            "featureStart": 1,
+                            "featureEnd": 119,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_18",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.7025488",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_14",
+                            "start": 1,
+                            "end": 245,
+                            "featureStart": 1,
+                            "featureEnd": 245,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_14",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_15",
+                            "start": 28,
+                            "end": 271,
+                            "featureStart": 28,
+                            "featureEnd": 271,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_15",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.7995648",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_16",
+                            "start": 162,
+                            "end": 288,
+                            "featureStart": 162,
+                            "featureEnd": 288,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_16",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_17",
+                            "start": 162,
+                            "end": 288,
+                            "featureStart": 162,
+                            "featureEnd": 288,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_17",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.8604779",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_19",
+                            "start": 1,
+                            "end": 163,
+                            "featureStart": 1,
+                            "featureEnd": 163,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_19",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_20",
+                            "start": 1,
+                            "end": 256,
+                            "featureStart": 1,
+                            "featureEnd": 256,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_20",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.9514755",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_21",
+                            "start": 18,
+                            "end": 302,
+                            "featureStart": 18,
+                            "featureEnd": 302,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_21",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_22",
+                            "start": 160,
+                            "end": 302,
+                            "featureStart": 160,
+                            "featureEnd": 302,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_22",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.9917339",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_23",
+                            "start": 1,
+                            "end": 219,
+                            "featureStart": 1,
+                            "featureEnd": 219,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_23",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_24",
+                            "start": 1,
+                            "end": 275,
+                            "featureStart": 1,
+                            "featureEnd": 275,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_24",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.12606122",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_25",
+                            "start": 110,
+                            "end": 172,
+                            "featureStart": 110,
+                            "featureEnd": 172,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_25",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_26",
+                            "start": 110,
+                            "end": 172,
+                            "featureStart": 110,
+                            "featureEnd": 172,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_26",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.12840647",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_27",
+                            "start": 5,
+                            "end": 191,
+                            "featureStart": 5,
+                            "featureEnd": 191,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_27",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_28",
+                            "start": 20,
+                            "end": 302,
+                            "featureStart": 20,
+                            "featureEnd": 302,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_28",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.12908201",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_29",
+                            "start": 98,
+                            "end": 244,
+                            "featureStart": 98,
+                            "featureEnd": 244,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_29",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_30",
+                            "start": 98,
+                            "end": 244,
+                            "featureStart": 98,
+                            "featureEnd": 244,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_30",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.13711369",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_31",
+                            "start": 124,
+                            "end": 301,
+                            "featureStart": 124,
+                            "featureEnd": 301,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_31",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_32",
+                            "start": 59,
+                            "end": 302,
+                            "featureStart": 59,
+                            "featureEnd": 302,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_32",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.15106660",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_33",
+                            "start": 29,
+                            "end": 301,
+                            "featureStart": 29,
+                            "featureEnd": 301,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_33",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_34",
+                            "start": 1,
+                            "end": 260,
+                            "featureStart": 1,
+                            "featureEnd": 260,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_34",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.15292346",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_35",
+                            "start": 52,
+                            "end": 302,
+                            "featureStart": 52,
+                            "featureEnd": 302,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_35",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.15589040",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_36",
+                            "start": 103,
+                            "end": 302,
+                            "featureStart": 103,
+                            "featureEnd": 302,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_36",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_37",
+                            "start": 13,
+                            "end": 248,
+                            "featureStart": 13,
+                            "featureEnd": 248,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_37",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.16122316",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_38",
+                            "start": 1,
+                            "end": 80,
+                            "featureStart": 1,
+                            "featureEnd": 80,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_38",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_39",
+                            "start": 1,
+                            "end": 96,
+                            "featureStart": 1,
+                            "featureEnd": 96,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_39",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.16380511",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_40",
+                            "start": 1,
+                            "end": 219,
+                            "featureStart": 1,
+                            "featureEnd": 219,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_40",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_41",
+                            "start": 1,
+                            "end": 182,
+                            "featureStart": 1,
+                            "featureEnd": 182,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_41",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.17825943",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_42",
+                            "start": 204,
+                            "end": 302,
+                            "featureStart": 204,
+                            "featureEnd": 302,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_42",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.19853554",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_43",
+                            "start": 6,
+                            "end": 192,
+                            "featureStart": 6,
+                            "featureEnd": 192,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_43",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.19858191",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_44",
+                            "start": 117,
+                            "end": 302,
+                            "featureStart": 117,
+                            "featureEnd": 302,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_44",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_45",
+                            "start": 43,
+                            "end": 302,
+                            "featureStart": 43,
+                            "featureEnd": 302,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_45",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.19927023",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_46",
+                            "start": 62,
+                            "end": 220,
+                            "featureStart": 62,
+                            "featureEnd": 220,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_46",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_47",
+                            "start": 62,
+                            "end": 220,
+                            "featureStart": 62,
+                            "featureEnd": 220,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_47",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.20027576",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_48",
+                            "start": 1,
+                            "end": 280,
+                            "featureStart": 1,
+                            "featureEnd": 280,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_48",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_49",
+                            "start": 1,
+                            "end": 280,
+                            "featureStart": 1,
+                            "featureEnd": 280,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_49",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.20249801",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_50",
+                            "start": 1,
+                            "end": 270,
+                            "featureStart": 1,
+                            "featureEnd": 270,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_50",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_51",
+                            "start": 167,
+                            "end": 298,
+                            "featureStart": 167,
+                            "featureEnd": 298,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_51",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.20306793",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_52",
+                            "start": 1,
+                            "end": 225,
+                            "featureStart": 1,
+                            "featureEnd": 225,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_52",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.21193916",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_53",
+                            "start": 1,
+                            "end": 174,
+                            "featureStart": 1,
+                            "featureEnd": 174,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_53",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.21205085",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_54",
+                            "start": 122,
+                            "end": 302,
+                            "featureStart": 122,
+                            "featureEnd": 302,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_54",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.22062994",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_55",
+                            "start": 1,
+                            "end": 190,
+                            "featureStart": 1,
+                            "featureEnd": 190,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_55",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.22304265",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_56",
+                            "start": 148,
+                            "end": 301,
+                            "featureStart": 148,
+                            "featureEnd": 301,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_56",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_57",
+                            "start": 217,
+                            "end": 302,
+                            "featureStart": 217,
+                            "featureEnd": 302,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_57",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.23043962",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_58",
+                            "start": 1,
+                            "end": 152,
+                            "featureStart": 1,
+                            "featureEnd": 152,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_58",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                },
+                {
+                    "source": "Y473.23257881",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_59",
+                            "start": 135,
+                            "end": 239,
+                            "featureStart": 135,
+                            "featureEnd": 239,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_59",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ccdb_match_60",
+                            "start": 135,
+                            "end": 239,
+                            "featureStart": 135,
+                            "featureEnd": 239,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ccdb_match_60",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                }
+            ]
+        },
+        {
+            "agent": "TARGETED_SEARCH",
+            "fastq": [
+                "/export/u12/phase2batch2/raytheon/illumina/Y473.illumina.1.fq.gz",
+                "/export/u12/phase2batch2/raytheon/illumina/Y473.illumina.2.fq.gz"
+            ],
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "sample": "Y473",
+            "reads": [
+                {
+                    "source": "Y473.19169475",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Bs_Kan_match_0",
+                            "start": 1,
+                            "end": 89,
+                            "featureStart": 1,
+                            "featureEnd": 89,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "Bs_Kan_match_0",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Bs_Kan_match_1",
+                            "start": 1,
+                            "end": 188,
+                            "featureStart": 1,
+                            "featureEnd": 188,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "Bs_Kan_match_1",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                }
+            ]
+        },
+        {
+            "agent": "TARGETED_SEARCH",
+            "fastq": [
+                "/export/u12/phase2batch2/raytheon/illumina/Y473.illumina.1.fq.gz",
+                "/export/u12/phase2batch2/raytheon/illumina/Y473.illumina.2.fq.gz"
+            ],
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "sample": "Y473",
+            "reads": [
+                {
+                    "source": "Y473.22568536",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "phi_X174_Lysis_Protein_match_0",
+                            "start": 62,
+                            "end": 224,
+                            "featureStart": 62,
+                            "featureEnd": 224,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "phi_X174_Lysis_Protein_match_0",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "phi_X174_Lysis_Protein_match_1",
+                            "start": 79,
+                            "end": 215,
+                            "featureStart": 79,
+                            "featureEnd": 215,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "phi_X174_Lysis_Protein_match_1",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                }
+            ]
+        }
+    ],
+    "features": [
+        {
+            "id": "ccdb_match_0",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 160,
+            "sourceEnd": 302,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCC",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_1",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 195,
+            "sourceEnd": 302,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCT",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_2",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 163,
+            "sourceEnd": 337,
+            "sequence": "AAAGTCTCCCGTGAGCGTTACCCGGTGGTGCTGGGCGGGGATGCAAGCTGGCGCATGATGACCCCCGATATGGCCGGTGGGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGAATATAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_3",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 188,
+            "sourceEnd": 302,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGT",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_4",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 151,
+            "sourceEnd": 301,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTT",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_5",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 237,
+            "sourceEnd": 307,
+            "sequence": "AGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGAATATAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_6",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 186,
+            "sourceEnd": 307,
+            "sequence": "CATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGAATATAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_7",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 12,
+            "sourceEnd": 302,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCTCGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGAT",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_8",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 176,
+            "sourceEnd": 276,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGCGCCGTTATCGTCCGTTTGTGGAGGTCAAGAGTGTCATTATTGACACGCCCGGGCGAGGGATGGTGA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_9",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 147,
+            "sourceEnd": 307,
+            "sequence": "GCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGAATATAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_10",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 4,
+            "sourceEnd": 266,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATGGGGGAAGAAGTGGCTGATCTCAGGTACCGCGAAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_11",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 88,
+            "sourceEnd": 307,
+            "sequence": "CGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGAATATAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_12",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 88,
+            "sourceEnd": 307,
+            "sequence": "CGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGAATATAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_13",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 189,
+            "sourceEnd": 307,
+            "sequence": "GATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGAATATAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_14",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 63,
+            "sourceEnd": 307,
+            "sequence": "GAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTTGGGAATATAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_15",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 91,
+            "sourceEnd": 334,
+            "sequence": "AGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGAATATAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_16",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 162,
+            "sourceEnd": 288,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTG",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_17",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 162,
+            "sourceEnd": 288,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTG",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_18",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 189,
+            "sourceEnd": 307,
+            "sequence": "GATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGAATATAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_19",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 145,
+            "sourceEnd": 307,
+            "sequence": "GAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGAATATAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_20",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 52,
+            "sourceEnd": 307,
+            "sequence": "GTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGAATATAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_21",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 18,
+            "sourceEnd": 302,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_22",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 160,
+            "sourceEnd": 302,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGCTGGTGCTCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAACGTCTCCC",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_23",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 89,
+            "sourceEnd": 307,
+            "sequence": "GACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGAATATAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_24",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 33,
+            "sourceEnd": 307,
+            "sequence": "GAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGAATATAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_25",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 110,
+            "sourceEnd": 172,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_26",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 110,
+            "sourceEnd": 172,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_27",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 125,
+            "sourceEnd": 311,
+            "sequence": "CTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGAATATAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_28",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 20,
+            "sourceEnd": 302,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTTATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGCGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAACCACCGCGAAACTGACATCAAAAAAGCAATT",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_29",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 98,
+            "sourceEnd": 244,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_30",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 98,
+            "sourceEnd": 244,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_31",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 124,
+            "sourceEnd": 301,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_32",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 59,
+            "sourceEnd": 302,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGGGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCT",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_33",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 29,
+            "sourceEnd": 301,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGCCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_34",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 48,
+            "sourceEnd": 307,
+            "sequence": "GTTTGTGGATGTTCAGAGTGACATCATGGACACGCCCGGTCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGAATATAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_35",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 52,
+            "sourceEnd": 302,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGCCGTTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_36",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 103,
+            "sourceEnd": 302,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCG",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_37",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 84,
+            "sourceEnd": 319,
+            "sequence": "TATTGACACGCCCGGGGTGCGGTTGGTGATCCCCCTGGCCAGAGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGAATATAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_38",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 228,
+            "sourceEnd": 307,
+            "sequence": "CGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGAATATAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_39",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 212,
+            "sourceEnd": 307,
+            "sequence": "TGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGAATATAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_40",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 89,
+            "sourceEnd": 307,
+            "sequence": "GACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGAATATAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_41",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 126,
+            "sourceEnd": 307,
+            "sequence": "GTCAGAAAAAGTCTCCGGTGGGCTGTACCCGGTGGTGCAGGTCGGGGATGAAAGCTGGCGAATGATGAGCTCCGATATGGCCAGTGTGCCGGTCTCCGTGATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGAATATAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_42",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 204,
+            "sourceEnd": 302,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGT",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "Bs_Kan_match_0",
+            "name": "Bs_Kan",
+            "source": "Bs_Kan",
+            "sourceStart": 708,
+            "sourceEnd": 796,
+            "sequence": "GTATGTCGAGCTATTTTTTGACTTACTGGGGATCAAGCCTGATTGGGAGAAAATAAAATATTATATTTTACTGGATGAATTGTTTTAG",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "Bs_Kan_match_1",
+            "name": "Bs_Kan",
+            "source": "Bs_Kan",
+            "sourceStart": 609,
+            "sourceEnd": 796,
+            "sequence": "AAGTGGCTTTATTGATCTTGGGAGAAGCGGCAGGGCGGACAAGTGGTATGACATTGCCTTCTGCGTCCGGTCGATCAGGGAGGATATCGGGGAAGAACAGTATGTCGAGCTATTTTTTGACTTACTGGGGATCAAGCCTGATTGGGAGAAAATAAAATATTATATTTTACTGGATGAATTGTTTTAG",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_43",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 126,
+            "sourceEnd": 312,
+            "sequence": "CTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGCATATAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_44",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 117,
+            "sourceEnd": 302,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCG",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_45",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 43,
+            "sourceEnd": 302,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCG",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_46",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 62,
+            "sourceEnd": 220,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGT",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_47",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 62,
+            "sourceEnd": 220,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCCCCCGTGAGCTTTACCCGGT",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_48",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 28,
+            "sourceEnd": 307,
+            "sequence": "AGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCTGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGAATATAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_49",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 28,
+            "sourceEnd": 307,
+            "sequence": "AGAGAGAGGCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGAATATAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_50",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 38,
+            "sourceEnd": 307,
+            "sequence": "GTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGAATATAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_51",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 167,
+            "sourceEnd": 298,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_52",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 80,
+            "sourceEnd": 304,
+            "sequence": "CGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGAATA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_53",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 134,
+            "sourceEnd": 307,
+            "sequence": "AAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGAATATAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_54",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 122,
+            "sourceEnd": 302,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGC",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_55",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 118,
+            "sourceEnd": 307,
+            "sequence": "CGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTTTACCCGGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGAATATAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_56",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 148,
+            "sourceEnd": 301,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCCCGCCTGCTGTCAGACAAAGTCTCCCGTGAGCTTTAC",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_57",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 217,
+            "sourceEnd": 302,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCC",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "phi_X174_Lysis_Protein_match_0",
+            "name": "_X174_Lysis_Protein_(X174E)",
+            "source": "phi_X174_Lysis_Protein",
+            "sourceStart": 174,
+            "sourceEnd": 336,
+            "sequence": "CATGGAAGGTGGTGAATTTACGGAAAAAAGTATTAATGGCGGAGAGCGTCCGGTTAAAGCCGCTGAAGTGTTCGCGTTTACCTGGCGTGTACGAGCAGGAAACACTGACGTTCTTACTGACGCAGAAGAAAACGTGCGTCAAAAATTACGTGCAGAAGGAGT",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "phi_X174_Lysis_Protein_match_1",
+            "name": "_X174_Lysis_Protein_(X174E)",
+            "source": "phi_X174_Lysis_Protein",
+            "sourceStart": 156,
+            "sourceEnd": 292,
+            "sequence": "GTTCATCCCGTCAACATTCACACGTCCTGTCTCCTCATGGAAGGCTCTGAATTTACGGAAAACATTATTAATTGCGTCGCTCGTCCGGTTCACGCCTCTGACTTGTTCGCGTTTACCTTTCGTGTACTCGCAGGAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_58",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 156,
+            "sourceEnd": 307,
+            "sequence": "GGTGGTGCATGTCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGTCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGAATATAA",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "ccdb_match_59",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 135,
+            "sourceEnd": 239,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGCGACGGATGGTGATCCC",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "ccdb_match_60",
+            "name": "ccdb",
+            "source": "ccdb",
+            "sourceStart": 135,
+            "sourceEnd": 239,
+            "sequence": "ATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTTCAGAGTGACATTATTGACACGCCCGGGAGACGGATGGTGATCCC",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        }
+    ]
+}

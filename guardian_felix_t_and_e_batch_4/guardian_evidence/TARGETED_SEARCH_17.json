@@ -1,0 +1,73 @@
+{
+    "detections": [
+        {
+            "agent": "TARGETED_SEARCH",
+            "fastq": [
+                "/export/u12/te_2022/outputs/Y335_raw/P_PUTIDA.illumina.1.fq",
+                "/export/u12/te_2022/outputs/Y335_raw/P_PUTIDA.illumina.2.fq"
+            ],
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "sample": "Y335",
+            "reads": [],
+            "alterations": [
+                {
+                    "type": "insertion",
+                    "derivedFeature": "ColE1_match_0",
+                    "targetAssembly": "GCF_000007565.2",
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_303"
+                    ],
+                    "length": 195,
+                    "readCount": 1
+                }
+            ]
+        },
+        {
+            "agent": "TARGETED_SEARCH",
+            "fastq": [
+                "/export/u12/te_2022/outputs/Y335_raw/P_PUTIDA.illumina.1.fq",
+                "/export/u12/te_2022/outputs/Y335_raw/P_PUTIDA.illumina.2.fq"
+            ],
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "sample": "Y335",
+            "reads": [
+                {
+                    "source": "Y335.441554",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "ColE1_match_0",
+                            "start": 107,
+                            "end": 302,
+                            "featureStart": 107,
+                            "featureEnd": 302,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "ColE1_match_0",
+                                "targetAssembly": "GCF_000007565.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_303"
+                    ]
+                }
+            ]
+        }
+    ],
+    "features": [
+        {
+            "id": "ColE1_match_0",
+            "name": "ColE1",
+            "source": "ColE1",
+            "sourceStart": 107,
+            "sourceEnd": 302,
+            "sequence": "GGCCGCGTTGCTGGCGTTTTTCCATAGGCTCCGCCCCCCTGACGAGCATCACAAAAATCGACGCTCAAGTCAGAGGTGGCGAAACCCGACAGGACTATAAAGATACCAGGCGTTTCCCCCTGGAAGCTCCCTCGTGCGCTCTCCTGTTCCGACCCTGCCGCTTACCGGATACCTGTCCGCCTTTCTCCCTTCGGG",
+            "role": "replicon",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        }
+    ]
+}

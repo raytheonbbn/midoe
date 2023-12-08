@@ -1,0 +1,62 @@
+{
+    "detections": [
+        {
+            "agent": "TARGETED_SEARCH",
+            "fastq": [
+                "/export/u12/phase2batch2/raytheon/illumina/Y459.illumina.1.fq.gz",
+                "/export/u12/phase2batch2/raytheon/illumina/Y459.illumina.2.fq.gz"
+            ],
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "sample": "Y459",
+            "reads": [],
+            "alterations": []
+        },
+        {
+            "agent": "TARGETED_SEARCH",
+            "fastq": [
+                "/export/u12/phase2batch2/raytheon/illumina/Y459.illumina.1.fq.gz",
+                "/export/u12/phase2batch2/raytheon/illumina/Y459.illumina.2.fq.gz"
+            ],
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "sample": "Y459",
+            "reads": [
+                {
+                    "source": "Y459.563518",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "CIDAR_tetR_match_0",
+                            "start": 76,
+                            "end": 254,
+                            "featureStart": 76,
+                            "featureEnd": 254,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "CIDAR_tetR_match_0",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                }
+            ]
+        }
+    ],
+    "features": [
+        {
+            "id": "CIDAR_tetR_match_0",
+            "name": "C0040",
+            "source": "CIDAR_tetR",
+            "sourceStart": 181,
+            "sourceEnd": 359,
+            "sequence": "GTAGAGCAGCCTACATTGTATTGGCATGTAAAAAATAAGCGGGCTTTGCTCGACGCCTTAGCCATTGAGATGTTAAATAGGCACCCTACTCACTTTTTACCTTTAGAAGGGTGAAGCTGGCAAGATTTTTTACGTAATAACTCTAAAAGTTTTAGCTGTGCTATACTCAGTCATCGCG",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        }
+    ]
+}

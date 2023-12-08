@@ -1,0 +1,11 @@
+{
+    "detections": [
+        {
+            "agent": "ngram_high_entropy_seq_detector",
+            "confidence": 0,
+            "engineered": "http://guardian.bbn.technology#natural",
+            "sample": "Y389"
+        }
+    ],
+    "features": []
+}

@@ -1,0 +1,79 @@
+{
+    "detections": [
+        {
+            "agent": "ngram_high_entropy_seq_detector",
+            "confidence": 0.9989105803223532,
+            "contigs": [
+                {
+                    "regions": [
+                        {
+                            "end": 312,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "P_AERUGINOSA-Y315_illumina_1-XXX.286_roi1_312",
+                            "ngram_ent": 552.1599999999995,
+                            "start": 1
+                        }
+                    ],
+                    "source": "Y.X.286"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 118,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "P_AERUGINOSA-Y315_illumina_1-XXX.4579_roi1_118",
+                            "ngram_ent": 213.19000000000005,
+                            "start": 1
+                        }
+                    ],
+                    "source": "Y.X.4579"
+                }
+            ],
+            "date": "01/29/2022",
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "fasta": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/P_AERUGINOSA-Y315_illumina_1-XXX.fa",
+            "hostTaxa": [
+                "http://purl.obolibrary.org/obo/NCBITaxon_287"
+            ],
+            "ngramDate": "2022-01-29 16:39:42.616878",
+            "runtime": 0.25,
+            "sample": "Y315"
+        }
+    ],
+    "features": [
+        {
+            "confidence": 0.9989105803223532,
+            "hostMatchCover": [
+                "Pseudomonas_aeruginosa",
+                0.621
+            ],
+            "id": "P_AERUGINOSA-Y315_illumina_1-XXX.286_roi1_312",
+            "ngram_eng_classn": [
+                "Univec_FUNYES",
+                120.28999999999951
+            ],
+            "ngram_ent": 552.1599999999995,
+            "roiEnd": 312,
+            "roiStart": 1,
+            "sequence": "TTGTTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCTTTGCAGGTACACTCTGAAGTATTTTTTATTTAATCACTACAGAGATGGTGGAGCTATGCGGGATCGAACCGCAGACCTCCTGCGTGCAAAGCAGGCGCTCTCCCAGCTGAGCTATAGCCCCATAACATGTAGTTAAAACCTCTTCAAATTTGCCGTGCAAATTTGGTAGGCCTGAGTGGACTTGAACCACCGACCTCACCCTTATCAGGGGTGCGCTCTAACCACCTGAGCTACAAGCCTGTAGAG",
+            "source": "P_AERUGINOSA-Y315_illumina_1-XXX.fa_seq1"
+        },
+        {
+            "confidence": 0.9893543437071227,
+            "hostMatchCover": [
+                "Pseudomonas_aeruginosa",
+                0.538
+            ],
+            "id": "P_AERUGINOSA-Y315_illumina_1-XXX.4579_roi1_118",
+            "ngram_eng_classn": [
+                "Univec_FUNYES",
+                49.02000000000007
+            ],
+            "ngram_ent": 213.19000000000005,
+            "roiEnd": 118,
+            "roiStart": 1,
+            "sequence": "AGTACGACTTCCCGGGCGACGACACTCCGATCGTTCGTGGTTCTGCTCTGAAAGCGCTGGAAGGCGACGCAGAGTGGGAAGCGAAAATCCTGGAACTGGCTGGCTTCCTGGATTCTT",
+            "source": "P_AERUGINOSA-Y315_illumina_1-XXX.fa_seq41"
+        }
+    ]
+}

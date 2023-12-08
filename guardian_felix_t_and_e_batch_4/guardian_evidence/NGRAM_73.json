@@ -1,0 +1,175 @@
+{
+    "detections": [
+        {
+            "agent": "ngram_high_entropy_seq_detector",
+            "confidence": 0.9999999999929845,
+            "contigs": [
+                {
+                    "regions": [
+                        {
+                            "end": 2451,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y399_illumina_1-contigs.444_roi1953_2451",
+                            "ngram_ent": 966.2299999999996,
+                            "start": 1953
+                        },
+                        {
+                            "end": 2984,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y399_illumina_1-contigs.444_roi2640_2984",
+                            "ngram_ent": 643.2999999999996,
+                            "start": 2640
+                        },
+                        {
+                            "end": 5614,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y399_illumina_1-contigs.444_roi4589_5614",
+                            "ngram_ent": 2129.140000000002,
+                            "start": 4589
+                        },
+                        {
+                            "end": 6964,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y399_illumina_1-contigs.444_roi6503_6964",
+                            "ngram_ent": 964.750000000001,
+                            "start": 6503
+                        }
+                    ],
+                    "source": "Y.444"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 2383,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y399_illumina_1-contigs.1514_roi793_2383",
+                            "ngram_ent": 3223.660000000002,
+                            "start": 793
+                        },
+                        {
+                            "end": 13186,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y399_illumina_1-contigs.1514_roi12461_13186",
+                            "ngram_ent": 1493.8300000000002,
+                            "start": 12461
+                        }
+                    ],
+                    "source": "Y.1514"
+                }
+            ],
+            "date": "01/26/2022",
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "fasta": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y399_illumina_1-contigs.fa",
+            "hostTaxa": [
+                "http://purl.obolibrary.org/obo/NCBITaxon_5286"
+            ],
+            "ngramDate": "2022-01-26 01:11:39.723121",
+            "runtime": 2.8,
+            "sample": "Y399"
+        }
+    ],
+    "features": [
+        {
+            "confidence": 0.9999953751362817,
+            "hostMatchCover": [
+                "Rhodotorula_toruloides",
+                0.163
+            ],
+            "id": "Y399_illumina_1-contigs.444_roi1953_2451",
+            "ngram_eng_classn": [
+                "Univec_FUNYES",
+                274.12999999999954
+            ],
+            "ngram_ent": 966.2299999999996,
+            "roiEnd": 2451,
+            "roiStart": 1953,
+            "sequence": "AACACGTGGCAGCAATGCAACCCTATGCATTTTTACAGGCTGCTAGCAATGCAATTTAAACAGGAACAGTCTGACTCGAACAGACGCCACAAGACTTTGGAGGTCTGTATGCTACCATTGACACTATGTTCCTTAATTACACCTGGTGGGGCAGTACTGTTAGGCTTGCAATGCTGGTCACACGTGCAGCATGCTGCAGTCGCATTGCACCATGCCATTAGACTAAAATTGCAAGTAACACGACTTTGCAAACACAGCAAGCTGCAGTCGCATTGCACCATGCCATTAAACTAAAATTGCAAGGCACACTGGCCGGCATTGCAAACACGGTAAGCTACTGCCGCATTGCACCATGCCATTAGACTAAATTTGCAATGCACCCAATTTTGCAAACACGGTAAACTACTGCCACATTACACCGTGCCATTAAACTAAAATTGCAATTAAGCAATGCTAGTCATGTAGGGTTGTACTACACCGTGCCATTAGACTAAAATT",
+            "source": "Y399_illumina_1-contigs.fa_seq307"
+        },
+        {
+            "confidence": 0.9998424298186148,
+            "hostMatchCover": [
+                "Rhodotorula_toruloides",
+                0.212
+            ],
+            "id": "Y399_illumina_1-contigs.444_roi2640_2984",
+            "ngram_eng_classn": [
+                "Univec_FUNYES",
+                162.3899999999996
+            ],
+            "ngram_ent": 643.2999999999996,
+            "roiEnd": 2984,
+            "roiStart": 2640,
+            "sequence": "TGCATTTTAAAGCAAGGGCAGCGTGACTTGAACACACACTAGCGAATTTGAAGTTCGCGGTTCTGCCAATTGAACTATGCCCTTAAACATACTGCAACACAAGCGTTGCTTATAGCCAGCATGCTAGTCAATGCAGCAGCAGCTTATGCAATGCAGTTTTGCAATGCAGTAAATGCCATGCTGCACAGTAGGCTATGTAATGCAGCAGCCTATGCTTTGCAACAGTACGGCCTGCAGTTTCGTCCCACCCCACAACACGTAGTGTTGTGGGGTGGGACGAAAAGCATGCAATTGCAATTACTAGTAGGTGGCCCATTAGCAAGTCTGTAACACTACGTAAGCCT",
+            "source": "Y399_illumina_1-contigs.fa_seq307"
+        },
+        {
+            "confidence": 0.9999999997756002,
+            "hostMatchCover": [
+                "Rhodotorula_toruloides",
+                0.083
+            ],
+            "id": "Y399_illumina_1-contigs.444_roi4589_5614",
+            "ngram_eng_classn": [
+                "Univec_FUNYES",
+                711.3100000000022
+            ],
+            "ngram_ent": 2129.140000000002,
+            "roiEnd": 5614,
+            "roiStart": 4589,
+            "sequence": "CACGGTAGCTTAAATTTGCTTGCTTAAGCTTGCCTATTACGCCGTGTAGAGTTAGCACAGTTGCTGCATTAACGACTTAACACTAATTTGCTTAAACTTGCAAACTACACCATGTAAAGTTAGCACAATTGCTGCAGCATTGTGACTTAACACTAATTTGCTTAAGCTTGCAAACTACACCATGTAGAGTTAGCACAGTTGCTGCATAGTGACTTAGCACTAATTTGCTTAAGCTGGCACATTACACCATGTAAAGTTAGCATAGTAGCTGCACAATGACTGGCACGTGCTTACTTAGGCTAGCTGCCTATGTTGCATGTGACTTGCAATGCTGCTGCCTATGCCAACACTGCACGGTTCAAAATTTGCAAAGGTTGCAACACTAGCAAAAGTCTGCAATGCTAACTTTACACCGCCCTACCCCAACAAGTTGGGGACTAGGTTAGGTAGCTTGCGGTTTGGGCACTGCATGCTGTGTACATTAATGCTGCAAAGGCTGTTGCTTAAGCTTGTGTTAAGTCAGGCTAAATTGTGTACAGTAAGGCTGCAAAGTCACTGTTTAAGCTCGTGTAGAGTCTAGTGGCTGACTTAAGTACATGCAACAAATGTAAACTAATGTTGCTGTTTAAGCTCGTGTAAAGTCTAGCTAAGTCGCATTACTGCAAACGTAAAATTTTGTAATGTAACACCTCGTACAAAGACTGCTGCTTGTGACCTAGTCACTGCAACGTACAGTCTTTAAGCTGCAAAGCTGCCATTAAACGCCTGGCCACATTACAGGCCACACCACGTACTGTGTGTGTGTGTGTGGGCACTAGGGTTGCTGCTAGTCTTAGCACTAGTACGCAGTCTTTAAGGCATAGGGTTGACTTAAGCTCACATTTAAGCTCAAAAAATTGAAATGAAAAAAAACACCTCACTTACAATAAATAAGGCTACGCCTAGGTTAAGTCCTTTTTGCACCGCAAATGTGTGGTTGCCTAGCAATGCACCTTCTGCAATTACGTCACGAAACCATAATGCCA",
+            "source": "Y399_illumina_1-contigs.fa_seq307"
+        },
+        {
+            "confidence": 0.9999997264028404,
+            "hostMatchCover": [
+                "Rhodotorula_toruloides",
+                0.095
+            ],
+            "id": "Y399_illumina_1-contigs.444_roi6503_6964",
+            "ngram_eng_classn": [
+                "Univec_FUNYES",
+                324.46000000000106
+            ],
+            "ngram_ent": 964.750000000001,
+            "roiEnd": 6964,
+            "roiStart": 6503,
+            "sequence": "CAAGTAAAGCACAATCGACCACTCTGTCATTCACCCAGCACGGTGTAGTTTAGGCCCATTAATTGCAGGCGCTAGGGCCCTGGGGTCCAAAATGCGACTACATTGACTACACAACATGCCAACTTCACAGCATGCTTTTGCAGTAAGCCAGTCACTAAACAGCTACTTATAGTCTAGTCGCGTAATGGCTTGTGTAGTGTTATGTTGCATTAAAAACCTAGTACAGGCTTGCAATTGGCATGACTAGCGTAAAGGCTTGTGTAGTGTTGTGTGACTAGCAGACCCTACATTTTTAAAAACAGTAGGCACGACTTGCAACTAGGCTTGTAAAGGCTTGTGTAGCATTGTGTGACTAGCAAAGACTTACGGCACACATGACTTGTAAACTTGCTTGTAAAGGCTTGTGTAGTATTGGGTTGCTAGCATAGACTTACGGCACACACGACTTGCAACCCTGCTTG",
+            "source": "Y399_illumina_1-contigs.fa_seq307"
+        },
+        {
+            "confidence": 0.9999999999929845,
+            "hostMatchCover": [
+                "Rhodotorula_toruloides",
+                0.081
+            ],
+            "id": "Y399_illumina_1-contigs.1514_roi793_2383",
+            "ngram_eng_classn": [
+                "Univec_FUNYES",
+                1024.1000000000022
+            ],
+            "ngram_ent": 3223.660000000002,
+            "roiEnd": 2383,
+            "roiStart": 793,
+            "sequence": "CAGTACAATTGAAAGCGCCATTTTTAATTGCAGTGTACCTGCGGGTGTGTTTGCAAATTTTGTGTGCATGCACATGCAATTGCACCGTTTTACATTGCAAGCATTGACGCTTACTACATTTTAATGACCAAAACACGCAGTGTTTTGGTCATTAAAAAACCGGGTACCTAAGTACACGACCACGACTAAACACCTAATGCCACAGGCTTGAAGCTAGCATGTAAGTACGCGCAAACGTGTAGACTAAGCTCATGCCAAGTTAGCATAAAGCTTGCATGTACTAAGCATGACTTTGCATTTTGCACACACCTGTCACACATAAGCTCATGTGAAGTTGCCACAGTGCCTAATTTAAGCTAGTGTGCCTTAATTAGGGACCGGTCACACTACCTCGGCCCCTTGGGGCAGTAGAGTTAGCAAGGTGCCTAATTTAAGTAAGTCGACTTTTACAAGGTACGGGTTACACAAGCTCATGTGAAGTTGGCATGGTACACACTTGAGCCTTGCATGCCTTAATTAGGGACCGGTCGTACTAGCTCATGTGAAGTTAGCATGGTACTAATTTGAAGCAAGTACAACTTAACCCTTAATAGGTCACACAAGCTCATGTAAAGTTAGGTACTTACATGCTTAAGCTAATTTGCCTTTACTGCAAACCTGTCATACTAGCTCATGTAGAGTTAGCACCATGCCTAATTAAAGCTAGTTGGACTTTACTAGGTACGGGTCACACAAGCTCATGTAAAGTTAGCATGCTGCAAATTTGAGGCTTGCATACCTTAATTAAGCACCGGCCACACTACCTTATGTAAAGTTAGCATGGTACTCATTTGAAGCAAGCATGGCTTTGCAATTTACAGGTCACACTAGCTCATGTAAAGTTAACACCGTGCCTAATTTAAGCAAGTCGGCATTAATTAGGTACCGGTCACAATAGCTCATGTGGTCCCCAAAATTAGGGTACCTAATTTTGGGGAAGAAGTTAGTATGGTACAAATTGGTGCCTTACATGCCTTAATTAGGTACCGGTCGCACTAGCTCATGTGAAGTTAGCATGTGCAAATTTTGAAGCAAGCATTACTTAACTATTAGCAGGTCGCATAAGCTCATGTGAAGTTAGCATGTGCAAATTTGAAGCTAGCCTGCCTTAATGACGTACCGTTCATGCAAGCTCATGTGAAGTTAGCAACGTGCAAACTTGAAGCTAGCTTGACTTAATGACGAACCCTTCATGCAAGCTCATGTGGTCCCCAAAATTAGGGTACCTAATTTTGGGGAAGAAGTTGGCTTGGTGCAAGCTTGAAGTCATTAAGACTAGCCAATGGGCAATACGGTGTAGTTTACGGGTCATGTTGGTCGTACCCGGGCTAATTGTGCAATTGCTGTGAACCGTGTACAGTGCTAAAGCTACGTAAGCTTAAATTGGGTTTAAGGGCTATGACCTAGTGCCTTGTGGCTTAGGTGTTGCAAGTCGCAATTGGGCTAAATTTACGCCACGTGCCCCATGCAAATTAATTAACATTGCATGTAACGTAAGTCACAGTCGTGTGGTTTAAACGCCACGTACCCCATGACTTAATGCACATGCTG",
+            "source": "Y399_illumina_1-contigs.fa_seq1079"
+        },
+        {
+            "confidence": 0.9999999890017554,
+            "hostMatchCover": [
+                "Rhodotorula_toruloides",
+                0.139
+            ],
+            "id": "Y399_illumina_1-contigs.1514_roi12461_13186",
+            "ngram_eng_classn": [
+                "Univec_FUNYES",
+                493.4300000000002
+            ],
+            "ngram_ent": 1493.8300000000002,
+            "roiEnd": 13186,
+            "roiStart": 12461,
+            "sequence": "ATCGAACTGGGACTACTAGTACCACAAACCAGTGTTCTACCGTTGAACTAAGCGGACCTATTGCAGCTTAATGCTAGCTTAATGTAGTTACTTATGCAAGCAGCCTTTTGTTTTTAATTTTGGCTCAGGGTACCTGAGCCAAAATTAAAAAAGGCGGGCATTAAAAGCCTAGGCTACATGGGCCCATGTGCTTAATTAAAGGCTCGTGTACAGTTGACCTGCTTGCAAAAAAGCAACCTTGCTAGTTTTGCACACTTGTGTTAAATTAGCACCGTGTAAAGTTAGCATGCATGCAATTTGCATACATTGCTAGCGTTGCTTGCATGTACTTAATTAAGCCCTGGCCCCCCAGGGGCAGTAATATTGACCTGCATGCAAAAAAAGCAACCTTGCTAGTTTTGCATACTTGTGTTAAATTAGCACCGTGTACAGTTAGCTTGCTTGCAATTTGCGTACATTGCTAGCATTGCTTGCATGTACTTAATTAAGCCCTGGCCCCCCAGGGGCAGTAATGTTGACCTGCACATAGGTAGCATACTAATGTAACTCGTGCACACTTGTGTTAAATTTACACCGTGTACAGTTGACTAGCTTACTGCATGTAAAAGTTGCTAGTTATGCTTGCATGTGCCAAATTAACACCACCTGCAATTGACCTGCTTGGTGTAGGCTTACGTTGCTAGCAGTGCTTACATGACCTAAATTTGCACCGCCTGCTATTGGCT",
+            "source": "Y399_illumina_1-contigs.fa_seq1079"
+        }
+    ]
+}

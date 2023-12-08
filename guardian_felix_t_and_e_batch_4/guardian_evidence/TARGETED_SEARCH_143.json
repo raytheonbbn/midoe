@@ -1,0 +1,16 @@
+{
+    "detections": [
+        {
+            "agent": "TARGETED_SEARCH",
+            "fastq": [
+                "/export/u12/phase2batch2/raytheon/illumina/Y376.illumina.1.fq.gz",
+                "/export/u12/phase2batch2/raytheon/illumina/Y376.illumina.2.fq.gz"
+            ],
+            "engineered": "http://guardian.bbn.technology#natural",
+            "sample": "Y376",
+            "alterations": [],
+            "reads": []
+        }
+    ],
+    "features": []
+}

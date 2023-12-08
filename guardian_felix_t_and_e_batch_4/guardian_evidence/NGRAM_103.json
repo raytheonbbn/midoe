@@ -1,0 +1,50 @@
+{
+    "detections": [
+        {
+            "agent": "ngram_high_entropy_seq_detector",
+            "confidence": 0.832854893646429,
+            "contigs": [
+                {
+                    "regions": [
+                        {
+                            "end": 419523,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y461_illumina_1-contigs.fa.Pseudomonas_Aeruginosa.5019_roi419388_419523",
+                            "ngram_ent": 168.94000000000003,
+                            "start": 419388
+                        }
+                    ],
+                    "source": "Y.5019"
+                }
+            ],
+            "date": "01/27/2022",
+            "engineered": "http://guardian.bbn.technology#natural",
+            "fasta": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y461_illumina_1-contigs.fa.Pseudomonas_Aeruginosa.fa",
+            "hostTaxa": [
+                "http://purl.obolibrary.org/obo/NCBITaxon_287"
+            ],
+            "ngramDate": "2022-01-27 19:49:28.856277",
+            "runtime": 0.4166666666666667,
+            "sample": "Y461"
+        }
+    ],
+    "features": [
+        {
+            "confidence": 0.832854893646429,
+            "hostMatchCover": [
+                "Pseudomonas_aeruginosa",
+                0.578
+            ],
+            "id": "Y461_illumina_1-contigs.fa.Pseudomonas_Aeruginosa.5019_roi419388_419523",
+            "ngram_eng_classn": [
+                "HOST",
+                -18.659999999999968
+            ],
+            "ngram_ent": 168.94000000000003,
+            "roiEnd": 419523,
+            "roiStart": 419388,
+            "sequence": "GACGTCTGNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTTGGGGGCTCTCGTCAGGGGCCGCAATCGGCCCAGGCCGTGTAAAAAACACAGCGAGCGCTGGGTAGCCGGATATGGA",
+            "source": "Y461_illumina_1-contigs.fa.Pseudomonas_Aeruginosa.fa_seq55"
+        }
+    ]
+}

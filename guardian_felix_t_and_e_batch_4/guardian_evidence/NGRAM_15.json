@@ -1,0 +1,50 @@
+{
+    "detections": [
+        {
+            "agent": "ngram_high_entropy_seq_detector",
+            "confidence": 0.9663319629495611,
+            "contigs": [
+                {
+                    "regions": [
+                        {
+                            "end": 2288,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "S_ENTERICA-Y315_illumina_1-XXX.7652_roi2059_2288",
+                            "ngram_ent": 266.969999999999,
+                            "start": 2059
+                        }
+                    ],
+                    "source": "Y.X.7652"
+                }
+            ],
+            "date": "01/29/2022",
+            "engineered": "http://guardian.bbn.technology#natural",
+            "fasta": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/S_ENTERICA-Y315_illumina_1-XXX.fa",
+            "hostTaxa": [
+                "http://purl.obolibrary.org/obo/NCBITaxon_59201"
+            ],
+            "ngramDate": "2022-01-29 17:32:18.287529",
+            "runtime": 0.21666666666666667,
+            "sample": "Y315"
+        }
+    ],
+    "features": [
+        {
+            "confidence": 0.9663319629495611,
+            "hostMatchCover": [
+                "Salmonella_enterica",
+                0.323
+            ],
+            "id": "S_ENTERICA-Y315_illumina_1-XXX.7652_roi2059_2288",
+            "ngram_eng_classn": [
+                "HOST",
+                -50.80000000000098
+            ],
+            "ngram_ent": 266.969999999999,
+            "roiEnd": 2288,
+            "roiStart": 2059,
+            "sequence": "GCCCTTGCCCTTGCCCTTGCCCTTGCCCTTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTTGCCCTTGCTATTGATGTCGTTTATGCTCAGCATAGTTCACAC",
+            "source": "S_ENTERICA-Y315_illumina_1-XXX.fa_seq289"
+        }
+    ]
+}

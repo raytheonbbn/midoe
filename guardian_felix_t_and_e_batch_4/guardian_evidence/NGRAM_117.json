@@ -1,0 +1,146 @@
+{
+    "detections": [
+        {
+            "agent": "ngram_high_entropy_seq_detector",
+            "confidence": 1.0,
+            "contigs": [
+                {
+                    "regions": [
+                        {
+                            "end": 2219,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y492_illumina_1-contigs.13623_roi1486_2219",
+                            "ngram_ent": 2150.340000000006,
+                            "pos_match": "AAATTGTAAACGTTAATATTTTGTTAAAATTCGCGTTAAATTTTTGTTAAATCAGCTCATTTTTTAACCAATAGGCCGAAATCGGCAAAATCCCTTATAAATCAAAAGAATAGACCGAGATAGGGTTGAGTGTTGTTCCAGTTTGGAACAAGAGTCCACTATTAAAGAACGTGGACTCCAACGTCAAAGGGCGAAAAACCGTCTATCAGGGCGATGGCCCACTACGTGAACCATCACCCTAATCAAGTTTTTTGGGGTCGAGGTGCCGTAAAGCACTAAATCGGAACCCTAAAGGGAGCCCCCGATTTAGAGCTTGACGGGGAAAGCCGGCGAACGTGGCGAGAAAGGAAGGGAAGAAAGCGAAAGGAGCGGGCGCTAGGGCGCTGGCAAGTGTAGCGGTCACGCTGCGCGTAACCACCACACCCGCCGCGCTTAATGCGCCGCTACAGGGCGCG",
+                            "start": 1486
+                        }
+                    ],
+                    "source": "Y.13623"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 154562,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y492_illumina_1-contigs.13628_roi154381_154562",
+                            "ngram_ent": 189.00999999999988,
+                            "start": 154381
+                        }
+                    ],
+                    "source": "Y.13628"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 63177,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y492_illumina_1-contigs.13860_roi62987_63177",
+                            "ngram_ent": 235.6399999999991,
+                            "start": 62987
+                        }
+                    ],
+                    "source": "Y.13860"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 29298,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y492_illumina_1-contigs.13864_roi29129_29298",
+                            "ngram_ent": 182.3299999999999,
+                            "start": 29129
+                        }
+                    ],
+                    "source": "Y.13864"
+                }
+            ],
+            "date": "01/27/2022",
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "fasta": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y492_illumina_1-contigs.fa",
+            "hostTaxa": [
+                "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+            ],
+            "ngramDate": "2022-01-27 01:23:19.657501",
+            "runtime": 0.5333333333333333,
+            "sample": "Y492"
+        }
+    ],
+    "features": [
+        {
+            "confidence": 1.0,
+            "cover": 0.9978070175438597,
+            "hostMatchCover": [
+                "Saccharomyces_cerevisiae",
+                0.383
+            ],
+            "id": "Y492_illumina_1-contigs.13623_roi1486_2219",
+            "name": "m13_origin_match",
+            "ngram_eng_classn": [
+                "Univec_FUNYES",
+                1574.6800000000062
+            ],
+            "ngram_ent": 2150.340000000006,
+            "pident": 0.9978100000000001,
+            "roiEnd": 2219,
+            "roiStart": 1486,
+            "role": "origin_of_replication",
+            "sequence": "TGCGGTGTGAAATACCGCACAGATGCGTAAGGAGAAAATACCGCATCAGGAAATTGTAAGCGTTAATATTTTGTTAAAATTCGCGTTAAATTTTTGTTAAATCAGCTCATTTTTTAACCAATAGGCCGAAATCGGCAAAATCCCTTATAAATCAAAAGAATAGACCGAGATAGGGTTGAGTGTTGTTCCAGTTTGGAACAAGAGTCCACTATTAAAGAACGTGGACTCCAACGTCAAAGGGCGAAAAACCGTCTATCAGGGCGATGGCCCACTACGTGAACCATCACCCTAATCAAGTTTTTTGGGGTCGAGGTGCCGTAAAGCACTAAATCGGAACCCTAAAGGGAGCCCCCGATTTAGAGCTTGACGGGGAAAGCCGGCGAACGTGGCGAGAAAGGAAGGGAAGAAAGCGAAAGGAGCGGGCGCTAGGGCGCTGGCAAGTGTAGCGGTCACGCTGCGCGTAACCACCACACCCGCCGCGCTTAATGCGCCGCTACAGGGCGCGTCCATTCGCCATTCAGGCTGCGCAACTGTTGGGAAGGGCGATCGGTGCGGGCCTCTTCGCTATTACGCCAGCTGGCGAAAGGGGGATGTGCTGCAAGGCGATTAAGTTGGGTAACGCCAGGGTTTTCCCAGTCACGACGTTGTAAAACGACGGCCAGTGAATTGTAATACGACTCACTATAGGGCGAATTGGAGCTCAGTTTATCATTATCAATACTCGCCATTTCAA",
+            "source": "m13_origin",
+            "sourceEnd": 456,
+            "sourceLen": 456,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sourceStart": 1
+        },
+        {
+            "confidence": 0.9871418743470672,
+            "hostMatchCover": [
+                "Saccharomyces_cerevisiae",
+                0.641
+            ],
+            "id": "Y492_illumina_1-contigs.13628_roi154381_154562",
+            "ngram_eng_classn": [
+                "HOST",
+                -58.40000000000012
+            ],
+            "ngram_ent": 189.00999999999988,
+            "roiEnd": 154562,
+            "roiStart": 154381,
+            "sequence": "TATAGATTTGTAAAGGTTAAAATAGAAGGCCGATGAGGCCTTATGTAAGTCTANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTTTTTTTTTTCTTAATTGTTTATCAATGTATCTGTGAGAGTATCTACATAAAAAAAATAACCA",
+            "source": "Y492_illumina_1-contigs.fa_seq9283"
+        },
+        {
+            "confidence": 0.882927672289906,
+            "hostMatchCover": [
+                "Saccharomyces_cerevisiae",
+                0.195
+            ],
+            "id": "Y492_illumina_1-contigs.13860_roi62987_63177",
+            "ngram_eng_classn": [
+                "HOST",
+                -27.850000000000904
+            ],
+            "ngram_ent": 235.6399999999991,
+            "roiEnd": 63177,
+            "roiStart": 62987,
+            "sequence": "CTTTTAAATTATGACCCCGTGGTGTTTGGGTTAAATTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGTGGGGAAAACCGACTA",
+            "source": "Y492_illumina_1-contigs.fa_seq9492"
+        },
+        {
+            "confidence": 0.9780857779388792,
+            "hostMatchCover": [
+                "Saccharomyces_cerevisiae",
+                0.284
+            ],
+            "id": "Y492_illumina_1-contigs.13864_roi29129_29298",
+            "ngram_eng_classn": [
+                "HOST",
+                -49.38000000000011
+            ],
+            "ngram_ent": 182.3299999999999,
+            "roiEnd": 29298,
+            "roiStart": 29129,
+            "sequence": "AACACTCTACATAATATGCTAAAAACATTAAAAAAAAAAAAAGGAAAATAAAAAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCTCTTAAACTATGAAAAGGCAATCAATCCACTGTTTTCTTTTTCCATT",
+            "source": "Y492_illumina_1-contigs.fa_seq9496"
+        }
+    ]
+}

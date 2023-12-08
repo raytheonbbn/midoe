@@ -1,0 +1,3438 @@
+{
+  "approaches": [
+    "ProgressiveMauve full genome pairwise alignment", 
+    "Natural variations background", 
+    "Hidden Markov Model", 
+    "Automated HMM score threshold", 
+    "UniVec BLASTn vector hits in HMM peaks", 
+    "Combined confidence score", 
+    "ABySS assembly"
+  ], 
+  "dataset": "T&E_batch4", 
+  "detections": [
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_DQ058733_1_2725_2968", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_2886926"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_DQ058733_1_2578_2676", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_2886926"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_DQ058733_1_2419_2517", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_2886926"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_DQ058730_2_3593_3691", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_2886926"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00359_1_15175_15224", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_2886926"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.6000000000000001, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_2886926"
+      ], 
+      "hostTaxaName": "Escherichia phage P1", 
+      "num_hits": 7, 
+      "sample": "Y302"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [], 
+      "confidence": 0.22439024390243906, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 1531726928, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+      ], 
+      "hostTaxaName": "Saccharomyces cerevisiae", 
+      "num_hits": 1, 
+      "sample": "Y304"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [], 
+      "confidence": 0.3181818181818182, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 3632118946, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_562"
+      ], 
+      "hostTaxaName": "Escherichia coli", 
+      "num_hits": 4, 
+      "sample": "Y308"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.0, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 158709585, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_287"
+      ], 
+      "hostTaxaName": "Pseudomonas aeruginosa", 
+      "num_hits": 0, 
+      "sample": "Y313"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.21333333333333335, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 2982177576, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_562"
+      ], 
+      "hostTaxaName": "Escherichia coli", 
+      "num_hits": 0, 
+      "sample": "Y315"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.0, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 471478570, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_287"
+      ], 
+      "hostTaxaName": "Pseudomonas aeruginosa", 
+      "num_hits": 0, 
+      "sample": "Y315"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.0, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 9093221001, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_303"
+      ], 
+      "hostTaxaName": "Pseudomonas putida", 
+      "num_hits": 0, 
+      "sample": "Y315"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.2, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 2168478692, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+      ], 
+      "hostTaxaName": "Saccharomyces cerevisiae", 
+      "num_hits": 0, 
+      "sample": "Y315"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.26666666666666666, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 239555424, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+      ], 
+      "hostTaxaName": "Salmonella enterica", 
+      "num_hits": 0, 
+      "sample": "Y315"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_KP057689_1_3175_3319", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_M21340_1_34_88", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_M60088_1_1_57", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_X05042_1_1_51", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_X65329_1_1_58", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.4869565217391304, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 101242200, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+      ], 
+      "hostTaxaName": "Bacillus subtilis", 
+      "num_hits": 8, 
+      "sample": "Y317"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.26666666666666666, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 446853380, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_562"
+      ], 
+      "hostTaxaName": "Escherichia coli", 
+      "num_hits": 0, 
+      "sample": "Y318"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [], 
+      "confidence": 0.21363636363636365, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 1048766070, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+      ], 
+      "hostTaxaName": "Saccharomyces cerevisiae", 
+      "num_hits": 1, 
+      "sample": "Y320"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_DQ657243_1_2454_2552", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_L08948_1_2831_2884_42", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_X65315_2_2260_2355", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_EU140754_1_1_64", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.27536231884057977, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 1686645182, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+      ], 
+      "hostTaxaName": "Saccharomyces cerevisiae", 
+      "num_hits": 7, 
+      "sample": "Y321"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.2, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 49014033, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+      ], 
+      "hostTaxaName": "Salmonella enterica", 
+      "num_hits": 0, 
+      "sample": "Y322"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.23076923076923078, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 3997804223, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_562"
+      ], 
+      "hostTaxaName": "Escherichia coli", 
+      "num_hits": 0, 
+      "sample": "Y323"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [], 
+      "confidence": 0.6000000000000001, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 265963640, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_287"
+      ], 
+      "hostTaxaName": "Pseudomonas aeruginosa", 
+      "num_hits": 1, 
+      "sample": "Y323"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.2, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 1367955608, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+      ], 
+      "hostTaxaName": "Saccharomyces cerevisiae", 
+      "num_hits": 0, 
+      "sample": "Y323"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.30000000000000004, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 197469318, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+      ], 
+      "hostTaxaName": "Salmonella enterica", 
+      "num_hits": 0, 
+      "sample": "Y323"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_M18329_1_4175_4225", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_M18329_1_2788_2838", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_M18328_1_4175_4225", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_M18328_1_2788_2838", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00359_1_12916_12965", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.68, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 6364605547, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+      ], 
+      "hostTaxaName": "Salmonella enterica", 
+      "num_hits": 18, 
+      "sample": "Y324"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_M21340_1_34_88", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_M60088_1_1_57", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_X05042_1_1_51", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_X65329_1_1_58", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.4842105263157895, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 708609560, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+      ], 
+      "hostTaxaName": "Bacillus subtilis", 
+      "num_hits": 7, 
+      "sample": "Y327"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_AF075573_1_4890_5044", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_M62983_1_235_330", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_M15423_1_5057_5153", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_X98613_1_4517_4613", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_X65279_1_3647_3749", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.827906976744186, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 43173856, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+      ], 
+      "hostTaxaName": "Salmonella enterica", 
+      "num_hits": 36, 
+      "sample": "Y329"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.0, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 6076508588, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_303"
+      ], 
+      "hostTaxaName": "Pseudomonas putida", 
+      "num_hits": 0, 
+      "sample": "Y330"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.0, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_11292"
+      ], 
+      "hostTaxaName": "Rabies lyssavirus", 
+      "num_hits": 0, 
+      "sample": "Y331"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_NGB00764_1_1_65", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_39947"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00852_1_1_64", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_39947"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB01063_1_1_66", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_39947"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00761_1_1_65", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_39947"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00759_1_1_65", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_39947"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.9991935483870968, 
+      "date": "02/18/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 135672949235, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_39947"
+      ], 
+      "hostTaxaName": "Oryza sativa japonica", 
+      "num_hits": 248, 
+      "sample": "Y333"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.0, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 319169554, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_303"
+      ], 
+      "hostTaxaName": "Pseudomonas putida", 
+      "num_hits": 0, 
+      "sample": "Y335"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.2705882352941177, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 209596446, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_562"
+      ], 
+      "hostTaxaName": "Escherichia coli", 
+      "num_hits": 0, 
+      "sample": "Y337"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.0, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 99629424, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_287"
+      ], 
+      "hostTaxaName": "Pseudomonas aeruginosa", 
+      "num_hits": 0, 
+      "sample": "Y339"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_AY599229_2_1260_1399", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_562"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00147_1_1381_1476", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_562"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_EU496103_1_533_630", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_562"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_U13869_1_2390_2731", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_562"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00115_1_109_206", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_562"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.6857142857142857, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 153028436, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_562"
+      ], 
+      "hostTaxaName": "Escherichia coli", 
+      "num_hits": 45, 
+      "sample": "Y340"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [], 
+      "confidence": 0.24000000000000002, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 1588681618, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+      ], 
+      "hostTaxaName": "Saccharomyces cerevisiae", 
+      "num_hits": 3, 
+      "sample": "Y342"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [], 
+      "confidence": 0.2933333333333333, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 186980238, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_562"
+      ], 
+      "hostTaxaName": "Escherichia coli", 
+      "num_hits": 1, 
+      "sample": "Y344"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.21132075471698114, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 3541872967, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_562"
+      ], 
+      "hostTaxaName": "Escherichia coli", 
+      "num_hits": 0, 
+      "sample": "Y347"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.0, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 116606806, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_287"
+      ], 
+      "hostTaxaName": "Pseudomonas aeruginosa", 
+      "num_hits": 0, 
+      "sample": "Y347"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.0, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 338475570, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_303"
+      ], 
+      "hostTaxaName": "Pseudomonas putida", 
+      "num_hits": 0, 
+      "sample": "Y349"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.24000000000000002, 
+      "date": "03/01/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 6350061582, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_562"
+      ], 
+      "hostTaxaName": "Escherichia coli", 
+      "num_hits": 0, 
+      "sample": "Y350"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.2, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 11100209248, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_546"
+      ], 
+      "hostTaxaName": "Citrobacter freundii", 
+      "num_hits": 0, 
+      "sample": "Y354"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.24000000000000002, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 209976999, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_562"
+      ], 
+      "hostTaxaName": "Escherichia coli", 
+      "num_hits": 0, 
+      "sample": "Y357"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.0, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 11549088435, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_5286"
+      ], 
+      "hostTaxaName": "Rhodosporidium toruloides", 
+      "num_hits": 0, 
+      "sample": "Y359"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.2, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 6923803560, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_546"
+      ], 
+      "hostTaxaName": "Citrobacter freundii", 
+      "num_hits": 0, 
+      "sample": "Y360"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_EU182593_1_2865_2931_48", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00147_1_1381_1476", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00115_1_109_206", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00400_1_165_261", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_U13188_1_3131_3296", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.6256000000000002, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 466120457, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+      ], 
+      "hostTaxaName": "Saccharomyces cerevisiae", 
+      "num_hits": 70, 
+      "sample": "Y365"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_EU182593_1_2865_2931_48", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00147_1_1381_1476", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00115_1_109_206", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00400_1_165_261", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_U13188_1_3131_3296", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.6104575163398693, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 469426553, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+      ], 
+      "hostTaxaName": "Saccharomyces cerevisiae", 
+      "num_hits": 84, 
+      "sample": "Y367"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_KP057689_1_3175_3319", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_M21340_1_34_88", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_M60088_1_1_57", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_X05042_1_1_51", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_X65329_1_1_58", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.4869565217391304, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 813044438, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+      ], 
+      "hostTaxaName": "Bacillus subtilis", 
+      "num_hits": 8, 
+      "sample": "Y372"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_DQ493886_2_2240_2390", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_5286"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_DQ493887_2_2527_2637", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_5286"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_DQ493886_2_2531_2630", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_5286"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_DQ493887_2_2121_2220", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_5286"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_DQ493885_2_2427_2634", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_5286"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.9846153846153847, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 10620217083, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_5286"
+      ], 
+      "hostTaxaName": "Rhodosporidium toruloides", 
+      "num_hits": 13, 
+      "sample": "Y374"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [], 
+      "confidence": 0.21754385964912282, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 3654691535, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_562"
+      ], 
+      "hostTaxaName": "Escherichia coli", 
+      "num_hits": 1, 
+      "sample": "Y375"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.0, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 66261339, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_287"
+      ], 
+      "hostTaxaName": "Pseudomonas aeruginosa", 
+      "num_hits": 0, 
+      "sample": "Y375"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.0, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 368078200, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_303"
+      ], 
+      "hostTaxaName": "Pseudomonas putida", 
+      "num_hits": 0, 
+      "sample": "Y376"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.23157894736842105, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 2725393974, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_562"
+      ], 
+      "hostTaxaName": "Escherichia coli", 
+      "num_hits": 0, 
+      "sample": "Y378"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.2, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 5486980144, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_546"
+      ], 
+      "hostTaxaName": "Citrobacter freundii", 
+      "num_hits": 0, 
+      "sample": "Y379"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_AF075573_1_4890_5044", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_M62983_1_235_330", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_M15423_1_5057_5153", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_X98613_1_4517_4613", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_X65279_1_3647_3749", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.8, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 224458409, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+      ], 
+      "hostTaxaName": "Salmonella enterica", 
+      "num_hits": 39, 
+      "sample": "Y380"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.22051282051282053, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 2421901140, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_562"
+      ], 
+      "hostTaxaName": "Escherichia coli", 
+      "num_hits": 0, 
+      "sample": "Y381"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_AY599229_2_1427_1525", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_3702"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_AF061926_1_137_230", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_3702"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_X70275_1_774_869", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_3702"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_X65279_1_1634_1729", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_3702"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_JX310868_1_9306_9403", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_3702"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.8551724137931034, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 30535086561, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_3702"
+      ], 
+      "hostTaxaName": "Arabidopsis thaliana", 
+      "num_hits": 77, 
+      "sample": "Y389"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_LC121523_1_5874_5972", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_3702"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00035_1_5656_5754", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_3702"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_M12787_1_260_358", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_3702"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_U87107_1_4516_4582", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_3702"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_M20189_1_2170_2332", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_3702"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.7225806451612903, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 7114020798, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_3702"
+      ], 
+      "hostTaxaName": "Arabidopsis thaliana", 
+      "num_hits": 21, 
+      "sample": "Y390"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_KP057689_1_3175_3319", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_M60088_1_1_57", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_X05042_1_1_51", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.45714285714285724, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 140150217, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+      ], 
+      "hostTaxaName": "Bacillus subtilis", 
+      "num_hits": 4, 
+      "sample": "Y391"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.0, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 1624366389, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_4952"
+      ], 
+      "hostTaxaName": "Yarrowia lipolytica", 
+      "num_hits": 0, 
+      "sample": "Y393"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.22962962962962963, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 3819951294, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_562"
+      ], 
+      "hostTaxaName": "Escherichia coli", 
+      "num_hits": 0, 
+      "sample": "Y394"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [], 
+      "confidence": 0.6000000000000001, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 1315802278, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_287"
+      ], 
+      "hostTaxaName": "Pseudomonas aeruginosa", 
+      "num_hits": 1, 
+      "sample": "Y394"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [], 
+      "confidence": 0.21142857142857147, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 1430173642, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+      ], 
+      "hostTaxaName": "Saccharomyces cerevisiae", 
+      "num_hits": 1, 
+      "sample": "Y394"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_D10669_1_1_64", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_D10669_1_1_64", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.6, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 300424453, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+      ], 
+      "hostTaxaName": "Salmonella enterica", 
+      "num_hits": 2, 
+      "sample": "Y394"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_KP057689_1_3175_3319", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_M21340_1_34_88", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_M60088_1_1_57", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_X05042_1_1_51", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_X65329_1_1_58", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.4869565217391304, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 1125773433, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+      ], 
+      "hostTaxaName": "Bacillus subtilis", 
+      "num_hits": 8, 
+      "sample": "Y395"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_KP057689_1_3175_3319", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_M21340_1_34_88", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_M60088_1_1_57", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_X05042_1_1_51", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_X65329_1_1_58", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.490909090909091, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 210256494, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+      ], 
+      "hostTaxaName": "Bacillus subtilis", 
+      "num_hits": 8, 
+      "sample": "Y396"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_KY031724_1_6262_6429", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_287"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_KY031724_1_6501_6599", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_287"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_U07167_1_3474_3572", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_287"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_JX560346_2_792_890", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_287"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_AF061931_1_2946_4188_49", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_287"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.593103448275862, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 5365230646, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_287"
+      ], 
+      "hostTaxaName": "Pseudomonas aeruginosa", 
+      "num_hits": 15, 
+      "sample": "Y397"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_EU496102_1_2055_2491", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_5286"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_AF306519_1_1247_1387", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_5286"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_EU496102_1_2501_2638", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_5286"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_EU729724_1_369_560", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_5286"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_JX560326_2_346_1260", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_5286"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.8727272727272728, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 10968223211, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_5286"
+      ], 
+      "hostTaxaName": "Rhodosporidium toruloides", 
+      "num_hits": 10, 
+      "sample": "Y399"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [], 
+      "confidence": 0.2153846153846154, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 1056227767, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+      ], 
+      "hostTaxaName": "Saccharomyces cerevisiae", 
+      "num_hits": 1, 
+      "sample": "Y402"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.0, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 5360135493, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+      ], 
+      "hostTaxaName": "Bacillus subtilis", 
+      "num_hits": 0, 
+      "sample": "Y403"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_NGB01064_1_1_66", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_39947"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00758_1_1_65", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_39947"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB01095_1_1_66", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_39947"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB01035_1_1_66", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_39947"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00760_1_1_65", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_39947"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.9986842105263158, 
+      "date": "02/21/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 141856992440, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_39947"
+      ], 
+      "hostTaxaName": "Oryza sativa japonica", 
+      "num_hits": 152, 
+      "sample": "Y404"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_NGB00765_1_1_65", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_39947"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00765_1_1_65", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_39947"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB01071_1_1_66", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_39947"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB01062_1_1_66", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_39947"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00863_1_1_66", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_39947"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.9891156462585033, 
+      "date": "02/16/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 147974139031, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_39947"
+      ], 
+      "hostTaxaName": "Oryza sativa japonica", 
+      "num_hits": 436, 
+      "sample": "Y408"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_NGB00370_1_1_43", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_39947"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00756_1_1_65", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_39947"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB01060_1_1_66", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_39947"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00759_1_1_65", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_39947"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00870_1_1_66", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_39947"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.967741935483871, 
+      "date": "02/16/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 153505221600, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_39947"
+      ], 
+      "hostTaxaName": "Oryza sativa japonica", 
+      "num_hits": 180, 
+      "sample": "Y409"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.2153846153846154, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 2754499542, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_562"
+      ], 
+      "hostTaxaName": "Escherichia coli", 
+      "num_hits": 0, 
+      "sample": "Y410"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.0, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 385637567, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_287"
+      ], 
+      "hostTaxaName": "Pseudomonas aeruginosa", 
+      "num_hits": 0, 
+      "sample": "Y410"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.2, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 1236729777, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+      ], 
+      "hostTaxaName": "Saccharomyces cerevisiae", 
+      "num_hits": 0, 
+      "sample": "Y410"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.0, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_11320"
+      ], 
+      "hostTaxaName": "Influenza A virus", 
+      "num_hits": 0, 
+      "sample": "Y411"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [], 
+      "confidence": 0.30833333333333335, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 2311958164, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_562"
+      ], 
+      "hostTaxaName": "Escherichia coli", 
+      "num_hits": 4, 
+      "sample": "Y412"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_DQ493885_2_2427_2634", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_DQ493885_2_2202_2403", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_U56996_1_1_759", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_JN204885_1_1_763", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_JN204884_1_1_781", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.32000000000000006, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 1164683924, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+      ], 
+      "hostTaxaName": "Saccharomyces cerevisiae", 
+      "num_hits": 8, 
+      "sample": "Y419"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_AF075573_1_4890_5044", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_M62983_1_235_330", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_M15423_1_5057_5153", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_X98613_1_4517_4613", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_X65279_1_3647_3749", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.8117647058823529, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 44500389, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+      ], 
+      "hostTaxaName": "Salmonella enterica", 
+      "num_hits": 40, 
+      "sample": "Y423"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.0, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_11320"
+      ], 
+      "hostTaxaName": "Influenza A virus", 
+      "num_hits": 0, 
+      "sample": "Y427"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.0, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 9344013460, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_4952"
+      ], 
+      "hostTaxaName": "Yarrowia lipolytica", 
+      "num_hits": 0, 
+      "sample": "Y429"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.21333333333333335, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 3571095355, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_562"
+      ], 
+      "hostTaxaName": "Escherichia coli", 
+      "num_hits": 0, 
+      "sample": "Y436"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.0, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 183952010, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_287"
+      ], 
+      "hostTaxaName": "Pseudomonas aeruginosa", 
+      "num_hits": 0, 
+      "sample": "Y436"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.2, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 1415548204, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+      ], 
+      "hostTaxaName": "Saccharomyces cerevisiae", 
+      "num_hits": 0, 
+      "sample": "Y436"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.0, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 208185643, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_287"
+      ], 
+      "hostTaxaName": "Pseudomonas aeruginosa", 
+      "num_hits": 0, 
+      "sample": "Y438"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_X65279_1_7680_7855", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4952"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.43200000000000005, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 1674565070, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_4952"
+      ], 
+      "hostTaxaName": "Yarrowia lipolytica", 
+      "num_hits": 8, 
+      "sample": "Y440"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.2, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 240981772, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+      ], 
+      "hostTaxaName": "Salmonella enterica", 
+      "num_hits": 0, 
+      "sample": "Y444"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.26153846153846155, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 267326154, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_562"
+      ], 
+      "hostTaxaName": "Escherichia coli", 
+      "num_hits": 0, 
+      "sample": "Y446"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [], 
+      "confidence": 0.21363636363636365, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 1245757047, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+      ], 
+      "hostTaxaName": "Saccharomyces cerevisiae", 
+      "num_hits": 1, 
+      "sample": "Y447"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_EU496103_1_533_630", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_562"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_EU729724_1_1514_1610", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_562"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00029_1_2738_2866", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_562"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00029_1_2930_3028", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_562"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00030_1_2716_2807", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_562"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.5272727272727273, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 581909786, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_562"
+      ], 
+      "hostTaxaName": "Escherichia coli", 
+      "num_hits": 16, 
+      "sample": "Y451"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.0, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 143903012, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_303"
+      ], 
+      "hostTaxaName": "Pseudomonas putida", 
+      "num_hits": 0, 
+      "sample": "Y452"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_EU182593_1_2865_2931_48", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00147_1_1381_1476", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00115_1_109_206", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00400_1_165_261", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_U39779_1_1030_1148", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.6249999999999999, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 1329522127, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+      ], 
+      "hostTaxaName": "Saccharomyces cerevisiae", 
+      "num_hits": 87, 
+      "sample": "Y456"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_NGB00034_1_2348_2444", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_EU496102_1_2055_2491", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_EU729724_1_583_806", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00591_1_522_724", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_EU729724_1_369_560", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.9478260869565218, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 194785362, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+      ], 
+      "hostTaxaName": "Salmonella enterica", 
+      "num_hits": 43, 
+      "sample": "Y457"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [], 
+      "confidence": 0.3076923076923077, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 378701285, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_562"
+      ], 
+      "hostTaxaName": "Escherichia coli", 
+      "num_hits": 1, 
+      "sample": "Y459"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_EU182593_1_2865_2931_48", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00147_1_1381_1476", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00115_1_109_206", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00400_1_165_261", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_X65315_2_2260_2355", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.6, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 1076805632, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+      ], 
+      "hostTaxaName": "Saccharomyces cerevisiae", 
+      "num_hits": 84, 
+      "sample": "Y460"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.20833333333333334, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 4692121647, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_562"
+      ], 
+      "hostTaxaName": "Escherichia coli", 
+      "num_hits": 0, 
+      "sample": "Y461"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.0, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 95560722, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_287"
+      ], 
+      "hostTaxaName": "Pseudomonas aeruginosa", 
+      "num_hits": 0, 
+      "sample": "Y461"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.2, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 1353555961, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+      ], 
+      "hostTaxaName": "Saccharomyces cerevisiae", 
+      "num_hits": 0, 
+      "sample": "Y461"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.2, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 1482827677, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+      ], 
+      "hostTaxaName": "Saccharomyces cerevisiae", 
+      "num_hits": 0, 
+      "sample": "Y468"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.0, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 7659498739, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_545501"
+      ], 
+      "hostTaxaName": "Oceanobacillus oncorhynchi", 
+      "num_hits": 0, 
+      "sample": "Y469"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.2705882352941177, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 47635841, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_562"
+      ], 
+      "hostTaxaName": "Escherichia coli", 
+      "num_hits": 0, 
+      "sample": "Y471"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.24000000000000002, 
+      "date": "03/01/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 5868060673, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_562"
+      ], 
+      "hostTaxaName": "Escherichia coli", 
+      "num_hits": 0, 
+      "sample": "Y473"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.2, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 39925651, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+      ], 
+      "hostTaxaName": "Salmonella enterica", 
+      "num_hits": 0, 
+      "sample": "Y475"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.26153846153846155, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 260221560, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_562"
+      ], 
+      "hostTaxaName": "Escherichia coli", 
+      "num_hits": 0, 
+      "sample": "Y477"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_EU729724_1_1514_1610", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_562"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_L05083_1_5894_5941_49", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_562"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.24770642201834864, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 3672997658, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_562"
+      ], 
+      "hostTaxaName": "Escherichia coli", 
+      "num_hits": 6, 
+      "sample": "Y478"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.0, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 183491415, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_287"
+      ], 
+      "hostTaxaName": "Pseudomonas aeruginosa", 
+      "num_hits": 0, 
+      "sample": "Y478"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_AF075573_1_4890_5044", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_M15423_1_5057_5153", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_X98613_1_4517_4613", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_X65279_1_3647_3749", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_LC121523_1_5874_5972", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.8400000000000001, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 130511886, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+      ], 
+      "hostTaxaName": "Salmonella enterica", 
+      "num_hits": 34, 
+      "sample": "Y480"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.0, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 3980947551, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+      ], 
+      "hostTaxaName": "Bacillus subtilis", 
+      "num_hits": 0, 
+      "sample": "Y481"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.0, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 79682888, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_287"
+      ], 
+      "hostTaxaName": "Pseudomonas aeruginosa", 
+      "num_hits": 0, 
+      "sample": "Y483"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.4, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_10760"
+      ], 
+      "hostTaxaName": "Escherichia phage T7", 
+      "num_hits": 0, 
+      "sample": "Y487"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_EU182593_1_2865_2931_48", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00147_1_1381_1476", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00115_1_109_206", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00400_1_165_261", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_U39779_1_1030_1148", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.6256756756756756, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 438758858, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+      ], 
+      "hostTaxaName": "Saccharomyces cerevisiae", 
+      "num_hits": 84, 
+      "sample": "Y488"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_EU182593_1_2865_2931_48", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00147_1_1381_1476", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00115_1_109_206", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_NGB00400_1_165_261", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }, 
+        {
+          "derivedFeature": "uv_X65315_2_2260_2355", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.6198675496688743, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 353255368, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+      ], 
+      "hostTaxaName": "Saccharomyces cerevisiae", 
+      "num_hits": 85, 
+      "sample": "Y492"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "alterations": [
+        {
+          "derivedFeature": "uv_KP057689_1_3175_3319", 
+          "engineered": "http://guardian.bbn.technology#engineered", 
+          "hostTaxa": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+          ], 
+          "type": "insertion"
+        }
+      ], 
+      "confidence": 0.45, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#engineered", 
+      "hmm_score": 824046734, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+      ], 
+      "hostTaxaName": "Bacillus subtilis", 
+      "num_hits": 1, 
+      "sample": "Y495"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.0, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_11320"
+      ], 
+      "hostTaxaName": "Influenza A virus", 
+      "num_hits": 0, 
+      "sample": "Y496"
+    }, 
+    {
+      "agent": "HMM BLASTn hits", 
+      "confidence": 0.0, 
+      "date": "02/13/2022", 
+      "engineered": "http://guardian.bbn.technology#natural", 
+      "hmm_score": 65888824, 
+      "hostTaxa": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+      ], 
+      "hostTaxaName": "Bacillus subtilis", 
+      "num_hits": 0, 
+      "sample": "Y497"
+    }
+  ], 
+  "features": [
+    {
+      "count": 7, 
+      "id": "uv_NGB00147_1_1381_1476", 
+      "name": "New England BioLabs cloning vector LITMUS 38i", 
+      "sequence": "tagcgcccgctcctttcgctttcttcccttcctttctcgccacgttcgccggctttccccgtcaagctctaaatcgggggctccctttagggttccgatt", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 7, 
+      "id": "uv_NGB00115_1_109_206", 
+      "name": "EZ-Tn5 Transposon KAN-1 S", 
+      "sequence": "gcgccctgtagcggcgcattaagcgcggcgggtgtggtggttacgcgcagcgtgaccgctacacttgccagcgccctagcgcccgctcctttcgctttct", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 6, 
+      "id": "uv_M60088_1_1_57", 
+      "name": "Synthetic plasmid p806 polylinker si", 
+      "sequence": "aattcgagctcggtacccggggatcctctagagtcgacctgcaggcatgcaagctt", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 6, 
+      "id": "uv_X05042_1_1_51", 
+      "name": "Cloning vector pJMSP-8 polylinker sequence (SP6 polymerase transcription vector)", 
+      "sequence": "gaattcgagctcggtacccggggatcctctagagtcgacctgcaggc", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 6, 
+      "id": "uv_KP057689_1_3175_3319", 
+      "name": "Cloning vector pZJ23", 
+      "sequence": "gcattctaaaaccttaaataccagaaaacagctttttcaaagttgttttcaaagttggcgtataacatagtatcgacggagccgattttgaaaccacaattatgatagaatttacaagctataaggttattgtcctgggtttcaa", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 6, 
+      "id": "uv_NGB00400_1_165_261", 
+      "name": "PDM-1 Cloning Vector", 
+      "sequence": "gtagcggcgcattaagcgcggcgggtgtggtggttacgcgcagcgtgaccgctacacttgccagcgccctagcgcccgctcctttcgctttcttccct", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 6, 
+      "id": "uv_EU182593_1_2865_2931_48", 
+      "name": "Cloning vector pGT3", 
+      "sequence": "gcgttgcgctcactgcccgctttccagtcgggaaacctgtcgtgccagctgcattaatgaatcggccaacgcgcggggagaggcggtttgcgtattgggcgctcttccgcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggc", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 5, 
+      "id": "uv_M21340_1_34_88", 
+      "name": "Cloning vector pT7-5 with T7 promoter sequence DNA", 
+      "sequence": "attcgagctcggtacccggggatcctctagagtcgacctgcaggcatgcaagctt", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 5, 
+      "id": "uv_X65329_1_1_58", 
+      "name": "Cloning vector pSP65", 
+      "sequence": "gaattcgagctcggtacccggggatcctctagagtcgacctgcag", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 4, 
+      "id": "uv_X65279_1_3647_3749", 
+      "name": "WE15 cosmid vector DNA", 
+      "sequence": "tcggcaagcaggcatcgccatgggtcacgacgagatcctcgccgtcgggcatgcgcgccttgagcctggcgaacagttcggctggcgcgagcccctgatgctct", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 4, 
+      "id": "uv_M15423_1_5057_5153", 
+      "name": "LoristB cosmid DNA cloning vector for chromosome walking", 
+      "sequence": "gctcttcagcaatatcacgggtagccaacgctatgtcctgatagcggtccgccacacccagccggccacagtcgatgaatccagaaaagcggccattt", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 4, 
+      "id": "uv_AF075573_1_4890_5044", 
+      "name": "Cloning vector pWEB", 
+      "sequence": "cgctgctggtttcctggatgccgacggatttgcactgccggtagaactccgcgaggtcgtccagcctcaggcagcagctgaaccaactcgcgaggggatcgagcccggggtgggcgaagaactccagcatgagatccccgcgctggaggatcatcca", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 4, 
+      "id": "uv_X98613_1_4517_4613", 
+      "name": "Artificial cloning vector LoristB", 
+      "sequence": "tggtttcctggatgccgacggatttgcactgccggtagaactccgcgaggtcgtccagcctcaggcagcagctgaaccaactcgcgaggggatcgagc", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 3, 
+      "id": "uv_X65315_2_2260_2355", 
+      "name": "Cloning vector pGEM-13Zf(+)", 
+      "sequence": "ggagctgcatgtgtcagaggttttcaccgtcatcaccgaaacgcgcgagacgaaagggcctcgtgatacgcctattt", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 3, 
+      "id": "uv_M62983_1_235_330", 
+      "name": "Cloning vector M13JN72 containing mutliple cloning si", 
+      "sequence": "ccccctttcgccagctggcgtaatagcgaagaggcccgcaccgatcgcccttcccaacagttgcgcagcctgaatggcgaatggcgctttgcctggt", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 2, 
+      "id": "uv_NGB00759_1_1_65", 
+      "name": "Illumina TruSeq DNA HT and RNA HT i7 index D705 adapter (Oligonucleotide sequence copyright 2007-2012 Illumina, Inc. All rights reserved.)", 
+      "sequence": "agagcacacgtctgaactccagtcacgaattcgtatctcgtatgccgtcttctgcttg", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 2, 
+      "id": "uv_EU496103_1_533_630", 
+      "name": "BioBrick cloning vector pSB3C5-I52001", 
+      "sequence": "gaccaaaatcccttaacgtgagttttcgttccactgagcgtcagaccccgtagaaaagatcaaaggatcttcttgagatcctttttttctgcgcgtaatct", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 2, 
+      "id": "uv_LC121523_1_5874_5972", 
+      "name": "Cloning vector pCF430 DNA", 
+      "sequence": "cgggcctcttcgctattacgccagctggcgaaagggggatgtgctgcaaggcgattaagttgggtaacgccagggttttcccagtcacgacgttgtaaa", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 2, 
+      "id": "uv_EU496102_1_2055_2491", 
+      "name": "BioBrick cloning vector pSB3K5-I52002", 
+      "sequence": "aagcacggcaagggctccgtcgccaacgacgtcacggacgagatggtccgcctcaactggctcacggagttcatgccgctccccaccatcaagcacttcatccgcacccccgacgacgcctggctcctcaccacggccatccccggcaagacggccttccaggtcctggaggagtacccggactcgggcgagaacatcgtggacgcgctcgcggtcttcctccgccgcctccactcgatccccgtctgcaactgccccttcaactcggaccgcgtcttccgcctcgcgcaggcccagtcgcgcatgaacaacggcctcgtcgatgcgtcggacttcgacgacgagcgcaacggctggccggtcgagcaggtctggaaggagatgcacaagctcctccccttctcgcctgactccgtcgtcacgcacggcgacttct", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 2, 
+      "id": "uv_EU729724_1_1514_1610", 
+      "name": "Cloning vector pSMARTGC HK", 
+      "sequence": "ccagcggtggtttgtttgccggatcaagagctaccaactctttttccgaaggtaactggcttcagcagagcgcagataccaaatactgttcttctagt", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 2, 
+      "id": "uv_U13188_1_3131_3296", 
+      "name": "Cloning vector pGAD10", 
+      "sequence": "tacgagccggaagcataaagtgtaaagcctggggtgcctaatgagtgagctaactcacattaattgcgttgcgctcactgcccgctttccagtcgggaaacctgtcgtgccagctgcattaatgaatcggccaacgcgcggggagaggcggtttgcgtattgggcg", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 2, 
+      "id": "uv_DQ493885_2_2427_2634", 
+      "name": "Mini-Tn7 delivery vector pUC18T-mini-Tn7T-Zeo-gfpmut3", 
+      "sequence": "tgcaccaccggcaagctcccggtcccgtggccgaccctcgtcaccaccctcacctacggcgtccagtgcttctcgcgctacccggaccacatgaagcagcacgacttcttcaagtcggccatgccggagggctacgtccaggagcgcaccatcttcttcaaggacgacggcaactacaagacccgcgccgaggtcaagttcgaggg", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 2, 
+      "id": "uv_D10669_1_1_64", 
+      "name": "Unidentified cloning vector rpsL gene for altered ribosomal protein S12, complete cds, clone: pHSG673", 
+      "sequence": "acgttgcttttcgcaactttgcgagcacgtggtttgcgtaccagctggttaactgttgccat", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 2, 
+      "id": "uv_U39779_1_1030_1148", 
+      "name": "Cloning vector pTriplEx", 
+      "sequence": "ttccccgtcaagctctaaatcgggggctccctttagggttccgatttagtgctttacggcacctcgaccccaaaaaacttgattagggtgatggttcacgtagtgggccatcgccctga", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 2, 
+      "id": "uv_EU729724_1_369_560", 
+      "name": "Cloning vector pSMARTGC HK", 
+      "sequence": "cacggcaagggctccgtcgccaacgacgtcacggacgagatggtccgcctcaactggctcacggagttcatgccgctccccaccatcaagcacttcatccgcacccccgacgacgcctggctcctcaccacggccatccccggcaagacggccttccaggtcctggaggagtacccggactcgggcga", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 2, 
+      "id": "uv_NGB00765_1_1_65", 
+      "name": "Illumina TruSeq DNA HT and RNA HT i7 index D711 adapter (Oligonucleotide sequence copyright 2007-2012 Illumina, Inc. All rights reserved.)", 
+      "sequence": "cggaagagcacacgtctgaactccagtcaccgctcattatctcgtatgccgtcttctgcttg", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_NGB00758_1_1_65", 
+      "name": "Illumina TruSeq DNA HT and RNA HT i7 index D704 adapter (Oligonucleotide sequence copyright 2007-2012 Illumina, Inc. All rights reserved.)", 
+      "sequence": "caagcagaagacggcatacgagatttctgaatgtgactggagttcagacgtgtgctctt", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_DQ493887_2_2121_2220", 
+      "name": "Mini-Tn7 delivery vector pUC18T-mini-Tn7T-Zeo-eyf", 
+      "sequence": "cccgatcggcgacggcccggtcctcctcccggacaaccactacctctcgacccagtcggccctctcgaaggacccgaacgagaagcgcgaccacatggtc", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_NGB00029_1_2738_2866", 
+      "name": "Invitrogen cloning vector pCDM8", 
+      "sequence": "caaaacaggttttcctcattaaaggcattccaccactgctcccattcatcagttccataggttggaatctaaaatacacaaacaattagaatcagtagtttaacacattatacacttaaaaattttata", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_NGB00870_1_1_66", 
+      "name": "NEBNext Index 27 Primer for Illumina", 
+      "sequence": "gaagagcacgcgtctgaactccagtcacgagattccatcgcgtatgccgtcttctgcgtg", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_DQ493886_2_2240_2390", 
+      "name": "Mini-Tn7 delivery vector pUC18T-mini-Tn7T-Zeo-ecf", 
+      "sequence": "ttcaaggaggacggcaacatcctcggccacaagctcgagtacaactacaactcgcacaacgtctacatcatggccgacaagcagaagaacggcatcaaggtcaacttcaagatccgccacaacatcgaggacggctcggtccagctcgccg", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_AF061931_1_2946_4188_49", 
+      "name": "Plasposon pTnMod-RTp'", 
+      "sequence": "tacacaagtagcgtcctgaacggaacctttcccgttttccaggatctgatcttccatgtgacctcctaacatggtaacgttcatgataacttctgctcttcatcgtgcggccgactgggctaaatctgtgttctcttcggcggcgctgggtgatcctcgccgtactgcccgcttggttaacgtcgccgcccaattggcaaaatattctggtaaatcaataaccatctcatcagagggtagtgaagccatgcaggaaggcgcttaccgatttatccgcaatcccaacgtttctgccgaggcgatcagaaaggctggcgccatgcaaacagtcaagttggctcaggagtttcccgaactgctggccattgaggacaccacctctttgagttatcgccaccaggtcgccgaagagcttggcaagctgggctctattcaggataaatcccgcggatggtgggttcactccgttctcttgctcgaggccaccacattccgcaccgtaggattactgcatcaggagtggtggatgcgcccggatgaccctgccgatgcggatgaaaaggagagtggcaaatggctggcagcggccgcaactagccggttacgcatgggcagcatgatgagcaacgtgattgcggtctgtgaccgcgaagccgatattcatgcttatctgcaggacaaactggcgcataacgagcgcttcgtggtgcgctccaagcacccacgcaaggacgtagagtctgggttgtatctgtacgaccatctgaagaaccaaccggagttgggtggctatcagatcagcattccgcaaaagggcgtggtggataaacgcggtaaacgtaaaaatcgaccagcccgcaaggcgagcttgagcctgcgcagtgggcgcatcacgctaaaacaggggaatatcacgctcaacgcggtgctggccgaggagattaacccgcccaagggtgagaccccgttgaaatggttgttgctgaccagcgaaccggtcgagtcgctagcccaagccttgcgcgtcatcgacatttatacccatcgctggcggatcgaggagttccataaggcatggaaaaccggagcaggagccgagaggcaacgcatggaggagccggataatctggagcggatggtctcgatcctctcgtttgttgcggtcaggctgttacagctcagagaaagcttcacgctgccgcaagcactcagggcgcaagggctgctaaagga", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_NGB00035_1_5656_5754", 
+      "name": "Life Technologies Deletion Factory 2.0 vector pDELTA2", 
+      "sequence": "ttgcgcgcacgtggtttgcgtaccagctggttaactgttgccattaaatagctcctggttttagcttttgcttcgtaaacacgtaataaaacgacctca", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_DQ493885_2_2202_2403", 
+      "name": "Mini-Tn7 delivery vector pUC18T-mini-Tn7T-Zeo-gfpmut3", 
+      "sequence": "ttaaaaggtattgattttaaagaagatggtaacattttaggtcacaaattggaatacaactataactctcacaatgtttacatcatggctgacaaacaaaagaatggtatcaaagttaacttcaaaattagacacaacattgaagatggttctgttcaattagctgaccattatcaacaaaatactccaattggtgatgg", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_JN204885_1_1_763", 
+      "name": "Biobrick cloning vector BBa_J96032", 
+      "sequence": "ttcactggtgttgtcccaattttggttgaattagatggtgatgttaatggtcacaaattttctgtctccggtgaaggtgaaggtgatgctacttacggtaaattgaccttaaaatttatttgtactactggtaaattgccagttccatggccaaccttagtcactactttcggttatggtgttcaatgttttgcgagatacccagatcatatgaaacaacatgactttttcaagtctgccatgccagaaggttatgttcaagaaagaactatttttttcaaagatgacggtaactacaagaccagagctgaagtcaagtttgaaggtgataccttagttaatagaatcgaattaaaaggtattgattttaaagaagatggtaacattttaggtcacaaattggaatacaactataactctcacaatgtttacatcatggctgacaaacaaaagaatggtatcaaagttaacttcaaaattagacacaacattgaagatggttctgttcaattagctgaccattatcaacaaaatactccaattggtgatggtccagtcttgttaccagacaaccattacttatccactcaatctgccttatccaaagatccaaacgaaaagagagaccacatggtcttgttagaatttgttactgctgctggtattatccatggtatggatgaattgtacaa", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_JX560346_2_792_890", 
+      "name": "Cloning vector pSEVA611", 
+      "sequence": "ttgagcaggcgcgtagtgagatctatatctatgatctcgcagtctccggcgagcaccggaggcaaggcattgccaccgcgctcatcaatctcctcaagc", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_NGB00370_1_1_43", 
+      "name": "Illumina Multiplexing PCR Primer Index 7 (Oligonucleotide sequence copyright 2007-2012 Illumina, Inc. All rights reserved.)", 
+      "sequence": "gaactccagtcacgagattccatctcgtatgccgtcttctgcttg", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_M20189_1_2170_2332", 
+      "name": "Sequencing vector pAA113M DNA", 
+      "sequence": "acaacctgttccagtgctccttcccctactcaatgggctggcatggcgctccgtttaacggtgaagagaatcaacactggcagttgcatgcccatttctatccgccgctgctgcgctctgcgacggtacgtaaattcatggtgggctatgaaatgctggca", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_NGB00359_1_15175_15224", 
+      "name": "CHORI vector pCYPAC2", 
+      "sequence": "acctgtggcgccggtgatgccggccacgatgcgtccggcgtagaggatct", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_AF061926_1_137_230", 
+      "name": "Plasposon pTnMod-OTp'", 
+      "sequence": "tttaagtcctgtcaggtttcgccacttctgatttgagcgccggaaatcattcgatttctgtgatgttcatcaggagggcgaagcctatggaaaaacg", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_M18328_1_2788_2838", 
+      "name": "Cloning vector pBGS9+ with the kanamycin resistance gene from Tn903, lacZ alpha-peptide, pBR322 origin, and the SspI fragment of bacteriophage f1", 
+      "sequence": "tagcgctggggccttcctcgtgatgaaggtgttgccgactcataccaggcc", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_DQ058730_2_3593_3691", 
+      "name": "Broad host range vector pBTB-2", 
+      "sequence": "aaaagtccacattgattatttgcacggcgtcacactttgctatgccatagcatttttatccataagattagcggatcctacctgacgctttttatcgca", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_EU729724_1_583_806", 
+      "name": "Cloning vector pSMARTGC HK", 
+      "sequence": "gtgagaaatcaccatgagtgacgactgaatccggtgagaatggcaaaagcttatgcatttctttccagacttgttcaacaggccagccattacgctcgtcatcaaaatcactcgcatcaaccaaaccgttattcattcgtgattgcgcctgagcgagacgaaatacgcgatcgctgttaaaaggacaattacaaacaggaatcgaatgcaaccggcgcaggaac", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_EU496102_1_2501_2638", 
+      "name": "BioBrick cloning vector pSB3K5-I52002", 
+      "sequence": "acctcatcttcgacgagggcaagctcatcggctgcatcgacgtcggccgcgtcggcatcgcggaccgctaccaggacctcgcgatcctctggaactgcctcggcgagttctcgccctccctccagaagcgcctctt", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_AF306519_1_1247_1387", 
+      "name": "Plasposon pTnMod2-OKm3", 
+      "sequence": "actggctcacggagttcatgccgctccccaccatcaagcacttcatccgcacccccgacgacgcctggctcctcaccacggccatccccggcaagacggccttccaggtcctggaggagtacccggactcgggcgagaa", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_X65279_1_7680_7855", 
+      "name": "WE15 cosmid vector DNA", 
+      "sequence": "gatccacaggacgggtgtggtcgccatgatcgcgtagtcgatagtggctccaagtagcgaagcgagcaggactgggcggcggccaaagcggtcggacagtgctccgagaacgggtgcgcatagaaattgcat", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_NGB01060_1_1_66", 
+      "name": "Rubicon Genomics ThruPLEX DNA-seq single-index iPCRtagT32", 
+      "sequence": "gaagagcacgcgtctgaactccagtcacgagattccatcgcgtatgccgtcttctgcgtg", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_DQ657243_1_2454_2552", 
+      "name": "Cloning vector pRKW2", 
+      "sequence": "ctgcatgtgtcagaggttttcaccgtcatcaccgaaacgcgcgagacgaaagggcctcgtgatacgcctattt", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_NGB00591_1_522_724", 
+      "name": "Cloning vector pKF18k-2", 
+      "sequence": "caagtgagaaatcaccatgagtgacgactgaatccggtgagaatggcaaaagcttatgcatttctttccagacttgttcaacaggccagccattacgctcgtcatcaaaatcactcgcatcaaccaaaccgttattcattcgtgattgcgcctgagcgagacgaaatacgcgatcgctgttaaaaggacaattacaaacagga", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_NGB01071_1_1_66", 
+      "name": "Rubicon Genomics ThruPLEX DNA-seq single-index iPCRtagT43", 
+      "sequence": "cggaagagcacacgtctgaactccagtcaccgctcattatctcgtatgccgtcttctgcttg", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_NGB00359_1_12916_12965", 
+      "name": "CHORI vector pCYPAC2", 
+      "sequence": "gcgctggggccttcctcgtgatgaaggtgttgccgactcataccaggcct", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_M18329_1_2788_2838", 
+      "name": "Cloning vector pBGS9- with the kanamycin resistance gene from Tn903, lacZ alpha-peptide of pUC9 and SspI fragment of bacteriophage f1", 
+      "sequence": "tagcgctggggccttcctcgtgatgaaggtgttgccgactcataccaggcc", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_M18329_1_4175_4225", 
+      "name": "Cloning vector pBGS9- with the kanamycin resistance gene from Tn903, lacZ alpha-peptide of pUC9 and SspI fragment of bacteriophage f1", 
+      "sequence": "tagcgctggggccttcctcgtgatgaaggtgttgccgactcataccaggcc", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_JX560326_2_346_1260", 
+      "name": "Cloning vector pSEVA211", 
+      "sequence": "cgcccgcgcctcaactccaacatggacgccgacctctacggctacaagtgggcgcgcgacaacgtcggccagtcgggcgccaccatctaccgcctctacggcaagcctgacgcccccgagctgttcctcaagcacggcaagggctccgtcgccaacgacgtcacggacgagatggtccgcctcaactggctcacggagttcatgccgctccccaccatcaagcacttcatccgcacccccgacgacgcctggctcctcaccacggccatccccggcaagacggccttccaggtcctggaggagtacccggactcgggcgagaacatcgtggacgcgctcgcggtcttcctccgccgcctccactcgatccccgtctgcaactgccccttcaactcggaccgcgtcttccgcctcgcgcaggcccagtcgcgcatgaacaacggcctcgtcgatgcgtcggacttcgacgacgagcgcaacggctggccggtcgagcaggtctggaaggagatgcacaagctcctccccttctcgcctgactccgtcgtcacgcacggcgacttctcgctcgacaacctcatcttcgacgagggcaagctcatcggctgcatcgacgtcggccgcgtcggcatcgcggaccgctaccaggacctcgcgatcctctggaactgcctcggcgagttctcgccctccctccagaagcgcctcttccagaagtacggcatcgacaaccctgacatgaacaagctccagttccacctcatgctcgacgagttcttct", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_L08948_1_2831_2884_42", 
+      "name": "SP6T719 cloning vector", 
+      "sequence": "gcatgtgtcagaggttttcaccgtcatcaccgaaacgcgcgagacgaaagggcctcgtgatacgcctattt", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_KY031724_1_6262_6429", 
+      "name": "Cloning vector pABCa", 
+      "sequence": "ccttcgaccaagaagcggttgttggcgctctcgcggcttacgttctgccaaagtttgagcaggcgcgtagtgagatctatatctatgatctcgcagtctccggcgagcaccggaggcaaggcattgccaccgcgctcatcaatctcctcaagcatgaggccaacgcgc", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_U87107_1_4516_4582", 
+      "name": "Cloning vector pAL-F insertion sequence IS1 galactokinase (galK), aminoglycoside 3'-phosphotransferase (kn), beta-galactosidase (lacZ), small ribosomal protein, and beta-lactamase (Ap) genes, complete cd", 
+      "sequence": "ttaagataaatcagtttggccttacttaacggagaaccattaagccttaggacgcttcacgccgtac", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_NGB01063_1_1_66", 
+      "name": "Rubicon Genomics ThruPLEX DNA-seq single-index iPCRtagT35", 
+      "sequence": "agagcacacgtctgaactccagtcacgaattcgtatctcgtatgccgtcttctgcttg", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_NGB01035_1_1_66", 
+      "name": "Rubicon Genomics ThruPLEX DNA-seq single-index iPCRtagT7", 
+      "sequence": "caagcagaagacggcatacgagatttctgaatgtgactggagttcagacgtgtgctctt", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_DQ493887_2_2527_2637", 
+      "name": "Mini-Tn7 delivery vector pUC18T-mini-Tn7T-Zeo-eyf", 
+      "sequence": "ctgcaccaccggcaagctcccggtcccgtggccgaccctcgtcaccaccctcacctacggcgtccagtgcttctcgcgctacccggaccacatgaagcagcacgacttctt", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_U13869_1_2390_2731", 
+      "name": "T7T318U cloning vector", 
+      "sequence": "cgggggctccctttagggttccgatttagtgctttacggcacctcgaccccaaaaaacttgattagggtgatggttcacgtagtgggccatcgccctgatagacggtttttcgccctttgacgttggagtccacgttctttaatagtggactcttgttccaaactggaacaacactcaaccctatctcggtctattcttttgatttataagggattttgccgatttcggcctattggttaaaaaatgagctgatttaacaaaaatttaacgcgaattttaacaaaatattaacgcttacaatttaggtggcacttttcggggaaatgtgcgcggaacccctatttgtttat", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_JN204884_1_1_781", 
+      "name": "Biobrick cloning vector BBa_J96031", 
+      "sequence": "ttcactggtgttgtcccaattttggttgaattagatggtgatgttaatggtcacaaattttctgtctccggtgaaggtgaaggtgatgctacttacggtaaattgaccttaaaatttatttgtactactggtaaattgccagttccatggccaaccttagtcactactttcggttatggtgttcaatgttttgcgagatacccagatcatatgaaacaacatgactttttcaagtctgccatgccagaaggttatgttcaagaaagaactatttttttcaaagatgacggtaactacaagaccagagctgaagtcaagtttgaaggtgataccttagttaatagaatcgaattaaaaggtattgattttaaagaagatggtaacattttaggtcacaaattggaatacaactataactctcacaatgtttacatcatggctgacaaacaaaagaatggtatcaaagttaacttcaaaattagacacaacattgaagatggttctgttcaattagctgaccattatcaacaaaatactccaattggtgatggtccagtcttgttaccagacaaccattacttatccactcaatctgccttatccaaagatccaaacgaaaagagagaccacatggtcttgttagaatttgttactgctgctggtattatccatggtatggatgaattgtacaa", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_EU140754_1_1_64", 
+      "name": "Cloning vector pIndigoBAC-5", 
+      "sequence": "gccgcatagttaagccagccccgacacccgccaacacccgctgacgcg", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_AY599229_2_1260_1399", 
+      "name": "Cloning vector pUC18Pv-mini-Tn7T", 
+      "sequence": "tcctggccttttgctggccttttgctcacatgttctttcctgcgttatcccctgattctgtggataaccgtattaccgcctttgagtgagctgataccgctcgccgcagccgaacgaccgagcgcagcgagtcagtgagcgaggaagcggaagagcgcccaatacgcaaaccgcctctc", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_NGB00852_1_1_64", 
+      "name": "NEBNext Index 6 Primer for Illumina", 
+      "sequence": "agagcacacgtctgaactccagtcacgaattcgtatctcgtatgccgtcttctgcttg", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_JX310868_1_9306_9403", 
+      "name": "Cloning vector pJAK12-B", 
+      "sequence": "ccgccgttaaccaccatcaaacaggattttcgcctgctggggcaaaccagcgtggaccgcttgctgcaactctctcagggccaggcggtgaagggcaat", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_DQ058733_1_2578_2676", 
+      "name": "Broad host range vector pBTB-5", 
+      "sequence": "agtgatgaatctctcctggcgggaacagcaaaatatcacccggtcggcaaacaaattctcgtccctgatttttcaccaccccctgaccgcgaatggtga", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_DQ058733_1_2419_2517", 
+      "name": "Broad host range vector pBTB-5", 
+      "sequence": "caaacaggtcgctgaaatgcggctggtgcgcttcatccgggcgaaagaaccccgtattggcaaatattgacggccagttaagccattcatgccagtagg", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_NGB00764_1_1_65", 
+      "name": "Illumina TruSeq DNA HT and RNA HT i7 index D710 adapter (Oligonucleotide sequence copyright 2007-2012 Illumina, Inc. All rights reserved.)", 
+      "sequence": "agagcacacgtctgaactccagtcacgaattcgtatctcgtatgccgtcttctgcttg", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_KY031724_1_6501_6599", 
+      "name": "Cloning vector pABCa", 
+      "sequence": "gggcatcattcgcacatgtaggctcggccctgaccaagtcaaatccatgagggctgctcttgatcttttcggtcgtgagttcggagacgtagccaccta", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_DQ058733_1_2725_2968", 
+      "name": "Broad host range vector pBTB-5", 
+      "sequence": "cgagataaccgttggcctcaatcggcgttaaacccgccaccagatgggcattaaacgagtatcccggcagcaggggatcattttgcgcttcagccatacttttcatactcccgccattcagagaagaaaccaattgtccatattgcatcagacattgccgtcactgcgtcttttactggctcttctcgctaaccaaaccggtaaccccgcttattaaaagcattctgtaacaaagcgggaccaa", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_NGB00034_1_2348_2444", 
+      "name": "Life Technologies Deletion Factory vector pDELTA1", 
+      "sequence": "gagaaatcaccatgagtgacgactgaatccggtgagaatggcaaaagcttatgcatttctttccagacttgttcaacaggccagccattacgctcgtc", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_M18328_1_4175_4225", 
+      "name": "Cloning vector pBGS9+ with the kanamycin resistance gene from Tn903, lacZ alpha-peptide, pBR322 origin, and the SspI fragment of bacteriophage f1", 
+      "sequence": "tagcgctggggccttcctcgtgatgaaggtgttgccgactcataccaggcc", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_X70275_1_774_869", 
+      "name": "UC18 and phage f1 derivative cloning vector", 
+      "sequence": "tctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctca", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_NGB00761_1_1_65", 
+      "name": "Illumina TruSeq DNA HT and RNA HT i7 index D707 adapter (Oligonucleotide sequence copyright 2007-2012 Illumina, Inc. All rights reserved.)", 
+      "sequence": "agagcacacgtctgaactccagtcacgaattcgtatctcgtatgccgtcttctgcttg", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_NGB00756_1_1_65", 
+      "name": "Illumina TruSeq DNA HT and RNA HT i7 index D702 adapter (Oligonucleotide sequence copyright 2007-2012 Illumina, Inc. All rights reserved.)", 
+      "sequence": "gaagagcacgcgtctgaactccagtcacgagattccatcgcgtatgccgtcttctgcgtg", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_M12787_1_260_358", 
+      "name": "Cloning vector pHSG664", 
+      "sequence": "taggagtggtggtatatacacgagtacatacgccacgtttctgcgggcaggcttccagtgcaggcacgttgctttttgcaactttgcgcgcacgtggtt", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_L05083_1_5894_5941_49", 
+      "name": "Cloning vector (pRL278) for sacB-mediated positive selection for double recombinants in gram-negative bacteria", 
+      "sequence": "caccacctaaatcgcgccagcgctggctgttttacgcgtatgacaggctccggaagacggttgttgcgca", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_NGB01064_1_1_66", 
+      "name": "Rubicon Genomics ThruPLEX DNA-seq single-index iPCRtagT36", 
+      "sequence": "caagcagaagacggcatacgagatttctgaatgtgactggagttcagacgtgtgctctt", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_NGB01095_1_1_66", 
+      "name": "Rubicon Genomics ThruPLEX DNA-seq dual-index D507", 
+      "sequence": "caagcagaagacggcatacgagatttctgaatgtgactggagttcagacgtgtgctctt", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_U56996_1_1_759", 
+      "name": "Cloning vector pGreen A18", 
+      "sequence": "taaaggtgaagaattattcactggtgttgtcccaattttggttgaattagatggtgatgttaatggtcacaaattttctgtctccggtgaaggtgaaggtgatgctacttacggtaaattgaccttaaaatttatttgtactactggtaaattgccagttccatggccaaccttagtcactactttcggttatggtgttcaatgttttgcgagatacccagatcatatgaaacaacatgactttttcaagtctgccatgccagaaggttatgttcaagaaagaactatttttttcaaagatgacggtaactacaagaccagagctgaagtcaagtttgaaggtgataccttagttaatagaatcgaattaaaaggtattgattttaaagaagatggtaacattttaggtcacaaattggaatacaactataactctcacaatgtttacatcatggctgacaaacaaaagaatggtatcaaagttaacttcaaaattagacacaacattgaagatggttctgttcaattagctgaccattatcaacaaaatactccaattggtgatggtccagtcttgttaccagacaaccattacttatccactcaatctgccttatccaaagatccaaacgaaaagagagaccacatggtcttgttagaatttgttactgctgctggtattatccatggtatggatgaattgtacaaataa", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_U07167_1_3474_3572", 
+      "name": "Cloning vector pUCP24, Escherichia-Pseudomonas shuttle vector with gentamycin acetyltransferase-3-1 (aacC1) and LacZ alpha peptide (lacZ alpha) g", 
+      "sequence": "ttcgaccaagaagcggttgttggcgctctcgcggcttacgttctgccaaagtttgagcaggcgcgtagtgagatctatatctatgatctcgcagtctcc", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_NGB00760_1_1_65", 
+      "name": "Illumina TruSeq DNA HT and RNA HT i7 index D706 adapter (Oligonucleotide sequence copyright 2007-2012 Illumina, Inc. All rights reserved.)", 
+      "sequence": "caagcagaagacggcatacgagatttctgaatgtgactggagttcagacgtgtgctctt", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_NGB00029_1_2930_3028", 
+      "name": "Invitrogen cloning vector pCDM8", 
+      "sequence": "aagcaagcaagagttctattactaaacacagcatgactcaaaaaacttagcaattctgaaggaaagtccttggggtcttctacctttctcttctttttt", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_AY599229_2_1427_1525", 
+      "name": "Cloning vector pUC18Pv-mini-Tn7T", 
+      "sequence": "gaaacggtggggatctttaagtcctgtcaggtttcgccacttctgatttgagcgccggaaatcattcgatttctgtgatgttcatcaggagggcgaagcctatggaaaa", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_NGB00030_1_2716_2807", 
+      "name": "Invitrogen cloning vector pcDNAI", 
+      "sequence": "tggtatggctgattatgatctctagtcaaggcactatacatcaaatatttttccataattttcttgtatagcagtgcagctttttcctttgt", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_NGB00863_1_1_66", 
+      "name": "NEBNext Index 18 Primer for Illumina", 
+      "sequence": "cggaagagcacacgtctgaactccagtcaccgctcattatctcgtatgccgtcttctgcttg", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_X65279_1_1634_1729", 
+      "name": "WE15 cosmid vector DNA", 
+      "sequence": "gttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcgg", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_NGB01062_1_1_66", 
+      "name": "Rubicon Genomics ThruPLEX DNA-seq single-index iPCRtagT34", 
+      "sequence": "cggaagagcacacgtctgaactccagtcaccgctcattatctcgtatgccgtcttctgcttg", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }, 
+    {
+      "count": 1, 
+      "id": "uv_DQ493886_2_2531_2630", 
+      "name": "Mini-Tn7 delivery vector pUC18T-mini-Tn7T-Zeo-ecf", 
+      "sequence": "accggcaagctcccggtcccgtggccgaccctcgtcaccaccctcacctacggcgtccagtgcttctcgcgctacccggaccacatgaagcagcacgact", 
+      "source": "https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core"
+    }
+  ]
+}

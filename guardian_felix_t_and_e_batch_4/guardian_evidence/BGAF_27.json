@@ -1,0 +1,134 @@
+{
+    "detections": [
+        {
+            "agent": "FAST_NA",
+            "fastq": [
+                "Y393.illumina.1.fq",
+                "Y393.illumina.2.fq",
+                "Y393.nanopore.fq"
+            ],
+            "date": "02/22/2022",
+            "runtime": 705,
+            "sample": "Y393",
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "confidence": 0.25,
+            "contigs": [
+                {
+                    "source": "Y.3"
+                },
+                {
+                    "source": "Y.8",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "confidence": 0.25,
+                    "regions": [
+                        {
+                            "start": 495744,
+                            "end": 497407,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "id": "BLAST_match_0",
+                            "feature": "BLAST_match_0",
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "BLAST_match_0"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "agent": "FAST_NA",
+            "fastq": [
+                "Y317.illumina.1.fq",
+                "Y317.illumina.2.fq",
+                "Y317.nanopore.fq"
+            ],
+            "date": "02/22/2022",
+            "runtime": 297,
+            "sample": "Y317",
+            "engineered": "http://guardian.bbn.technology#natural",
+            "confidence": 0.0,
+            "contigs": [
+                {
+                    "source": "X.183"
+                }
+            ]
+        },
+        {
+            "agent": "FAST_NA",
+            "fastq": [
+                "Y320.illumina.2.fq",
+                "Y320.nanopore.fq",
+                "Y320.illumina.1.fq"
+            ],
+            "date": "02/22/2022",
+            "runtime": 486,
+            "sample": "Y320",
+            "engineered": "http://guardian.bbn.technology#natural",
+            "confidence": 0.0,
+            "contigs": [
+                {
+                    "source": "X.2492"
+                },
+                {
+                    "source": "X.2744"
+                },
+                {
+                    "source": "X.6205"
+                },
+                {
+                    "source": "X.3935"
+                },
+                {
+                    "source": "X.4615"
+                },
+                {
+                    "source": "X.5612"
+                },
+                {
+                    "source": "X.4785"
+                },
+                {
+                    "source": "X.5461"
+                },
+                {
+                    "source": "X.5787"
+                },
+                {
+                    "source": "X.6241"
+                },
+                {
+                    "source": "Y.10"
+                },
+                {
+                    "source": "X.4754"
+                },
+                {
+                    "source": "X.4904"
+                }
+            ]
+        },
+        {
+            "agent": "FAST_NA",
+            "fastq": [
+                "Y335.illumina.1.fq",
+                "Y335.nanopore.fq",
+                "Y335.illumina.2.fq"
+            ],
+            "date": "02/22/2022",
+            "runtime": 329,
+            "sample": "Y335",
+            "engineered": "http://guardian.bbn.technology#natural",
+            "confidence": 0.0,
+            "contigs": []
+        }
+    ],
+    "features": [
+        {
+            "id": "BLAST_match_0",
+            "name": "LargeROI_0",
+            "sequence": "ACCACTCGGCAGGACCCCCACTCAGACCAATCTTAGAGTGATAGAGATGATAATACTGCTGTACAACCACCCCCATTCTTCCTACCATTTGTTAGGCACCGCAACGTGACGCGAAACAATCACTTGTCAAGTAATCGTAAGGGAGGCGTTCTCGTCATTCGGAAAGTGGGGCATGGTCCTTACGGTCCAATTCAGGATTACCCAAGGCTCTACCCATTCGGCAGTTAGAGACGCGCTACAGTCATCCGCTCATGCCACCCCCCATCCATATATACGTCGGGCACCGATCTCCATCATGGCTCCCTCAAAGTCTCGGTCCGAGGCATTATCTTCCATCAGCTGGT",
+            "subFeatures": []
+        }
+    ]
+}

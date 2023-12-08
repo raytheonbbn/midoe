@@ -1,0 +1,50 @@
+{
+    "detections": [
+        {
+            "agent": "ngram_high_entropy_seq_detector",
+            "confidence": 0.9999999991055348,
+            "contigs": [
+                {
+                    "regions": [
+                        {
+                            "end": 8239,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y381_illumina_1-contigs.739_roi7219_8239",
+                            "ngram_ent": 2076.13,
+                            "start": 7219
+                        }
+                    ],
+                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y381_illumina_1-contigs.739"
+                }
+            ],
+            "date": "01/20/2022",
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "fasta": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y381_illumina_1-contigs.fa",
+            "hostTaxa": [
+                "http://purl.obolibrary.org/obo/NCBITaxon_562"
+            ],
+            "ngramDate": "2022-01-20 02:20:05.749109",
+            "runtime": 0.35,
+            "sample": "Y381"
+        }
+    ],
+    "features": [
+        {
+            "confidence": 0.9999999991055348,
+            "hostMatchCover": [
+                "Escherichia_coli",
+                0.306
+            ],
+            "id": "Y381_illumina_1-contigs.739_roi7219_8239",
+            "ngram_eng_classn": [
+                "Univec_FUNYES",
+                665.4100000000001
+            ],
+            "ngram_ent": 2076.13,
+            "roiEnd": 8239,
+            "roiStart": 7219,
+            "sequence": "AGAATTGCGGAGCTTCTTTCAGAGAATGGTTTTAAAGGTGATCAATTATATTCCGTTGTCGGCGGAGGCGCATTTGGTGATACACATGCCTATCCAGATGCCGTATGCATGGCAATTCTTGAATATTATGCTTTCGATGCCACACAGGTTGATAGCACTATAGCCAGGAAAAATTACCGCCTATTAGCACGTCAAACACTTCGAGACTATATATACAAAAGTGTAGGTATTGACCCGAGAAATCCAATTAGTGGCGCCTGGAAATGTTTTCAAGAGCGAATATTGCTTAATGACAAAATTCCTGCAGGTTTCTTCAGTGTTTTTAGAGAGATGGTCGATATCACAGTTCCACTTATCAATGCAGGATTTGAGCTTGGCCCAAAAACAGTACCTGATATTAGTGTGGGTGGACGATGGGCAATTCACTGGAAGAAAAACAATCTTAGTGAAAAATATGGCGATGTGAAAAAATATCCACATGAATATCCAGATTGGTTTCCTCAAAGTAAAGCAGGAAAAGTTCCTGCCAATATTTATCCGGAAGAGGCTTTAGGTGAATTTCGCAGATGGCTAAGAGAAGAATACATTCCAAAGGGTTTCAAAGATTATCTTGCTGATAAAGTTCAGCAGAAAGTAATTGAAAATACTAAGGCTATTGAAGTTTTAGAAAATTTGCAGCGCCCAAATCTTCCTAAGGCTCGTTAATTCTCATCCCGGCTGCCATGCCGGGTTTCTTTTGCCTTCCCCTCATCACACACACCGTTCAAAAAACCACCACAACCCCGCTTCAGTTATCGCTATGCGATGCAAGTCACAAAATAAATCCATCCTAAATACAACCAGTTATATTTAAAACAACTGACAAAACAACTTTTGTTGTTGACGATAAAACAACTATAGTTTTAAATAAATTCATCGCAACGACACAACGATACGGTAACCACCTGTTTCACCGTTGCGATGACCGCTTAGATCCGCAGTTTGAATTTCAGCAGGCTTCGGGGAGTGCGAGGGGTGAAA",
+            "source": "Y381_illumina_1-contigs.fa_seq283"
+        }
+    ]
+}

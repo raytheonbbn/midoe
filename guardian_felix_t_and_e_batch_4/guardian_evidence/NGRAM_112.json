@@ -1,0 +1,95 @@
+{
+    "detections": [
+        {
+            "agent": "ngram_high_entropy_seq_detector",
+            "confidence": 1.0,
+            "contigs": [
+                {
+                    "regions": [
+                        {
+                            "end": 339,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y480_illumina_1-contigs.79_roi1_339",
+                            "ngram_ent": 849.3199999999995,
+                            "pos_match": "Poor match cover",
+                            "start": 1
+                        }
+                    ],
+                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y480_illumina_1-contigs.79"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 1133,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y480_illumina_1-contigs.187_roi1_1133",
+                            "ngram_ent": 3170.3399999999983,
+                            "pos_match": "GGTCAGCCCATTCGCCGCCAAGCTCTTCAGCAATATCACGGGTAGCCAACGCTATGTCCTGATAGCGGTCCGCCACACCCAGCCGGCCACAGTCGATGAATCCAGAAAAGCGGCCATTTTCCACCATGATATTCGGCAAGCAGGCATCGCCATGGGTCACGACGAGATCCTCGCCGTCGGGCATGCTCGCCTTGAGCCTGGCGAACAGTTCGGCTGGCGCGAGCCCCTGATGCTCTTCGTCCAGATCATCCTGATCGACAAGACCGGCTTCCATCCGAGTACGTGCTCGCTCGATGCGATGTTTCGCTTGGTGGTCGAATGGGCAGGTAGCCGGATCAAGCGTATGCAGCCGCCGCATTGCATCAGCCATGATGGATACTTTCTCGGCAGGAGCAAGGTGAGATGACAGGAGATCCTGCCCCGGCACTTCGCCCAATAGCAGCCAGTCCCTTCCCGCTTCAGTGACAACGTCGAGCACAGCTGCGCAAGGAACGCCCGTCGTGGCCAGCCACGATAGCCGCGCTGCCTCGTCTTGCAGTTCATTCAGGGCACCGGACAGGTCGGTCTTGACAAAAAGAACCGGGCGCCCCTGCGCTGACAGCCGGAACACGGCGGCATCAGAGCAGCCGATTGTCTGTTGTGCCCAGTCATAGCCGAATAGCCTCTCCACCCAAGCGGCCGGAGAACCTGCGTGCAATCCATCTTGTTCAATCATGCGAAACGATCCTCATCCTGTCTCTTGATCGATCTTT",
+                            "start": 1
+                        }
+                    ],
+                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y480_illumina_1-contigs.187"
+                }
+            ],
+            "date": "01/24/2022",
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "fasta": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y480_illumina_1-contigs.fa",
+            "hostTaxa": [
+                "http://purl.obolibrary.org/obo/NCBITaxon_28901"
+            ],
+            "ngramDate": "2022-01-24 17:25:03.380208",
+            "runtime": 0.3,
+            "sample": "Y480"
+        }
+    ],
+    "features": [
+        {
+            "confidence": 0.9999999999932998,
+            "cover": 0.14350797266514806,
+            "hostMatchCover": [
+                "Salmonella_enterica",
+                0.568
+            ],
+            "id": "Y480_illumina_1-contigs.79_roi1_339",
+            "name": "gnl|uv|L08934.1:171-1487:no_component_info_match",
+            "ngram_eng_classn": [
+                "Univec_FUNYES",
+                473.01999999999947
+            ],
+            "ngram_ent": 849.3199999999995,
+            "pident": 1.0,
+            "roiEnd": 339,
+            "roiStart": 1,
+            "sequence": "GCAACTGTTGGGAAGGGCGATCGGTGCGGGCCTCTTCGCTATTACGCCAGCTGGCGAAAGGGGGATGTGCTGCAAGGCGATTAAGTTGGGTAACGCCAGGGTTTTCCCAGTCACGACGTTGTAAAACGACGGCCAGTGAATCCGTAATCGCCAGTGGGTCGGAGAAGGGGATACCTAACTCCAGCGCGTCAGCACCGGCTTCAATTAGCGTATCGATAATTTTCAATGACTGCTCAATGCCCGGATCACCGAGCGTGACGAAAGGAACGAATGCGCCTTCTTTGCGCTCCTTCAACTGGGCAAACAGAGATTCGTAGCGTTCCATCAGATTTCCCCTC",
+            "source": "gnl|uv|L08934.1:171-1487",
+            "sourceEnd": 308,
+            "sourceLen": 1317,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sourceStart": 119
+        },
+        {
+            "confidence": 1.0,
+            "cover": 0.5449927431059507,
+            "hostMatchCover": [
+                "Salmonella_enterica",
+                0.948
+            ],
+            "id": "Y480_illumina_1-contigs.187_roi1_1133",
+            "name": "gnl|uv|U37573.1:2706-4083:no_component_info_match",
+            "ngram_eng_classn": [
+                "Univec_FUNYES",
+                2209.3799999999983
+            ],
+            "ngram_ent": 3170.3399999999983,
+            "pident": 0.99602,
+            "roiEnd": 1133,
+            "roiStart": 1,
+            "sequence": "CGGTCAGCCCATTCGCCGCCAAGCTCTTCAGCAATATCACGGGTAGCCAACGCTATGTCCTGATAGCGGTCCGCCACACCCAGCCGGCCACAGTCGATGAATCCAGAAAAGCGGCCATTTTCCACCATGATATTCGGCAAGCAGGCATCGCCATGGGTCACGACGAGATCCTCGCCGTCGGGCATGCGCGCCTTGAGCCTGGCGAACAGTTCGGCTGGCGCGAGCCCCTGATGCTCTTCGTCCAGATCATCCTGATCGACAAGACCGGCTTCCATCCGAGTACGTGCTCGCTCGATGCGATGTTTCGCTTGGTGGTCGAATGGGCAGGTAGCCGGATCAAGCGTATGCAGCCGCCGCATTGCATCAGCCATGATGGATACTTTCTCGGCAGGAGCAAGGTGAGATGACAGGAGATCCTGCCCCGGCACTTCGCCCAATAGCAGCCAGTCCCTTCCCGCTTCAGTGACAACGTCGAGCACAGCTGCGCAAGGAACGCCCGTCGTGGCCAGCCACGATAGCCGCGCTGCCTCGTCCTGCAGTTCATTCAGGGCACCGGACAGGTCGGTCTTGACAAAAAGAACCGGGCGCCCCTGCGCTGACAGCCGGAACACGGCGGCATCAGAGCAGCCGATTGTCTGTTGTGCCCAGTCATAGCCGAATAGCCTCTCCACCCAAGCGGCCGGAGAACCTGCGTGCAATCCATCTTGTTCAATCATGCGAAACGATCCTCATCCTGTCTCTTGATCAGATCTTGATCCCCTGCGCCATCAGATCCTTGGCGGCAAGAAAGCCATCCAGTTTACTTTGCAGGGCTTCCCAACCTTACCAGAGGGCGCCCCAGCTGGCAATTCCGGTTCGCTTGCTGTCCATAAAACCGCCCAGTCTAGCTATCGCCATGTAAGCCCACTGCAAGCTACCTGCTTTCTCTTTGCGCTTGCGTTTTCCCTTGTCCAGATAGCCCAGTAGCTGACATTCATCCGGGGTCAGCACCGTTTCTGCGGACTGGCTTTCTACGTGTTCCGCTTCCTTTAGCAGCCCTTGCGCCCTGAGTGCTTGCGGCAGCGTGAAGCTTTTTGTAAAGCTGCTTTTTGGTAAATTCCTTTGATTACTGATTAACGCGTTGATAAATAAG",
+            "source": "gnl|uv|U37573.1:2706-4083",
+            "sourceEnd": 1331,
+            "sourceLen": 1378,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sourceStart": 580
+        }
+    ]
+}

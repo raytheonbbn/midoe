@@ -1,0 +1,427 @@
+{
+    "detections": [
+        {
+            "agent": "ngram_high_entropy_seq_detector",
+            "confidence": 0.9785663311082664,
+            "contigs": [
+                {
+                    "regions": [
+                        {
+                            "end": 63249,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.11426_roi63086_63249",
+                            "ngram_ent": 189.95,
+                            "start": 63086
+                        }
+                    ],
+                    "source": "Y.11426"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 40390,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.11530_roi40209_40390",
+                            "ngram_ent": 210.80999999999952,
+                            "start": 40209
+                        }
+                    ],
+                    "source": "Y.11530"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 7495,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.11537_roi7349_7495",
+                            "ngram_ent": 178.26000000000008,
+                            "start": 7349
+                        }
+                    ],
+                    "source": "Y.11537"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 23358,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.11637_roi23218_23358",
+                            "ngram_ent": 161.45999999999964,
+                            "start": 23218
+                        }
+                    ],
+                    "source": "Y.11637"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 5920,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.11751_roi5760_5920",
+                            "ngram_ent": 175.9,
+                            "start": 5760
+                        }
+                    ],
+                    "source": "Y.11751"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 15881,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.11778_roi15559_15881",
+                            "ngram_ent": 399.53999999999775,
+                            "start": 15559
+                        }
+                    ],
+                    "source": "Y.11778"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 24034,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.11960_roi23847_24034",
+                            "ngram_ent": 214.3499999999995,
+                            "start": 23847
+                        }
+                    ],
+                    "source": "Y.11960"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 24635,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.12057_roi24492_24635",
+                            "ngram_ent": 157.9399999999999,
+                            "start": 24492
+                        }
+                    ],
+                    "source": "Y.12057"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 26599,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.12083_roi26357_26599",
+                            "ngram_ent": 293.8399999999987,
+                            "start": 26357
+                        }
+                    ],
+                    "source": "Y.12083"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 98730,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.12088_roi98562_98730",
+                            "ngram_ent": 189.98999999999972,
+                            "start": 98562
+                        }
+                    ],
+                    "source": "Y.12088"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 64199,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.12100_roi64047_64199",
+                            "ngram_ent": 162.68999999999997,
+                            "start": 64047
+                        }
+                    ],
+                    "source": "Y.12100"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 31739,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.12155_roi31579_31739",
+                            "ngram_ent": 173.09999999999965,
+                            "start": 31579
+                        }
+                    ],
+                    "source": "Y.12155"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 3043,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.12162_roi2887_3043",
+                            "ngram_ent": 167.6599999999999,
+                            "start": 2887
+                        }
+                    ],
+                    "source": "Y.12162"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 17789,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.12181_roi17616_17789",
+                            "ngram_ent": 203.62999999999954,
+                            "start": 17616
+                        }
+                    ],
+                    "source": "Y.12181"
+                }
+            ],
+            "date": "01/27/2022",
+            "engineered": "http://guardian.bbn.technology#natural",
+            "fasta": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.fa",
+            "hostTaxa": [
+                "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+            ],
+            "ngramDate": "2022-01-27 18:55:12.056677",
+            "runtime": 0.55,
+            "sample": "Y394"
+        }
+    ],
+    "features": [
+        {
+            "confidence": 0.9423447581599588,
+            "hostMatchCover": [
+                "Saccharomyces_cerevisiae",
+                0.577
+            ],
+            "id": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.11426_roi63086_63249",
+            "ngram_eng_classn": [
+                "HOST",
+                -35.670000000000016
+            ],
+            "ngram_ent": 189.95,
+            "roiEnd": 63249,
+            "roiStart": 63086,
+            "sequence": "GTCAGTACGTCCTTTTTTCATTTGTTTATAATTTTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCAATATTTTAGAAGTAACATGACAGAGCAACACGTTTATTTTCCTACATATAGTCATAA",
+            "source": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.fa_seq1490"
+        },
+        {
+            "confidence": 0.9450381868173865,
+            "hostMatchCover": [
+                "Saccharomyces_cerevisiae",
+                0.37
+            ],
+            "id": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.11530_roi40209_40390",
+            "ngram_eng_classn": [
+                "HOST",
+                -38.27000000000049
+            ],
+            "ngram_ent": 210.80999999999952,
+            "roiEnd": 40390,
+            "roiStart": 40209,
+            "sequence": "TATTTTTACTCCCCCTTCTGTGTTTTCTTCTTTTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNATACGTACCTTTATCTATTTCCGTACAGTTGTA",
+            "source": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.fa_seq1517"
+        },
+        {
+            "confidence": 0.8703798132598642,
+            "hostMatchCover": [
+                "Saccharomyces_cerevisiae",
+                0.39
+            ],
+            "id": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.11537_roi7349_7495",
+            "ngram_eng_classn": [
+                "HOST",
+                -23.009999999999934
+            ],
+            "ngram_ent": 178.26000000000008,
+            "roiEnd": 7495,
+            "roiStart": 7349,
+            "sequence": "ACAAAAGTTATATTGTTCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCTATTGTTAAATCAAGACTTAAAAAAAATCAGCCAACAAGTAATTCTGTTTGATAGT",
+            "source": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.fa_seq1520"
+        },
+        {
+            "confidence": 0.9003955059746498,
+            "hostMatchCover": [
+                "Saccharomyces_cerevisiae",
+                0.214
+            ],
+            "id": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.11637_roi23218_23358",
+            "ngram_eng_classn": [
+                "HOST",
+                -26.050000000000352
+            ],
+            "ngram_ent": 161.45999999999964,
+            "roiEnd": 23358,
+            "roiStart": 23218,
+            "sequence": "GAATTTTAAAAGTCCTTTGATAGCGTTCACNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTTTTTTTTTTTTTTT",
+            "source": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.fa_seq1545"
+        },
+        {
+            "confidence": 0.9686375959567088,
+            "hostMatchCover": [
+                "Saccharomyces_cerevisiae",
+                0.194
+            ],
+            "id": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.11751_roi5760_5920",
+            "ngram_eng_classn": [
+                "HOST",
+                -43.389999999999986
+            ],
+            "ngram_ent": 175.9,
+            "roiEnd": 5920,
+            "roiStart": 5760,
+            "sequence": "TATTCTTTTTTAGGTTAACCGGCCGGACAGTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTTTCAGTGATCATCGTCCATGAAAAAAATTTTTCATTTGTCTCTTTCGTGC",
+            "source": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.fa_seq1573"
+        },
+        {
+            "confidence": 0.9036129536704212,
+            "hostMatchCover": [
+                "Saccharomyces_cerevisiae",
+                0.146
+            ],
+            "id": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.11778_roi15559_15881",
+            "ngram_eng_classn": [
+                "HOST",
+                -40.16000000000224
+            ],
+            "ngram_ent": 399.53999999999775,
+            "roiEnd": 15881,
+            "roiStart": 15559,
+            "sequence": "TGTGAAGGTAAAAAGAAAGAGTTAGGGGAGGTCAAACAAAGTAAAAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTGTTTTTCTTTTTTTTTTTTTTGAAGTATGTTTCTTCT",
+            "source": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.fa_seq1578"
+        },
+        {
+            "confidence": 0.9560037278320033,
+            "hostMatchCover": [
+                "Saccharomyces_cerevisiae",
+                0.492
+            ],
+            "id": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.11960_roi23847_24034",
+            "ngram_eng_classn": [
+                "HOST",
+                -42.10000000000048
+            ],
+            "ngram_ent": 214.3499999999995,
+            "roiEnd": 24034,
+            "roiStart": 23847,
+            "sequence": "TGTTTCAGTTCTGAAGTTTGTTGCTTGTTTCTATTCTTTACTGGATGTCTGAAACCCCAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCTCCGACAGTGTATTATATATACGTAAACGAT",
+            "source": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.fa_seq1616"
+        },
+        {
+            "confidence": 0.9664585569571083,
+            "hostMatchCover": [
+                "Saccharomyces_cerevisiae",
+                0.448
+            ],
+            "id": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.12057_roi24492_24635",
+            "ngram_eng_classn": [
+                "HOST",
+                -40.19000000000008
+            ],
+            "ngram_ent": 157.9399999999999,
+            "roiEnd": 24635,
+            "roiStart": 24492,
+            "sequence": "TAACCAAAATATTCTCCTCCTTATGAAAAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGTTTGCTAATATGTCGAAATATGGATCTATTAAG",
+            "source": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.fa_seq1643"
+        },
+        {
+            "confidence": 0.9148191936063876,
+            "hostMatchCover": [
+                "Saccharomyces_cerevisiae",
+                0.26
+            ],
+            "id": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.12083_roi26357_26599",
+            "ngram_eng_classn": [
+                "HOST",
+                -36.93000000000126
+            ],
+            "ngram_ent": 293.8399999999987,
+            "roiEnd": 26599,
+            "roiStart": 26357,
+            "sequence": "GTTATGGACAAGAGTAGATATCAAAATAAAACAAAATAAAATAGAGTAAGTGAAAGACAAATGNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNAAAAAAAACAAAATAGTAAAAAGTGAAAGGAGAACGATGAT",
+            "source": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.fa_seq1652"
+        },
+        {
+            "confidence": 0.9604646420668943,
+            "hostMatchCover": [
+                "Saccharomyces_cerevisiae",
+                0.631
+            ],
+            "id": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.12088_roi98562_98730",
+            "ngram_eng_classn": [
+                "HOST",
+                -41.35000000000028
+            ],
+            "ngram_ent": 189.98999999999972,
+            "roiEnd": 98730,
+            "roiStart": 98562,
+            "sequence": "ATTTTTCGGTTATTTATATTTATATGTTCAGAAACGAATTGAAAATACTCTTTTTCCTTACCTTTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCGCGTTATATACTGCTTACTCATATGGTCAAATCAGCAATA",
+            "source": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.fa_seq1655"
+        },
+        {
+            "confidence": 0.9785663311082664,
+            "hostMatchCover": [
+                "Saccharomyces_cerevisiae",
+                0.513
+            ],
+            "id": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.12100_roi64047_64199",
+            "ngram_eng_classn": [
+                "HOST",
+                -47.11000000000004
+            ],
+            "ngram_ent": 162.68999999999997,
+            "roiEnd": 64199,
+            "roiStart": 64047,
+            "sequence": "GAAGGGAACCGTTTACGTACGCCAAGCTAAACATTGAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNATGACCTCAATTGAAGATCTGATATCAAATCCTCCCCTGC",
+            "source": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.fa_seq1663"
+        },
+        {
+            "confidence": 0.9584241122590235,
+            "hostMatchCover": [
+                "Saccharomyces_cerevisiae",
+                0.281
+            ],
+            "id": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.12155_roi31579_31739",
+            "ngram_eng_classn": [
+                "HOST",
+                -39.69000000000034
+            ],
+            "ngram_ent": 173.09999999999965,
+            "roiEnd": 31739,
+            "roiStart": 31579,
+            "sequence": "TTACTATATATTTCAATATACAATATCACCAAAAAAAAAAAAAAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTTTTTTTTTTTTTGAATATATCCTTGTTA",
+            "source": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.fa_seq1687"
+        },
+        {
+            "confidence": 0.973102914889838,
+            "hostMatchCover": [
+                "Saccharomyces_cerevisiae",
+                0.244
+            ],
+            "id": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.12162_roi2887_3043",
+            "ngram_eng_classn": [
+                "HOST",
+                -44.82000000000008
+            ],
+            "ngram_ent": 167.6599999999999,
+            "roiEnd": 3043,
+            "roiStart": 2887,
+            "sequence": "CCGGCAGAACTTCGAAAGTGAAAAAAAAAAAAAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNATAATATTAATACTACTTATATACTATTAAAAAATCGT",
+            "source": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.fa_seq1689"
+        },
+        {
+            "confidence": 0.9395231381705627,
+            "hostMatchCover": [
+                "Saccharomyces_cerevisiae",
+                0.197
+            ],
+            "id": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.12181_roi17616_17789",
+            "ngram_eng_classn": [
+                "HOST",
+                -36.08000000000047
+            ],
+            "ngram_ent": 203.62999999999954,
+            "roiEnd": 17789,
+            "roiStart": 17616,
+            "sequence": "ATGATTGGTTTATCTTTTTCCTTTTTCCTTTTCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTTTTTCTTAATAATTAGTTTCTCTTCACGCTACA",
+            "source": "Y394_illumina_1-contigs.fa.Saccharomyces_Cerevisiae.fa_seq1697"
+        }
+    ]
+}

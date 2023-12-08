@@ -1,0 +1,292 @@
+{
+    "detections": [
+        {
+            "agent": "FAST_NA",
+            "fastq": [
+                "Y457.illumina.1.fq",
+                "Y457.nanopore.fq",
+                "Y457.illumina.2.fq"
+            ],
+            "date": "01/26/2022",
+            "runtime": 318,
+            "sample": "Y457",
+            "engineered": "http://guardian.bbn.technology#natural",
+            "confidence": 0.0,
+            "contigs": [
+                {
+                    "source": "Y.3"
+                }
+            ]
+        },
+        {
+            "agent": "FAST_NA",
+            "fastq": [
+                "Y380.nanopore.fq",
+                "Y380.illumina.1.fq",
+                "Y380.illumina.2.fq"
+            ],
+            "date": "01/26/2022",
+            "runtime": 374,
+            "sample": "Y380",
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "confidence": 0.25,
+            "contigs": [
+                {
+                    "source": "X.778",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "confidence": 0.25,
+                    "regions": [
+                        {
+                            "start": 4123,
+                            "end": 4702,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "id": "BLAST_match_0",
+                            "feature": "BLAST_match_0",
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "BLAST_match_0"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "source": "X.383",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "confidence": 0.25,
+                    "regions": [
+                        {
+                            "start": 1,
+                            "end": 345,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "id": "BLAST_match_1",
+                            "feature": "BLAST_match_1",
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "BLAST_match_1"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "source": "Y.8",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "confidence": 0.25,
+                    "regions": [
+                        {
+                            "start": 1,
+                            "end": 3479,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "id": "BLAST_match_2",
+                            "feature": "BLAST_match_2",
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "BLAST_match_2"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "agent": "FAST_NA",
+            "fastq": [
+                "Y391.illumina.1.fq",
+                "Y391.nanopore.fq",
+                "Y391.illumina.2.fq"
+            ],
+            "date": "01/26/2022",
+            "runtime": 362,
+            "sample": "Y391",
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "confidence": 0.5,
+            "contigs": [
+                {
+                    "source": "X.576",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "confidence": 0.5,
+                    "regions": [
+                        {
+                            "start": 9294,
+                            "end": 11297,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "id": "BLAST_match_3",
+                            "feature": "BLAST_match_3",
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "BLAST_match_3"
+                            }
+                        },
+                        {
+                            "start": 9294,
+                            "end": 11297,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "id": "LacZ_cassette",
+                            "feature": "LacZ_cassette",
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "LacZ_cassette"
+                            }
+                        },
+                        {
+                            "start": 9294,
+                            "end": 11297,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "id": "LacZ_cassette",
+                            "feature": "LacZ_cassette",
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "LacZ_cassette"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "agent": "FAST_NA",
+            "fastq": [
+                "Y379.illumina.2.fq",
+                "Y379.nanopore.fq",
+                "Y379.illumina.1.fq"
+            ],
+            "date": "01/26/2022",
+            "runtime": 369,
+            "sample": "Y379",
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "confidence": 0.25,
+            "contigs": [
+                {
+                    "source": "X.329",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "confidence": 0.25,
+                    "regions": [
+                        {
+                            "start": 4401,
+                            "end": 5697,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "id": "BLAST_match_4",
+                            "feature": "BLAST_match_4",
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "BLAST_match_4"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "source": "Y.1",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "confidence": 0.25,
+                    "regions": [
+                        {
+                            "start": 4820441,
+                            "end": 4821737,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "id": "BLAST_match_5",
+                            "feature": "BLAST_match_5",
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "BLAST_match_5"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "agent": "FAST_NA",
+            "fastq": [
+                "Y349.illumina.2.fq",
+                "Y349.nanopore.fq",
+                "Y349.illumina.1.fq"
+            ],
+            "date": "01/26/2022",
+            "runtime": 265,
+            "sample": "Y349",
+            "engineered": "http://guardian.bbn.technology#natural",
+            "confidence": 0.0,
+            "contigs": []
+        }
+    ],
+    "features": [
+        {
+            "id": "BLAST_match_0",
+            "name": "LargeROI_0",
+            "sequence": "CAGCGTGAAGCTTTTTGTAAAGCTGCTTTTTGGTAAATTCCTTTGATTACTGATTAACGCGTTGATAAATAAGGAGTTTAAATTTTGAAAAGTAACTTTATAGAAAAGAATAATACTGAAAAGTCAATTTGGTGTTCGCCGCAAGAAATTATGGCTGCTGATGGTATGCCTGGATCTGTTGCTGGTGTTCACTATCGAGCAAATGTTCAAGGCTGGACGAAGCAAAAAAAGGAAGGTGTCAAGGGGGGGAAAGCTGTTGAATACGATGTGATGTCGATGCCCACCAAAGAACGAGAGCAAGTTATTGCGCACTTGGGGTTATCCACACCGGATACTGGTGCTCAAGCCAATGAGAAACAGGATTCTTCGGAACTGATAAACAAATTAACCACAACCTTAATCAATATGATTGAAGAGCTGGAACCAGATGAAGCACGCAAGGCACTGAAACTTTTAAGTAAAGGGGGGTTGTTGGCGTTAATGCCTCTTGTATTTAATGAACAGAAACTTTACAGCTTTATAGGATTTTCACAGCAAAGTATTCAGACGTTGATGATGCTAGATGCATTACCTGAAGAA",
+            "subFeatures": [
+                "BLAST_match_0_Mu_DNA-binding_domain_protein"
+            ]
+        },
+        {
+            "id": "BLAST_match_1",
+            "name": "LargeROI_1",
+            "sequence": "TTGTAGTACCTTCACAGGAACCACAGGAGGTAAAAAAAGCCGTATAACAACCATGAACCAGCTAAAACATACTTCACCTCACATAATCACACATGTAACATACCTAAACGGCATAAGCTGATTTGTGATATGAGTCATTTGGTGACAGCTTGGTTGTTATCGGTTTTGAACGTTTTTTGAAGCTGTTATTGAAATGATTTGCAGTGTTTTTGTTTTTCGTATTTTCAATGAAACAAAAGCAATTTTTTACTATCTTTCGCGTTTCATTGATTAACGACTAAAATTTGCACTACAGGCTTGCAAGCCCCACCAAATCTAATCCCATCAGATCCCGAATAATCCAA",
+            "subFeatures": [
+                "BLAST_match_1_putative_DNA-binding_transcriptional_regulator"
+            ]
+        },
+        {
+            "id": "BLAST_match_2",
+            "name": "LargeROI_2",
+            "sequence": "TCTTTTTTTTTTTTTGATGTACTTCGTTCAGTTTCAATTTGGGTGTTTAACCCTTGTCCAGGGTTTGTGTAACCTTGTTTCGCATTTATCGTGAAACGCTTTCGCGTTTTTCGTGCGCCGCTTCATCAAAGTTCTTTTCATCTTTCCATCACTGTACTTGTTCGCTATCGGTCTCTCGCCAATATTTAGCTTTAAGATGGAATTTACCACCCACTTAGAGCTGCATTCCCAAACAGCTCGACTCTTCGAAGGCACGTTCCAAAGAACCGCAATCCGCGCCAACAGGGATTCTCACCCTCTATGAAGGCTTGTTCCAAGGAACATAGACAAGGAACGGCACCAAAGGTGCACTCTCCAAATTACAACTAGGGCACCGAAGGTACCAGATTTCAAATTTGAGATTTTGCCGCTTCACTCGCCGTTACTAAGGCAATCCAGGTTGGTTTCTTTGCCTCCGCTTATTGATATGCTTAAGTTCAGCGGGTACGCCTAGCTGATTTGAGGTCAAACTTTAAGAACATTGTTCGCCTAGACGCTCTCTTCTTATCGATAACGTTCCAATACGCTCAGTATAAAAAAAGATTAGCCGCAGTTGGTAAAACCTAAAACGACCGTACTTGCATTATACCTCAAGCACTGAGAAACCTCTCTTTGGAAAAAAAACATCCAATGAAAAGGCCAGCAATTTCAAGTTAACTCCAAAGAGTATCACTCACTACCAAACAGAATGTTTGAGAAGGAAATGACGCTCAAACAGGCATGCCCCTGAATACCAAGGGGCGCAATGTGCGTTCAAAGATTCGATGATTCACGGAATTCTGCAATTCACATTACGTATCGCATTTCGCTGCGTTCTTCATCGATGCGAGAACCAAGAGATCCGTTGTTGAAAGTTTTTAATATTTTAAAATTTCCAGTTACGAAAATTCTTGTTTTTGACAAAAAATTTAATGAATAGATAAAATTGTTTGTGTTTGTTACCTCTGGGCCCCGATTGCTCGAATGCCCAAAGAAAAAGTTGCAAAGATATGAAAACTCCACAGTGTGTTGTATTGAAACGGTTTTAATTGTCCTATAACAAAAGCACAGAAATCTCTCACCGTTTGGAATAGCAAGAAAGAAACTTACAAGCCTAGCAAGACCGCGCACTTAAGCGCAGGCCCGGCTGGACTCTCCATCTCTTGTCTTCTTGCCCAGTAAAAGCTCTCATGCTCTTGCCAAAACAAAAAAATCCATTTTCAAAATTATTAAATTTCTTTAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTTTAGTTCCTCTAAATGACCAAGTTTGTCCAAATTCTCCGCTCTGAGATGGAGTTGCCCCCTTCTCTAAGCAGATCCTGAGGCCTCACTAAGCCATTCAATCGGTACTAGCGACGGGCGGTGTGTACAAAGGGCAGGGACGTAATCAACGCAAGCTGATGACTTTCGCTTACTAGGAATTCCTCGTTCAAGAGCAATACTTACAATGCTCTATCCCCATCACGACCGAGTTTCACAAGATTACCAAGACCTCTCGTCCAAGGTTAGACTCGCTGGCTCCGTCAGTGTATCGCTCGCTCGGCCCAGAACGTCTAAGGGCATCACAGACCTGTCATTGCCTCAAACTTCCATCGGCTTGAAACCGATAGTCCCTCCAACAAGTGGATAACCCGCAACTGCTAGCCCCACCATTTAGTAGGTTAAGGTCTCTTTCGTTATCGCAATTCAGCAGACAACTCACCCCACCACCTAAGAACGGCCATGCCCCACCCCCCACAAAATCAAGAAAGAGCTCTCAATCTGTCAATCCTTATGGTGTCTGGACCTGGTGAGTTGCCACGTGTTGAGTCAAATTAAGCCGCAGGCTCAACTCCTGGTGGTGCACTTCCGTCAATTCCTTTAAGTTTCAGCCTTGCGACCATACTCCCCAGAACCCAAAGACTTTGATTTCTCGTAAGGTGCCGAGTGGGTCATTAAAAAAACACCACCCGATCCCTAGTCGGCATAGTTTATGGTTAAGACTACGACGGTATCTGATCATCTTCGATCCCCTAACTTTCGTTCTTGATTAATGAAAACGTCCTTGGCAAATGCTTTCGCAGTAGTTAGTCTTCAATAAATCCAAGAATTTCACCTCTGACAATTGAATACTGATGCCCCCGACCGTCCCTATTAATCATTACGATGGTCCTAGAAACCAACAAAATAGAACCAAACGTCCTATTCTATTATTCCATGCTAATATATTCGAGCAATACGCCTGCTTTGAACACTCTAATTTTTTCAAAGTAAAAGTCCTGGTTCGCCAAGAGCCACAAGGACTCAAGGTTAGCCAGAAGGAAAGGCCCCGTTGGAAATCCAGTACACGAAAAAAATCGGACCGGCCAAACGGGAACAAAGTTCAACTACGAGATGGTTAACGGCAACAACGTTAATATCCGCTAGTGGAGCTGGAATTACCGCGGCTGCTGGCACCAGACTTGCGATCCAATTGTGCCGCGTTAAGGTATTTACATTGTACTCATTCCAATTACAAGACCCGAATGGGCCCTGTAGCGTGATTTATTGTCACTACCTCCCTGAATTAGGATTGGGTAATTTGCGCGCCTGCTGCCTTCTTGGATGTGGTAGCCGTTTCTCAGGCTCCCTCTCCGAATCGAACCCTTATTCCCCGTTACCCGTTGAAACCATGGTAGGCCACTATCCTACCATCGAAAGTTGATAGGGCAGAAATTTGAATGAACCATCGCCAGCACAAGGCCATGCGATTCGAAAAGTTATTATGAATCATCAAAGAGTCCGAAGACATTGATTTTTTTATCTAATAAATACATCTCTTCCAAAGGGTCGAGATTTTAAGCATGTATTAGCTCTAAAATTACCACAGTTATACCATGTAGTAAAGGAACTATCAAATAAACGATAACTGATTTAATGAGCCATTCGCAGTTTCACTGTATAAATTGCTTATACTTAGACATGCATGGCTTAATCTTTGAGACAAGCATATGACTACTGGCAGGATCAACCAGATAACTATCTTAAAAGAAGAAGCAACAAGCAGTAAAAAAGAAAGAAACCGAAATCTCTTTTTTTTTTTCCCACCTATTCCCTCTTGCTAGAAGATACTTATTGAGTTTGGAAACAGCTGAAATTCCAGAAAAATTGCTTTTTCAGGTCTCTCTGCTGCCGGAAATGCTCTCTGTTCAAAAAGCTTTTACACTCTTGACCAGCGCACTCCGTCACCATACCATAGCACTCTTTGAGTTTCCTCTAATCAGGCTCCACCAAACAGATACCCCGGTGTTTCACGGAATGGTACGTTTGATAGCGCTGATTGGAGAGGAGGTTACACTTGCAGAATCACATTCTTTCGACCGTCTATTCAACAAGGCCAAGGTTACACAAACCCTGGACAAGGGTTAAACACCCAAATTCGAAACTGAACGAAGTACA",
+            "subFeatures": []
+        },
+        {
+            "name": "LacZ_cassette",
+            "source": "LacZ_cassette",
+            "subFeatures": [],
+            "sequence": "TGCACCATATGCGGTGTGAAATACCGCACAGATGCGTAAGGAGAAAATACCGCATCAGGCGCCATTCGCCATTCAGGCTGCGCAACTGTTGGGAAGGGCGATCGGTGCGGGCCTCTTCGCTATTACGCCAGCTGGCGAAAGGGGGATGTGCTGCAAGGCGATTAAGTTGGGTAACGCCAGGGTTTTCCCAGTCACGACGTTGTAAAACGACGGCCAGTGAATTCGAGCTCGGTACCCGGGGATCCTCTAGAATCGACCTGCAGGCATGCAAGCTTGGCGTAATCATGGTCATAGCTGTTTCCTGTGTGAAATTGTTATCCGCTCACAATTCCACACAACATACGAGCCGGAAGCATAAAGTGTAAAGCCTGGGGTGCCTAATGAGTGAGCTAACTCACATTAATTGCGTTGCGCTCACTGCCCGCTTTCCAGTCGGGAAACCTGTCGTGCCAGCTGCATTAATGAATCGGCCAACGCGCGGG",
+            "id": "LacZ_cassette"
+        },
+        {
+            "id": "BLAST_match_3",
+            "name": "BLAST_match_3",
+            "source": "LongLength_Y391_1",
+            "sequence": "cgctcgggacccctatctagcgaacttttagaaaagatataaaacatcagagtatggacagttgcggatgtacttcagaaaagattagatgtctaaaaagcttgtagttaaagctttttagacatctaaatctaggtactaaaacaattcatccagtaaaatataatattttattttctcccaatcaggcttgatccccagtaagtcaaaaaatagctcgacatactgttcttccccgatatcctccctgatcgaccggacgcagaaggcaatgtcataccacttgtccgccctgccgcttctcccaagatcaataaagccacttactttgccatctttcacaaagatgttgctgtctcccaggtcgccgtgggaaaagacaagttcctcttcgggcttttccgtctttaaaaaatcatacagctcgcgcggatctttaaatggagtgtcttcttcccagttttcgcaatccacatcggccagatcgttattcagtaagtaatccaattcggctaagcggctgtctaagctattcgtatagggacaatccgatatgtcgatggagtgaaagagcctgatgcactccgcatacagctcgataatcttttcagggctttgttcatcttcatactcttccgagcaaaggacgccatcggcctcactcatgagcagattgctccagccatcatgccgttcaaagtgcaggacctttggaacaggcagctttccttccagccatagcatcatgtccttttcccgttccacatcataggtggtccctttataccggctgtccgtcatttttaaatataggttttcattttctcccaccagcttatataccttagcaggagacattccttccgtatcttttacgcagcggtatttttcgatcagttttttcaattccggtgatattctcattttagccatttattatttccttcctcttttctacagtatttaaagataccccaagaagctaattataacaagacgaactccaattcactgttccttgcattctaaaaccttaaataccagaaaacagctttttcaaagttgttttcaaagttggcgtataacatagtatcgacggagccgattttgaaaccacaattatgatagaatttacaagctataaggttattgtcctgggtttcaagcattagtccatgcaagtttttatgctttgcccattctatagatatattgataagcgcgctgcctatgccttgccccctgaaatccttacatacggcgatatcttctatataaaagatatattatcttatcagtattgtcaatatattcaaggcaatctgcctcctcatcctcttcatcctcttcgtcttggtagctttttaaatatggcgcttcatagagtaattctgtaaaggtccaattctcgttttcatacctcggtataatcttacctatcacctcaaatggttcgctgggtttatcg",
+            "subFeatures": [
+                "BLAST_match_3_GNAT_family_N-acetyltransferase"
+            ]
+        },
+        {
+            "id": "BLAST_match_4",
+            "name": "LargeROI_3",
+            "sequence": "CATAAACAAAGAGTGGGGTGATAATTGCGTTAATCGGAGTTCTCTCAGTTGGGGGATCGATAGTCAAAAGCCTCCGGTCGGAGGCTTTTGACTAGCACCTCGGTACCAAATTCCAGAAAAGAGGCCTCCCGAAAGGGGGGCCTTTTTTCGTTTTGGTCCACTAGTAGTCTCTATGGAGGTCAGGTATGATTACTATTGACAATTAATCATCGGCTCGTATAATGTGATCAGACCTGGAATTGTGAGCGGATAACAATTCTTAAGATTAACTCACACAGGAGATATCATATGGATTTTTGCTTATTGAACGAGAAAAGTCAGATCTTCGTCCACGCCGAGCCCTATGCAGTCTCCGATTATGTTAACCAGTATGTCGGTACGCACTCTATTCGCCTGCCCAAGGGCGGGCGCCCGGCAGGCAGGCTGCACCACAGAATCTTCGGATGCCTCGACCTGTGTCGAATCAGCTACGGCGGTAGCGTGAGGGTAATCTCGCCTGGATTAGAGACCTGTTATCATCTGCAAATAATACTCAAAGGCCATTGCCTGTGGCGTGGCCATGGCCAGGAGCACTATTTTGCGCCGGGCGAACTATTGCTGCTCAATCCGGATGACCAAGCCGACCTGACCTATTCAGAAGATTGCGAGAAATTTATCGTTAAATTGCCCTCAGTGGTCCTTGATCGGGCATGCAGTGACAACAATTGGCACAAGCCGAGGGAGGGTATCCGTTTCGCCGCGCGACACAATCTCCAGCAACTCGATGGCTTTATCAATCTACTCGGGTTAGTTTGTGACGAAGCGGAACATACAAAGTCGATGCCTCGGGTCCAAGAGCACTATGCGGGGATCATCGCTTCCAAGCTGCTCGAAATGCTGGGCAGCAATGTCAGCCGTGAAATTTTCAGCAAAGGTAACCCGTCTTTCGAGCGAGTCGTTCAATTCATTGAGGAGAATCTCAAACGGAATATCAGCCTTGAGCGGTTAGCGGAGCTGGCGATGATGAGTCCACGCTCGCTCTACAATTTGTTCGAGAAGCATGCCGGCACCACGCCGAAGAACTACATCCGCAACCGCAAGCTCGAAAGCATCCGCGCCTGCTTGAACGATCCCAGTGCCAATGTGCGTAGTATAACTGAGATAGCCCTAGACTACGGCTTCTTACATTTGGGACGCTTCGCTGAAAACTATAGGAGCGCGTTCGGCGAGTTGCCTTCCGACACCCTGCGTCAATGCAAAAAGGAAGTGGCTTGATCTAGAGACGAACAATAAGGCCTCCCTAACGGGGGGCCTTTT",
+            "subFeatures": [
+                "BLAST_match_4_xylS"
+            ]
+        },
+        {
+            "id": "BLAST_match_5",
+            "name": "LargeROI_4",
+            "sequence": "AAGGCCCCCCGTTAGGGAGGCCTTATTGTTCGTCTCTAGATCAAGCCACTTCCTTTTTGCATTGACGCAGGGTGTCGGAAGGCAACTCGCCGAACGCGCTCCTATAGTTTTCAGCGAAGCGTCCCAAATGTAAGAAGCCGTAGTCTAGGGCTATCTCAGTTATACTACGCACATTGGCACTGGGATCGTTCAAGCAGGCGCGGATGCTTTCGAGCTTGCGGTTGCGGATGTAGTTCTTCGGCGTGGTGCCGGCATGCTTCTCGAACAAATTGTAGAGCGAGCGTGGACTCATCATCGCCAGCTCCGCTAACCGCTCAAGGCTGATATTCCGTTTGAGATTCTCCTCAATGAATTGAACGACTCGCTCGAAAGACGGGTTACCTTTGCTGAAAATTTCACGGCTGACATTGCTGCCCAGCATTTCGAGCAGCTTGGAAGCGATGATCCCCGCATAGTGCTCTTGGACCCGAGGCATCGACTTTGTATGTTCCGCTTCGTCACAAACTAACCCGAGTAGATTGATAAAGCCATCGAGTTGCTGGAGATTGTGTCGCGCGGCGAAACGGATACCCTCCCTCGGCTTGTGCCAATTGTTGTCACTGCATGCCCGATCAAGGACCACTGAGGGCAATTTAACGATAAATTTCTCGCAATCTTCTGAATAGGTCAGGTCGGCTTGGTCATCCGGATTGAGCAGCAATAGTTCGCCCGGCGCAAAATAGTGCTCCTGGCCATGGCCACGCCACAGGCAATGGCCTTTGAGTATTATTTGCAGATGATAACAGGTCTCTAATCCAGGCGAGATTACCCTCACGCTACCGCCGTAGCTGATTCGACACAGGTCGAGGCATCCGAAGATTCTGTGGTGCAGCCTGCCTGCCGGGCGCCCGCCCTTGGGCAGGCGAATAGAGTGCGTACCGACATACTGGTTAACATAATCGGAGACTGCATAGGGCTCGGCGTGGACGAAGATCTGACTTTTCTCGTTCAATAAGCAAAAATCCATATGATATCTCCTGTGTGAGTTAATCTTAAGAATTGTTATCCGCTCACAATTCCAGGTCTGATCACATTATACGAGCCGATGATTAATTGTCAATAGTAATCATACCTGACCTCCATAGAGACTACTAGTGGACCAAAACGAAAAAAGGCCCCCCTTTCGGGAGGCCTCTTTTCTGGAATTTGGTACCGAGGTGCTAGTCAAAAGCCTCCGACCGGAGGCTTTTGACTATCGATCCCCCAACTGAGAGAACTCCGATTAACGCAATTATCACCCCACTCTTTGTTTATGAC",
+            "subFeatures": [
+                "BLAST_match_5_xylS"
+            ]
+        },
+        {
+            "id": "BLAST_match_0_Mu_DNA-binding_domain_protein",
+            "sequence": "ttcttcaggtaatgcatctagcatcatcaacgtctgaatactttgctgtgaaaatcctataaagctgtaaagtttctgttcattaaatacaagaggcattaacgccaacaacccccctttacttaaaagtttcagtgccttgcgtgcttcatctggttccagctcttcaatcatattgattaaggttgtggttaatttgtttatcagttccgaagaatcctgtttctcattggcttgagcaccagtatccggtgtggataaccccaagtgcgcaataacttgctctcgttctttggtgggcatcgacatcacatcgtattcaacagctttcccccccttgacaccttcctttttttgcttcgtccagccttgaacatttgctcgatagtgaacaccagcaacagatccaggcataccatcagcagccataatttcttgcggcgaacaccaaattgacttttcagtattattcttttctataaagttacttttcaa",
+            "name": "BLAST_match_0_Mu_DNA-binding_domain_protein"
+        },
+        {
+            "id": "BLAST_match_1_putative_DNA-binding_transcriptional_regulator",
+            "sequence": "tgtagtaccttcacaggaaccacaggaggtaaaaaaagccgtataa",
+            "name": "BLAST_match_1_putative_DNA-binding_transcriptional_regulator"
+        },
+        {
+            "id": "BLAST_match_3_GNAT_family_N-acetyltransferase",
+            "sequence": "taaaaccttaaataccagaaaacagctttttcaaagttgttttcaaagttggcgtataacatagtatcgacggagccgattttgaaaccacaattatgatagaatttacaagctataaggttattgtcctgggtttcaagcattagtccatgcaagtttttatgctttgcccattctatagatatattgataagcgcgctgcctatgccttgccccctgaaatccttacatacggcgatatcttctatataaaagatatattatcttatcagtattgtcaatatattcaaggcaatctgcctcctcatcctcttcatcctcttcgtcttggtagctttttaaatatggcgcttcatagagtaattctgtaaaggtccaattctcgttttcatacctcggtataatcttacctatcacctcaaatggttcgctgggtttatcg",
+            "name": "BLAST_match_3_GNAT_family_N-acetyltransferase"
+        },
+        {
+            "id": "BLAST_match_4_xylS",
+            "sequence": "caagccacttcctttttgcattgacgcagggtgtcggaaggcaactcgccgaacgcgctcctatagttttcagcgaagcgtcccaaatgtaagaagccgtagtctagggctatctcagttatactacgcacattggcactgggatcgttcaagcaggcgcggatgctttcgagcttgcggttgcggatgtagttcttcggcgtggtgccggcatgcttctcgaacaaattgtagagcgagcgtggactcatcatcgccagctccgctaaccgctcaaggctgatattccgtttgagattctcctcaatgaattgaacgactcgctcgaaagacgggttacctttgctgaaaatttcacggctgacattgctgcccagcatttcgagcagcttggaagcgatgatccccgcatagtgctcttggacccgaggcatcgactttgtatgttccgcttcgtcacaaactaacccgagtagattgataaagccatcgagttgctggagattgtgtcgcgcggcgaaacggataccctccctcggcttgtgccaattgttgtcactgcatgcccgatcaaggaccactgagggcaatttaacgataaatttctcgcaatcttctgaataggtcaggtcggcttggtcatccggattgagcagcaatagttcgcccggcgcaaaatagtgctcctggccatggccacgccacaggcaatggcctttgagtattatttgcagatgataacaggtctctaatccaggcgagattaccctcacgctaccgccgtagctgattcgacacaggtcgaggcatccgaagattctgtggtgcagcctgcctgccgggcgcccgcccttgggcaggcgaatagagtgcgtaccgacatactggttaacataatcggagactgcatagggctcggcgtggacgaagatctgacttttctcgttcaataagcaaaaatccat",
+            "name": "BLAST_match_4_xylS"
+        },
+        {
+            "id": "BLAST_match_5_xylS",
+            "sequence": "caagccacttcctttttgcattgacgcagggtgtcggaaggcaactcgccgaacgcgctcctatagttttcagcgaagcgtcccaaatgtaagaagccgtagtctagggctatctcagttatactacgcacattggcactgggatcgttcaagcaggcgcggatgctttcgagcttgcggttgcggatgtagttcttcggcgtggtgccggcatgcttctcgaacaaattgtagagcgagcgtggactcatcatcgccagctccgctaaccgctcaaggctgatattccgtttgagattctcctcaatgaattgaacgactcgctcgaaagacgggttacctttgctgaaaatttcacggctgacattgctgcccagcatttcgagcagcttggaagcgatgatccccgcatagtgctcttggacccgaggcatcgactttgtatgttccgcttcgtcacaaactaacccgagtagattgataaagccatcgagttgctggagattgtgtcgcgcggcgaaacggataccctccctcggcttgtgccaattgttgtcactgcatgcccgatcaaggaccactgagggcaatttaacgataaatttctcgcaatcttctgaataggtcaggtcggcttggtcatccggattgagcagcaatagttcgcccggcgcaaaatagtgctcctggccatggccacgccacaggcaatggcctttgagtattatttgcagatgataacaggtctctaatccaggcgagattaccctcacgctaccgccgtagctgattcgacacaggtcgaggcatccgaagattctgtggtgcagcctgcctgccgggcgcccgcccttgggcaggcgaatagagtgcgtaccgacatactggttaacataatcggagactgcatagggctcggcgtggacgaagatctgacttttctcgttcaataagcaaaaatccat",
+            "name": "BLAST_match_5_xylS"
+        }
+    ]
+}

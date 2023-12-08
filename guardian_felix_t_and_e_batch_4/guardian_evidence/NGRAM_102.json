@@ -1,0 +1,95 @@
+{
+    "detections": [
+        {
+            "agent": "ngram_high_entropy_seq_detector",
+            "confidence": 0.9519570510634168,
+            "contigs": [
+                {
+                    "regions": [
+                        {
+                            "end": 1674,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y461_illumina_1-contigs.fa.Escherichia_Coli.5057_roi1471_1674",
+                            "ngram_ent": 239.6699999999991,
+                            "pos_match": "Poor match cover",
+                            "start": 1471
+                        }
+                    ],
+                    "source": "Y.5057"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 270,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y461_illumina_1-contigs.fa.Escherichia_Coli.5195_roi54_270",
+                            "ngram_ent": 247.48999999999896,
+                            "pos_match": "Poor match cover",
+                            "start": 54
+                        }
+                    ],
+                    "source": "Y.5195"
+                }
+            ],
+            "date": "01/27/2022",
+            "engineered": "http://guardian.bbn.technology#natural",
+            "fasta": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y461_illumina_1-contigs.fa.Escherichia_Coli.fa",
+            "hostTaxa": [
+                "http://purl.obolibrary.org/obo/NCBITaxon_562"
+            ],
+            "ngramDate": "2022-01-27 19:42:01.660797",
+            "runtime": 0.2833333333333333,
+            "sample": "Y461"
+        }
+    ],
+    "features": [
+        {
+            "confidence": 0.9519570510634168,
+            "cover": 0.06263982102908278,
+            "hostMatchCover": [
+                "Escherichia_coli",
+                0.143
+            ],
+            "id": "Y461_illumina_1-contigs.fa.Escherichia_Coli.5057_roi1471_1674",
+            "name": "gnl|uv|L05083.1:1-447:no_component_info_match",
+            "ngram_eng_classn": [
+                "HOST",
+                -42.55000000000092
+            ],
+            "ngram_ent": 239.6699999999991,
+            "pident": 1.0,
+            "roiEnd": 1674,
+            "roiStart": 1471,
+            "sequence": "CCACCGATTTTGAGAACGACAGCGACTTCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGACAGCAGGCTCATAAGACGCCC",
+            "source": "gnl|uv|L05083.1:1-447",
+            "sourceEnd": 282,
+            "sourceLen": 447,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sourceStart": 254
+        },
+        {
+            "confidence": 0.9112550659538016,
+            "cover": 0.0894854586129754,
+            "hostMatchCover": [
+                "Escherichia_coli",
+                0.19
+            ],
+            "id": "Y461_illumina_1-contigs.fa.Escherichia_Coli.5195_roi54_270",
+            "name": "gnl|uv|L05083.1:1-447:no_component_info_match",
+            "ngram_eng_classn": [
+                "HOST",
+                -34.23000000000107
+            ],
+            "ngram_ent": 247.48999999999896,
+            "pident": 1.0,
+            "roiEnd": 270,
+            "roiStart": 54,
+            "sequence": "CGCACTATGGCGACGCTGGGGCGTCTTATGAGCCTGCTGTCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGAAGTCGCTGTCGTTCTCAAAATC",
+            "source": "gnl|uv|L05083.1:1-447",
+            "sourceEnd": 103,
+            "sourceLen": 447,
+            "sourceOrientation": "http://sbols.org/v2#inline",
+            "sourceStart": 63
+        }
+    ]
+}

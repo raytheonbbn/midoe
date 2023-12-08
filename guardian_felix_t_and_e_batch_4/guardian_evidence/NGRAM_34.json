@@ -1,0 +1,58 @@
+{
+    "detections": [
+        {
+            "agent": "ngram_high_entropy_seq_detector",
+            "confidence": 0.999999968783923,
+            "contigs": [
+                {
+                    "regions": [
+                        {
+                            "end": 311,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y327_illumina_1-contigs.0_roi69_311",
+                            "ngram_ent": 570.9799999999999,
+                            "pos_match": "Poor match cover",
+                            "start": 69
+                        }
+                    ],
+                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y327_illumina_1-contigs.0"
+                }
+            ],
+            "date": "01/24/2022",
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "fasta": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y327_illumina_1-contigs.fa",
+            "hostTaxa": [
+                "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+            ],
+            "ngramDate": "2022-01-24 00:40:31.620341",
+            "runtime": 0.18333333333333332,
+            "sample": "Y327"
+        }
+    ],
+    "features": [
+        {
+            "confidence": 0.999999968783923,
+            "cover": 0.35175879396984927,
+            "hostMatchCover": [
+                "Bacillus_subtilis",
+                0.24
+            ],
+            "id": "Y327_illumina_1-contigs.0_roi69_311",
+            "name": "gnl|uv|JX560331.2:1-199:no_component_info_match",
+            "ngram_eng_classn": [
+                "Univec_FUNYES",
+                268.8499999999999
+            ],
+            "ngram_ent": 570.9799999999999,
+            "pident": 0.9577500000000001,
+            "roiEnd": 311,
+            "roiStart": 69,
+            "sequence": "TCACCGCCCAGCCTAAACGGAAGCTTGCATGCCTGCAGGTCGACTCTAGAGGATCCCCGGGTACCGAGCTCGAATTCGCGGGGAGGCGGCCCAAAGGGAGATCCGACTCGTCTGAGGGCGAAGGCGAAGACGCGGAAGAGGCCGCAGAGCCGGCAGCAGGCCGCGGGAAGGAAGGTCCGCTGGATTGAGGGCCGAAGGGACGTAGCAGAAGGACGTCCCGCGCAGAATCCAGGTGGCAACAC",
+            "source": "gnl|uv|JX560331.2:1-199",
+            "sourceEnd": 112,
+            "sourceLen": 199,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sourceStart": 42
+        }
+    ]
+}

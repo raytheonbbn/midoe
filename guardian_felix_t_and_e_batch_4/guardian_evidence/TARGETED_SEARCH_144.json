@@ -1,0 +1,180 @@
+{
+    "detections": [
+        {
+            "agent": "TARGETED_SEARCH",
+            "fastq": [
+                "/export/u12/phase2batch2/raytheon/illumina/Y452.illumina.1.fq.gz",
+                "/export/u12/phase2batch2/raytheon/illumina/Y452.illumina.2.fq.gz"
+            ],
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "sample": "Y452",
+            "reads": [],
+            "alterations": []
+        },
+        {
+            "agent": "TARGETED_SEARCH",
+            "fastq": [
+                "/export/u12/phase2batch2/raytheon/illumina/Y452.illumina.1.fq.gz",
+                "/export/u12/phase2batch2/raytheon/illumina/Y452.illumina.2.fq.gz"
+            ],
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "sample": "Y452",
+            "reads": [
+                {
+                    "source": "Y452.257890",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "phi_X174_Lysis_Protein_match_0",
+                            "start": 143,
+                            "end": 301,
+                            "featureStart": 143,
+                            "featureEnd": 301,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "phi_X174_Lysis_Protein_match_0",
+                                "targetAssembly": "GCF_000007565.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "phi_X174_Lysis_Protein_match_1",
+                            "start": 21,
+                            "end": 179,
+                            "featureStart": 21,
+                            "featureEnd": 179,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "phi_X174_Lysis_Protein_match_1",
+                                "targetAssembly": "GCF_000007565.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_303"
+                    ]
+                },
+                {
+                    "source": "Y452.411707",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "phi_X174_Lysis_Protein_match_2",
+                            "start": 1,
+                            "end": 178,
+                            "featureStart": 1,
+                            "featureEnd": 178,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "phi_X174_Lysis_Protein_match_2",
+                                "targetAssembly": "GCF_000007565.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "phi_X174_Lysis_Protein_match_3",
+                            "start": 25,
+                            "end": 112,
+                            "featureStart": 25,
+                            "featureEnd": 112,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "phi_X174_Lysis_Protein_match_3",
+                                "targetAssembly": "GCF_000007565.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_303"
+                    ]
+                },
+                {
+                    "source": "Y452.648261",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "phi_X174_Lysis_Protein_match_4",
+                            "start": 168,
+                            "end": 301,
+                            "featureStart": 168,
+                            "featureEnd": 301,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "phi_X174_Lysis_Protein_match_4",
+                                "targetAssembly": "GCF_000007565.2"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_303"
+                    ]
+                }
+            ]
+        }
+    ],
+    "features": [
+        {
+            "id": "phi_X174_Lysis_Protein_match_0",
+            "name": "_X174_Lysis_Protein_(X174E)",
+            "source": "phi_X174_Lysis_Protein",
+            "sourceStart": 143,
+            "sourceEnd": 301,
+            "sequence": "ATGGTCCGCTGGACTTTGTAGGATACCCTCGCTTTCCTGCTCCTGTCGAGTTTATTGCTGCCGTCATTGCTTATTATGTTCATCCCGTCAACATTCAAACGGCCTGTCTCATCATGGAAGGCGCTGAATTTACGGAAAACATTATTAATGGCGTCGAG",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "phi_X174_Lysis_Protein_match_1",
+            "name": "_X174_Lysis_Protein_(X174E)",
+            "source": "phi_X174_Lysis_Protein",
+            "sourceStart": 21,
+            "sourceEnd": 179,
+            "sequence": "ATGGTACGCTGGACTTTGTAGGATACCCTCGCTTTCCTGCTCCTGTTGAGTTTATTGCTGCCGTCATTGCTTATTATGTTCATCCCGTCAACATTCAAACGGCGCGTCTCATCATGGAAGGCGCTGAATTTACGGTAAACATTATTAATGGCGTCGAG",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "phi_X174_Lysis_Protein_match_2",
+            "name": "_X174_Lysis_Protein_(X174E)",
+            "source": "phi_X174_Lysis_Protein",
+            "sourceStart": 89,
+            "sourceEnd": 266,
+            "sequence": "CAACATTCAAACGGCCTGTCTCATCATGGAAGGCGCTGACTTTACGGAAAACATTATGAATGGCGTTGAGCGTCCGGGTAAAGCCGCTGAATTCTTCCCGTTTACCTTGCGTGTACGCGCAGGAAACACTGACGTTCTTACTGACGCCGAAGAAAACGTGCGTCAAAAATTACGTGC",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "phi_X174_Lysis_Protein_match_3",
+            "name": "_X174_Lysis_Protein_(X174E)",
+            "source": "phi_X174_Lysis_Protein",
+            "sourceStart": 203,
+            "sourceEnd": 290,
+            "sequence": "ATTGTTCGCGTTTACCTTGCGTGTACGCGCAGGAAACACTGACGTTGTTACTGACGCAGAAGAAAACGTGCGTCAAAAATTACGTGC",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "phi_X174_Lysis_Protein_match_4",
+            "name": "_X174_Lysis_Protein_(X174E)",
+            "source": "phi_X174_Lysis_Protein",
+            "sourceStart": 168,
+            "sourceEnd": 301,
+            "sequence": "ATGGTACGCTGCACTTTGTAGGACACCCTCGCTTTCCTGCTCCTGTTGAGTTTATTGCTGCCGTCATTGCTTATTATGTTCATCCCGTCAACATTCACCCGGCCTGTCTCATCATGGAAGGCGCTGAATTTAC",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        }
+    ]
+}

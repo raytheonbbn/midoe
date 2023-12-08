@@ -1,0 +1,543 @@
+{
+    "detections": [
+        {
+            "agent": "ngram_high_entropy_seq_detector",
+            "confidence": 0.9985543697296324,
+            "contigs": [
+                {
+                    "regions": [
+                        {
+                            "end": 91,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y393_illumina_1-contigs.882_roi1_91",
+                            "ngram_ent": 97.51,
+                            "start": 1
+                        }
+                    ],
+                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y393_illumina_1-contigs.882"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 103,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y393_illumina_1-contigs.2078_roi1_103",
+                            "ngram_ent": 121.27999999999999,
+                            "start": 1
+                        }
+                    ],
+                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y393_illumina_1-contigs.2078"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 2271,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y393_illumina_1-contigs.3185_roi1879_2271",
+                            "ngram_ent": 537.8700000000003,
+                            "start": 1879
+                        }
+                    ],
+                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y393_illumina_1-contigs.3185"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 2932,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y393_illumina_1-contigs.3273_roi2723_2932",
+                            "ngram_ent": 243.8,
+                            "start": 2723
+                        }
+                    ],
+                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y393_illumina_1-contigs.3273"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 90,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y393_illumina_1-contigs.3368_roi1_90",
+                            "ngram_ent": 121.93000000000002,
+                            "start": 1
+                        }
+                    ],
+                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y393_illumina_1-contigs.3368"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 4970,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y393_illumina_1-contigs.3472_roi4029_4970",
+                            "ngram_ent": 1161.5600000000009,
+                            "start": 4029
+                        }
+                    ],
+                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y393_illumina_1-contigs.3472"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 179,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y393_illumina_1-contigs.3715_roi1_179",
+                            "ngram_ent": 209.00000000000003,
+                            "start": 1
+                        }
+                    ],
+                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y393_illumina_1-contigs.3715"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 90,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y393_illumina_1-contigs.3864_roi1_90",
+                            "ngram_ent": 111.61999999999995,
+                            "start": 1
+                        }
+                    ],
+                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y393_illumina_1-contigs.3864"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 11194,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y393_illumina_1-contigs.3897_roi10837_11194",
+                            "ngram_ent": 423.19,
+                            "start": 10837
+                        }
+                    ],
+                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y393_illumina_1-contigs.3897"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 1351,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y393_illumina_1-contigs.4027_roi439_1351",
+                            "ngram_ent": 1108.749999999999,
+                            "start": 439
+                        }
+                    ],
+                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y393_illumina_1-contigs.4027"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 106,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y393_illumina_1-contigs.4109_roi1_106",
+                            "ngram_ent": 134.33000000000004,
+                            "start": 1
+                        }
+                    ],
+                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y393_illumina_1-contigs.4109"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 179,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y393_illumina_1-contigs.4327_roi1_179",
+                            "ngram_ent": 203.18999999999988,
+                            "start": 1
+                        }
+                    ],
+                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y393_illumina_1-contigs.4327"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 94,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y393_illumina_1-contigs.4330_roi1_94",
+                            "ngram_ent": 112.65000000000002,
+                            "start": 1
+                        }
+                    ],
+                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y393_illumina_1-contigs.4330"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 3792,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y393_illumina_1-contigs.4483_roi2662_3792",
+                            "ngram_ent": 1713.1300000000003,
+                            "start": 2662
+                        }
+                    ],
+                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y393_illumina_1-contigs.4483"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 12084,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y393_illumina_1-contigs.4527_roi11574_12084",
+                            "ngram_ent": 601.8999999999993,
+                            "start": 11574
+                        }
+                    ],
+                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y393_illumina_1-contigs.4527"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 5812,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y393_illumina_1-contigs.4528_roi5708_5812",
+                            "ngram_ent": 119.50000000000001,
+                            "start": 5708
+                        }
+                    ],
+                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y393_illumina_1-contigs.4528"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 2081,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y393_illumina_1-contigs.4647_roi1778_2081",
+                            "ngram_ent": 361.08000000000004,
+                            "start": 1778
+                        }
+                    ],
+                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y393_illumina_1-contigs.4647"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 2214,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y393_illumina_1-contigs.4650_roi1084_2214",
+                            "ngram_ent": 1346.3199999999993,
+                            "start": 1084
+                        }
+                    ],
+                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y393_illumina_1-contigs.4650"
+                }
+            ],
+            "date": "01/22/2022",
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "fasta": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y393_illumina_1-contigs.fa",
+            "hostTaxa": [
+                "http://purl.obolibrary.org/obo/NCBITaxon_4952"
+            ],
+            "ngramDate": "2022-01-22 07:08:52.370055",
+            "runtime": 1.7666666666666666,
+            "sample": "Y393"
+        }
+    ],
+    "features": [
+        {
+            "confidence": 0.9473133433192912,
+            "hostMatchCover": [
+                "Yarrowia_lipolytica",
+                0.544
+            ],
+            "id": "Y393_illumina_1-contigs.882_roi1_91",
+            "ngram_eng_classn": [
+                "HOST",
+                -27.409999999999997
+            ],
+            "ngram_ent": 97.51,
+            "roiEnd": 91,
+            "roiStart": 1,
+            "sequence": "GTGTCAGGAGTCACGTGAGGGTCACGTGAGGGTTGGTTCTGAGCACGTGATGCACGTTTCAGGAGGTTGCTTAGTAATCTGATCTAAAAT",
+            "source": "Y393_illumina_1-contigs.fa_seq503"
+        },
+        {
+            "confidence": 0.8945164753756402,
+            "hostMatchCover": [
+                "Yarrowia_lipolytica",
+                0.618
+            ],
+            "id": "Y393_illumina_1-contigs.2078_roi1_103",
+            "ngram_eng_classn": [
+                "HOST",
+                -21.590000000000018
+            ],
+            "ngram_ent": 121.27999999999999,
+            "roiEnd": 103,
+            "roiStart": 1,
+            "sequence": "AACGTGCATCACGTGCTCAGAACCAACCCTCACGTGACCCTCACGTGACTCCTGACACTTTGAGCATCATTTCTGACACTTTGAGCTGAATTTAGATCAGAT",
+            "source": "Y393_illumina_1-contigs.fa_seq1175"
+        },
+        {
+            "confidence": 0.6125643384460088,
+            "hostMatchCover": [
+                "Yarrowia_lipolytica",
+                0.224
+            ],
+            "id": "Y393_illumina_1-contigs.3185_roi1879_2271",
+            "ngram_eng_classn": [
+                "HOST",
+                -9.069999999999709
+            ],
+            "ngram_ent": 537.8700000000003,
+            "roiEnd": 2271,
+            "roiStart": 1879,
+            "sequence": "GCCAGAGAAAGCACCTGAATCGTTACGCTTGGGAGCGATAGCAATGGGTTGATCTTCCCAATTAGTCAAATCATCGGAAGTAGCATGGCCCCAAAACAATGGCGTACCCCATACGGTGTCATTTGGGTTGTATTGAAAGTACAGATGCCATTTGGCATCTTTTTCATCGTACCACAACCCATTTGGGTCATTCATCCAGCCCTTGTTGGGTGTGAAGTGGACCAAAGGTCTATCGCTAGTTTCGTTTGTCATTGATGCAGATATTTTGGCTGCAAAACCAGCCAAAAGGAAAAGGAAAGCTTCTGCAGGGGCGGCCAGGGGAGCGGCCAGAACGGCAGTGAGAATAGTAAAGGCGGTAGCGAGCTTCATTGTTGGATTGGAGGATTGGATAG",
+            "source": "Y393_illumina_1-contigs.fa_seq1800"
+        },
+        {
+            "confidence": 0.9552480703838191,
+            "hostMatchCover": [
+                "Yarrowia_lipolytica",
+                0.847
+            ],
+            "id": "Y393_illumina_1-contigs.3273_roi2723_2932",
+            "ngram_eng_classn": [
+                "HOST",
+                -44.25
+            ],
+            "ngram_ent": 243.8,
+            "roiEnd": 2932,
+            "roiStart": 2723,
+            "sequence": "AATCAATCGCGTGAGACAATCACTTTTGGTTAAATCAATCGCGTGAGATACCCCTTTGGTTGTTAAATACCCCTGCTAACCCTTAGAGAAACGTTGGCACAAGACCCGCTCTCTTTGATGGCGAGAATGCTTTCGATCAAGTCCTTGTTGCTCACGGGGTCTCCGTCGGAGTTGACCCAGCCGTTGTTTTGCCACATCTGATGCCACTT",
+            "source": "Y393_illumina_1-contigs.fa_seq1850"
+        },
+        {
+            "confidence": 0.5596050972592675,
+            "hostMatchCover": [
+                "Yarrowia_lipolytica",
+                0.449
+            ],
+            "id": "Y393_illumina_1-contigs.3368_roi1_90",
+            "ngram_eng_classn": [
+                "HOST",
+                -2.2599999999999767
+            ],
+            "ngram_ent": 121.93000000000002,
+            "roiEnd": 90,
+            "roiStart": 1,
+            "sequence": "CAGATTACTAAGCAACCTCCTGAAACGTGCATCACGTGCTCAGAACCAACCCTCACGTGACCCTCACGTGACTCCTGACACTTTGAGCA",
+            "source": "Y393_illumina_1-contigs.fa_seq1901"
+        },
+        {
+            "confidence": 0.9872578980850939,
+            "hostMatchCover": [
+                "Yarrowia_lipolytica",
+                0.965
+            ],
+            "id": "Y393_illumina_1-contigs.3472_roi4029_4970",
+            "ngram_eng_classn": [
+                "HOST",
+                -133.43999999999915
+            ],
+            "ngram_ent": 1161.5600000000009,
+            "roiEnd": 4970,
+            "roiStart": 4029,
+            "sequence": "TATTATGCCGAGGCTCCATGCACCATCGCCAAGAACCTTTAAGGTTGGATACGAGATTAGGCGGCGATAAGCAGGGCCCAAGGATTGTGTCAAGGGGTGATTGGTGAGGAGGCTGCGAAGCGGTTTATGAGTTTTTCCGAGTTTTCCAGTGTTTCCTGAGTTTTCCTGAGTTTTTCCTGAGTTTTTCCTGATTTTCTCCTGATTTTCTGAGCTTTTCTGAGTTTTTCCTGATTTTCTGAGCTTTTCTGATTTTCCTGATTTTCCTGATTTTCCTGATTTTCCCGATTTTCCTGATTTTCCTGATTTTCCTGATTTACTGATTTTGTATTCAATTGTTTCCTCTCCAACATCATTTGATAGTTCCTCCAAGATCCCAAATCACCGCTGAAATTATAACTCGTCGGTCGTCGTCCTCTCATCATGATGTTATTACATACGATTACATTGTATATAATACTGTATTTAATCGTATAAAAAGGAGTATATTGTAGTATACACACTGCACTGTCTTAACGTTGACTGTGGTTACATGATTCTTTGTATATATCTCTGCTGCAGTCTCTCTCGCTCTCACCAGTCTGAGCCACTCGAATACGATATTCCAACCGACGGCAAGTGAGGTTGGAACTTGCAAGTTATCTCTTGAACCGCCAAACGAAAAAGGTATCTTCGGAAGCGATCTGAATTACAATATTGATGATATTTGACGACATTTGACGAATATTGATGATATTTGACGACATTTGACGAATATTGACGAATATTGATGATATTTGACGAATATTGATGATATTTGACGATATTTGACGAATATTGACGAATATCGATGATATTTGACGATATTTGACGAATATTGATGATATTTGACTAATATTGACGAATATCGATGATATTTGACGATATTTGACGAATATTGATGATATTTGACGACTTGACGAATA",
+            "source": "Y393_illumina_1-contigs.fa_seq1967"
+        },
+        {
+            "confidence": 0.9517376221335867,
+            "hostMatchCover": [
+                "Yarrowia_lipolytica",
+                0.753
+            ],
+            "id": "Y393_illumina_1-contigs.3715_roi1_179",
+            "ngram_eng_classn": [
+                "HOST",
+                -39.77999999999997
+            ],
+            "ngram_ent": 209.00000000000003,
+            "roiEnd": 179,
+            "roiStart": 1,
+            "sequence": "CAGAACCAACCCTCACGTGACCCTCACGTGACTCCTGACACTTTGAGCATCATTTCTGACACTTTGAGCTGATTTTAGATCAGATTACTCAGCAACCTCCTGAAACGTGCATCACGTGCTCAGAACCAACCCTCACGTGACCCTCACGTGACTCCTGACACTTTGAGCATCATTTCTG",
+            "source": "Y393_illumina_1-contigs.fa_seq2105"
+        },
+        {
+            "confidence": 0.7991800032264207,
+            "hostMatchCover": [
+                "Yarrowia_lipolytica",
+                0.573
+            ],
+            "id": "Y393_illumina_1-contigs.3864_roi1_90",
+            "ngram_eng_classn": [
+                "HOST",
+                -13.030000000000058
+            ],
+            "ngram_ent": 111.61999999999995,
+            "roiEnd": 90,
+            "roiStart": 1,
+            "sequence": "ACGTGCATCACGTGCTCAGAACCAACCCTCACGTGACCCTCACGTGACTCCTGACACTTTGAGCATCATTTCTGACACTTTGAGCTGAT",
+            "source": "Y393_illumina_1-contigs.fa_seq2188"
+        },
+        {
+            "confidence": 0.9777660935207982,
+            "hostMatchCover": [
+                "Yarrowia_lipolytica",
+                0.725
+            ],
+            "id": "Y393_illumina_1-contigs.3897_roi10837_11194",
+            "ngram_eng_classn": [
+                "HOST",
+                -71.49000000000001
+            ],
+            "ngram_ent": 423.19,
+            "roiEnd": 11194,
+            "roiStart": 10837,
+            "sequence": "GGAACCACTTCCACAAAGAAGCACTTTCACAAAGAAGCACTTTCACACCTGGCCGGCTCCTTGACACTTCGGTCGGTTCAAGGAACCGGTTCCTGGCTCCAGATCCTTTGCCCAACTCGGACTGCGAGAACCCACATGCTCTACGGGAGGGTGGTAGTTTTGACAAGAGAAAACGACTAGTGTTTCGACAATCCCATAGCAAATGAGTGGGTCTACACAATCAAAGGATCTTATTCATGCCAACCGTTACTTCGAGAACTCCGTTCACAGTGACAAGATCTGGACACTTGTTTCTTACTACTTCTGGTGAATGGTAAGCTGAAGTGCATCTGAAAACGAATGGTAAGCTGTCTAGAA",
+            "source": "Y393_illumina_1-contigs.fa_seq2207"
+        },
+        {
+            "confidence": 0.9955733762787741,
+            "hostMatchCover": [
+                "Yarrowia_lipolytica",
+                0.939
+            ],
+            "id": "Y393_illumina_1-contigs.4027_roi439_1351",
+            "ngram_eng_classn": [
+                "HOST",
+                -163.55000000000086
+            ],
+            "ngram_ent": 1108.749999999999,
+            "roiEnd": 1351,
+            "roiStart": 439,
+            "sequence": "GTCAGAACCGCTACGAGCCTCCACCAGAGTTTCCTCTGGCTTCACCCTATTCAGGCATAGTTCACCATCTTTCGGGTCCCAACAGCTATGCTCTTACTCAAATCCATCCGAAGACATCAGGATCGGTCGATTGTGCACCTCTTGCGAGGCCCCAACCTACGTTCACTTTCATTACGCGTATGGGTTTTACACCCAAACACTCGCATAGACGTTAGACTCCTTGGTCCGTGTTTCAAGACGGGCGGCATATAACCATTATGCCAGCATCCTTGACTTACGTCGCAGTCCTCAGTCCCAGCTGGCAGTATTCCCACAGGCTATAATACTTACCGAGGCAAGCTACATTCCTATGGATTTATCCTGCCACCAAAACTGATGCTGGCCCAGTGAAATGCGAGATTCCCCTACCCACAAGGAGCAGAGGGCACAAAACACCATGTCTGATCAAATGCCCTTCCCTTTCAACAATTTCACGTACTTTTTCACTCTCTTTTCAAAGTTCTTTTCATCTTTCCATCACTGTACTTGTTCGCTATCGGTCTCTCGCCAATATTTAGCTTTAGATGGAATTTACCACCCACTTAGAGCTGCATTCCCAAACAACTCGACTCTTCGAAGGCACTTTACAAAGAACCGCACTCCTCGCCACACGGGATTCTCACCCTCTATGACGTCCTGTTCCAAGGAACATAGACAAGGAACGGCCCCAAAGTTGCCCTCTCCAAATTACAACTCGGGCACCGAAGGTACCAGATTTCAAATTTGAGCTTTTGCCGCTTCACTCGCCGTTACTAAGGCAATCCCGGTTGGTTTCTTTTCCTCCGCTTATTGATATGCTTAAGTTCAGCGGGTACTCCTACCTGATTTGAGGTCAAACTTTAAGAACATTGTTCGCCTAGACGCTCTCTTCTT",
+            "source": "Y393_illumina_1-contigs.fa_seq2288"
+        },
+        {
+            "confidence": 0.7127060115537932,
+            "hostMatchCover": [
+                "Yarrowia_lipolytica",
+                0.686
+            ],
+            "id": "Y393_illumina_1-contigs.4109_roi1_106",
+            "ngram_eng_classn": [
+                "HOST",
+                -9.309999999999945
+            ],
+            "ngram_ent": 134.33000000000004,
+            "roiEnd": 106,
+            "roiStart": 1,
+            "sequence": "TGCTTAGTAATCTGATCTAAAATCAGCTCAAAGTGTCAGAAATGATGCTCAAAGTGTCAGGAGTCACGTGAGGGTCACGTGAGGGTTGGCTCTGAGCACGTGATG",
+            "source": "Y393_illumina_1-contigs.fa_seq2331"
+        },
+        {
+            "confidence": 0.9657977409316293,
+            "hostMatchCover": [
+                "Yarrowia_lipolytica",
+                0.826
+            ],
+            "id": "Y393_illumina_1-contigs.4327_roi1_179",
+            "ngram_eng_classn": [
+                "HOST",
+                -44.57000000000011
+            ],
+            "ngram_ent": 203.18999999999988,
+            "roiEnd": 179,
+            "roiStart": 1,
+            "sequence": "TTGGTTCTGAGCACGTGATGCACGTTTCAGGAGGTTGCTTAGTAATCTGATCTAAAATCAGCTCAAAGTGTCAGAAATGATGCTCAAAGGGTCAGGAGTCACGTGAGGGTCACGTGAGGGTTGGTTCTGAGCACGTGATGCACGTTTCAGGAGGTTGCTTAGTAATCTGATCTAAAAT",
+            "source": "Y393_illumina_1-contigs.fa_seq2458"
+        },
+        {
+            "confidence": 0.8653309025229091,
+            "hostMatchCover": [
+                "Yarrowia_lipolytica",
+                0.527
+            ],
+            "id": "Y393_illumina_1-contigs.4330_roi1_94",
+            "ngram_eng_classn": [
+                "HOST",
+                -17.939999999999984
+            ],
+            "ngram_ent": 112.65000000000002,
+            "roiEnd": 94,
+            "roiStart": 1,
+            "sequence": "CCTGGAACGTGCATCACGTGCTCAGAACCAACCCTCACGTGACCCTCACGTGACTCCTGACACTTTGAGCATCATTTCTGACACTTTGAGCTG",
+            "source": "Y393_illumina_1-contigs.fa_seq2461"
+        },
+        {
+            "confidence": 0.9853316873170974,
+            "hostMatchCover": [
+                "Yarrowia_lipolytica",
+                0.355
+            ],
+            "id": "Y393_illumina_1-contigs.4483_roi2662_3792",
+            "ngram_eng_classn": [
+                "Univec_FUNYES",
+                141.4300000000003
+            ],
+            "ngram_ent": 1713.1300000000003,
+            "roiEnd": 3792,
+            "roiStart": 2662,
+            "sequence": "CCGCGACTGGGGTGTCTCTGTACTTCGTGCTCTGCTCTTCGATATGTGTTATCAGCCGTTGTACTTCGTCTCTGACTGCTTGTTCCGTGTTCGTGGTCTGAGTGCTCTGTGTCGACCCACCCTCGGTAGTTTATGCTCCTGTGTTGTGGTGTTCAGAGCTTCGGTGGCATTGTTATTGCCGGTTCCCCGTGGCTTCTTGCATCTTGTATCTCTTGTACAATCTGTCTCAGATCCCGGGGAAGACTAAGCCTGTCTTTTCGGTGGTATGTCTGTCTTCATACAGACAGTGACTTAGTTTCAGTGCTCTTCTGTTCGATTGCTCTACCTTCGTCAAGACCAATTCAAAAGTCTTGTTGGCCTGCTTGCGCATGCACTTGGTAGTCGCGTCGAATGTATTGTGGAGTTGTTGGTTGGTGTCATTTGATGACCCTAGAGATTCGTGCTCTGGTGGAATCCTCCCGTTCACCGTGGCCATCTTGTCGATGGGCTACTCGTTATGTTCCACTACCACTTCAGCAGTGAACTGCTTGATCCTCTTGGTTCTTATTTTATTCGGATCTTGAACTTTGTGTAAGTCAAGGATGAATTGTGGTGTTTCCGGACGGAGTCCCGTCGACTCTGTCTCGTCCTCATGGCGATGAGAGTCCCGTTTTGGCGTTTCCTATCGAGTTTATCAGACAAAGTATTTCGATGTTTGATTCGAAATGGATGCCTTTGTCTTAGGAGGGGCTGATGTTAGGAAACGATCTTCTTTAGTGGTTCTTGTGCCTATGGCACAAGGACCATCGACCGTCGTCGGTGCTCAGTTGCTGTCTCCCGCGTCAACTGTCAGTCCTGCACCTCTCGGTCACCGTCTGTCGGTAGACGTCCGGACGTCGCGATGATCGCGACTGCGGACGTCCAGAAGCGGTGACGTCTACCTGTCAACTCTCAAGAGTGGGTCCTTGTAGTTCCCGTTCTGGTCAAAGACCCACTATCGTAGGGGTCTGTCGAGTCCTTCAGGACTCGACCGTTGAGTTACAGATCCGTCAGTTGGTCCGTTGTCATTATTATATATAGCTCTCATTTCCCATGTATTTAGGATATCGATTATTGACCCTTTCAACACGAGTATTTGCTCAACGACTTGC",
+            "source": "Y393_illumina_1-contigs.fa_seq2527"
+        },
+        {
+            "confidence": 0.9913049508586701,
+            "hostMatchCover": [
+                "Yarrowia_lipolytica",
+                0.827
+            ],
+            "id": "Y393_illumina_1-contigs.4527_roi11574_12084",
+            "ngram_eng_classn": [
+                "HOST",
+                -106.96000000000072
+            ],
+            "ngram_ent": 601.8999999999993,
+            "roiEnd": 12084,
+            "roiStart": 11574,
+            "sequence": "TACATTGTACAGTCGATACGAGACCGTAATTACCGTGCTGAACCGTGCGGAGCCGCGGCTGCTATGATTATCCCTGCCTCACAAATGCCTGCCCCTGTACACAGTGCAGGTACGCCATACGAGGGGGATGAGTGGGAGTGGGAGTGGGAGTGGGAGTGGGAGTGGAGATGGGAGTACAAGCATGAGTAGTGATTGTCGTTTTGGTGGTGACCTGGGGTGTAGTGATTACATTCGGCGGCTATCTTCTACCCCTTCACTCCTCAACCAGCCAAGAATCTGGCCCACATTTTCCCAAATTTCCGAATTCATGTTGGCATGAAAACGGTTATTACCGACACGGAGCACGTGACATCCCAAATGCCTTGTGGACGGCGAAGAGAGATCTCCAGTTGATGTTGTGAAATCACGTTGGCACGAATTTTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTTTGAGTTGAGTTGAGTTGAGTTGAGTTGAGCTCGTCGACTCACGGTT",
+            "source": "Y393_illumina_1-contigs.fa_seq2568"
+        },
+        {
+            "confidence": 0.9032407136971299,
+            "hostMatchCover": [
+                "Yarrowia_lipolytica",
+                0.702
+            ],
+            "id": "Y393_illumina_1-contigs.4528_roi5708_5812",
+            "ngram_eng_classn": [
+                "HOST",
+                -22.779999999999987
+            ],
+            "ngram_ent": 119.50000000000001,
+            "roiEnd": 5812,
+            "roiStart": 5708,
+            "sequence": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNAAAAAAAGCTCAATTCCACATCACAGAACGTCCTGGAGTCAGTGTTTTTTTTTCTTCTTTTATTTTTCCCTAT",
+            "source": "Y393_illumina_1-contigs.fa_seq2569"
+        },
+        {
+            "confidence": 0.9739844865459869,
+            "hostMatchCover": [
+                "Yarrowia_lipolytica",
+                0.7
+            ],
+            "id": "Y393_illumina_1-contigs.4647_roi1778_2081",
+            "ngram_eng_classn": [
+                "HOST",
+                -63.059999999999945
+            ],
+            "ngram_ent": 361.08000000000004,
+            "roiEnd": 2081,
+            "roiStart": 1778,
+            "sequence": "CTGGCTCTTCTGGCTCTGGCTCTTCTGGCTCTGGCTCTTCTGGCTCTGGCTCTTCTGGCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCCGGCTCTGGCTCCTCTGGCTCTGGCTCCTCTGGCTCTTCTGGTTCCTCTGGCTCTGGCTCCTCTGGCTCTTCTGGCTCTTCTGGCTCTTCTGACAAGGCCAACAAGTCCGGGGCCTCTGACAAGCCTGCCAACAGTGGCTCAGACAAACCTGCCAACAATGGATCTCCCCAGCCCAAGAACGCTCCTATGCAGTCTGCTCAGTCCCCCAAG",
+            "source": "Y393_illumina_1-contigs.fa_seq2682"
+        },
+        {
+            "confidence": 0.9985543697296324,
+            "hostMatchCover": [
+                "Yarrowia_lipolytica",
+                0.966
+            ],
+            "id": "Y393_illumina_1-contigs.4650_roi1084_2214",
+            "ngram_eng_classn": [
+                "HOST",
+                -219.77000000000066
+            ],
+            "ngram_ent": 1346.3199999999993,
+            "roiEnd": 2214,
+            "roiStart": 1084,
+            "sequence": "TAGGATCAATGTCGGGCACCCCAAGGTTAGGTCACCCCAATGTCGATCACCTCAACTAGTATAGTTGACATTTTGTTAAACATGAAAATCACCAAAACAGTCGGCAATGTCTCAATGGTGGTGATCAAGTGACCAAACAAACAAACGCGCAGCATCACTGCTGTGTCTAAGTAACCACAGAAATGCCTGGTATCATTGAGTCAAAGCCAACATTTCCAAAATCGTCCACAAATGTATAAATTACTAACCCGAGATTTCAGAGATTGGTAATCACGTGGACACGCGCGACACACAACGGTTGAGATCACATGACTGCATCCACGATGAGCCTCCCCCCCCCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCCTCCACTAATATCCCATCCGCCTGGATAACTCTCCAAAAAGCGAAAAACCCTCGGGCATGGGAGACGACTCCTTGGTAGAACTGGCGACCGAAGACTCGCGCTCATGACGGTCAGCCCGATCATCACGAGACACCTCCACACTATCGCGTTTAGTGATTTCGCGCTCAATTCGCTTTTTGGTTGCCATAATGGCCCGCACTCGGCTATTGTATCCGCCAGTGCCCTTCCACACCTGGGCGAGCTGGAGGGCCTCGTCGACAAGATTAAGAGCCTGGTCATAGTCCCCAGAGGCTATGAGTTGGTCGATTTTCGTGTCGAGATGCGATTGGTCGAATTCCTTTGCCTTTCGGAGCATGATGATCACAGTTTCCATTTTCCGCCGCGCAGAATCGTACCGTTGAAGCTGCTCGGTGATATCCGAGGAACCCGCACCGGCGTCAGGATTCTTGTCACGAGACTCCGGGTCTGTTCCGGACTCCGGGTCTGTTTGCTTCTCCGTTTTTTCATCAACGTTCATGGACTCCACCCTGTCTCTCAGAGAGTCCAGATCGCCCGTGAGCAGTTCAATCTGGTATCGGATCTTGTTTTGGCTCTGGGTAAGTTTAGTCAGCAGTCCATCGAGCGTCCACGTGAGGTCCTGGCTGTGGTAGTCCAGTTGTGACAAGAGTTGAGATGCACTTGACTGCAGCTGTTGGATGTTTTTCTCTTCGCATTTCGGCAGCGACTGGTCCAGGTAGCTGTGAGACACGA",
+            "source": "Y393_illumina_1-contigs.fa_seq2685"
+        }
+    ]
+}

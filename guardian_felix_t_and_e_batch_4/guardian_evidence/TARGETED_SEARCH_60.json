@@ -1,0 +1,73 @@
+{
+    "detections": [
+        {
+            "agent": "TARGETED_SEARCH",
+            "fastq": [
+                "/export/u12/te_2022/outputs/Y459_raw/E_COLI.illumina.1.fq",
+                "/export/u12/te_2022/outputs/Y459_raw/E_COLI.illumina.2.fq"
+            ],
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "sample": "Y459",
+            "reads": [],
+            "alterations": [
+                {
+                    "type": "insertion",
+                    "derivedFeature": "C0040_match_0",
+                    "targetAssembly": "GCF_000005845.2",
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ],
+                    "length": 178,
+                    "readCount": 1
+                }
+            ]
+        },
+        {
+            "agent": "TARGETED_SEARCH",
+            "fastq": [
+                "/export/u12/te_2022/outputs/Y459_raw/E_COLI.illumina.1.fq",
+                "/export/u12/te_2022/outputs/Y459_raw/E_COLI.illumina.2.fq"
+            ],
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "sample": "Y459",
+            "reads": [
+                {
+                    "source": "Y459.563518",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "C0040_match_0",
+                            "start": 76,
+                            "end": 254,
+                            "featureStart": 76,
+                            "featureEnd": 254,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "C0040_match_0",
+                                "targetAssembly": "GCF_000005845.2"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+                    ]
+                }
+            ]
+        }
+    ],
+    "features": [
+        {
+            "id": "C0040_match_0",
+            "name": "C0040",
+            "source": "CIDAR_tetR",
+            "sourceStart": 181,
+            "sourceEnd": 359,
+            "sequence": "GTAGAGCAGCCTACATTGTATTGGCATGTAAAAAATAAGCGGGCTTTGCTCGACGCCTTAGCCATTGAGATGTTAAATAGGCACCCTACTCACTTTTTACCTTTAGAAGGGTGAAGCTGGCAAGATTTTTTACGTAATAACTCTAAAAGTTTTAGCTGTGCTATACTCAGTCATCGCG",
+            "role": "CDS",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        }
+    ]
+}

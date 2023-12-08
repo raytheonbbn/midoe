@@ -1,0 +1,1012 @@
+{
+    "detections": [
+        {
+            "agent": "FAST_NA",
+            "fastq": [
+                "Y456.illumina.2.fq",
+                "Y456.nanopore.fq",
+                "Y456.illumina.1.fq"
+            ],
+            "date": "02/21/2022",
+            "runtime": 2405,
+            "sample": "Y456",
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "confidence": 0.75,
+            "contigs": [
+                {
+                    "source": "X.14067",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "confidence": 0.75,
+                    "regions": [
+                        {
+                            "start": 601,
+                            "end": 1379,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "id": "BLAST_match_0",
+                            "feature": "BLAST_match_0",
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "BLAST_match_0"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "source": "X.8104"
+                },
+                {
+                    "source": "X.4515"
+                },
+                {
+                    "source": "X.564"
+                },
+                {
+                    "source": "X.12644"
+                },
+                {
+                    "source": "X.1603"
+                },
+                {
+                    "source": "X.1818"
+                },
+                {
+                    "source": "X.1869"
+                },
+                {
+                    "source": "X.1927"
+                },
+                {
+                    "source": "X.2111"
+                },
+                {
+                    "source": "X.2565"
+                },
+                {
+                    "source": "X.2665"
+                },
+                {
+                    "source": "X.3125"
+                },
+                {
+                    "source": "X.4550"
+                },
+                {
+                    "source": "X.5821"
+                },
+                {
+                    "source": "X.6223"
+                },
+                {
+                    "source": "X.6399"
+                },
+                {
+                    "source": "X.6835"
+                },
+                {
+                    "source": "X.8806"
+                },
+                {
+                    "source": "X.11267"
+                },
+                {
+                    "source": "X.12991"
+                },
+                {
+                    "source": "X.13048"
+                },
+                {
+                    "source": "X.2552"
+                },
+                {
+                    "source": "X.4741"
+                },
+                {
+                    "source": "X.7372"
+                },
+                {
+                    "source": "X.767"
+                },
+                {
+                    "source": "X.8512"
+                },
+                {
+                    "source": "X.9051"
+                },
+                {
+                    "source": "X.9520"
+                },
+                {
+                    "source": "X.132"
+                },
+                {
+                    "source": "X.2762"
+                },
+                {
+                    "source": "X.6409"
+                },
+                {
+                    "source": "X.7212"
+                },
+                {
+                    "source": "Y.1"
+                },
+                {
+                    "source": "Y.11"
+                },
+                {
+                    "source": "Y.14",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "confidence": 0.25,
+                    "regions": [
+                        {
+                            "start": 95,
+                            "end": 793,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "id": "BLAST_match_1",
+                            "feature": "BLAST_match_1",
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "BLAST_match_1"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "source": "Y.19",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "confidence": 0.25,
+                    "regions": [
+                        {
+                            "start": 2613,
+                            "end": 41147,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "id": "BLAST_match_2",
+                            "feature": "BLAST_match_2",
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "BLAST_match_2"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "source": "Y.21"
+                },
+                {
+                    "source": "Y.26",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "confidence": 0.25,
+                    "regions": [
+                        {
+                            "start": 3340,
+                            "end": 3754,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "id": "BLAST_match_3",
+                            "feature": "BLAST_match_3",
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "BLAST_match_3"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "source": "Y.27",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "confidence": 0.25,
+                    "regions": [
+                        {
+                            "start": 1015,
+                            "end": 1320,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "id": "BLAST_match_4",
+                            "feature": "BLAST_match_4",
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "BLAST_match_4"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "source": "Y.36"
+                },
+                {
+                    "source": "X.10627"
+                },
+                {
+                    "source": "X.3412"
+                },
+                {
+                    "source": "X.4497"
+                },
+                {
+                    "source": "X.5040"
+                },
+                {
+                    "source": "X.5806"
+                },
+                {
+                    "source": "X.6694"
+                },
+                {
+                    "source": "X.7720"
+                },
+                {
+                    "source": "X.8089"
+                },
+                {
+                    "source": "X.8724"
+                },
+                {
+                    "source": "X.876"
+                },
+                {
+                    "source": "X.8937"
+                }
+            ]
+        },
+        {
+            "agent": "FAST_NA",
+            "fastq": [
+                "Y492.illumina.1.fq",
+                "Y492.nanopore.fq",
+                "Y492.illumina.2.fq"
+            ],
+            "date": "02/21/2022",
+            "runtime": 1846,
+            "sample": "Y492",
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "confidence": 0.75,
+            "contigs": [
+                {
+                    "source": "X.13819",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "confidence": 0.75,
+                    "regions": [
+                        {
+                            "start": 2882,
+                            "end": 3660,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "BLAST_match_0",
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "BLAST_match_0"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "source": "X.13419"
+                },
+                {
+                    "source": "X.2547"
+                },
+                {
+                    "source": "X.8021"
+                },
+                {
+                    "source": "X.4034"
+                },
+                {
+                    "source": "X.13037"
+                },
+                {
+                    "source": "X.13297",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "confidence": 0.5,
+                    "regions": [
+                        {
+                            "start": 1,
+                            "end": 178,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "id": "BLAST_match_5",
+                            "feature": "BLAST_match_5",
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "BLAST_match_5"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "source": "X.4423"
+                },
+                {
+                    "source": "X.5239"
+                },
+                {
+                    "source": "X.11351"
+                },
+                {
+                    "source": "X.12981"
+                },
+                {
+                    "source": "X.13109"
+                },
+                {
+                    "source": "X.13261"
+                },
+                {
+                    "source": "X.1523"
+                },
+                {
+                    "source": "X.1750"
+                },
+                {
+                    "source": "X.1800"
+                },
+                {
+                    "source": "X.2083"
+                },
+                {
+                    "source": "X.2384"
+                },
+                {
+                    "source": "X.2773"
+                },
+                {
+                    "source": "X.3066"
+                },
+                {
+                    "source": "X.3384"
+                },
+                {
+                    "source": "X.4461"
+                },
+                {
+                    "source": "X.4489"
+                },
+                {
+                    "source": "X.449"
+                },
+                {
+                    "source": "X.6070"
+                },
+                {
+                    "source": "X.6249"
+                },
+                {
+                    "source": "X.7202"
+                },
+                {
+                    "source": "X.8415"
+                },
+                {
+                    "source": "X.5223"
+                },
+                {
+                    "source": "X.5354"
+                },
+                {
+                    "source": "X.6530"
+                },
+                {
+                    "source": "X.707"
+                },
+                {
+                    "source": "X.713"
+                },
+                {
+                    "source": "X.7194"
+                },
+                {
+                    "source": "X.8305"
+                },
+                {
+                    "source": "X.9092"
+                },
+                {
+                    "source": "X.11137"
+                },
+                {
+                    "source": "X.12225"
+                },
+                {
+                    "source": "X.12243"
+                },
+                {
+                    "source": "X.8034"
+                },
+                {
+                    "source": "Y.19",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "confidence": 0.25,
+                    "regions": [
+                        {
+                            "start": 19030,
+                            "end": 19457,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "id": "BLAST_match_6",
+                            "feature": "BLAST_match_6",
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "BLAST_match_6"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "source": "Y.20"
+                },
+                {
+                    "source": "Y.24",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "confidence": 0.25,
+                    "regions": [
+                        {
+                            "start": 8449,
+                            "end": 8756,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "id": "BLAST_match_7",
+                            "feature": "BLAST_match_7",
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "BLAST_match_7"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "source": "Y.33"
+                },
+                {
+                    "source": "X.10309"
+                },
+                {
+                    "source": "X.4414"
+                },
+                {
+                    "source": "X.4906"
+                },
+                {
+                    "source": "X.7543"
+                },
+                {
+                    "source": "X.825"
+                },
+                {
+                    "source": "X.8507"
+                },
+                {
+                    "source": "X.8712"
+                },
+                {
+                    "source": "X.9995"
+                }
+            ]
+        },
+        {
+            "agent": "FAST_NA",
+            "fastq": [
+                "Y323.illumina.1.fq",
+                "Y323.nanopore.fq",
+                "Y323.illumina.2.fq"
+            ],
+            "date": "02/21/2022",
+            "runtime": 3841,
+            "sample": "Y323",
+            "engineered": "http://guardian.bbn.technology#natural",
+            "confidence": 0.0,
+            "contigs": [
+                {
+                    "source": "X.1729"
+                },
+                {
+                    "source": "X.4191"
+                },
+                {
+                    "source": "X.6941"
+                },
+                {
+                    "source": "X.7162"
+                },
+                {
+                    "source": "X.7177"
+                },
+                {
+                    "source": "Y.1"
+                },
+                {
+                    "source": "Y.29"
+                },
+                {
+                    "source": "Y.31"
+                },
+                {
+                    "source": "Y.34"
+                },
+                {
+                    "source": "Y.41"
+                },
+                {
+                    "source": "Y.45"
+                },
+                {
+                    "source": "Y.50"
+                },
+                {
+                    "source": "Y.51"
+                },
+                {
+                    "source": "Y.52"
+                },
+                {
+                    "source": "Y.54"
+                },
+                {
+                    "source": "Y.55"
+                },
+                {
+                    "source": "Y.56"
+                },
+                {
+                    "source": "Y.59"
+                },
+                {
+                    "source": "Y.60"
+                },
+                {
+                    "source": "Y.61"
+                },
+                {
+                    "source": "Y.63"
+                },
+                {
+                    "source": "Y.68"
+                },
+                {
+                    "source": "Y.71"
+                },
+                {
+                    "source": "Y.73"
+                },
+                {
+                    "source": "Y.74"
+                },
+                {
+                    "source": "Y.75"
+                },
+                {
+                    "source": "Y.76"
+                },
+                {
+                    "source": "Y.77"
+                },
+                {
+                    "source": "Y.78"
+                },
+                {
+                    "source": "Y.79"
+                },
+                {
+                    "source": "Y.80"
+                },
+                {
+                    "source": "Y.81"
+                },
+                {
+                    "source": "Y.84"
+                },
+                {
+                    "source": "Y.87"
+                },
+                {
+                    "source": "Y.92"
+                },
+                {
+                    "source": "Y.93"
+                },
+                {
+                    "source": "Y.95"
+                },
+                {
+                    "source": "Y.96"
+                },
+                {
+                    "source": "Y.97"
+                },
+                {
+                    "source": "X.7152"
+                },
+                {
+                    "source": "X.7037"
+                },
+                {
+                    "source": "X.7151"
+                }
+            ]
+        },
+        {
+            "agent": "FAST_NA",
+            "fastq": [
+                "Y315.nanopore.fq",
+                "Y315.illumina.1.fq",
+                "Y315.illumina.2.fq"
+            ],
+            "date": "02/21/2022",
+            "runtime": 3299,
+            "sample": "Y315",
+            "engineered": "http://guardian.bbn.technology#natural",
+            "confidence": 0.0,
+            "contigs": [
+                {
+                    "source": "X.2961"
+                },
+                {
+                    "source": "X.4593"
+                },
+                {
+                    "source": "X.7502"
+                },
+                {
+                    "source": "X.7559"
+                },
+                {
+                    "source": "X.8093"
+                },
+                {
+                    "source": "Y.102"
+                },
+                {
+                    "source": "Y.108"
+                },
+                {
+                    "source": "Y.109"
+                },
+                {
+                    "source": "Y.110"
+                },
+                {
+                    "source": "Y.111"
+                },
+                {
+                    "source": "Y.115"
+                },
+                {
+                    "source": "Y.117"
+                },
+                {
+                    "source": "Y.26"
+                },
+                {
+                    "source": "Y.33"
+                },
+                {
+                    "source": "Y.37"
+                },
+                {
+                    "source": "Y.41"
+                },
+                {
+                    "source": "Y.44"
+                },
+                {
+                    "source": "Y.45"
+                },
+                {
+                    "source": "Y.46"
+                },
+                {
+                    "source": "Y.49"
+                },
+                {
+                    "source": "Y.51"
+                },
+                {
+                    "source": "Y.52"
+                },
+                {
+                    "source": "Y.53"
+                },
+                {
+                    "source": "Y.55"
+                },
+                {
+                    "source": "Y.57"
+                },
+                {
+                    "source": "Y.58"
+                },
+                {
+                    "source": "Y.59"
+                },
+                {
+                    "source": "Y.61"
+                },
+                {
+                    "source": "Y.62"
+                },
+                {
+                    "source": "Y.64"
+                },
+                {
+                    "source": "Y.69"
+                },
+                {
+                    "source": "Y.71"
+                },
+                {
+                    "source": "Y.73"
+                },
+                {
+                    "source": "Y.76"
+                },
+                {
+                    "source": "Y.77"
+                },
+                {
+                    "source": "Y.82"
+                },
+                {
+                    "source": "Y.83"
+                },
+                {
+                    "source": "Y.84"
+                },
+                {
+                    "source": "Y.85"
+                },
+                {
+                    "source": "Y.87"
+                },
+                {
+                    "source": "Y.89"
+                },
+                {
+                    "source": "Y.95"
+                },
+                {
+                    "source": "Y.96"
+                },
+                {
+                    "source": "Y.99"
+                },
+                {
+                    "source": "X.7892"
+                },
+                {
+                    "source": "X.8002"
+                },
+                {
+                    "source": "X.8015"
+                },
+                {
+                    "source": "X.8066"
+                }
+            ]
+        },
+        {
+            "agent": "FAST_NA",
+            "fastq": [
+                "Y394.illumina.2.fq",
+                "Y394.nanopore.fq",
+                "Y394.illumina.1.fq"
+            ],
+            "date": "02/21/2022",
+            "runtime": 2844,
+            "sample": "Y394",
+            "engineered": "http://guardian.bbn.technology#natural",
+            "confidence": 0.0,
+            "contigs": [
+                {
+                    "source": "X.11417"
+                },
+                {
+                    "source": "X.11874"
+                },
+                {
+                    "source": "X.11933"
+                },
+                {
+                    "source": "X.12169"
+                },
+                {
+                    "source": "X.4525"
+                },
+                {
+                    "source": "X.8462"
+                },
+                {
+                    "source": "X.5484"
+                },
+                {
+                    "source": "X.5560"
+                },
+                {
+                    "source": "X.8090"
+                },
+                {
+                    "source": "Y.25"
+                },
+                {
+                    "source": "Y.29"
+                },
+                {
+                    "source": "Y.3"
+                },
+                {
+                    "source": "Y.38"
+                },
+                {
+                    "source": "Y.39"
+                },
+                {
+                    "source": "Y.4"
+                },
+                {
+                    "source": "Y.41"
+                },
+                {
+                    "source": "Y.42"
+                },
+                {
+                    "source": "Y.45"
+                },
+                {
+                    "source": "Y.48"
+                },
+                {
+                    "source": "Y.50"
+                },
+                {
+                    "source": "Y.51"
+                },
+                {
+                    "source": "Y.54"
+                },
+                {
+                    "source": "Y.55"
+                },
+                {
+                    "source": "Y.56"
+                },
+                {
+                    "source": "Y.57"
+                },
+                {
+                    "source": "Y.59"
+                },
+                {
+                    "source": "Y.60"
+                },
+                {
+                    "source": "Y.62"
+                },
+                {
+                    "source": "Y.64"
+                },
+                {
+                    "source": "Y.66"
+                },
+                {
+                    "source": "Y.69"
+                },
+                {
+                    "source": "Y.71"
+                },
+                {
+                    "source": "Y.73"
+                },
+                {
+                    "source": "Y.75"
+                },
+                {
+                    "source": "Y.79"
+                },
+                {
+                    "source": "Y.80"
+                },
+                {
+                    "source": "Y.82"
+                },
+                {
+                    "source": "Y.83"
+                },
+                {
+                    "source": "Y.84"
+                },
+                {
+                    "source": "Y.87"
+                },
+                {
+                    "source": "Y.88"
+                },
+                {
+                    "source": "Y.89"
+                },
+                {
+                    "source": "Y.90"
+                },
+                {
+                    "source": "Y.93"
+                },
+                {
+                    "source": "X.5307"
+                },
+                {
+                    "source": "X.11783"
+                },
+                {
+                    "source": "X.12050"
+                },
+                {
+                    "source": "X.12062"
+                }
+            ]
+        }
+    ],
+    "features": [
+        {
+            "id": "BLAST_match_0",
+            "name": "Cloning vector pADH77, complete sequence",
+            "source": "JN795134.1",
+            "sequence": "tatggtttctaagggtgaagaagataacatggctattatcaaagaatttatgagattcaaagtccacatggaaggttctgttaacggtcacgaattcgaaattgaaggtgaaggtgaaggtagaccatacgaaggtactcaaaccgctaagttgaaagttactaagggtggtccattgccattcgcctgggatattttgtctccacaattcatgtacggttctaaggcttacgttaaacatccagctgatatcccagactacttgaaattatctttcccagaaggttttaaatgggaaagagttatgaacttcgaagatggtggtgttgtcaccgttactcaagactcttccttgcaagacggtgaattcatttataaagttaagttgagaggtactaatttcccatctgatggtccagttatgcaaaagaaaactatgggttgggaagcctcttccgaaagaatgtacccagaagacggtgctttgaaaggtgaaattaagcaaagattgaaattaaaggatggtggtcactacgacgctgaagtcaaaactacctacaaggctaagaaaccagttcaattaccaggtgcctataacgtcaatatcaaattggacattacctcccataacgaagattacactattgttgaacaatacgaaagagctgaaggtagacactctactggtggtatggatgaattgtacaagtaactcgagg",
+            "subFeatures": [
+                "BLAST_match_0_mCherry"
+            ]
+        },
+        {
+            "id": "BLAST_match_1",
+            "name": "LargeROI_0",
+            "sequence": "CACACCACACAGCCACACACACATCAAGGCTGCTGGGCTACACATTTACCTAAATACACACACACACACACACTCTAATGCTACACATATACATATCTTATTACTCAAGAACCAATATTACAACGTTCCACAATACCATACAAATACACACCAGCGCCACCACCTATTAATAGCAATAGCGCCAATTCTCTGCTTTAAAGCTATTCCACATCACTGTCACACAGCACACACACACACAATTCCACACATATATGGCTACTGCCCGGCAATAATAATTATCACACTTCATCTAATACACACACTGCCCCTATACACCCAGCACACACAGTGGCATTGGCCACTCACCTTCAAGGCCACTTCCACACAGTACACCACACACACACCCCAACACCACACTCTGCACACAAATTGGCCACCTAATAATAACATCTAATACTCATACAAGCAAATGCGCCAATATCTAACTCCACAGGCCACTCAACCCATAGCTAATAGTAACCACCACATCATCACAAATTCTACTACAATAATACACACTACAAATACCTACATCCACAATTCTGGCCAACACTCATCTGCACACCTGACATCACCCACACTAGCCAACCCACAATACCTCACATGTTCTTAACAACACTACCTTTATAGTAAGTAGCGCAGCAGCAATTTTTAAACCTTGTGCAACACTACCCTACTTT",
+            "subFeatures": []
+        },
+        {
+            "id": "BLAST_match_2",
+            "name": "LargeROI_1",
+            "sequence": "CAAGAGACCTACAAGGCCGTCTACAACAAGGCAAGCAAGTAGTCCCCCTACCAGAGCAAGCACCACCCAGCAGTCCTCACGTACGATCGCCGCGTCTGACACAGACCACCACTACCCGACCCTTAGAGACAATCCTTATCCTGAAGTTACGGATCTTTTTTGCCGACTTCCATTCTCTACATTACTCTATCAACTAGTTGCTGTTCACCTTGGAGAACTGCTGCGGTCTTCAATACGACCTGGCCTGAAAAATATTCCTTCGTGTGGCTTTTCCCGGGCCGTCACATGCGCACCGGAGCCAGCAAAGGAGCAGGCATCTTCCAGCAATCCGGATAAAAAAACCAGTTGGTTTTTTTTTT",
+            "subFeatures": []
+        },
+        {
+            "id": "BLAST_match_3",
+            "name": "LargeROI_2",
+            "sequence": "GTTGTTTTATAGCAAAGCCAGGACGCAGAAAATGCATCCGATATCATCTTTGGCCATCTGGAGCACCGCTTTTTTATCGGCATGGCGCGCGCAAGTTCTTACCGATCTCTTTGGACTGTTTCCATGCCTTTTGTGCGATGATCTTTACATTTTGCATAGTAATAGGTAGCCAGATTTGTTAATTTTGTAACAGAATATTGTGAGCAAGAAACACAGAATAAGCCACTGCCATTGGTAGGAGGGGTGGTGGGGTGGTATAGTCCGCACTGGGATGTTACTTCTTCCTGCTTAAGTACGACTCCCTTTAGGTCTCGAAGCTGCAGGCCCCCACCTAGAAAGTGCCAAGCAGAAAAAGGAAAACCGGAAGGGAGGTGAGTAGTAAAAGTTTGAATGGTGGTAGTAATGTATGATATC",
+            "subFeatures": []
+        },
+        {
+            "id": "BLAST_match_4",
+            "name": "LargeROI_3",
+            "sequence": "CTTTACTACATGGTGTCTAACTGTGGTAATTCTAGAGCTAACTACATGCTTAAAATCTCACCAATTTTGTAAGAGATGTATTTGTTAGGATAAAAAATCAATGTCTCTCGGACTCTCTTTGATGATCTCATAACAACTTTTCGAAACTCGCATGGCCTTAAAAGGGCGATGGTTCATTCAAATTCCCCGCCCTATCAACTTCCGGATGGCAGGGATAGTGGCCCTACCATGGCTCTGCAGCAACGGGTAACGGGGAATAAGTGGTTCGACCCCGAGAGGGAGCCTGAGAAAACGGCTACCACATC",
+            "subFeatures": []
+        },
+        {
+            "id": "BLAST_match_5",
+            "name": "Cloning vector p15A-PTET-CreGTG-AAV-PBAD-FlpGTG, complete sequence",
+            "source": "MN623122.1",
+            "sequence": "cttccttcagcactaccctttagctgttctatatgctgccactcctcaattggattagtctcatccttcaatgctatcatttcctttgatattggatcatatgcatagtaccgagaaactagtgcgaagtagtgatcaggtattgctgttatctgatgagtatacgttgtcctggcc",
+            "subFeatures": [
+                "BLAST_match_5_flp"
+            ]
+        },
+        {
+            "id": "BLAST_match_6",
+            "name": "LargeROI_4",
+            "sequence": "GGACAACCTGTGTGGAGTTGTGGCTTGCGGTGAAGCTGACAGGAGACGATGTGCATGACGCGGTGACGACCAATGACACCGATGACACATCGACCTGACAACGACCGGACGTTGCTTGCCACCGGAGAACTCGAAAACACATATGCCCACCAACTCACCGGGTGATCCCAAAGTCCCCCCCGCATCCATCACATGGGGAAACCCAGACACAGCGGTGTTATTGCACTACATTCTTCAGAATTAGTGGGTTGCTAGACACTCTACAACACATTAAGTAATGTACTGCCTTCAATGGAAAAAGTACATGAGAGAACTCGTTGATCTCTCTACAAACATCAACAATACTTATCTGGTTGATCCT",
+            "subFeatures": [
+                "BLAST_match_6_26S_ribosomal_RNA"
+            ]
+        },
+        {
+            "id": "BLAST_match_7",
+            "name": "LargeROI_5",
+            "sequence": "TAATTCTAGAGCTATACATGCAAAACTCGACCCTGAAGAATGTATTGATAAAATCAGTGACTGATGATTTTCTTTCAATCCACTTCTGGCGATGGATTAATTTGCCTATAACTGAGGTGCACCAGCGGAACGGGAATAAGGTCGATTCCGGGGGCCGCCATGAGCAGGCGCAATCCAATCTAATTCAGGAGGTAGTGACAAACATACAGGGTTCGTCGTATGATACAATGTAAATACCTTAACGAGCTTGAGGCAAGTCTTACAGCCGCTAATTGCCAGCGTATATTAAGTTAGAGCTAATACATGC",
+            "subFeatures": []
+        },
+        {
+            "id": "BLAST_match_0_mCherry",
+            "sequence": "tggtttctaagggtgaagaagataacatggctattatcaaagaatttatgagattcaaagtccacatggaaggttctgttaacggtcacgaattcgaaattgaaggtgaaggtgaaggtagaccatacgaaggtactcaaaccgctaagttgaaagttactaagggtggtccattgccattcgcctgggatattttgtctccacaattcatgtacggttctaaggcttacgttaaacatccagctgatatcccagactacttgaaattatctttcccagaaggttttaaatgggaaagagttatgaacttcgaagatggtggtgttgtcaccgttactcaagactcttccttgcaagacggtgaattcatttataaagttaagttgagaggtactaatttcccatctgatggtccagttatgcaaaagaaaactatgggttgggaagcctcttccgaaagaatgtacccagaagacggtgctttgaaaggtgaaattaagcaaagattgaaattaaaggatggtggtcactacgacgctgaagtcaaaactacctacaaggctaagaaaccagttcaattaccaggtgcctataacgtcaatatcaaattggacattacctcccataacgaagattacactattgttgaacaatacgaaagagctgaaggtagacactctactggtggtatggatgaattgtacaagtaa",
+            "name": "BLAST_match_0_mCherry"
+        },
+        {
+            "id": "BLAST_match_5_flp",
+            "sequence": "cttccttcagcactaccctttagctgttctatatgctgccactcctcaattggattagtctcatccttcaatgctatcatttcctttgatattggatcatatgcatagtaccgagaaactagtgcgaagtagtgatcaggtattgctgttatctgatgagtatacgttgtcctggcc",
+            "name": "BLAST_match_5_flp"
+        },
+        {
+            "id": "BLAST_match_6_26S_ribosomal_RNA",
+            "sequence": "acaaagctgccccctcttccggaacgataccctatctctagacaaactaattccagggtgttgactccgttaaaagaaagataactccttccaagacttgtgccaccgtcccacattcagttacgttgccgtggagaatccacatccaagtgccggaatttcaaccggcttcccttttggaaggcccttatcgggccgtacgcgacagttatgccacccttaggatcgacttacccgtgtccaactgctgttcacacggaacctttccccacttcagtcttcaaagttctcatttgaatatttgctactaccaccaagatctgcactaggggccgttcgacgcagcctcacggccaacgcttctcaacaaccccacgcctgcctactcgaggaaacctcctctcggtag",
+            "name": "BLAST_match_6_26S_ribosomal_RNA"
+        }
+    ]
+}

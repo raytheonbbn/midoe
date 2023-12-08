@@ -1,0 +1,95 @@
+{
+    "detections": [
+        {
+            "agent": "ngram_high_entropy_seq_detector",
+            "confidence": 0.9999999999999236,
+            "contigs": [
+                {
+                    "regions": [
+                        {
+                            "end": 1240,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y396_illumina_1-contigs.26_roi27_1240",
+                            "ngram_ent": 2661.1800000000003,
+                            "pos_match": "TACCCAATTATGATAGAATTTACAAGCTATAAGGTTATTGTCCTGGGTTTCAAGCATTAGTCCATGCAAGTTTTTATGCTTTGCCCATTCTATAGATATATTGATAAGCGCGCTGCCTATGCCTTGCCCCCTGAAATCCTTACATACGGCGATATCTTCTATATAAAAGATATATTATCTTATCAGTATTGTCAATATATTCAAGGCAATCTGCCTCCTCATCCTCTTCATCCTCTTCGTCTTGGTAGCTTTTTAAATATGGCGCTTCATAGAGTAATTCTGTAAAGGTCCAATTCTCGTTTTCATACCTCGGTATAATCTTACCTATCACCTCAAATGGTTCGCTGGGTTTAT",
+                            "start": 27
+                        }
+                    ],
+                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y396_illumina_1-contigs.26"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 341,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y396_illumina_1-contigs.75_roi1_341",
+                            "ngram_ent": 727.15,
+                            "pos_match": "GAAAATAAAATATTATATTTTACTGGATGAATTGTTTTAGTACCTAGATTTAGATGTCTAAAAAGCTTTAACTACAAGCTTTTTAGACATCTAATCTTTTCTGAAGTACATCCGCAACTGTCCATACTCTGATGTTTTATATCTTTTCTAAAAGTTCGCTAGATAGGGGTCCCGAGCGCCTACGAGGAATTTGTA",
+                            "start": 1
+                        }
+                    ],
+                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y396_illumina_1-contigs.75"
+                }
+            ],
+            "date": "01/24/2022",
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "fasta": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y396_illumina_1-contigs.fa",
+            "hostTaxa": [
+                "http://purl.obolibrary.org/obo/NCBITaxon_1423"
+            ],
+            "ngramDate": "2022-01-24 00:48:57.703359",
+            "runtime": 0.16666666666666666,
+            "sample": "Y396"
+        }
+    ],
+    "features": [
+        {
+            "confidence": 0.9999999999999236,
+            "cover": 0.6096718480138169,
+            "hostMatchCover": [
+                "Bacillus_subtilis",
+                0.048
+            ],
+            "id": "Y396_illumina_1-contigs.26_roi27_1240",
+            "name": "gnl|uv|U09365.1:787-1365:no_component_info_match",
+            "ngram_eng_classn": [
+                "Univec_FUNYES",
+                1051.9600000000003
+            ],
+            "ngram_ent": 2661.1800000000003,
+            "pident": 0.9971800000000001,
+            "roiEnd": 1240,
+            "roiStart": 27,
+            "sequence": "TTAGCCATTTATTATTTCCTTCCTCTTTTCTACAGTATTTAAAGATACCCCAAGAAGCTAATTATAACAAGACGAACTCCAATTCACTGTTCCTTGCATTCTAAAACCTTAAATACCAGAAAACAGCTTTTTCAAAGTTGTTTTCAAAGTTGGCGTATAACATAGTATCGACGGAGCCGATTTTGAAACCACAATTATGATAGAATTTACAAGCTATAAGGTTATTGTCCTGGGTTTCAAGCATTAGTCCATGCAAGTTTTTATGCTTTGCCCATTCTATAGATATATTGATAAGCGCGCTGCCTATGCCTTGCCCCCTGAAATCCTTACATACGGCGATATCTTCTATATAAAAGATATATTATCTTATCAGTATTGTCAATATATTCAAGGCAATCTGCCTCCTCATCCTCTTCATCCTCTTCGTCTTGGTAGCTTTTTAAATATGGCGCTTCATAGAGTAATTCTGTAAAGGTCCAATTCTCGTTTTCATACCTCGGTATAATCTTACCTATCACCTCAAATGGTTCGCTGGGTTTATCATCGTGAATTCAATCAACCTCTGGATTACAAAATTTGTGAAAGATTGACTGGTATTCTTAACTATGTTGCTCCTTTTACGCTATGTGGATACGCTGCTTTAATGCCTTTGTATCATGCTATTGCTTCCCGTATGGCTTTCATTTTCTCCTCCTTGTATAAATCCTGGTTGCTGTCTCTTTATGAGGAGTTGTGGCCCGTTGTCAGGCAACGTGGCGTGGTGTGCACTGTGTTTGCTGACGCAACCCCCACTGGTTGGGGCATTGCCACCACCTGTCAGCTCCTTTCCGGGACTTTCGCTTTCCCCCTCCCTATTGCCACGGCGGAACTCATCGCCGCCTGCCTTGCCCGCTGCTGGACAGGGGCTCGGCTGTTGGGCACTGACAATTCCGTGGTGTTGTCGGGGAAGCTGACGTCCTTTCCATGGCTGCTCGCCTGTGTTGCCACCTGGATTCTGCGCGGGACGTCCTTCTGCTACGTCCCTTCGGCCCTCAATCCAGCGGACCTTCCTTCCCGCGGCCTGCTGCCGGCTCTGCGGCCTCTTCCGCGTCTTCGCCTTCGCCCTCAGACGAGTCGGATCTCCCTTTGGGCCGCCTCCCCGCGAATTCGAGCTCGGTACCCGGGGATCCTCTAGAGTCGACCTGCAGGCATGCAAGCTTCCGTTTAGGCTGGG",
+            "source": "gnl|uv|U09365.1:787-1365",
+            "sourceEnd": 533,
+            "sourceLen": 579,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sourceStart": 180
+        },
+        {
+            "confidence": 0.9999999833862068,
+            "cover": 0.7358490566037735,
+            "hostMatchCover": [
+                "Bacillus_subtilis",
+                0.259
+            ],
+            "id": "Y396_illumina_1-contigs.75_roi1_341",
+            "name": "gnl|uv|EU546819.1:3339-3603:apha3_match",
+            "ngram_eng_classn": [
+                "Univec_FUNYES",
+                330.29999999999995
+            ],
+            "ngram_ent": 727.15,
+            "pident": 1.0,
+            "roiEnd": 341,
+            "roiStart": 1,
+            "sequence": "ATTTTTTGACTTACTGGGGATCAAGCCTGATTGGGAGAAAATAAAATATTATATTTTACTGGATGAATTGTTTTAGTACCTAGATTTAGATGTCTAAAAAGCTTTAACTACAAGCTTTTTAGACATCTAATCTTTTCTGAAGTACATCCGCAACTGTCCATACTCTGATGTTTTATATCTTTTCTAAAAGTTCGCTAGATAGGGGTCCCGAGCGCCTACGAGGAATTTGTATTGAGACCGACTGAGGTCTCACGGCTACTCAGGTGAGACCGACTGAGGTCTCACGGGGCAGGCCATGTCTGCCCGTATTTCGCGTAAGGAAATCCATTATGTACTATTT",
+            "source": "gnl|uv|EU546819.1:3339-3603",
+            "sourceEnd": 265,
+            "sourceLen": 265,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sourceStart": 70
+        }
+    ]
+}

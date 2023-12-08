@@ -1,0 +1,58 @@
+{
+    "detections": [
+        {
+            "agent": "ngram_high_entropy_seq_detector",
+            "confidence": 0.9277907639637736,
+            "contigs": [
+                {
+                    "regions": [
+                        {
+                            "end": 71766,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y478_illumina_1-contigs.fa.Escherichia_Coli.3770_roi71587_71766",
+                            "ngram_ent": 204.29999999999936,
+                            "pos_match": "Poor match cover",
+                            "start": 71587
+                        }
+                    ],
+                    "source": "Y.3770"
+                }
+            ],
+            "date": "01/27/2022",
+            "engineered": "http://guardian.bbn.technology#natural",
+            "fasta": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y478_illumina_1-contigs.fa.Escherichia_Coli.fa",
+            "hostTaxa": [
+                "http://purl.obolibrary.org/obo/NCBITaxon_562"
+            ],
+            "ngramDate": "2022-01-27 15:17:48.385167",
+            "runtime": 0.25,
+            "sample": "Y478"
+        }
+    ],
+    "features": [
+        {
+            "confidence": 0.9277907639637736,
+            "cover": 0.1711229946524064,
+            "hostMatchCover": [
+                "Escherichia_coli",
+                0.184
+            ],
+            "id": "Y478_illumina_1-contigs.fa.Escherichia_Coli.3770_roi71587_71766",
+            "name": "gnl|uv|M37847.1:848-1034:beta-lactamase,bla_match",
+            "ngram_eng_classn": [
+                "HOST",
+                -34.16000000000065
+            ],
+            "ngram_ent": 204.29999999999936,
+            "pident": 1.0,
+            "roiEnd": 71766,
+            "roiStart": 71587,
+            "sequence": "TCTGTTTCTATCAGCTGTCCCTCCTGTTCAGCTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNGATATGGCCATGAA",
+            "source": "gnl|uv|M37847.1:848-1034",
+            "sourceEnd": 125,
+            "sourceLen": 187,
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement",
+            "sourceStart": 93
+        }
+    ]
+}

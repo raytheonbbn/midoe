@@ -1,0 +1,127 @@
+{
+    "detections": [
+        {
+            "agent": "ngram_high_entropy_seq_detector",
+            "confidence": 1.0,
+            "contigs": [
+                {
+                    "regions": [
+                        {
+                            "end": 838,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y394_illumina_1-contigs.fa.Salmonella_Enterica_Enterica.11424_roi452_838",
+                            "ngram_ent": 826.5599999999994,
+                            "start": 452
+                        },
+                        {
+                            "end": 2204,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y394_illumina_1-contigs.fa.Salmonella_Enterica_Enterica.11424_roi911_2204",
+                            "ngram_ent": 3132.640000000001,
+                            "start": 911
+                        },
+                        {
+                            "end": 23987,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y394_illumina_1-contigs.fa.Salmonella_Enterica_Enterica.11424_roi23413_23987",
+                            "ngram_ent": 1430.3999999999985,
+                            "start": 23413
+                        }
+                    ],
+                    "source": "Y.11424"
+                },
+                {
+                    "regions": [
+                        {
+                            "end": 73571,
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "Y394_illumina_1-contigs.fa.Salmonella_Enterica_Enterica.11789_roi73419_73571",
+                            "ngram_ent": 259.19,
+                            "start": 73419
+                        }
+                    ],
+                    "source": "Y.11789"
+                }
+            ],
+            "date": "01/27/2022",
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "fasta": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y394_illumina_1-contigs.fa.Salmonella_Enterica_Enterica.fa",
+            "hostTaxa": [
+                "http://purl.obolibrary.org/obo/NCBITaxon_59201"
+            ],
+            "ngramDate": "2022-01-27 18:59:19.988331",
+            "runtime": 0.2,
+            "sample": "Y394"
+        }
+    ],
+    "features": [
+        {
+            "confidence": 0.9999997179758686,
+            "hostMatchCover": [
+                "Salmonella_enterica_subsp._enterica",
+                0.453
+            ],
+            "id": "Y394_illumina_1-contigs.fa.Salmonella_Enterica_Enterica.11424_roi452_838",
+            "ngram_eng_classn": [
+                "Univec_FUNYES",
+                296.2999999999994
+            ],
+            "ngram_ent": 826.5599999999994,
+            "roiEnd": 838,
+            "roiStart": 452,
+            "sequence": "TGCCGATGAGTGCATATCTGACATTTTCATGTCCGAATGCTCAGCGGAAATGGCTGGCAGGGATAACATTAATATTACAAAAAAGGTGTTTTTGATTTTCATTAAATAAGTCCTTTTCAGGTAGGTACCGATTAATTGTAGCTGAGTCAGATAAAAAAGCCCCCTGACGGGGCAATGCCGTTCACTTAAGCGGAGCGGTGCTGCGTTTCACCGGATAACGGGTTTTTGATATCTTAACTGCCCTCGGCCTTGATGGTCGGGGGCGTTTTGTTATGAACACAACTTCCAGAGCACCCCGCAGATGCTCCAGTCGTTTCGGGATGGTCCCCGGTGATGCCGTATTTCCCAGCACTATCATTTCTGTCGCGATAAACTGGAACGCGAAC",
+            "source": "Y394_illumina_1-contigs.fa.Salmonella_Enterica_Enterica.fa_seq210"
+        },
+        {
+            "confidence": 1.0,
+            "hostMatchCover": [
+                "Salmonella_enterica_subsp._enterica",
+                0.267
+            ],
+            "id": "Y394_illumina_1-contigs.fa.Salmonella_Enterica_Enterica.11424_roi911_2204",
+            "ngram_eng_classn": [
+                "Univec_FUNYES",
+                1325.1200000000008
+            ],
+            "ngram_ent": 3132.640000000001,
+            "roiEnd": 2204,
+            "roiStart": 911,
+            "sequence": "AAGCCTGCAACATGCCCCACACCTCCTGTTCCAGCAGCTCAACCTTACGGCTTCTCAGCACCAGGGCATTGTTCAGCAGGCTGCTTTTCAGGTTTCTGAACCCGACTTCGATTTCCCATCGTGAATGGTAAAGTTCCGCTACCTCTTTTGCTTTGTAGCAGTCTGCCGGGAGTGATGTCAGCACCGTTTTCTCCATACCGTTCACCTCATAAGTCACCGCCCGGGCGTACCAGAACTCTGGCAGTGCAGGATTCTTTTTCCTCGCCTGCAGTGACACCTTCAGTTTCAGAAGCCTGTCTCCGGGACCGTAACTTTCTTCTGTTTCTGCCGCGATATTCTTCCACGCAGGCAGTAGCCAGTGGCGGTTACAACCCTGCTGGTTCAGCGTCAGCAGCAGGTCTGCGCTGTAAAAGAGCTTGTCAAACAGCGTAATGGATTTATCCGGGATGGTGGCGAGCATGGAGTGAGCCAGCACGGTTTCGCTCCGCCGGTAAGGCGCGGTCACGGCATTCAGCAAAATGTGGCTTCCCAGATTCATCAACGCCACCAGACGCATAACCGGGTAGGCGCTCTGCCGCTCAGTGGATGTGTTGGCAGAGCCATAATATTCACGCAACTCAGGTTCATCAGGTGTCCTGAACTGTGCGCCATCAATGGCAAAAAGCTGCAGGCCGTGCCAGTCATCCTTCAGGTAACGTTCCGCGCCCCATGTCTGTGCGGTCTGGCGGAAGAGCCATTCCACCAGGGGGCCCCCACGCGCTGACGCGCCTGGGTGACAGCGCTGCGGGCCAGCAGGTTGATCCCCGCTTCGCCATCCGCGCTCAGGTTCAGACGGCGAACCACATCGGTAATTGGCTCATTGCGGAAAAAGGCCATGGCCACCACCATCCAGATAACCATGTCCCCCGGTAAACGACGGCGGCGAACGGTCGCATGCGCAGAAAGCGTCAGACAGTGCTGTATCCACTCGACGGGAAGGTGCTCTGCAAACAGTTGTGCAGAGGGCGGTGGCATAAGCGGATGGTCACTGAAATCGAGCAGATCATTGAGAAGTGGCATAAGAAAACGGCTCCCTGTTGTGGAAGCCGTTATAGTGCCGCAGTTTAAGGATCGGTCAACCGATCCTTAACTGATCGGCATTGCCCTGACGGGGGGCAAAAATGTAGCAACGTTGTTTCAGGAAAATCTATCAGGGAAAAGGTAACAGCACGGATACTACCGTCGCATTCAGCCTGCATTGATCATGCGGCGGTGCGCTTCGGCCATGGCCTGATGTGGGCCGGATTGCCCGTT",
+            "source": "Y394_illumina_1-contigs.fa.Salmonella_Enterica_Enterica.fa_seq210"
+        },
+        {
+            "confidence": 0.9999999999964635,
+            "hostMatchCover": [
+                "Salmonella_enterica_subsp._enterica",
+                0.258
+            ],
+            "id": "Y394_illumina_1-contigs.fa.Salmonella_Enterica_Enterica.11424_roi23413_23987",
+            "ngram_eng_classn": [
+                "Univec_FUNYES",
+                631.7299999999985
+            ],
+            "ngram_ent": 1430.3999999999985,
+            "roiEnd": 23987,
+            "roiStart": 23413,
+            "sequence": "CCAGAATTAACCCGCAGCTCCACTTGTCAGACCCTCATTTGACGCCGAAGTCACTGGCTTACGCTCCTGCCCGGAGCGTTGAGGTGTACTGGCAATAGCGGACACTACCATTTGTTCTTTTTTAAGCAGCCATCTGATGATATTTTTCCCTGAAGGCTGCCGGGGAGATATTCCCCAGACGAGAGTGACGACGCTGACGATTGTCTGCTTACAGCGTAGCCTTAGCTCCTTACGAAGACGTGCCAGTCGGTCACGACCAACGATGATGCCATTCTCTGCCAGCTCCGTCTGAAGCCGCCGGGTTCCATATGTTTCGCGAGTGCGGATATGTGCCACCTTAATCTCCAGTTTTAGCCGCTCATCACTTTGTTTTCTGTCTGAGGGTTCATGCTGTACCCAGTTGTAATAACCGCTCCTGTATACACCAAATACCTGACACATCGCTTCAATGGGAAATTGTTGTCGCCATTGTTCGATTAACGCGTATTTTTCAGCGACTCCTGTGCAAAATACGCTGTTGTAGATTCAATCTGTCAATGCAACACCCCTTTCAATTATCTCTTTCGGTGTTTTG",
+            "source": "Y394_illumina_1-contigs.fa.Salmonella_Enterica_Enterica.fa_seq210"
+        },
+        {
+            "confidence": 0.9810806486999951,
+            "hostMatchCover": [
+                "Salmonella_enterica_subsp._enterica",
+                0.684
+            ],
+            "id": "Y394_illumina_1-contigs.fa.Salmonella_Enterica_Enterica.11789_roi73419_73571",
+            "ngram_eng_classn": [
+                "Univec_FUNYES",
+                48.68000000000001
+            ],
+            "ngram_ent": 259.19,
+            "roiEnd": 73571,
+            "roiStart": 73419,
+            "sequence": "GGCATTCTTTCTTTATATAACCGCGGTGATCGCCGGCGGTGGTACTGGCCCTGCCCGCACTGCGGCGACTGGTTCCAGCCCGCGATGGAAAACATGGTGGGTTACCGGGATAACCCGGACCTGATGGCCGCCAGCGAGGCCGCGCGTATTCA",
+            "source": "Y394_illumina_1-contigs.fa.Salmonella_Enterica_Enterica.fa_seq244"
+        }
+    ]
+}

@@ -1,0 +1,225 @@
+{
+    "detections": [
+        {
+            "agent": "TARGETED_SEARCH",
+            "fastq": [
+                "/export/u12/te_2022/outputs/Y399_raw/R_TORULOIDES.illumina.1.fq",
+                "/export/u12/te_2022/outputs/Y399_raw/R_TORULOIDES.illumina.2.fq"
+            ],
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "sample": "Y399",
+            "reads": [],
+            "alterations": [
+                {
+                    "type": "insertion",
+                    "derivedFeature": "3U_Ter-CaMV35S_match_2",
+                    "targetAssembly": "GCF_000320785.1",
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_1130832"
+                    ],
+                    "length": 134,
+                    "readCount": 4
+                }
+            ]
+        },
+        {
+            "agent": "TARGETED_SEARCH",
+            "fastq": [
+                "/export/u12/te_2022/outputs/Y399_raw/R_TORULOIDES.illumina.1.fq",
+                "/export/u12/te_2022/outputs/Y399_raw/R_TORULOIDES.illumina.2.fq"
+            ],
+            "engineered": "http://guardian.bbn.technology#engineered",
+            "sample": "Y399",
+            "reads": [
+                {
+                    "source": "Y399.18797",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "3U_Ter-CaMV35S_match_0",
+                            "start": 103,
+                            "end": 112,
+                            "featureStart": 103,
+                            "featureEnd": 112,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "3U_Ter-CaMV35S_match_0",
+                                "targetAssembly": "GCF_000320785.1"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "3U_Ter-CaMV35S_match_1",
+                            "start": 103,
+                            "end": 112,
+                            "featureStart": 103,
+                            "featureEnd": 112,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "3U_Ter-CaMV35S_match_1",
+                                "targetAssembly": "GCF_000320785.1"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_1130832"
+                    ]
+                },
+                {
+                    "source": "Y399.239790",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "3U_Ter-CaMV35S_match_2",
+                            "start": 48,
+                            "end": 57,
+                            "featureStart": 48,
+                            "featureEnd": 57,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "3U_Ter-CaMV35S_match_2",
+                                "targetAssembly": "GCF_000320785.1"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_1130832"
+                    ]
+                },
+                {
+                    "source": "Y399.1070842",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "3U_Ter-CaMV35S_match_3",
+                            "start": 1,
+                            "end": 93,
+                            "featureStart": 1,
+                            "featureEnd": 93,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "3U_Ter-CaMV35S_match_3",
+                                "targetAssembly": "GCF_000320785.1"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_1130832"
+                    ]
+                },
+                {
+                    "source": "Y399.1289810",
+                    "engineered": "http://guardian.bbn.technology#engineered",
+                    "regions": [
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "3U_Ter-CaMV35S_match_4",
+                            "start": 17,
+                            "end": 26,
+                            "featureStart": 17,
+                            "featureEnd": 26,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "3U_Ter-CaMV35S_match_4",
+                                "targetAssembly": "GCF_000320785.1"
+                            },
+                            "orientation": "http://sbols.org/v2#inline",
+                            "featureOrientation": "http://sbols.org/v2#inline"
+                        },
+                        {
+                            "engineered": "http://guardian.bbn.technology#engineered",
+                            "feature": "3U_Ter-CaMV35S_match_5",
+                            "start": 17,
+                            "end": 26,
+                            "featureStart": 17,
+                            "featureEnd": 26,
+                            "sourceAlteration": {
+                                "type": "insertion",
+                                "derivedFeature": "3U_Ter-CaMV35S_match_5",
+                                "targetAssembly": "GCF_000320785.1"
+                            },
+                            "orientation": "http://sbols.org/v2#reverseComplement",
+                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
+                        }
+                    ],
+                    "hostTaxa": [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_1130832"
+                    ]
+                }
+            ]
+        }
+    ],
+    "features": [
+        {
+            "id": "3U_Ter-CaMV35S_match_0",
+            "name": "3U_Ter-CaMV35S",
+            "source": "3U_Ter_CaMV35S",
+            "sourceStart": 174,
+            "sourceEnd": 304,
+            "sequence": "AATTAGGGTTCTTATAGGGTTTCGCTCATGTGTTGAGCATATAAGAAACCCTTAGTATGTATTTGTATTTGTAAAATACTTCTATCAATAAAATTTCTAATTCCTAAAACCAAAATCCAGTACTAAAATC",
+            "role": "terminator",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "3U_Ter-CaMV35S_match_1",
+            "name": "3U_Ter-CaMV35S",
+            "source": "3U_Ter_CaMV35S",
+            "sourceStart": 174,
+            "sourceEnd": 304,
+            "sequence": "AATTAGGGTTCTTATAGGGTTTCGCTCATGTGTTGAGCATATAAGAAACCCTTAGTATGTATTTGTATTTGTAACATACTTCTATCAATAAAATTTCTAATTCCTAAAACCAAAATCCAGTACTAAAATC",
+            "role": "terminator",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "3U_Ter-CaMV35S_match_2",
+            "name": "3U_Ter-CaMV35S",
+            "source": "3U_Ter_CaMV35S",
+            "sourceStart": 119,
+            "sourceEnd": 253,
+            "sequence": "AATTAGGGTTCTTATAGGGTTTCGCTCATGTGTTGAGCATATAAGAAACCCTTAGTATGTATTTGTATTTGTAAAATACTTCTATCAATAAAATTTCTAATTCCTAAAACCAAAATCCAGTACTAAAATCCAGA",
+            "role": "terminator",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        },
+        {
+            "id": "3U_Ter-CaMV35S_match_3",
+            "name": "3U_Ter-CaMV35S",
+            "source": "3U_Ter_CaMV35S",
+            "sourceStart": 112,
+            "sourceEnd": 204,
+            "sequence": "AAGAAACCCTTAGTATGTATTTGTATTTGTAAAATACTTCTATCAATAAAATTTCTAATTCCTAAAACCAAAATCCAGTACTAAAATCCAGA",
+            "role": "terminator",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "3U_Ter-CaMV35S_match_4",
+            "name": "3U_Ter-CaMV35S",
+            "source": "3U_Ter_CaMV35S",
+            "sourceStart": 88,
+            "sourceEnd": 216,
+            "sequence": "AATTAGGGTTCTTATAGGGTTTCGCTCATGTGTTGAGCATATAAGAAACCCTTAGTATGTATTTGTATTTGTAAAATACTTCTATCAATAAAATTTCTAATTCCTAAAACCAAAATCCAGTACTAAAA",
+            "role": "terminator",
+            "sourceOrientation": "http://sbols.org/v2#inline"
+        },
+        {
+            "id": "3U_Ter-CaMV35S_match_5",
+            "name": "3U_Ter-CaMV35S",
+            "source": "3U_Ter_CaMV35S",
+            "sourceStart": 88,
+            "sourceEnd": 216,
+            "sequence": "AATTAGGGTTCTTATAGGGTTTCGCTCATGTGTTGAGCATATAAGAAACCCTTAGTATGTATTTGTATTTGTAAAATACTTCTATCAATAAAATTTCTAATTCCTAAAACCAAAATCCAGTACTAAAA",
+            "role": "terminator",
+            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "detections": [
+        {
+            "agent": "FAST_NA",
+            "fastq": [
+                "Y331.illumina.1.fq",
+                "Y331.illumina.2.fq"
+            ],
+            "date": "02/09/2022",
+            "runtime": 53,
+            "sample": "Y331",
+            "engineered": "http://guardian.bbn.technology#natural",
+            "confidence": 0.0,
+            "contigs": [
+                {
+                    "source": "X.0"
+                }
+            ]
+        },
+        {
+            "agent": "FAST_NA",
+            "fastq": [
+                "Y496.illumina.1.fq",
+                "Y496.illumina.2.fq"
+            ],
+            "date": "02/09/2022",
+            "runtime": 54,
+            "sample": "Y496",
+            "engineered": "http://guardian.bbn.technology#natural",
+            "confidence": 0.0,
+            "contigs": []
+        }
+    ],
+    "features": []
+}
