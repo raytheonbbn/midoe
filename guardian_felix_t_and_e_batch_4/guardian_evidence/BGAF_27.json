@@ -39,24 +39,6 @@
         {
             "agent": "FAST_NA",
             "fastq": [
-                "Y317.illumina.1.fq",
-                "Y317.illumina.2.fq",
-                "Y317.nanopore.fq"
-            ],
-            "date": "02/22/2022",
-            "runtime": 297,
-            "sample": "Y317",
-            "engineered": "http://guardian.bbn.technology#natural",
-            "confidence": 0.0,
-            "contigs": [
-                {
-                    "source": "X.183"
-                }
-            ]
-        },
-        {
-            "agent": "FAST_NA",
-            "fastq": [
                 "Y320.illumina.2.fq",
                 "Y320.nanopore.fq",
                 "Y320.illumina.1.fq"

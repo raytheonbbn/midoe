@@ -6,93 +6,11 @@
                 "/export/u12/te_2022/outputs/Y402_raw/S_CEREVISIAE.illumina.1.fq",
                 "/export/u12/te_2022/outputs/Y402_raw/S_CEREVISIAE.illumina.2.fq"
             ],
-            "engineered": "http://guardian.bbn.technology#engineered",
+            "engineered": "http://guardian.bbn.technology#natural",
             "sample": "Y402",
             "reads": [],
-            "alterations": [
-                {
-                    "type": "insertion",
-                    "derivedFeature": "lambda-cI_match_0",
-                    "targetAssembly": "GCF_000146045.2",
-                    "hostTaxa": [
-                        "http://purl.obolibrary.org/obo/NCBITaxon_4932"
-                    ],
-                    "length": 180,
-                    "readCount": 1
-                }
-            ]
-        },
-        {
-            "agent": "TARGETED_SEARCH",
-            "fastq": [
-                "/export/u12/te_2022/outputs/Y402_raw/S_CEREVISIAE.illumina.1.fq",
-                "/export/u12/te_2022/outputs/Y402_raw/S_CEREVISIAE.illumina.2.fq"
-            ],
-            "engineered": "http://guardian.bbn.technology#engineered",
-            "sample": "Y402",
-            "reads": [
-                {
-                    "source": "Y402.665560",
-                    "engineered": "http://guardian.bbn.technology#engineered",
-                    "regions": [
-                        {
-                            "engineered": "http://guardian.bbn.technology#engineered",
-                            "feature": "lambda-cI_match_0",
-                            "start": 52,
-                            "end": 232,
-                            "featureStart": 52,
-                            "featureEnd": 232,
-                            "sourceAlteration": {
-                                "type": "insertion",
-                                "derivedFeature": "lambda-cI_match_0",
-                                "targetAssembly": "GCF_000146045.2"
-                            },
-                            "orientation": "http://sbols.org/v2#reverseComplement",
-                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
-                        },
-                        {
-                            "engineered": "http://guardian.bbn.technology#engineered",
-                            "feature": "lambda-cI_match_1",
-                            "start": 82,
-                            "end": 209,
-                            "featureStart": 82,
-                            "featureEnd": 209,
-                            "sourceAlteration": {
-                                "type": "insertion",
-                                "derivedFeature": "lambda-cI_match_1",
-                                "targetAssembly": "GCF_000146045.2"
-                            },
-                            "orientation": "http://sbols.org/v2#inline",
-                            "featureOrientation": "http://sbols.org/v2#inline"
-                        }
-                    ],
-                    "hostTaxa": [
-                        "http://purl.obolibrary.org/obo/NCBITaxon_4932"
-                    ]
-                }
-            ]
+            "alterations": []
         }
     ],
-    "features": [
-        {
-            "id": "lambda-cI_match_0",
-            "name": "lambda-cI",
-            "source": "lambda_cI",
-            "sourceStart": 483,
-            "sourceEnd": 663,
-            "sequence": "TGAGGTTGAAGGTAATTCCATGACCGCAACAACAGGCTCCAAGCCAAGATGTACTGACGGAATGTTAATACTCGTTGACCCTGAGCAGGCTGTTGAGACAGGTGATTGCTGCATAGCCAGACTTGGGGGTGATGAGTTGACCGTCAAGAAACTGAGCAGGGATAGCGGGCAGGTGTTTTT",
-            "role": "CDS",
-            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
-        },
-        {
-            "id": "lambda-cI_match_1",
-            "name": "lambda-cI",
-            "source": "lambda_cI",
-            "sourceStart": 590,
-            "sourceEnd": 717,
-            "sequence": "ACCCTGAGCAGGCTGTTGAGCCAGGTTATTTCTGCATATCCATACTTGGGGGTCCTGAGTTTACCTTCAATACACTGCTCCGGCATATCGGTCAAGTGTTTTTACAACCACTAACCCCACAGTACCC",
-            "role": "CDS",
-            "sourceOrientation": "http://sbols.org/v2#inline"
-        }
-    ]
+    "features": []
 }

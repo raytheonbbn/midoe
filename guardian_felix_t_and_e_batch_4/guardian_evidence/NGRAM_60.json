@@ -7,18 +7,6 @@
                 {
                     "regions": [
                         {
-                            "end": 706,
-                            "engineered": "http://guardian.bbn.technology#engineered",
-                            "feature": "Y380_illumina_1-contigs.383_roi344_706",
-                            "ngram_ent": 1089.6400000000015,
-                            "start": 344
-                        }
-                    ],
-                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y380_illumina_1-contigs.383"
-                },
-                {
-                    "regions": [
-                        {
                             "end": 5999,
                             "engineered": "http://guardian.bbn.technology#engineered",
                             "feature": "Y380_illumina_1-contigs.675_roi1815_5999",
@@ -55,23 +43,6 @@
         }
     ],
     "features": [
-        {
-            "confidence": 0.9999999999999518,
-            "hostMatchCover": [
-                "Salmonella_enterica",
-                0.89
-            ],
-            "id": "Y380_illumina_1-contigs.383_roi344_706",
-            "ngram_eng_classn": [
-                "Univec_FUNYES",
-                583.4500000000014
-            ],
-            "ngram_ent": 1089.6400000000015,
-            "roiEnd": 706,
-            "roiStart": 344,
-            "sequence": "AATGTCCTCCCGGTTTTTTTCGTACTTCAAGTGAATCAATACACGCGACGAGCTGAACGCGTATAAAAGCAAGTTAAAAGCGCTGCGCGGATTACCCGCCAATGTCCGTACCGTTCTGGAAGCGTTACCGGCGGCCTCGCACCCGATGGACGTGATGCGTACCGGCGTCTCCGCGCTGGGCTGCACCCTGCCGGAAAAAGAGGGACATACCGTCTCCGGCGCGCGCGATATTGCCGATAAGCTGTTGGCCTCGCTCAGCTCTATCCTTCTTTACTGGTATCACTACAGCCACAACGGCGAACGTATTCAGCCGGAAACCGACGATGATTCCATCGGCGGCCATTTCCTGCATCTGCTGCACG",
-            "source": "Y380_illumina_1-contigs.fa_seq331"
-        },
         {
             "confidence": 1.0,
             "cover": 0.5591814899023673,

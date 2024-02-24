@@ -2,49 +2,10 @@
     "detections": [
         {
             "agent": "ngram_high_entropy_seq_detector",
-            "confidence": 0.999998442777142,
-            "contigs": [
-                {
-                    "regions": [
-                        {
-                            "end": 182,
-                            "engineered": "http://guardian.bbn.technology#engineered",
-                            "feature": "R_TORULOIDES-Y315_illumina_1-XXX.4167_roi1_182",
-                            "ngram_ent": 429.0,
-                            "start": 1
-                        }
-                    ],
-                    "source": "Y.X.4167"
-                }
-            ],
-            "date": "01/29/2022",
-            "engineered": "http://guardian.bbn.technology#engineered",
-            "fasta": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/R_TORULOIDES-Y315_illumina_1-XXX.fa",
-            "hostTaxa": [
-                "http://purl.obolibrary.org/obo/NCBITaxon_59201"
-            ],
-            "ngramDate": "2022-01-29 17:32:02.201269",
-            "runtime": 0.0,
+            "confidence": 0,
+            "engineered": "http://guardian.bbn.technology#natural",
             "sample": "Y315"
         }
     ],
-    "features": [
-        {
-            "confidence": 0.999998442777142,
-            "hostMatchCover": [
-                "Salmonella_enterica",
-                0.635
-            ],
-            "id": "R_TORULOIDES-Y315_illumina_1-XXX.4167_roi1_182",
-            "ngram_eng_classn": [
-                "Univec_FUNYES",
-                179.91
-            ],
-            "ngram_ent": 429.0,
-            "roiEnd": 182,
-            "roiStart": 1,
-            "sequence": "CAGATAGGGGTTTTGCGAAATGAATCTTGACGATGACCTACTCTCACATGGGGAAACCCCACACTACCATCGGCGATGCATCGTTTCACTACTGAGTTCGGGATGGGATCAGGTGGTTCCAATGCTCTATGGTCGTCAAGAAATTCTGTTGCCAGAATGTCCAGATGGACAGCCCAGCGAA",
-            "source": "R_TORULOIDES-Y315_illumina_1-XXX.fa_seq6"
-        }
-    ]
+    "features": []
 }

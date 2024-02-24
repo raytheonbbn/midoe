@@ -10,78 +10,7 @@
             "sample": "Y393",
             "reads": [],
             "alterations": []
-        },
-        {
-            "agent": "TARGETED_SEARCH",
-            "fastq": [
-                "/export/u12/phase2batch2/raytheon/illumina/Y393.illumina.1.fq",
-                "/export/u12/phase2batch2/raytheon/illumina/Y393.illumina.2.fq"
-            ],
-            "engineered": "http://guardian.bbn.technology#engineered",
-            "sample": "Y393",
-            "reads": [
-                {
-                    "source": "Y393.187821",
-                    "engineered": "http://guardian.bbn.technology#engineered",
-                    "regions": [
-                        {
-                            "engineered": "http://guardian.bbn.technology#engineered",
-                            "feature": "p15a_origin_match_0",
-                            "start": 208,
-                            "end": 302,
-                            "featureStart": 208,
-                            "featureEnd": 302,
-                            "sourceAlteration": {
-                                "type": "insertion",
-                                "derivedFeature": "p15a_origin_match_0",
-                                "targetAssembly": "GCA_000590845.2"
-                            },
-                            "orientation": "http://sbols.org/v2#inline",
-                            "featureOrientation": "http://sbols.org/v2#inline"
-                        },
-                        {
-                            "engineered": "http://guardian.bbn.technology#engineered",
-                            "feature": "p15a_origin_match_1",
-                            "start": 151,
-                            "end": 254,
-                            "featureStart": 151,
-                            "featureEnd": 254,
-                            "sourceAlteration": {
-                                "type": "insertion",
-                                "derivedFeature": "p15a_origin_match_1",
-                                "targetAssembly": "GCA_000590845.2"
-                            },
-                            "orientation": "http://sbols.org/v2#reverseComplement",
-                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
-                        }
-                    ],
-                    "hostTaxa": [
-                        "http://purl.obolibrary.org/obo/NCBITaxon_1445506"
-                    ]
-                }
-            ]
         }
     ],
-    "features": [
-        {
-            "id": "p15a_origin_match_0",
-            "name": "p15a_origin",
-            "source": "p15a_origin",
-            "sourceStart": 476,
-            "sourceEnd": 570,
-            "sequence": "GCCGTTTTTCCATAGGCTCCGCCCCCCTGACAAGCATCACAGAATCTGACGCCCAAATCAGTGGTGGCGCAACCCGACAGGACTATAAAGATAC",
-            "role": "origin_of_replication",
-            "sourceOrientation": "http://sbols.org/v2#inline"
-        },
-        {
-            "id": "p15a_origin_match_1",
-            "name": "p15a_origin",
-            "source": "p15a_origin",
-            "sourceStart": 419,
-            "sourceEnd": 522,
-            "sequence": "GCCGTTTTTCCATAGGCTCCGCCCCCCTGACAAGCATCACAGAATCTGACGCTCAAATCAGTGGTGGCGAAACCCGACCGGACTATAAAGATACCAGGCGTTT",
-            "role": "origin_of_replication",
-            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
-        }
-    ]
+    "features": []
 }

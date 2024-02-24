@@ -6,93 +6,11 @@
                 "/export/u12/te_2022/outputs/Y403_raw/B_SUBTILIS.illumina.1.fq",
                 "/export/u12/te_2022/outputs/Y403_raw/B_SUBTILIS.illumina.2.fq"
             ],
-            "engineered": "http://guardian.bbn.technology#engineered",
+            "engineered": "http://guardian.bbn.technology#natural",
             "sample": "Y403",
             "reads": [],
-            "alterations": [
-                {
-                    "type": "insertion",
-                    "derivedFeature": "phi_X174_Lysis_Protein_match_1",
-                    "targetAssembly": "GCF_000007565.2",
-                    "hostTaxa": [
-                        "http://purl.obolibrary.org/obo/NCBITaxon_303"
-                    ],
-                    "length": 164,
-                    "readCount": 1
-                }
-            ]
-        },
-        {
-            "agent": "TARGETED_SEARCH",
-            "fastq": [
-                "/export/u12/te_2022/outputs/Y403_raw/B_SUBTILIS.illumina.1.fq",
-                "/export/u12/te_2022/outputs/Y403_raw/B_SUBTILIS.illumina.2.fq"
-            ],
-            "engineered": "http://guardian.bbn.technology#engineered",
-            "sample": "Y403",
-            "reads": [
-                {
-                    "source": "Y403.57333",
-                    "engineered": "http://guardian.bbn.technology#engineered",
-                    "regions": [
-                        {
-                            "engineered": "http://guardian.bbn.technology#engineered",
-                            "feature": "phi_X174_Lysis_Protein_match_0",
-                            "start": 77,
-                            "end": 226,
-                            "featureStart": 77,
-                            "featureEnd": 226,
-                            "sourceAlteration": {
-                                "type": "insertion",
-                                "derivedFeature": "phi_X174_Lysis_Protein_match_0",
-                                "targetAssembly": "GCF_000007565.2"
-                            },
-                            "orientation": "http://sbols.org/v2#reverseComplement",
-                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
-                        },
-                        {
-                            "engineered": "http://guardian.bbn.technology#engineered",
-                            "feature": "phi_X174_Lysis_Protein_match_1",
-                            "start": 136,
-                            "end": 300,
-                            "featureStart": 136,
-                            "featureEnd": 300,
-                            "sourceAlteration": {
-                                "type": "insertion",
-                                "derivedFeature": "phi_X174_Lysis_Protein_match_1",
-                                "targetAssembly": "GCF_000007565.2"
-                            },
-                            "orientation": "http://sbols.org/v2#inline",
-                            "featureOrientation": "http://sbols.org/v2#inline"
-                        }
-                    ],
-                    "hostTaxa": [
-                        "http://purl.obolibrary.org/obo/NCBITaxon_303"
-                    ]
-                }
-            ]
+            "alterations": []
         }
     ],
-    "features": [
-        {
-            "id": "phi_X174_Lysis_Protein_match_0",
-            "name": "phi_X174_Lysis_Protein",
-            "source": "phi_X174_Lysis_Protein",
-            "sourceStart": 77,
-            "sourceEnd": 226,
-            "sequence": "ATGGTACGCTGGACTTTGTAGGTTACCCTCGCTTTCCTGCTCTTGTTGAGTTTATTGCTGCCGTCATTGCTTATTATGTTAATCCAGTCAACATTCAAACGGCCGGTCTAATCATGGAAGGCGCTGAATTTAAGGAAATCATTATTAAT",
-            "role": "CDS",
-            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
-        },
-        {
-            "id": "phi_X174_Lysis_Protein_match_1",
-            "name": "phi_X174_Lysis_Protein",
-            "source": "phi_X174_Lysis_Protein",
-            "sourceStart": 136,
-            "sourceEnd": 300,
-            "sequence": "ATGGTACGCTGGACTTGGTAGGATACCCTCGCTTTCCTGCTCCTGTTGAGTTTATTGCTGCCGTCATTGCTTCTTATGTTCATCCCTTCAACATTCAAACTGCGTGTCTCATCATGGAAGGCTCTGAATTTACCGAACACAGTATTAAGTGCGTCGAACGTCCG",
-            "role": "CDS",
-            "sourceOrientation": "http://sbols.org/v2#inline"
-        }
-    ]
+    "features": []
 }

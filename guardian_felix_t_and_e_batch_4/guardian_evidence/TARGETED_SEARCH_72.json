@@ -6,68 +6,11 @@
                 "/export/u12/te_2022/outputs/Y497_raw/B_SUBTILIS.illumina.1.fq",
                 "/export/u12/te_2022/outputs/Y497_raw/B_SUBTILIS.illumina.2.fq"
             ],
-            "engineered": "http://guardian.bbn.technology#engineered",
+            "engineered": "http://guardian.bbn.technology#natural",
             "sample": "Y497",
             "reads": [],
-            "alterations": [
-                {
-                    "type": "insertion",
-                    "derivedFeature": "phi_X174_Lysis_Protein_match_0",
-                    "targetAssembly": "GCF_000007565.2",
-                    "hostTaxa": [
-                        "http://purl.obolibrary.org/obo/NCBITaxon_303"
-                    ],
-                    "length": 82,
-                    "readCount": 1
-                }
-            ]
-        },
-        {
-            "agent": "TARGETED_SEARCH",
-            "fastq": [
-                "/export/u12/te_2022/outputs/Y497_raw/B_SUBTILIS.illumina.1.fq",
-                "/export/u12/te_2022/outputs/Y497_raw/B_SUBTILIS.illumina.2.fq"
-            ],
-            "engineered": "http://guardian.bbn.technology#engineered",
-            "sample": "Y497",
-            "reads": [
-                {
-                    "source": "Y497.102591",
-                    "engineered": "http://guardian.bbn.technology#engineered",
-                    "regions": [
-                        {
-                            "engineered": "http://guardian.bbn.technology#engineered",
-                            "feature": "phi_X174_Lysis_Protein_match_0",
-                            "start": 129,
-                            "end": 211,
-                            "featureStart": 129,
-                            "featureEnd": 211,
-                            "sourceAlteration": {
-                                "type": "insertion",
-                                "derivedFeature": "phi_X174_Lysis_Protein_match_0",
-                                "targetAssembly": "GCF_000007565.2"
-                            },
-                            "orientation": "http://sbols.org/v2#reverseComplement",
-                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
-                        }
-                    ],
-                    "hostTaxa": [
-                        "http://purl.obolibrary.org/obo/NCBITaxon_303"
-                    ]
-                }
-            ]
+            "alterations": []
         }
     ],
-    "features": [
-        {
-            "id": "phi_X174_Lysis_Protein_match_0",
-            "name": "phi_X174_Lysis_Protein",
-            "source": "phi_X174_Lysis_Protein",
-            "sourceStart": 264,
-            "sourceEnd": 346,
-            "sequence": "AAAACATTATTAATGGCGTCGAGGTTCCGGTTAAATCCTCTGATTTTTTCGCGTTTATCTTTCGTGTTCGTGCAGGAAACAC",
-            "role": "CDS",
-            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
-        }
-    ]
+    "features": []
 }

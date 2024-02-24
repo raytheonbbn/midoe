@@ -6,68 +6,11 @@
                 "/export/u12/te_2022/outputs/Y359_raw/R_TORULOIDES.illumina.1.fq",
                 "/export/u12/te_2022/outputs/Y359_raw/R_TORULOIDES.illumina.2.fq"
             ],
-            "engineered": "http://guardian.bbn.technology#engineered",
+            "engineered": "http://guardian.bbn.technology#natural",
             "sample": "Y359",
             "reads": [],
-            "alterations": [
-                {
-                    "type": "insertion",
-                    "derivedFeature": "phi_X174_Lysis_Protein_match_0",
-                    "targetAssembly": "GCF_000320785.1",
-                    "hostTaxa": [
-                        "http://purl.obolibrary.org/obo/NCBITaxon_1130832"
-                    ],
-                    "length": 130,
-                    "readCount": 1
-                }
-            ]
-        },
-        {
-            "agent": "TARGETED_SEARCH",
-            "fastq": [
-                "/export/u12/te_2022/outputs/Y359_raw/R_TORULOIDES.illumina.1.fq",
-                "/export/u12/te_2022/outputs/Y359_raw/R_TORULOIDES.illumina.2.fq"
-            ],
-            "engineered": "http://guardian.bbn.technology#engineered",
-            "sample": "Y359",
-            "reads": [
-                {
-                    "source": "Y359.1201449",
-                    "engineered": "http://guardian.bbn.technology#engineered",
-                    "regions": [
-                        {
-                            "engineered": "http://guardian.bbn.technology#engineered",
-                            "feature": "phi_X174_Lysis_Protein_match_0",
-                            "start": 82,
-                            "end": 212,
-                            "featureStart": 82,
-                            "featureEnd": 212,
-                            "sourceAlteration": {
-                                "type": "insertion",
-                                "derivedFeature": "phi_X174_Lysis_Protein_match_0",
-                                "targetAssembly": "GCF_000320785.1"
-                            },
-                            "orientation": "http://sbols.org/v2#inline",
-                            "featureOrientation": "http://sbols.org/v2#inline"
-                        }
-                    ],
-                    "hostTaxa": [
-                        "http://purl.obolibrary.org/obo/NCBITaxon_1130832"
-                    ]
-                }
-            ]
+            "alterations": []
         }
     ],
-    "features": [
-        {
-            "id": "phi_X174_Lysis_Protein_match_0",
-            "name": "phi_X174_Lysis_Protein",
-            "source": "phi_X174_Lysis_Protein",
-            "sourceStart": 188,
-            "sourceEnd": 318,
-            "sequence": "TCTCATCATGGCATGCGCTTAATTTACTGAAAACATTATTAATTGCGTCTAGCGTCCCGTTAAATCCGCTGCATTGTTCGCGTTTACCTTGCGTGTACGCGCAGTAAACTCTGACGTTCTTCCTGACGCA",
-            "role": "CDS",
-            "sourceOrientation": "http://sbols.org/v2#inline"
-        }
-    ]
+    "features": []
 }

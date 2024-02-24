@@ -33,18 +33,6 @@
                 {
                     "regions": [
                         {
-                            "end": 4273,
-                            "engineered": "http://guardian.bbn.technology#engineered",
-                            "feature": "Y412_illumina_1-contigs.1031_roi3473_4273",
-                            "ngram_ent": 1923.39,
-                            "start": 3473
-                        }
-                    ],
-                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y412_illumina_1-contigs.1031"
-                },
-                {
-                    "regions": [
-                        {
                             "end": 2070,
                             "engineered": "http://guardian.bbn.technology#engineered",
                             "feature": "Y412_illumina_1-contigs.1035_roi809_2070",
@@ -128,23 +116,6 @@
             "sourceLen": 4410,
             "sourceOrientation": "http://sbols.org/v2#reverseComplement",
             "sourceStart": 2872
-        },
-        {
-            "confidence": 0.9999999999997131,
-            "hostMatchCover": [
-                "Escherichia_coli",
-                0.959
-            ],
-            "id": "Y412_illumina_1-contigs.1031_roi3473_4273",
-            "ngram_eng_classn": [
-                "Univec_FUNYES",
-                816.8500000000001
-            ],
-            "ngram_ent": 1923.39,
-            "roiEnd": 4273,
-            "roiStart": 3473,
-            "sequence": "CTGTGAGCCCGCCATGTGCGGGCTTTTTTCATTGGTTCGTGTAGTGAGACGTTATGGTAAATCCATATGGGGGGGGAATTGGATTCTGGGTCGCATTGTGTCCTTATGACTTAGTTTATGAATCTAAGGTCGATATGATTTTTTCTGCTATTGCATTGATAACAGGGACTGCGACTGAATTCCCAAATTGCTTATAAGCCTGTGTATCCGATACAGGGATAATAAAATCACTAGGAAACCCTTGAAGTCTTGACGCTTCCCGCGGAGTTATTTTTCTTGGGTTACTTCCTTTTTGCTCTATTAATATTTCGCTACCATCTTTATAGTACCTCGCACTTATGGTATTAGTATATGGGCTATTTTCATTAAATAAACCATACCCAAAGCCTTTACCGGCTGCTGCATTTACAAGTTTCCTGCGTTGGTGTCCATTCCAGAGCGCATCTGATAGCGTATATTTATTGTCTACGCTCTTTTCAAGAATATCTCCAACTCTTGTTTTTGTTTTTAATGGGGTTGGAAAAGTAAAATGTTCATGATTTCTTACTTTTTCTTTATTAAAGCCTACAATGTATATGCGTTCTCTATTTTGTGGAACACCAAAGTCTTTTGCAGCGAAGATATTGTAATACACAGTGTAATTCAATTCTTCAAGTGTGTTTTTTATTATTGAAAAAGTTCTACCTTTATCATGTCCTAGCAAGTTTTTTACATTTTCAAGTAAAAAAGCATGAGGTTTTTTTTCCTTTATTATCCTTGCTATATCAAAAAACAAAGTTCCTCTTGTATCATTAAATCCT",
-            "source": "Y412_illumina_1-contigs.fa_seq669"
         },
         {
             "confidence": 1.0,

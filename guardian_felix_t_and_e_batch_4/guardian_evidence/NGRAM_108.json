@@ -2,49 +2,10 @@
     "detections": [
         {
             "agent": "ngram_high_entropy_seq_detector",
-            "confidence": 0.9794862512429728,
-            "contigs": [
-                {
-                    "regions": [
-                        {
-                            "end": 2624,
-                            "engineered": "http://guardian.bbn.technology#engineered",
-                            "feature": "Y475_illumina_1-contigs.349_roi2467_2624",
-                            "ngram_ent": 170.53999999999976,
-                            "start": 2467
-                        }
-                    ],
-                    "source": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y475_illumina_1-contigs.349"
-                }
-            ],
-            "date": "01/24/2022",
+            "confidence": 0,
             "engineered": "http://guardian.bbn.technology#natural",
-            "fasta": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y475_illumina_1-contigs.fa",
-            "hostTaxa": [
-                "http://purl.obolibrary.org/obo/NCBITaxon_28901"
-            ],
-            "ngramDate": "2022-01-24 17:01:42.344293",
-            "runtime": 0.2833333333333333,
             "sample": "Y475"
         }
     ],
-    "features": [
-        {
-            "confidence": 0.9794862512429728,
-            "hostMatchCover": [
-                "Salmonella_enterica",
-                0.255
-            ],
-            "id": "Y475_illumina_1-contigs.349_roi2467_2624",
-            "ngram_eng_classn": [
-                "HOST",
-                -48.440000000000225
-            ],
-            "ngram_ent": 170.53999999999976,
-            "roiEnd": 2624,
-            "roiStart": 2467,
-            "sequence": "TTTCATAATTTCACCTGTAAATACTCAGATTGCCCTTGCCNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNTGCCCTTGCCCTTGCCCTTGCCCTTG",
-            "source": "Y475_illumina_1-contigs.fa_seq103"
-        }
-    ]
+    "features": []
 }

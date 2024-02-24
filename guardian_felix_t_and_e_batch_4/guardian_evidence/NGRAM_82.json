@@ -2,49 +2,10 @@
     "detections": [
         {
             "agent": "ngram_high_entropy_seq_detector",
-            "confidence": 0.9864019924460036,
-            "contigs": [
-                {
-                    "regions": [
-                        {
-                            "end": 1029,
-                            "engineered": "http://guardian.bbn.technology#engineered",
-                            "feature": "Y411_illumina_1-contigs.7_roi1_1029",
-                            "ngram_ent": 1558.570000000014,
-                            "start": 1
-                        }
-                    ],
-                    "source": "Y.7"
-                }
-            ],
-            "date": "02/10/2022",
-            "engineered": "http://guardian.bbn.technology#engineered",
-            "fasta": "/nfs/felix-raid-01/u10/jgrothen/batch4_assemblies/Y411_illumina_1-contigs.fa",
-            "hostTaxa": [
-                "http://purl.obolibrary.org/obo/NCBITaxon_11309"
-            ],
-            "ngramDate": "2022-02-10 02:07:39.331338",
-            "runtime": 0.0,
+            "confidence": 0,
+            "engineered": "http://guardian.bbn.technology#natural",
             "sample": "Y411"
         }
     ],
-    "features": [
-        {
-            "confidence": 0.9864019924460036,
-            "hostMatchCover": [
-                "unidentified_influenza_virus",
-                0.195
-            ],
-            "id": "Y411_illumina_1-contigs.7_roi1_1029",
-            "ngram_eng_classn": [
-                "Univec_FUNYES",
-                137.360000000014
-            ],
-            "ngram_ent": 1558.570000000014,
-            "roiEnd": 1029,
-            "roiStart": 1,
-            "sequence": "CGCCAGTAGAAACAAGGTAGTTTTTTACTCCAGCTCTATGTTGACAAAATGACCATCGTCAACATCCACAGCACTCTGCTGTTCCTGCCGGTATTCTTCCCTCATAGACTCAGGCACTCCTTCCGTAGAAGGCCCTCTTTTCAAACCGTATTTAAGGCGACGATAAATGCATTTGAAGAAAAGACGATCAAGAATCCACAATATCAAGTGCAAGATCCCAATGATACTTGCGGCAATAACGAGAGGATCACTTGAATCGCTGCATTTGCACTCCCATCCGTTTCTGGTAGGCCTGCAAATTTTCAAGAAGATCATCTTTCAGACCAGCACTGGAGCTAGGATGAGTCCCAATGGTCCTCATTGCCTGCACCATCTGCCTAGCCTGACTAGCAACCTCCATAGCCTCCGCTGCCTGCTCACTTGACCCTGCCATTTGCTCCATGGCCTTAGCTGTAGTACTGGCCAGTACCATCCTGTTTTCATGCCTGATTAGCGGATTGGTTGTTGTCACCATTTGTCTGTGAGACCGATGCTGGGAATCAGCAATCTGCTCACACGTGGCACACACCAGGCCAAACGCTACTTCAGTGGTCACAGTCCCCATCCTGTTGTATATGAGGCCCATGCAGCTGGCGAGTGCACCAGTTGAATAACTGAGTGCCACCTCTTTTGCCCCATGGAATGTTATTTCCCTCTTGAGCTTCCTGTACAGTTTGACTGCTCTGTCCATGTTGTTTGGATCCCCATTCCCATTAAGGGCATTTTGGACAAAGCGTCTACGCTGCAGTCCTCGCTCACTGGGCACGGTGAGCGTAAACACAAATCCTAAAATCCCCTTAGTCAGAGGTGACAGGATTGGTCTTGTCTTTAGCCATTCCATGAGCGCCTCAAGGTCGGTGTTTTTCCCTGCAAACACATCTTCAAGTCTCTGCGCGATCTCGGCTTTGAGGGGGCCTGACGGGACGATAGAGAGAACGTACGTTTCGACCTCGGTTAGAAGACTCATCTTTCAATATCTACCTGCTTTT",
-            "source": "Y411_illumina_1-contigs.fa_seq5"
-        }
-    ]
+    "features": []
 }

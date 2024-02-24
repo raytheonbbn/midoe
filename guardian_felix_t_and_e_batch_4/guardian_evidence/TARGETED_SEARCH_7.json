@@ -6,93 +6,11 @@
                 "/export/u12/te_2022/outputs/Y320_raw/other.illumina.1.fq",
                 "/export/u12/te_2022/outputs/Y320_raw/other.illumina.2.fq"
             ],
-            "engineered": "http://guardian.bbn.technology#engineered",
+            "engineered": "http://guardian.bbn.technology#natural",
             "sample": "Y320",
             "reads": [],
-            "alterations": [
-                {
-                    "type": "insertion",
-                    "derivedFeature": "p15A_match_0",
-                    "targetAssembly": "GCF_000146045.2",
-                    "hostTaxa": [
-                        "http://purl.obolibrary.org/obo/NCBITaxon_4932"
-                    ],
-                    "length": 98,
-                    "readCount": 1
-                }
-            ]
-        },
-        {
-            "agent": "TARGETED_SEARCH",
-            "fastq": [
-                "/export/u12/te_2022/outputs/Y320_raw/other.illumina.1.fq",
-                "/export/u12/te_2022/outputs/Y320_raw/other.illumina.2.fq"
-            ],
-            "engineered": "http://guardian.bbn.technology#engineered",
-            "sample": "Y320",
-            "reads": [
-                {
-                    "source": "Y320.1816223",
-                    "engineered": "http://guardian.bbn.technology#engineered",
-                    "regions": [
-                        {
-                            "engineered": "http://guardian.bbn.technology#engineered",
-                            "feature": "p15A_match_0",
-                            "start": 45,
-                            "end": 143,
-                            "featureStart": 45,
-                            "featureEnd": 143,
-                            "sourceAlteration": {
-                                "type": "insertion",
-                                "derivedFeature": "p15A_match_0",
-                                "targetAssembly": "GCF_000146045.2"
-                            },
-                            "orientation": "http://sbols.org/v2#inline",
-                            "featureOrientation": "http://sbols.org/v2#inline"
-                        },
-                        {
-                            "engineered": "http://guardian.bbn.technology#engineered",
-                            "feature": "p15A_match_1",
-                            "start": 91,
-                            "end": 189,
-                            "featureStart": 91,
-                            "featureEnd": 189,
-                            "sourceAlteration": {
-                                "type": "insertion",
-                                "derivedFeature": "p15A_match_1",
-                                "targetAssembly": "GCF_000146045.2"
-                            },
-                            "orientation": "http://sbols.org/v2#reverseComplement",
-                            "featureOrientation": "http://sbols.org/v2#reverseComplement"
-                        }
-                    ],
-                    "hostTaxa": [
-                        "http://purl.obolibrary.org/obo/NCBITaxon_4932"
-                    ]
-                }
-            ]
+            "alterations": []
         }
     ],
-    "features": [
-        {
-            "id": "p15A_match_0",
-            "name": "p15A",
-            "source": "p15A",
-            "sourceStart": 56,
-            "sourceEnd": 154,
-            "sequence": "TTTTCCATAGGCTCCGCCCCCCTGACAAGCATCACAAAATCTGACGCTCAAATCAGTGGTGGCGAAACCCGACAGGACTATAAAGATACCAGGCGTTT",
-            "role": "origin_of_replication",
-            "sourceOrientation": "http://sbols.org/v2#inline"
-        },
-        {
-            "id": "p15A_match_1",
-            "name": "p15A",
-            "source": "p15A",
-            "sourceStart": 102,
-            "sourceEnd": 200,
-            "sequence": "TTTTCCATAGGCTCCGCCCCCCTGACAAGCATCACAAAATCTGACGCTCAAATCAGTGGTGGCGAAACCCGACAGGACTATAAAGATACCAGGCGTTT",
-            "role": "origin_of_replication",
-            "sourceOrientation": "http://sbols.org/v2#reverseComplement"
-        }
-    ]
+    "features": []
 }
